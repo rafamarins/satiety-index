@@ -21,7 +21,7 @@ const hashed = [
     (name) => `outros/satiety-index/assets/fonts/${name}.woff2`,
   ),
   ...FOODS.flatMap(({ id }) =>
-    [640, 1280].map(
+    [640, 768, 1280].map(
       (width) =>
         `outros/satiety-index/assets/illustrations/${id}-${width}.webp`,
     ),
@@ -52,7 +52,9 @@ for (const file of await readdir(output, { recursive: true })) {
     );
   if (file.endsWith(".webp"))
     assert.ok(
-      info.size < (file.includes("-1280-") ? 220 : 85) * 1024,
+      info.size <
+        (file.includes("-1280-") ? 220 : file.includes("-768-") ? 105 : 85) *
+          1024,
       `Image budget exceeded: ${file}`,
     );
   seen.add(unversioned);
@@ -73,7 +75,7 @@ for (const file of ["outros/index.html", "outros/satiety-index/index.html"]) {
     `HTML/CSS budget exceeded: ${file}`,
   );
   assert.doesNotMatch(html, /d3\.min\.js|styles\.css|potato\.svg|app\.js\?/);
-  assert.match(html, /srcset="[^\"]+640w, [^\"]+1280w"/);
+  assert.match(html, /srcset="[^\"]+640w, [^\"]+768w, [^\"]+1280w"/);
 }
 console.log(
   `PASS: ${files.length} public files; both pages, 38 responsive illustrations, licences and security/cache headers; no source atlases, tooling or QA files.`,

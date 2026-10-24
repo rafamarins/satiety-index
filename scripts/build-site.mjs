@@ -33,7 +33,7 @@ for (const { id } of FOODS) {
     new URL(`assets/illustrations/${id}.svg`, project),
   );
   const variants = [];
-  for (const width of [640, 1280]) {
+  for (const width of [640, 768, 1280]) {
     const bytes = await sharp(source, { density: (72 * width) / 640 })
       .resize({ width })
       .webp({ quality: 90, effort: 5 })
@@ -133,5 +133,5 @@ for (const isParent of [false, true]) {
   await writeFile(new URL("index.html", root), html);
 }
 console.log(
-  `Built both pages, ${FOODS.length * 2} responsive illustrations, bundled scripts and fingerprinted assets.`,
+  `Built both pages, ${FOODS.length * 3} responsive illustrations, bundled scripts and fingerprinted assets.`,
 );

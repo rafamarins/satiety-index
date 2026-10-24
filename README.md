@@ -48,7 +48,7 @@ npm run preview
 ```
 
 Open <http://localhost:8787/outros/satiety-index/> for the production-like preview.
-The output directory includes both pages, two sizes of each of the 38 illustrations,
+The output directory includes both pages, three sizes of each of the 38 illustrations,
 local fonts and their licence notices. Small page-specific styles are inlined;
 scripts and images are fingerprinted for long-lived caching. Source vectors,
 atlases, older stock artwork, research, QA captures,
