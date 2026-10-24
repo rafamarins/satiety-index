@@ -173,6 +173,11 @@ h1 {
   aspect-ratio: 640 / 460;
   object-fit: contain;
 }
+.project-art--framed {
+  padding: clamp(12px, 2vw, 24px);
+  border: 1px solid var(--rule);
+  background: var(--ink);
+}
 .project-copy {
   align-self: center;
 }
