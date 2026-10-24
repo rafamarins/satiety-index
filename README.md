@@ -75,6 +75,9 @@ upgrading Wrangler.
 - Deploy command: `npx wrangler deploy`
 
 Pushing to `main` starts the production build. Other branches do not deploy.
+The **Cloudflare Workers and Pages** GitHub App must include `satiety-index` in
+its repository access; without that permission, manual builds can work while
+GitHub pushes do not trigger builds.
 The local Git remote fetches from the requested HTTPS URL and pushes over SSH,
 using the existing GitHub SSH authentication.
 
