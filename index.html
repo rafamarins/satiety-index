@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Compare how filling 38 foods were in the 1995 Satiety Index study, with white bread as the 100% reference."
+    />
+    <meta name="theme-color" content="#f7f6f2" />
+    <title>The Satiety Index | Compare 38 foods</title>
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <link
+      rel="preload"
+      href="./assets/fonts/instrument-serif.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="./styles.css?v=readable-1" />
+    <script>
+      try {
+        document.documentElement.dataset.theme =
+          localStorage.getItem("satiety-theme") === "dark" ? "dark" : "light";
+      } catch {}
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#food-select">Skip to food comparison</a>
+    <header class="site-header shell">
+      <a class="wordmark" href="./"
+        ><span class="brand-symbol" aria-hidden="true">s<span>i</span></span
+        ><span
+          >The Satiety Index<span class="brand-caption"
+            >38 foods compared</span
+          ></span
+        ></a
+      >
+      <nav aria-label="Main navigation">
+        <a class="quiet-link" href="#study"
+          >About the study
+          <svg
+            class="ui-icon"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path d="M12 4v16m-6-6 6 6 6-6" /></svg
+        ></a>
+        <button
+          id="theme-toggle"
+          class="icon-button theme-toggle"
+          type="button"
+          aria-label="Dark mode"
+          aria-pressed="false"
+        >
+          <svg
+            class="theme-sun"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.3"
+            aria-hidden="true"
+          >
+            <circle cx="12" cy="12" r="4" />
+            <path
+              d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"
+            />
+          </svg>
+          <svg
+            class="theme-moon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.3"
+            aria-hidden="true"
+          >
+            <path d="M20.3 15.8A9 9 0 0 1 8.2 3.7 9 9 0 1 0 20.3 15.8Z" />
+          </svg>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section class="introduction shell" aria-labelledby="page-title">
+        <div class="intro-heading">
+          <p class="eyebrow">
+            <svg
+              class="ui-icon tiny-star"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M5.6 18.4 18.4 5.6" />
+            </svg>
+            The 1995 Satiety Index study
+          </p>
+          <h1 id="page-title">How filling<br /><em>is your food?</em></h1>
+        </div>
+        <p class="intro-copy">
+          The Satiety Index compares how full people felt after eating the same
+          number of calories. Browse the results for 38 foods, with white bread
+          as the reference.
+        </p>
+      </section>
+      <section
+        id="explorer"
+        class="explorer shell"
+        aria-label="Compare food satiety scores"
+        aria-keyshortcuts="ArrowLeft ArrowRight"
+      >
+        <div class="plate-heading">
+          <p class="eyebrow">
+            Compare foods <span class="edition-separator">/</span>
+            <span id="plate-number">01</span> <span class="muted">of 38</span>
+          </p>
+        </div>
+        <div class="specimen-layout">
+          <figure class="specimen">
+            <div
+              class="plate-registration registration-top"
+              aria-hidden="true"
+            ></div>
+            <div id="scene" class="scene"></div>
+            <figcaption>
+              <span class="caption-line" aria-hidden="true"></span
+              ><span id="plate-caption">Boiled potato</span
+              ><span class="caption-line" aria-hidden="true"></span>
+            </figcaption>
+            <span class="swipe-hint">Swipe to compare foods</span>
+            <div
+              class="plate-registration registration-bottom"
+              aria-hidden="true"
+            ></div>
+          </figure>
+          <div class="food-information">
+            <div id="food-copy" class="food-copy">
+              <p id="food-category" class="eyebrow">Carbohydrate-rich foods</p>
+              <h2 id="food-name">Boiled potato</h2>
+              <p id="food-description" class="food-description">
+                Boiled potatoes had the highest average score of the 38 foods
+                tested.
+              </p>
+            </div>
+            <div class="score-display">
+              <span id="score-value" class="score-number">323</span
+              ><span class="score-percent">%</span
+              ><svg
+                class="score-flourish"
+                viewBox="0 0 56 56"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path d="M28 3v50M3 28h50M10 10l36 36M10 46l36-36" />
+              </svg>
+            </div>
+            <p class="score-caption">Satiety score. White bread = 100%.</p>
+            <div
+              class="score-meter"
+              role="img"
+              id="score-meter"
+              aria-label="Boiled potato: 323 percent. White bread baseline: 100 percent."
+            >
+              <div class="meter-track">
+                <span class="meter-fill" id="meter-fill"></span
+                ><span class="baseline-tick"></span
+                ><span class="meter-dot" id="meter-dot"></span>
+              </div>
+              <div class="meter-labels">
+                <span>0</span
+                ><span class="baseline-label">White bread <b>100%</b></span
+                ><span>350%</span>
+              </div>
+            </div>
+            <div class="food-takeaway">
+              <span id="food-ratio">3.23×</span>
+              <p id="ratio-description">
+                the measured fullness response to white bread, for the same
+                calories.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="explorer-navigation">
+          <p class="navigation-hint">
+            Choose a food to compare.<span
+              >Use the left and right arrow keys.</span
+            >
+          </p>
+          <div class="food-controls" role="group" aria-label="Choose a food">
+            <button
+              class="icon-button previous-button"
+              id="previous"
+              type="button"
+              aria-label="Previous food"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M19 12H5m6-6-6 6 6 6" />
+              </svg>
+            </button>
+            <div class="select-wrapper">
+              <label class="sr-only" for="food-select"
+                >Choose one of the 38 study foods</label
+              ><select id="food-select"></select
+              ><svg
+                class="select-chevron"
+                viewBox="0 0 16 16"
+                aria-hidden="true"
+              >
+                <path d="m4 6 4 4 4-4" />
+              </svg>
+            </div>
+            <button
+              class="icon-button next-button"
+              id="next"
+              type="button"
+              aria-label="Next food"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 12h14m-6-6 6 6-6 6" />
+              </svg>
+            </button>
+          </div>
+          <a class="quiet-link collection-link" href="#collection"
+            >See all 38 foods
+            <svg
+              class="ui-icon"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <path d="M12 4v16m-6-6 6 6 6-6" /></svg
+          ></a>
+        </div>
+        <p
+          id="selection-announcement"
+          class="sr-only"
+          role="status"
+          aria-live="polite"
+          aria-atomic="true"
+        ></p>
+      </section>
+      <section id="study" class="study shell" aria-labelledby="study-title">
+        <div class="study-heading">
+          <h2 id="study-title">How the<br /><em>study worked</em></h2>
+        </div>
+        <div class="study-content">
+          <p class="study-lede">
+            In 1995, S.H.A. Holt and colleagues at the University of Sydney
+            compared how filling 38 foods were.
+          </p>
+          <p>
+            Each test portion contained 1,000 kJ, about 240 calories. Groups of
+            11 to 13 people rated how full they felt every 15 minutes for two
+            hours. Researchers combined those ratings into a score, with white
+            bread set at 100%.
+          </p>
+          <div class="study-facts">
+            <div>
+              <span>38</span>
+              <p>foods tested</p>
+            </div>
+            <div>
+              <span>240<small> kcal</small></span>
+              <p>in each test portion, approximately</p>
+            </div>
+            <div>
+              <span>2<small> hours</small></span>
+              <p>of recorded fullness ratings</p>
+            </div>
+          </div>
+          <p class="study-caveat">
+            A score of 200% means twice the measured fullness response to white
+            bread, not twice as long without hunger. These are group averages,
+            not personal predictions.
+          </p>
+        </div>
+      </section>
+      <section
+        id="collection"
+        class="collection shell"
+        aria-labelledby="collection-title"
+      >
+        <div class="collection-heading">
+          <div>
+            <h2 id="collection-title">All <em>38 foods</em></h2>
+          </div>
+          <p>
+            Highest to lowest score. White bread = 100%.<br />Select a food to
+            compare it.
+          </p>
+        </div>
+        <div
+          id="category-filters"
+          class="category-filters"
+          role="group"
+          aria-label="Filter foods by category"
+        ></div>
+        <div class="ranking-header" aria-hidden="true">
+          <span>Food</span><span>Satiety score</span>
+        </div>
+        <ol
+          id="food-ranking"
+          class="food-ranking"
+          role="list"
+          aria-label="Foods ranked by satiety score"
+        ></ol>
+        <p id="filter-status" class="sr-only" role="status"></p>
+      </section>
+    </main>
+    <footer class="site-footer shell">
+      <div class="footer-heading">
+        <a class="footer-brand" href="#"
+          >The Satiety Index<span>Results from the 1995 study</span></a
+        >
+      </div>
+      <div class="footer-notes">
+        <p>
+          <span class="eyebrow">Source</span>Holt, S.H.A., Brand Miller, J.C.,
+          Petocz, P. &amp; Farmakalidis, E. "A Satiety Index of Common Foods."
+          <em>European Journal of Clinical Nutrition</em> 49(9), 675–690
+          (1995).<a
+            href="https://pubmed.ncbi.nlm.nih.gov/7498104/"
+            target="_blank"
+            rel="noreferrer"
+            >Read the study abstract
+            <svg
+              class="ui-icon"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <path d="M5 19 19 5M5 5h14v14" />
+            </svg>
+            <span class="sr-only">opens in a new tab</span></a
+          >
+        </p>
+        <p>
+          <span class="eyebrow">Limitations</span>These scores come from one
+          short-term study. They do not measure overall nutritional quality.
+          Food preparation and individual responses vary. This site provides
+          information, not dietary or medical advice. Brand names identify the
+          products tested in 1995; this site has no affiliation with those
+          brands. Illustrations do not show the study's exact portions.
+        </p>
+      </div>
+      <div class="footer-bottom">
+        <span>Food illustrations were generated with AI.</span
+        ><a href="#study">About the study</a>
+      </div>
+    </footer>
+    <noscript
+      ><p class="noscript">
+        Turn on JavaScript to compare foods. You can still read the study
+        summary and source link above.
+      </p></noscript
+    >
+    <script src="./assets/vendor/d3.min.js"></script>
+    <script type="module" src="./app.js?v=a11y-4"></script>
+  </body>
+</html>

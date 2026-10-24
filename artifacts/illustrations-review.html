@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>All 38 food illustrations — visual review</title>
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../styles.css?v=paper-2" />
+    <style>
+      body {
+        padding: 32px;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 24px;
+        margin-bottom: 24px;
+      }
+      h1 {
+        font: 36px var(--serif);
+        margin: 0 0 8px;
+      }
+      p {
+        margin: 0;
+        color: var(--muted);
+      }
+      button {
+        background: var(--bg);
+        padding: 12px 20px;
+        border: 1px solid var(--line);
+      }
+      main {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 24px 20px;
+      }
+      figure {
+        margin: 0;
+        border-top: 1px solid var(--line);
+        padding-top: 12px;
+      }
+      .plate {
+        aspect-ratio: 640 / 460;
+        background: #f7f6f2;
+      }
+      .plate svg {
+        width: 100%;
+        height: 100%;
+        position: static;
+      }
+      figcaption {
+        font-size: 14px;
+      }
+      small {
+        display: block;
+        color: var(--muted);
+        font-size: 11px;
+        margin-top: 4px;
+      }
+      @media (max-width: 800px) {
+        main {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        body {
+          padding: 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>The complete collection</h1>
+        <p>38 illustrations · consistent paper backgrounds in both themes</p>
+      </div>
+      <button id="theme" type="button">Switch to dark</button>
+    </header>
+    <main></main>
+    <script type="module">
+      import { FOODS } from "../foods.js";
+      for (const food of FOODS) {
+        const response = await fetch(
+          `../assets/illustrations/${food.id}.svg?v=paper-2`,
+        );
+        if (!response.ok) throw new Error(`Missing ${food.id}`);
+        const figure = document.createElement("figure");
+        figure.dataset.food = food.id;
+        figure.innerHTML = `<div class="plate">${await response.text()}</div><figcaption>${food.name}<small></small></figcaption>`;
+        figure.querySelector("small").textContent =
+          `${food.category} · ${food.score}% · natural shading`;
+        document.querySelector("main").append(figure);
+      }
+      document.body.dataset.ready = "true";
+      document.querySelector("#theme").addEventListener("click", (event) => {
+        const dark = document.documentElement.dataset.theme !== "dark";
+        document.documentElement.dataset.theme = dark ? "dark" : "light";
+        event.target.textContent = `Switch to ${dark ? "light" : "dark"}`;
+      });
+    </script>
+  </body>
+</html>
