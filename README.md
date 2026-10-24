@@ -62,10 +62,12 @@ npx wrangler login
 npm run deploy
 ```
 
-The Worker is named `satiety-index`. Its routes cover exactly `/outros`, `/outros/`,
+The Worker is named `satiety-index`. Its routes cover exactly `/favicon.svg`, `/outros`, `/outros/`,
 `/outros/assets/*`, `/outros/satiety-index` and `/outros/satiety-index/*`.
 There is deliberately no `/outros/*` catch-all: future sibling sites can use their
 own hosting without being intercepted by this Worker.
+The circular Rafael favicon in `outros/favicon.svg` is published at `/favicon.svg`,
+shared by the homepage and the Outros directory. The Satiety Index keeps its own favicon.
 Publishing does not replace the existing website's root, other folders, DNS
 records or email setup. The built assets mirror the `/outros/satiety-index/`
 directory; relative app URLs work without a rewrite Worker. The same path is

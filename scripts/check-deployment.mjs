@@ -7,6 +7,7 @@ import { FOODS } from "../foods.js";
 const output = new URL("../dist/", import.meta.url);
 const staticFiles = new Set([
   "_headers",
+  "favicon.svg",
   "outros/index.html",
   "outros/satiety-index/index.html",
   ...["DM-Sans-OFL.txt", "Instrument-Serif-OFL.txt"].map(

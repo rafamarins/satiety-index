@@ -7,6 +7,10 @@
   "preview_urls": false,
   "routes": [
     {
+      "pattern": "rafael.co.nz/favicon.svg",
+      "zone_name": "rafael.co.nz",
+    },
+    {
       "pattern": "rafael.co.nz/outros",
       "zone_name": "rafael.co.nz",
     },

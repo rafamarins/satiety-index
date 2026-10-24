@@ -25,6 +25,7 @@ async function hashedAsset(relative, bytes, root = output) {
 await rm(distribution, { recursive: true, force: true });
 await mkdir(output, { recursive: true });
 await cp(new URL("_headers", project), new URL("_headers", distribution));
+await cp(new URL("outros/favicon.svg", project), new URL("favicon.svg", distribution));
 
 // Rasterise at each target resolution, not by enlarging the smaller bitmap.
 // The editable vector plates and source/provenance files remain untouched.
