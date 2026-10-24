@@ -5,6 +5,8 @@ have individual engraved SVG plates with natural graphite shading, short entranc
 transitions, animated percentages, light/dark themes, and a responsive food chooser
 and comparison list.
 
+Live at [rafael.co.nz/outros/](https://rafael.co.nz/outros/).
+
 ## Run locally
 
 ```sh
