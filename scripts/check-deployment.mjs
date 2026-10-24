@@ -20,7 +20,7 @@ const expected = new Set(
     "assets/vendor/d3.min.js",
     "assets/vendor/D3-LICENSE.txt",
     ...FOODS.map(({ id }) => `assets/illustrations/${id}.svg`),
-  ].map((file) => `outros/${file}`),
+  ].map((file) => `outros/satiety-index/${file}`),
 );
 expected.add("_headers");
 const files = [];

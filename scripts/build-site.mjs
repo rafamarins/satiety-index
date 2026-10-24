@@ -3,7 +3,7 @@ import { FOODS } from "../foods.js";
 
 const project = new URL("../", import.meta.url);
 const distribution = new URL("dist/", project);
-const output = new URL("outros/", distribution);
+const output = new URL("outros/satiety-index/", distribution);
 const files = [
   "index.html",
   "styles.css",
@@ -30,5 +30,5 @@ for (const directory of ["assets/fonts", "assets/vendor"]) {
   });
 }
 console.log(
-  `Built dist/outros/ with ${FOODS.length} illustrations and local fonts/library licences.`,
+  `Built dist/outros/satiety-index/ with ${FOODS.length} illustrations and local fonts/library licences.`,
 );
