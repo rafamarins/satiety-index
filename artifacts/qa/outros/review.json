@@ -1,0 +1,56 @@
+{
+  "url": "http://127.0.0.1:4174/outros/",
+  "states": [
+    {
+      "width": 320,
+      "theme": "light",
+      "violations": 0,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "violations": 0,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "violations": 0,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "violations": 0,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "theme": "light",
+      "violations": 0,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "theme": "dark",
+      "violations": 0,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "violations": 0,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "violations": 0,
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "keyboard": "Skip link, project link and persistent theme passed",
+  "noJavaScript": "Project remains readable and linked"
+}

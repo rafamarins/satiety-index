@@ -5,7 +5,10 @@ const path = require("node:path");
 const { chromium } = require("playwright");
 
 const baseURL = process.env.SATIETY_URL || "http://127.0.0.1:4173/";
-const output = path.resolve(__dirname, "../artifacts/qa/accessibility.json");
+const output = path.resolve(
+  process.env.SATIETY_AUDIT_OUTPUT ||
+    path.join(__dirname, "../artifacts/qa/accessibility.json"),
+);
 const report = {
   target: "WCAG 2.1 AA",
   states: [],
@@ -123,16 +126,17 @@ async function main() {
     const errors = [];
     page.on("pageerror", (error) => errors.push(error.message));
     await page.goto(baseURL, { waitUntil: "networkidle" });
-    await page.locator("#scene svg").waitFor();
+    await page.waitForFunction(
+      () => document.querySelector("#scene img")?.complete,
+    );
     await page.addScriptTag({ path: require.resolve("axe-core/axe.min.js") });
-    const foods = await page.evaluate(async () =>
-      (
-        await import(new URL("./foods.js?v=copy-3", location.href).href)
-      ).FOODS.map(({ id, name, score }) => ({
+    const foods = (await import("../foods.js")).FOODS.map(
+      ({ id, name, score, category }) => ({
         id,
         name,
         score,
-      })),
+        category,
+      }),
     );
     for (const width of [1440, 390]) {
       await page.setViewportSize({ width, height: 1000 });
@@ -172,8 +176,8 @@ async function main() {
               document.querySelector("#scene").getAttribute("aria-busy") ===
                 "false" &&
               document
-                .querySelector("#scene svg")
-                ?.getAttribute("aria-label")
+                .querySelector("#scene img")
+                ?.getAttribute("alt")
                 ?.endsWith(name),
             food.name,
           );
@@ -223,8 +227,8 @@ async function main() {
         await page.selectOption("#food-select", "crisps");
         await page.waitForFunction(() =>
           document
-            .querySelector("#scene svg")
-            ?.getAttribute("aria-label")
+            .querySelector("#scene img")
+            ?.getAttribute("alt")
             ?.endsWith("Crisps"),
         );
         await page.screenshot({
@@ -296,15 +300,9 @@ async function main() {
       await button.click();
       const category = await button.textContent();
       const actual = await page.locator("#food-ranking > li").count();
-      const expected = await page.evaluate(
-        (value) =>
-          import(new URL("./foods.js?v=copy-3", location.href).href).then(
-            ({ FOODS }) =>
-              FOODS.filter((f) => value === "All foods" || f.category === value)
-                .length,
-          ),
-        category,
-      );
+      const expected = foods.filter(
+        (f) => category === "All foods" || f.category === category,
+      ).length;
       report.filters.push({ category, actual, expected });
     }
     await page.reload({ waitUntil: "networkidle" });

@@ -347,6 +347,7 @@ html[data-theme="dark"] .theme-moon {
   margin-top: -12px;
 }
 .food-illustration {
+  object-fit: contain;
   position: absolute;
   inset: 0;
   width: 100%;
@@ -457,7 +458,8 @@ html[data-theme="dark"] .theme-moon {
   top: 0;
   height: 3px;
   background: var(--fg);
-  width: 92.2857%;
+  width: 100%;
+  transform: scaleX(0.922857);
   transform-origin: left;
 }
 .baseline-tick {

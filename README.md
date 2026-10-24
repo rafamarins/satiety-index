@@ -1,11 +1,14 @@
 # The Satiety Index
 
 A monochrome, illustrated exploration of the 1995 Satiety Index study. All 38 foods
-have individual engraved SVG plates with natural graphite shading, short entrance
+have individual engraved plates with natural graphite shading, short entrance
 transitions, animated percentages, light/dark themes, and a responsive food chooser
 and comparison list.
 
 Live at [rafael.co.nz/outros/satiety-index/](https://rafael.co.nz/outros/satiety-index/).
+The [Outros directory](https://rafael.co.nz/outros/) is built from `outros/` in this repository.
+To add another project, duplicate the `.project` list item in `outros/index.html`,
+then change its number, link, illustration and copy. No JavaScript changes are needed.
 
 ## Run locally
 
@@ -15,7 +18,8 @@ python3 -m http.server 4173
 
 Open <http://127.0.0.1:4173/>. Local browsing needs no build or package installation.
 Use an HTTP server rather than opening `index.html` as a file: the app uses native
-ES modules and loads the selected SVG with `fetch`.
+ES modules. The source preview displays the original vectors; use the production
+preview below to check the smaller, responsive images delivered online.
 
 ## Files
 
@@ -24,14 +28,16 @@ ES modules and loads the selected SVG with `fetch`.
 - `foods.js` — the original 38 scores and food descriptions.
 - `app.js` — selection, history, image transitions, percentages, themes and filters.
 - `food-navigation.js` — scoped arrow shortcuts and touch swipe handling.
-- `engravings.js` — on-demand SVG loading and caching.
+- `engravings.js` — image loading, decoding and accessible descriptions.
+- `illustrations.js` — source image mapping; replaced by responsive image URLs at build time.
 - `assets/illustrations/*.svg` — the 38 original, standalone vector plates.
 - `wrangler.jsonc` — Cloudflare static-site configuration.
-- `scripts/build-site.mjs` — copies only public runtime assets into `dist/outros/satiety-index/`.
+- `outros/` — the lightweight project directory, with its own layout and theme control.
+- `scripts/build-site.mjs` — generates responsive WebP images, bundles scripts and fingerprints public assets.
 
 ## Cloudflare deployment
 
-The app stays plain HTML/CSS/JavaScript. Node and Wrangler are deployment tools,
+The app stays plain HTML/CSS/JavaScript. Node, Sharp, esbuild and Wrangler are build/deployment tools,
 not runtime dependencies. With Node 22 or later:
 
 ```sh
@@ -42,8 +48,10 @@ npm run preview
 ```
 
 Open <http://localhost:8787/outros/satiety-index/> for the production-like preview.
-The output directory includes the app, 38 illustrations, local fonts, D3 and their
-licence notices. Source atlases, older stock artwork, research, QA captures,
+The output directory includes both pages, two sizes of each of the 38 illustrations,
+local fonts and their licence notices. Small page-specific styles are inlined;
+scripts and images are fingerprinted for long-lived caching. Source vectors,
+atlases, older stock artwork, research, QA captures,
 credentials and repository files are not published. Unknown paths return 404;
 food selection uses URL fragments and does not need an SPA fallback.
 
@@ -54,9 +62,10 @@ npx wrangler login
 npm run deploy
 ```
 
-The Worker is named `satiety-index`. Its routes are limited to
-`rafael.co.nz/outros/satiety-index` and `rafael.co.nz/outros/satiety-index/*`.
-The `/outros/` parent and sibling sites are not routed through this Worker.
+The Worker is named `satiety-index`. Its routes cover exactly `/outros`, `/outros/`,
+`/outros/assets/*`, `/outros/satiety-index` and `/outros/satiety-index/*`.
+There is deliberately no `/outros/*` catch-all: future sibling sites can use their
+own hosting without being intercepted by this Worker.
 Publishing does not replace the existing website's root, other folders, DNS
 records or email setup. The built assets mirror the `/outros/satiety-index/`
 directory; relative app URLs work without a rewrite Worker. The same path is
@@ -109,9 +118,11 @@ Illustrations depict representative foods, not the exact study portions or verif
 1995 product formulations. Earlier stock-art research is retained in
 `assets/ILLUSTRATION-SOURCES.md`; those stock assets are no longer displayed.
 
-D3 7.9.0 is vendored locally with its ISC licence. Instrument Serif and DM Sans are
-self-hosted with their SIL Open Font Licences. No runtime CDN, analytics or remote
-image calls are needed.
+Instrument Serif and DM Sans are self-hosted with their SIL Open Font Licences.
+There are no runtime libraries, remote image calls or application analytics.
+Percentages use a small, cancelable native animation. The older vendored D3 copy
+is retained in source but is no longer loaded or published. Cloudflare may inject
+its own analytics and bot-detection scripts at the edge; bot detection is retained.
 
 ## Interaction
 
@@ -132,6 +143,8 @@ On touch devices, swipe left across the illustration or food information for the
 next food, and right for the previous food. Vertical scrolling and pinch zoom
 remain native; cancelled, tiny, vertical and multi-touch gestures do not navigate.
 The selector and previous/next buttons remain available.
+The initial illustration and final score are present in the HTML, with no entrance
+animation or count-up delaying the first view. Later selections animate normally.
 
 ```sh
 node --test scripts/check-navigation.mjs
@@ -172,3 +185,16 @@ NODE_PATH="$satiety_a11y_tools/node_modules" node scripts/check-accessibility.cj
 Set `SATIETY_CHROME_PATH` if Chrome is not in the default macOS application path,
 or `SATIETY_URL` to audit another local server. The script writes its results to
 `artifacts/qa/accessibility.json`. Automated scans do not certify conformance.
+
+For the built site, serve `dist/` on port 4174 and use the production paths:
+
+```sh
+python3 -m http.server 4174 --directory dist
+NODE_PATH="$satiety_a11y_tools/node_modules" SATIETY_URL=http://127.0.0.1:4174/outros/satiety-index/ node scripts/check-accessibility.cjs --all
+NODE_PATH="$satiety_a11y_tools/node_modules" node scripts/check-runtime.cjs
+NODE_PATH="$satiety_a11y_tools/node_modules" node scripts/check-outros.cjs
+```
+
+The deployment check enforces compressed HTML/CSS and JavaScript budgets,
+image-size budgets, content fingerprints and an explicit public-file allowlist.
+Full Lighthouse reports are local artifacts and are ignored by Git.

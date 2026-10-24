@@ -1,18 +1,13 @@
-const plates = new Map();
+import { ILLUSTRATIONS } from "./illustrations.js";
 
 export function loadEngraving(food) {
-  if (!plates.has(food.id)) {
-    const request = fetch(`./assets/illustrations/${food.id}.svg?v=paper-2`)
-      .then((response) => {
-        if (!response.ok)
-          throw new Error(`Illustration request failed: ${response.status}`);
-        return response.text();
-      })
-      .catch((error) => {
-        plates.delete(food.id);
-        throw error;
-      });
-    plates.set(food.id, request);
-  }
-  return plates.get(food.id);
+  const image = new Image(640, 460);
+  image.className = "food-illustration";
+  image.alt = `Engraved illustration of ${food.name}`;
+  image.decoding = "async";
+  image.sizes =
+    "(max-width: 680px) calc(100vw - 72px), (max-width: 1100px) 48vw, 600px";
+  image.srcset = ILLUSTRATIONS[food.id].srcset;
+  image.src = ILLUSTRATIONS[food.id].src;
+  return image.decode().then(() => image);
 }

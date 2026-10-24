@@ -14,6 +14,8 @@
     "deploy": "npm run build && wrangler deploy"
   },
   "devDependencies": {
+    "esbuild": "0.28.2",
+    "sharp": "0.35.5",
     "wrangler": "4.152.0"
   },
   "overrides": {

@@ -1,8 +1,7 @@
-import { FOODS, RANKED_FOODS } from "./foods.js?v=copy-3";
-import { loadEngraving } from "./engravings.js?v=paper-2";
-import { bindFoodNavigation } from "./food-navigation.js?v=paper-2";
+import { FOODS, RANKED_FOODS } from "./foods.js";
+import { loadEngraving } from "./engravings.js";
+import { bindFoodNavigation } from "./food-navigation.js";
 
-const d3 = window.d3;
 const motionPreference = window.matchMedia("(prefers-reduced-motion: reduce)");
 const byId = (id) => document.getElementById(id);
 const ui = Object.fromEntries(
@@ -34,6 +33,7 @@ let food =
 let activeCategory = "All foods";
 let keyboardInteraction = false;
 let illustrationRequest = 0;
+let scoreFrame = 0;
 
 document.addEventListener("keydown", () => {
   keyboardInteraction = true;
@@ -47,53 +47,35 @@ document.addEventListener(
 );
 
 function canAnimate() {
-  return Boolean(d3) && !motionPreference.matches && !keyboardInteraction;
+  return !motionPreference.matches && !keyboardInteraction;
 }
 
-function animateScore(target, animate, from) {
+function animateScore(target, animate) {
   const number = ui["score-value"];
-  const start = from ?? (Number(number.textContent) || 0);
-  const position = `${(target / 350) * 100}%`;
-  if (d3) {
-    d3.select(number).interrupt("score");
-    d3.select(ui["meter-fill"]).interrupt("meter");
-    d3.select(ui["meter-dot"]).interrupt("meter");
-  }
-  if (!animate) {
-    number.textContent = target;
-    ui["meter-fill"].style.width = position;
-    ui["meter-dot"].style.left = position;
-    return;
-  }
-  d3.select(number)
-    .transition("score")
-    .duration(850)
-    .ease(d3.easeCubicOut)
-    .tween("count", () => {
-      const interpolate = d3.interpolateNumber(start, target);
-      return (t) => {
-        number.textContent = Math.round(interpolate(t));
-      };
-    });
-  d3.select(ui["meter-fill"])
-    .transition("meter")
-    .duration(850)
-    .ease(d3.easeCubicOut)
-    .style("width", position);
-  d3.select(ui["meter-dot"])
-    .transition("meter")
-    .duration(850)
-    .ease(d3.easeCubicOut)
-    .style("left", position);
+  const start = Number(number.textContent) || 0;
+  cancelAnimationFrame(scoreFrame);
+  const paint = (value) => {
+    number.textContent = Math.round(value);
+    ui["meter-fill"].style.transform = `scaleX(${value / 350})`;
+    ui["meter-dot"].style.left = `${(value / 350) * 100}%`;
+  };
+  if (!animate) return paint(target);
+  const began = performance.now();
+  const tick = (now) => {
+    const progress = Math.min(1, (now - began) / 650);
+    paint(start + (target - start) * (1 - (1 - progress) ** 3));
+    if (progress < 1) scoreFrame = requestAnimationFrame(tick);
+  };
+  scoreFrame = requestAnimationFrame(tick);
 }
 
 async function showIllustration(selectedFood, animate) {
   const scene = ui.scene;
   const request = ++illustrationRequest;
   scene.setAttribute("aria-busy", "true");
-  let source;
+  let next;
   try {
-    source = await loadEngraving(selectedFood);
+    next = await loadEngraving(selectedFood);
   } catch {
     if (request !== illustrationRequest) return;
     scene.innerHTML =
@@ -106,18 +88,9 @@ async function showIllustration(selectedFood, animate) {
   scene
     .getAnimations({ subtree: true })
     .forEach((animation) => animation.cancel());
-  const template = document.createElement("template");
-  template.innerHTML = source;
-  const next = template.content.firstElementChild;
-  next.setAttribute(
-    "aria-label",
-    `Engraved illustration of ${selectedFood.name}`,
-  );
   scene.replaceChildren(next);
-  // The artwork is complete from the first frame; only the presentation moves.
-  // The subject-only highlights preserve natural shading on either page theme.
   if (animate && !motionPreference.matches && !keyboardInteraction) {
-    next.querySelector(".plate-artwork").animate(
+    next.animate(
       [
         { opacity: 0.45, transform: "translateY(6px) scale(0.99)" },
         { opacity: 1, transform: "translateY(0) scale(1)" },
@@ -175,7 +148,7 @@ function updateCopy(animate, initial = false) {
       { duration: 230, easing: "cubic-bezier(.22,1,.36,1)" },
     );
   }
-  animateScore(food.score, animate, initial ? 0 : undefined);
+  animateScore(food.score, animate);
 }
 
 function selectFood(next, { animate = canAnimate(), updateUrl = true } = {}) {
@@ -300,5 +273,6 @@ ui["theme-toggle"].addEventListener("click", () =>
     document.documentElement.dataset.theme === "dark" ? "light" : "dark",
   ),
 );
-updateCopy(canAnimate(), true);
-showIllustration(food, canAnimate());
+updateCopy(false, true);
+if (food.id === "potato") ui.scene.setAttribute("aria-busy", "false");
+else showIllustration(food, false);

@@ -1,0 +1,2906 @@
+{
+  "target": "WCAG 2.1 AA",
+  "states": [
+    {
+      "width": 1440,
+      "theme": "light",
+      "food": "potato",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#plate-caption"
+            ]
+          ]
+        }
+      ],
+      "passes": 44
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "food": "potato",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "#plate-caption"
+            ]
+          ]
+        }
+      ],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "croissant",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "cake",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "doughnuts",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "cookies",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "crackers",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "mars",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "peanuts",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "yogurt",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "crisps",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "ice-cream",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "jellybeans",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "popcorn",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "porridge",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "muesli",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "sustain",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "special-k",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "cornflakes",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "honeysmacks",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "all-bran",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "white-bread",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "french-fries",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "white-pasta",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "brown-rice",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "white-rice",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "grain-bread",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "wholemeal-bread",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "brown-pasta",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "potato",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "lentils",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "cheese",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "eggs",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "baked-beans",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "beef",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "ling-fish",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "bananas",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "grapes",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "apples",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "food": "oranges",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "croissant",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "cake",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "doughnuts",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "cookies",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "crackers",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "mars",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "peanuts",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "yogurt",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "crisps",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "ice-cream",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "jellybeans",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "popcorn",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "porridge",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "muesli",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "sustain",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "special-k",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "cornflakes",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "honeysmacks",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "all-bran",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "white-bread",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "french-fries",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "white-pasta",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "brown-rice",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "white-rice",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "grain-bread",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "wholemeal-bread",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "brown-pasta",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "potato",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "lentils",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "cheese",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "eggs",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "baked-beans",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "beef",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "ling-fish",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "bananas",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "grapes",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "apples",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "food": "oranges",
+      "violations": [],
+      "incomplete": [],
+      "passes": 44
+    }
+  ],
+  "layouts": [
+    {
+      "label": "light default 320",
+      "width": 320,
+      "scrollWidth": 320,
+      "overflow": false,
+      "outside": []
+    },
+    {
+      "label": "light text spacing 320",
+      "width": 320,
+      "scrollWidth": 320,
+      "overflow": false,
+      "outside": []
+    },
+    {
+      "label": "light default 390",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": false,
+      "outside": []
+    },
+    {
+      "label": "light text spacing 390",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": false,
+      "outside": []
+    },
+    {
+      "label": "light default 768",
+      "width": 768,
+      "scrollWidth": 768,
+      "overflow": false,
+      "outside": []
+    },
+    {
+      "label": "light text spacing 768",
+      "width": 768,
+      "scrollWidth": 768,
+      "overflow": false,
+      "outside": []
+    },
+    {
+      "label": "light default 1024",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "overflow": false,
+      "outside": []
+    },
+    {
+      "label": "light text spacing 1024",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "overflow": false,
+      "outside": []
+    },
+    {
+      "label": "light default 1440",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": false,
+      "outside": []
+    },
+    {
+      "label": "light text spacing 1440",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": false,
+      "outside": []
+    },
+    {
+      "label": "light 200% text size at 320",
+      "width": 320,
+      "scrollWidth": 320,
+      "overflow": false,
+      "outside": []
+    },
+    {
+      "label": "light 200% text size at 390",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": false,
+      "outside": []
+    },
+    {
+      "label": "light 200% text size at 768",
+      "width": 768,
+      "scrollWidth": 768,
+      "overflow": false,
+      "outside": []
+    },
+    {
+      "label": "light 200% text size at 1440",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": false,
+      "outside": []
+    },
+    {
+      "label": "dark default 320",
+      "width": 320,
+      "scrollWidth": 320,
+      "overflow": false,
+      "outside": []
+    },
+    {
+      "label": "dark text spacing 320",
+      "width": 320,
+      "scrollWidth": 320,
+      "overflow": false,
+      "outside": []
+    },
+    {
+      "label": "dark default 390",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": false,
+      "outside": []
+    },
+    {
+      "label": "dark text spacing 390",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": false,
+      "outside": []
+    },
+    {
+      "label": "dark default 768",
+      "width": 768,
+      "scrollWidth": 768,
+      "overflow": false,
+      "outside": []
+    },
+    {
+      "label": "dark text spacing 768",
+      "width": 768,
+      "scrollWidth": 768,
+      "overflow": false,
+      "outside": []
+    },
+    {
+      "label": "dark default 1024",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "overflow": false,
+      "outside": []
+    },
+    {
+      "label": "dark text spacing 1024",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "overflow": false,
+      "outside": []
+    },
+    {
+      "label": "dark default 1440",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": false,
+      "outside": []
+    },
+    {
+      "label": "dark text spacing 1440",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": false,
+      "outside": []
+    },
+    {
+      "label": "dark 200% text size at 320",
+      "width": 320,
+      "scrollWidth": 320,
+      "overflow": false,
+      "outside": []
+    },
+    {
+      "label": "dark 200% text size at 390",
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": false,
+      "outside": []
+    },
+    {
+      "label": "dark 200% text size at 768",
+      "width": 768,
+      "scrollWidth": 768,
+      "overflow": false,
+      "outside": []
+    },
+    {
+      "label": "dark 200% text size at 1440",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": false,
+      "outside": []
+    }
+  ],
+  "typography": [
+    {
+      "width": 320,
+      "theme": "light",
+      "minimum": 14,
+      "small": [],
+      "outside": [],
+      "reading": [
+        {
+          "selector": "intro-copy",
+          "size": 16
+        },
+        {
+          "selector": "food-description",
+          "size": 16
+        },
+        {
+          "selector": "ratio-description",
+          "size": 16
+        },
+        {
+          "selector": "food-select",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "study-caveat",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "minimum": 14,
+      "small": [],
+      "outside": [],
+      "reading": [
+        {
+          "selector": "intro-copy",
+          "size": 16
+        },
+        {
+          "selector": "food-description",
+          "size": 16
+        },
+        {
+          "selector": "ratio-description",
+          "size": 16
+        },
+        {
+          "selector": "food-select",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "study-caveat",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "theme": "light",
+      "minimum": 14,
+      "small": [],
+      "outside": [],
+      "reading": [
+        {
+          "selector": "intro-copy",
+          "size": 18
+        },
+        {
+          "selector": "food-description",
+          "size": 16
+        },
+        {
+          "selector": "ratio-description",
+          "size": 16
+        },
+        {
+          "selector": "food-select",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "study-caveat",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "theme": "light",
+      "minimum": 14,
+      "small": [],
+      "outside": [],
+      "reading": [
+        {
+          "selector": "intro-copy",
+          "size": 18
+        },
+        {
+          "selector": "food-description",
+          "size": 16
+        },
+        {
+          "selector": "ratio-description",
+          "size": 16
+        },
+        {
+          "selector": "food-select",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "study-caveat",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "minimum": 14,
+      "small": [],
+      "outside": [],
+      "reading": [
+        {
+          "selector": "intro-copy",
+          "size": 18
+        },
+        {
+          "selector": "food-description",
+          "size": 16
+        },
+        {
+          "selector": "ratio-description",
+          "size": 16
+        },
+        {
+          "selector": "food-select",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "study-caveat",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "minimum": 14,
+      "small": [],
+      "outside": [],
+      "reading": [
+        {
+          "selector": "intro-copy",
+          "size": 16
+        },
+        {
+          "selector": "food-description",
+          "size": 16
+        },
+        {
+          "selector": "ratio-description",
+          "size": 16
+        },
+        {
+          "selector": "food-select",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "study-caveat",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "minimum": 14,
+      "small": [],
+      "outside": [],
+      "reading": [
+        {
+          "selector": "intro-copy",
+          "size": 16
+        },
+        {
+          "selector": "food-description",
+          "size": 16
+        },
+        {
+          "selector": "ratio-description",
+          "size": 16
+        },
+        {
+          "selector": "food-select",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "study-caveat",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "theme": "dark",
+      "minimum": 14,
+      "small": [],
+      "outside": [],
+      "reading": [
+        {
+          "selector": "intro-copy",
+          "size": 18
+        },
+        {
+          "selector": "food-description",
+          "size": 16
+        },
+        {
+          "selector": "ratio-description",
+          "size": 16
+        },
+        {
+          "selector": "food-select",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "study-caveat",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "theme": "dark",
+      "minimum": 14,
+      "small": [],
+      "outside": [],
+      "reading": [
+        {
+          "selector": "intro-copy",
+          "size": 18
+        },
+        {
+          "selector": "food-description",
+          "size": 16
+        },
+        {
+          "selector": "ratio-description",
+          "size": 16
+        },
+        {
+          "selector": "food-select",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "study-caveat",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "minimum": 14,
+      "small": [],
+      "outside": [],
+      "reading": [
+        {
+          "selector": "intro-copy",
+          "size": 18
+        },
+        {
+          "selector": "food-description",
+          "size": 16
+        },
+        {
+          "selector": "ratio-description",
+          "size": 16
+        },
+        {
+          "selector": "food-select",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "study-caveat",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "ranking-name",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        },
+        {
+          "selector": "",
+          "size": 16
+        }
+      ]
+    }
+  ],
+  "keyboard": {
+    "firstTab": "skip-link",
+    "skipTarget": "food-select",
+    "afterSelect": {
+      "id": "next",
+      "outline": "solid"
+    },
+    "arrowChangedFood": true,
+    "reducedMotionAnimations": 0,
+    "themeToggled": true
+  },
+  "contrast": [
+    {
+      "theme": "light",
+      "caption": 5.541668096487863,
+      "control": 3.330621131346722
+    },
+    {
+      "theme": "dark",
+      "caption": 5.541668096487863,
+      "control": 3.689022698404354
+    },
+    {
+      "theme": "light",
+      "caption": 5.541668096487863,
+      "control": 3.330621131346722
+    },
+    {
+      "theme": "dark",
+      "caption": 5.541668096487863,
+      "control": 3.689022698404354
+    }
+  ],
+  "filters": [
+    {
+      "category": "All foods",
+      "actual": 38,
+      "expected": 38
+    },
+    {
+      "category": "Bakery",
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "category": "Snacks & sweets",
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "category": "Breakfast cereals",
+      "actual": 6,
+      "expected": 6
+    },
+    {
+      "category": "Carbohydrate-rich foods",
+      "actual": 9,
+      "expected": 9
+    },
+    {
+      "category": "Protein-rich foods",
+      "actual": 6,
+      "expected": 6
+    },
+    {
+      "category": "Fruit",
+      "actual": 4,
+      "expected": 4
+    }
+  ],
+  "reducedMotion": {
+    "animations": 0,
+    "score": "225",
+    "details": {
+      "media": true,
+      "items": []
+    }
+  },
+  "semantics": {
+    "lists": 1,
+    "listItems": 38
+  },
+  "touch": {
+    "left": "all-bran",
+    "right": "popcorn",
+    "verticalFood": "popcorn",
+    "verticalScrolled": true
+  },
+  "errors": []
+}

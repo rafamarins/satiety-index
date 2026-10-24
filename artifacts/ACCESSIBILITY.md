@@ -3,6 +3,12 @@
 Reviewed on 24 October 2026 against [WCAG 2.1 Level AA](https://www.w3.org/TR/WCAG21/).
 This is a local implementation review, not an independent conformance certification.
 
+The performance build was rechecked on the same date using responsive images
+with equivalent alternative text, rather than inline food SVGs. The repeat
+[78-state audit](qa/performance/accessibility.json) reported zero violations.
+The new Outros directory also passed [eight responsive/theme states](qa/outros/review.json),
+keyboard/skip-link checks and navigation with JavaScript disabled.
+
 ## Changes made
 
 - Added shared typography sizes: 16px body and control text, an 18px desktop
