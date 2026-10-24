@@ -105,10 +105,14 @@ async function main() {
       "projects",
     );
     assert.equal(
-      await page.locator(".project-link").evaluate((a) => a.href),
+      await page.locator(".project-link").first().evaluate((a) => a.href),
       new URL("satiety-index/", base).href,
     );
-    await page.locator(".project-link").click();
+    assert.equal(
+      await page.locator(".project-link").nth(1).getAttribute("href"),
+      "https://nzvotes.nz/",
+    );
+    await page.locator(".project-link").first().click();
     await page.waitForURL(new URL("satiety-index/", base).href);
     assert.equal(
       await page.locator("#food-name").textContent(),
@@ -116,7 +120,8 @@ async function main() {
     );
     const noJS = await browser.newPage({ javaScriptEnabled: false });
     await noJS.goto(base);
-    assert.equal(await noJS.locator(".project-link").isVisible(), true);
+    for (const link of await noJS.locator(".project-link").all())
+      assert.equal(await link.isVisible(), true);
     assert.equal(await noJS.locator(".theme-toggle").isVisible(), false);
     await noJS.close();
     assert.deepEqual(report.errors, []);
