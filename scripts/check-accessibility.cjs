@@ -126,7 +126,9 @@ async function main() {
     await page.locator("#scene svg").waitFor();
     await page.addScriptTag({ path: require.resolve("axe-core/axe.min.js") });
     const foods = await page.evaluate(async () =>
-      (await import("/foods.js?v=copy-3")).FOODS.map(({ id, name, score }) => ({
+      (
+        await import(new URL("./foods.js?v=copy-3", location.href).href)
+      ).FOODS.map(({ id, name, score }) => ({
         id,
         name,
         score,
@@ -296,7 +298,7 @@ async function main() {
       const actual = await page.locator("#food-ranking > li").count();
       const expected = await page.evaluate(
         (value) =>
-          import("/foods.js?v=copy-3").then(
+          import(new URL("./foods.js?v=copy-3", location.href).href).then(
             ({ FOODS }) =>
               FOODS.filter((f) => value === "All foods" || f.category === value)
                 .length,

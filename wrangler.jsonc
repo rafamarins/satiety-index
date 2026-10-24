@@ -4,6 +4,10 @@
   "account_id": "f421f3b35385c9ba04a3c294228f8db3",
   "compatibility_date": "2026-10-24",
   "workers_dev": true,
+  "routes": [
+    { "pattern": "rafael.co.nz/outros", "zone_name": "rafael.co.nz" },
+    { "pattern": "rafael.co.nz/outros/*", "zone_name": "rafael.co.nz" },
+  ],
   "assets": {
     "directory": "./dist",
     "not_found_handling": "none",

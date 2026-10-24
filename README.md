@@ -25,7 +25,7 @@ ES modules and loads the selected SVG with `fetch`.
 - `engravings.js` — on-demand SVG loading and caching.
 - `assets/illustrations/*.svg` — the 38 original, standalone vector plates.
 - `wrangler.jsonc` — Cloudflare static-site configuration.
-- `scripts/build-site.mjs` — copies only public runtime assets into `dist/`.
+- `scripts/build-site.mjs` — copies only public runtime assets into `dist/outros/`.
 
 ## Cloudflare deployment
 
@@ -39,6 +39,7 @@ npm run deploy:check
 npm run preview
 ```
 
+Open <http://localhost:8787/outros/> for the production-like preview.
 The output directory includes the app, 38 illustrations, local fonts, D3 and their
 licence notices. Source atlases, older stock artwork, research, QA captures,
 credentials and repository files are not published. Unknown paths return 404;
@@ -51,16 +52,27 @@ npx wrangler login
 npm run deploy
 ```
 
-The Worker is named `satiety-index`. No custom domain or existing website route
-is changed by the initial configuration. A dedicated subdomain is recommended;
-hosting below `/satiety/` needs a scoped route and subdirectory asset handling.
+The Worker is named `satiety-index`. Its routes are limited to `rafael.co.nz/outros`
+and `rafael.co.nz/outros/*`. Publishing it does not replace the existing website's
+root, other folders, DNS records or email setup. The built assets mirror the
+`/outros/` directory; relative app URLs work without a rewrite Worker. The same
+path is available on the Worker's `workers.dev` URL.
 
-For push-to-deploy, connect `rafamarins/satiety-index` in Cloudflare Workers Builds:
+The development dependency `undici` is pinned to its patched 7.30.1 release through
+an npm override because the installed Wrangler/Miniflare dependency pins an older
+version. It is deployment tooling, not browser code. Recheck this override when
+upgrading Wrangler.
+
+`rafamarins/satiety-index` is connected to Cloudflare Workers Builds:
 
 - Production branch: `main`
 - Root directory: repository root
 - Build command: `npm run check`
 - Deploy command: `npx wrangler deploy`
+
+Pushing to `main` starts the production build. Other branches do not deploy.
+The local Git remote fetches from the requested HTTPS URL and pushes over SSH,
+using the existing GitHub SSH authentication.
 
 Cloudflare installs the locked dependencies before building. Keep deployment
 credentials in Cloudflare, never in the repository. See

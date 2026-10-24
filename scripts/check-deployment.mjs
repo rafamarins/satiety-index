@@ -3,24 +3,26 @@ import { readdir, readFile, stat } from "node:fs/promises";
 import { FOODS } from "../foods.js";
 
 const output = new URL("../dist/", import.meta.url);
-const expected = new Set([
-  "index.html",
-  "styles.css",
-  "app.js",
-  "foods.js",
-  "engravings.js",
-  "food-navigation.js",
-  "_headers",
-  "assets/favicon.svg",
-  "assets/fonts/dm-sans.woff2",
-  "assets/fonts/instrument-serif.woff2",
-  "assets/fonts/instrument-serif-italic.woff2",
-  "assets/fonts/DM-Sans-OFL.txt",
-  "assets/fonts/Instrument-Serif-OFL.txt",
-  "assets/vendor/d3.min.js",
-  "assets/vendor/D3-LICENSE.txt",
-  ...FOODS.map(({ id }) => `assets/illustrations/${id}.svg`),
-]);
+const expected = new Set(
+  [
+    "index.html",
+    "styles.css",
+    "app.js",
+    "foods.js",
+    "engravings.js",
+    "food-navigation.js",
+    "assets/favicon.svg",
+    "assets/fonts/dm-sans.woff2",
+    "assets/fonts/instrument-serif.woff2",
+    "assets/fonts/instrument-serif-italic.woff2",
+    "assets/fonts/DM-Sans-OFL.txt",
+    "assets/fonts/Instrument-Serif-OFL.txt",
+    "assets/vendor/d3.min.js",
+    "assets/vendor/D3-LICENSE.txt",
+    ...FOODS.map(({ id }) => `assets/illustrations/${id}.svg`),
+  ].map((file) => `outros/${file}`),
+);
+expected.add("_headers");
 const files = [];
 for (const file of await readdir(output, { recursive: true })) {
   const info = await stat(new URL(file, output));
