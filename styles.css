@@ -420,10 +420,12 @@ html[data-theme="dark"] .theme-moon {
   background: var(--line);
 }
 .nutrition-panel {
-  width: calc(100% - 48px);
-  margin: 24px auto 0;
-  border-top: 1px solid var(--line);
-  padding-top: 18px;
+  flex: 1 1 120px;
+  max-width: 160px;
+  min-width: 0;
+  margin-left: auto;
+  padding-left: 20px;
+  border-left: 1px solid var(--line);
 }
 .portion-heading {
   margin: 0;
@@ -433,33 +435,41 @@ html[data-theme="dark"] .theme-moon {
 #portion-weight {
   display: block;
   color: var(--fg);
-  font: 32px / 1.2 var(--serif);
-  margin-bottom: 4px;
+  font: 500 22px / 1.2 var(--sans);
+  margin-bottom: 3px;
 }
 .main-macros {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
-  margin: 18px 0 8px;
+  gap: 3px;
+  margin: 10px 0 0;
+}
+.main-macros > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0 8px;
 }
 .main-macros dt {
   color: var(--muted);
   font-size: var(--text-label);
 }
 .main-macros dd {
-  margin: 4px 0 0;
-  font-size: 20px;
+  margin: 0;
+  font-size: var(--text-label);
   font-variant-numeric: tabular-nums;
   overflow-wrap: anywhere;
 }
 .macro-note {
   color: var(--muted);
   font-size: var(--text-label);
-  margin: 0 0 12px;
+  margin: 12px 0;
+  max-width: 370px;
 }
 .nutrition-details {
   border-top: 1px solid var(--line);
   font-size: var(--text-label);
+  margin-top: 16px;
+  max-width: 370px;
 }
 .nutrition-details summary {
   cursor: pointer;
@@ -511,33 +521,33 @@ html[data-theme="dark"] .theme-moon {
   font-size: var(--text-body);
   line-height: 1.65;
 }
+.score-summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px clamp(24px, 3vw, 48px);
+  max-width: 370px;
+  margin: 28px 0 20px;
+}
 .score-display {
   position: relative;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: baseline;
   gap: 9px;
   line-height: 1;
-  margin: 16px 0 0;
+  margin: 0;
 }
 .score-number {
-  font: 400 clamp(100px, 9.1vw, 136px) / 0.93 var(--serif);
+  font: 400 clamp(76px, 7.5vw, 112px) / 0.93 var(--serif);
   letter-spacing: -0.055em;
   font-variant-numeric: lining-nums tabular-nums;
 }
 .score-percent {
-  font: italic 44px var(--serif);
+  font: italic 32px var(--serif);
   align-self: flex-start;
   margin-top: 6px;
-}
-.score-flourish {
-  width: 32px;
-  height: 32px;
-  stroke: var(--line);
-  stroke-width: 1;
-  position: absolute;
-  top: 33px;
-  right: 20px;
 }
 .score-caption {
   font-size: var(--text-label);
@@ -1061,12 +1071,6 @@ html[data-theme="dark"] .theme-moon {
   .food-information h2 {
     font-size: 43px;
   }
-  .score-number {
-    font-size: 125px;
-  }
-  .score-flourish {
-    right: 4px;
-  }
   .study {
     gap: 60px;
   }
@@ -1197,9 +1201,6 @@ html[data-theme="dark"] .theme-moon {
     font-size: var(--text-body);
     margin-top: 0;
   }
-  .nutrition-panel {
-    width: calc(100% - 24px);
-  }
   .food-information {
     padding: 8px 12px 0;
     display: grid;
@@ -1220,12 +1221,13 @@ html[data-theme="dark"] .theme-moon {
     max-width: none;
     min-height: 0;
   }
-  .score-display {
+  .score-summary {
     grid-column: 1;
     grid-row: auto;
+    margin: 24px 0 20px;
+  }
+  .score-display {
     gap: 3px;
-    margin: 10px 0 0;
-    justify-content: flex-start;
   }
   .score-number {
     font-size: 87px;
@@ -1233,9 +1235,6 @@ html[data-theme="dark"] .theme-moon {
   .score-percent {
     font-size: 27px;
     margin-top: 4px;
-  }
-  .score-flourish {
-    display: none;
   }
   .score-caption {
     grid-column: 1;
