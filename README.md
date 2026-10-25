@@ -107,6 +107,12 @@ Holt, S.H.A., Brand Miller, J.C., Petocz, P. & Farmakalidis, E. “A Satiety Ind
 Common Foods.” _European Journal of Clinical Nutrition_ 49(9), 675–690 (1995).
 [Study abstract](https://pubmed.ncbi.nlm.nih.gov/7498104/).
 
+The comparison introduces the original protocol before the illustrations: approximately
+240 calories per portion, 11–13 people per food group, and fullness ratings over two hours.
+Illustrations are representative foods, not exact portion sizes. A separate “What newer
+research says” section summarises four related trials, reviewed on 26 October 2026,
+with source links and limitations. Those findings do not change or extend the 1995 scores.
+
 ## Artwork and dependencies
 
 The current artwork was generated for this project, then converted into static
