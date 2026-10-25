@@ -88,6 +88,7 @@ a {
 }
 button:focus-visible,
 a:focus-visible,
+summary:focus-visible,
 select:focus-visible {
   outline: 2px solid var(--fg);
   outline-offset: 5px;
@@ -417,6 +418,76 @@ html[data-theme="dark"] .theme-moon {
   height: 1px;
   width: 24px;
   background: var(--line);
+}
+.nutrition-panel {
+  width: calc(100% - 48px);
+  margin: 24px auto 0;
+  border-top: 1px solid var(--line);
+  padding-top: 18px;
+}
+.portion-heading {
+  margin: 0;
+  font-size: var(--text-label);
+  color: var(--muted);
+}
+#portion-weight {
+  display: block;
+  color: var(--fg);
+  font: 32px / 1.2 var(--serif);
+  margin-bottom: 4px;
+}
+.main-macros {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 18px 0 8px;
+}
+.main-macros dt {
+  color: var(--muted);
+  font-size: var(--text-label);
+}
+.main-macros dd {
+  margin: 4px 0 0;
+  font-size: 20px;
+  font-variant-numeric: tabular-nums;
+  overflow-wrap: anywhere;
+}
+.macro-note {
+  color: var(--muted);
+  font-size: var(--text-label);
+  margin: 0 0 12px;
+}
+.nutrition-details {
+  border-top: 1px solid var(--line);
+  font-size: var(--text-label);
+}
+.nutrition-details summary {
+  cursor: pointer;
+  padding-block: 12px;
+}
+.nutrition-table {
+  margin: 0 0 16px;
+}
+.nutrition-table > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px 16px;
+  padding-block: 7px;
+  border-bottom: 1px solid var(--line);
+}
+.nutrition-table dd {
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+}
+.nutrition-details p {
+  margin: 12px 0;
+  color: var(--muted);
+}
+.nutrition-details a {
+  display: inline-block;
+  padding-block: 8px;
+  text-underline-offset: 4px;
 }
 .food-information {
   padding-top: 4px;
@@ -1125,6 +1196,9 @@ html[data-theme="dark"] .theme-moon {
   .specimen figcaption {
     font-size: var(--text-body);
     margin-top: 0;
+  }
+  .nutrition-panel {
+    width: calc(100% - 24px);
   }
   .food-information {
     padding: 8px 12px 0;

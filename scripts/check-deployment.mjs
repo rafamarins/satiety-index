@@ -48,7 +48,8 @@ for (const file of await readdir(output, { recursive: true })) {
   assert.ok(file.includes(`-${digest}.`), `Incorrect fingerprint: ${file}`);
   if (file.endsWith(".js"))
     assert.ok(
-      gzipSync(await readFile(new URL(file, output))).length < 8 * 1024,
+      gzipSync(await readFile(new URL(file, output))).length <
+        (file.startsWith("outros/satiety-index/") ? 10 : 8) * 1024,
       `JavaScript budget exceeded: ${file}`,
     );
   if (file.endsWith(".webp"))
@@ -72,7 +73,7 @@ assert.match(headers, /max-age=31536000, immutable/);
 for (const file of ["outros/index.html", "outros/satiety-index/index.html"]) {
   const html = await readFile(new URL(file, output), "utf8");
   assert.ok(
-    gzipSync(html).length < 10 * 1024,
+    gzipSync(html).length < (file.includes("satiety-index") ? 12 : 10) * 1024,
     `HTML/CSS budget exceeded: ${file}`,
   );
   assert.doesNotMatch(html, /d3\.min\.js|styles\.css|potato\.svg|app\.js\?/);

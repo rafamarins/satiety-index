@@ -26,6 +26,8 @@ preview below to check the smaller, responsive images delivered online.
 - `index.html` — page, research context and attribution.
 - `styles.css` — responsive layout, typography and themes.
 - `foods.js` — the original 38 scores and food descriptions.
+- `study-nutrition.js` — serving weights and nutrients from the original Table 2.
+- `study-preparation.js` — preparation context from Table 1, including milk in cereal portions.
 - `app.js` — selection, history, image transitions, percentages, themes and filters.
 - `food-navigation.js` — scoped arrow shortcuts and touch swipe handling.
 - `engravings.js` — image loading, decoding and accessible descriptions.
@@ -112,6 +114,29 @@ The comparison introduces the original protocol before the illustrations: approx
 Illustrations are representative foods, not exact portion sizes. A separate “What newer
 research says” section summarises four related trials, reviewed on 26 October 2026,
 with source links and limitations. Those findings do not change or extend the 1995 scores.
+
+Each illustrated food shows its Table 2 serving weight and protein, carbohydrate and fat
+amounts **per tested portion**, not per 100 g. The paper lists sugars and starch separately:
+the displayed carbs value is their sum, rounded to one decimal place; fibre remains separate.
+The expandable details preserve sugars, starch, fibre and water, along with preparation,
+the fixed 1,000 kJ energy portion and source notes. Milk is included in cereal serving weights;
+the separate 220 ml drinking water is not. No food volumes, cup measures or item counts are
+inferred. The illustrations remain representative, not scaled portion diagrams.
+
+Transcribed visually from Holt et al., Table 2 (p. 678), with preparation from Table 1
+(pp. 676–677) and the drinking-water protocol on pp. 679–680. The serving-weight
+transcription was independently checked. Table 2 superscript `a` is preserved as
+`sourceCalculated` for rows marked as calculated from food tables or manufacturer data.
+Unmarked rows are not assumed to have been directly measured. Source inconsistencies
+(for example, lentils' 222.0 g water alongside a 253 g serving and the other nutrients)
+are preserved rather than silently corrected; the disclosure notes that some rows do not reconcile.
+[Original paper, author-uploaded PDF](https://www.researchgate.net/profile/Peter-Petocz/publication/15701207_A_Satiety_Index_of_common_foods/links/00b495189da413c16d000000/A-Satiety-Index-of-common-foods.pdf).
+The original paper groups porridge among seven breakfast cereals; the site follows that
+classification. All satiety scores remain unchanged.
+
+Run the data checks with `node --test scripts/check-study-nutrition.mjs`. With the browser
+dependencies described below, run `node scripts/check-study-nutrition.cjs` against
+`SATIETY_URL` to check food switching, all nutrient values and the disclosure control.
 
 ## Artwork and dependencies
 
@@ -205,4 +230,7 @@ NODE_PATH="$satiety_a11y_tools/node_modules" node scripts/check-outros.cjs
 
 The deployment check enforces compressed HTML/CSS and JavaScript budgets,
 image-size budgets, content fingerprints and an explicit public-file allowlist.
+The HTML/CSS budget is 12 KiB for Satiety Index (including research and nutrition details)
+and 10 KiB for Outros. JavaScript budgets are 10 KiB for Satiety Index (including all
+38 nutrition records and preparation notes) and 8 KiB for Outros.
 Full Lighthouse reports are local artifacts and are ignored by Git.

@@ -1,6 +1,8 @@
 import { FOODS, RANKED_FOODS } from "./foods.js";
 import { loadEngraving } from "./engravings.js";
 import { bindFoodNavigation } from "./food-navigation.js";
+import { STUDY_NUTRITION } from "./study-nutrition.js";
+import { STUDY_PREPARATION } from "./study-preparation.js";
 
 const motionPreference = window.matchMedia("(prefers-reduced-motion: reduce)");
 const byId = (id) => document.getElementById(id);
@@ -11,6 +13,17 @@ const ui = Object.fromEntries(
     "food-name",
     "food-category",
     "food-description",
+    "portion-weight",
+    "portion-preparation",
+    "portion-milk",
+    "macro-protein",
+    "macro-carbs",
+    "macro-fat",
+    "nutrition-sugars",
+    "nutrition-starch",
+    "nutrition-fibre",
+    "nutrition-water",
+    "nutrition-source-note",
     "food-copy",
     "score-value",
     "plate-number",
@@ -104,6 +117,20 @@ function updateCopy(animate, initial = false) {
   ui["food-name"].textContent = food.name;
   ui["food-category"].textContent = food.category;
   ui["food-description"].textContent = food.description;
+  const nutrition = STUDY_NUTRITION[food.id];
+  const grams = (value) => `${value.toFixed(1)} g`;
+  ui["portion-weight"].textContent = `${nutrition.servingGrams} g`;
+  ui["portion-preparation"].textContent = STUDY_PREPARATION[food.id];
+  ui["portion-milk"].hidden = food.category !== "Breakfast cereals";
+  ui["macro-protein"].textContent = grams(nutrition.proteinGrams);
+  ui["macro-carbs"].textContent = grams(nutrition.sugarsGrams + nutrition.starchGrams);
+  ui["macro-fat"].textContent = grams(nutrition.fatGrams);
+  for (const nutrient of ["sugars", "starch", "fibre", "water"]) {
+    ui[`nutrition-${nutrient}`].textContent = grams(nutrition[`${nutrient}Grams`]);
+  }
+  ui["nutrition-source-note"].textContent = nutrition.sourceCalculated
+    ? "Table 2 marks this row as calculated from food tables or manufacturer data. These are 1995 values."
+    : "1995 values; preparation and modern products may differ.";
   ui["plate-caption"].textContent = food.caption;
   ui["plate-number"].textContent = String(
     RANKED_FOODS.indexOf(food) + 1,
@@ -119,7 +146,7 @@ function updateCopy(animate, initial = false) {
       ? "the reference score used to compare every food in the study."
       : "the measured fullness response to white bread, for the same calories.";
   ui["selection-announcement"].textContent =
-    `${food.name}. Satiety score: ${food.score}%. White bread: 100%.`;
+    `${food.name}. Study portion: ${nutrition.servingGrams} grams, about 240 calories. Protein: ${grams(nutrition.proteinGrams)}. Carbs, sugars plus starch: ${grams(nutrition.sugarsGrams + nutrition.starchGrams)}. Fat: ${grams(nutrition.fatGrams)}. Satiety score: ${food.score}%. White bread: 100%.`;
   document.title = `${food.name} | ${food.score}% | The Satiety Index`;
   const index = RANKED_FOODS.indexOf(food);
   byId("previous").setAttribute(

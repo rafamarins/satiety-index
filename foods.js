@@ -111,9 +111,9 @@ export const FOODS = [
     "porridge",
     "Porridge / oatmeal",
     209,
-    "Snacks & sweets",
+    "Breakfast cereals",
     "porridge",
-    "Cooked oats. Porridge had the highest average score in the snacks group.",
+    "Cooked oats. Porridge had the highest average score among breakfast cereals.",
     "Porridge / oatmeal",
   ],
   [
@@ -122,7 +122,7 @@ export const FOODS = [
     100,
     "Breakfast cereals",
     "muesli",
-    "Muesli was one of six breakfast cereals tested.",
+    "Muesli was one of seven breakfast cereals tested.",
     "Muesli",
   ],
   [
@@ -185,7 +185,7 @@ export const FOODS = [
     116,
     "Carbohydrate-rich foods",
     "fries",
-    "Fried potato strips, tested separately from crisps and boiled potatoes.",
+    "Oven-cooked fries, tested separately from crisps and boiled potatoes.",
     "French fries",
   ],
   [

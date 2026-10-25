@@ -1,5 +1,5 @@
 const nativeArrowControl =
-  'input, textarea, select, [contenteditable]:not([contenteditable="false"]), [role="slider"], [role="spinbutton"], [role="combobox"], [role="listbox"], [role="menu"], [role="tablist"], dialog';
+  'input, textarea, select, details, [contenteditable]:not([contenteditable="false"]), [role="slider"], [role="spinbutton"], [role="combobox"], [role="listbox"], [role="menu"], [role="tablist"], dialog';
 
 export function bindFoodNavigation({
   root = document,
@@ -9,7 +9,7 @@ export function bindFoodNavigation({
 }) {
   let gesture = null;
   const interactive = (target) =>
-    target?.closest?.("a, button, input, select, textarea, [contenteditable]");
+    target?.closest?.("a, button, input, select, textarea, details, [contenteditable]");
 
   function onKeyDown(event) {
     if (
