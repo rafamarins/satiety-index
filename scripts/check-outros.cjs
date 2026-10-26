@@ -6,7 +6,7 @@ const { chromium } = require("playwright");
 
 async function main() {
   const base = process.env.OUTROS_URL || "http://127.0.0.1:4174/outros/";
-  const output = path.resolve("artifacts/qa/outros");
+  const output = path.resolve(process.env.OUTROS_QA_OUTPUT || "artifacts/qa/outros");
   await fs.mkdir(output, { recursive: true });
   const report = { url: base, states: [], errors: [] };
   const browser = await chromium.launch({
@@ -49,6 +49,7 @@ async function main() {
           [],
           `${width} ${theme}: accessibility violations`,
         );
+        await page.locator(".project-art img").evaluateAll(images => Promise.all(images.map(image => { image.loading = "eager"; return image.decode(); })));
         assert.equal(
           await page.evaluate(
             () => document.documentElement.scrollWidth > innerWidth,
@@ -59,7 +60,7 @@ async function main() {
         assert.equal(
           await page
             .locator(".project-art img")
-            .evaluateAll((images) => images.length === 2 && images.every((image) => image.complete && image.naturalWidth > 0)),
+            .evaluateAll((images) => images.length === 3 && images.every((image) => image.complete && image.naturalWidth > 0)),
           true,
           "Artwork failed to load",
         );
@@ -112,6 +113,7 @@ async function main() {
       await page.locator(".project-link").nth(1).getAttribute("href"),
       "https://nzvotes.nz/",
     );
+    assert.equal(await page.locator(".project-link").nth(2).evaluate(a => a.href), new URL("home-veritas/", base).href);
     for (const link of await page.locator('a[href="https://nzvotes.nz/"]').all()) {
       assert.equal(await link.getAttribute("target"), "_blank");
       assert.match(await link.getAttribute("rel"), /noopener/);
@@ -122,6 +124,11 @@ async function main() {
     await popup.waitForURL("https://nzvotes.nz/**");
     assert.equal(await popup.evaluate(() => window.opener === null), true);
     await popup.close();
+    await page.locator(".project-link").nth(2).click();
+    await page.waitForURL(new URL("home-veritas/", base).href);
+    await page.locator(".interest-grid").waitFor();
+    assert.match(await page.title(), /Home Veritas/);
+    await page.goto(base, { waitUntil: "networkidle" });
     await page.locator(".project-link").first().click();
     await page.waitForURL(new URL("satiety-index/", base).href);
     assert.equal(

@@ -1,0 +1,19 @@
+{
+  "name": "a-place-of-your-own-concept",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node serve-home-truths.js",
+    "check": "node --check home-truths.js && node --check home-truths-content.js && node --check guide-content.js && node --test finance.test.js home-truths-content.test.js",
+    "build": "node build-home-truths.js",
+    "assets:build": "node optimize-assets.js"
+  },
+  "dependencies": {
+    "gsap": "3.15.0",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "sharp": "0.35.5"
+  }
+}

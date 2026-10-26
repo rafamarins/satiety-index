@@ -8,10 +8,11 @@
   },
   "scripts": {
     "build": "node scripts/build-site.mjs",
-    "check": "node --test scripts/check-navigation.mjs scripts/check-study-nutrition.mjs && node scripts/check-illustrations.mjs && npm run build && node scripts/check-deployment.mjs",
+    "check": "node --test scripts/check-navigation.mjs scripts/check-study-nutrition.mjs && node scripts/check-illustrations.mjs && npm run check:home-veritas && npm run build && node scripts/check-deployment.mjs",
     "preview": "npm run build && wrangler dev",
     "deploy:check": "npm run build && wrangler deploy --dry-run",
-    "deploy": "npm run build && wrangler deploy"
+    "deploy": "npm run build && wrangler deploy",
+    "check:home-veritas": "npm --prefix outros/home-veritas run check"
   },
   "devDependencies": {
     "esbuild": "0.28.2",

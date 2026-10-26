@@ -1,0 +1,15 @@
+// Specific photographic comparisons; details and sources remain directly below.
+export const agentSaleVisuals=[
+ {question:'Who does the real estate agent work for?',kind:'compare',sprite:'answer-agent-roles',copy:{
+  en:{title:'Two agents. Different clients.',items:[['Selling agent','Represents the seller.'],['Your buyer’s agent','You hire and pay them under a written agreement.']],note:'An introduction is not representation. Ask who the client is; check fees, authority and conflicts.'},
+  'pt-BR':{title:'Dois corretores. Clientes diferentes.',items:[['Corretor do vendedor','Representa quem está vendendo.'],['Seu corretor de compra','Você o contrata e paga, com acordo por escrito.']],note:'Mostrar um imóvel não é representar você. Confirme quem é o cliente, os honorários, a autoridade e os conflitos.'},
+  es:{title:'Dos agentes. Clientes distintos.',items:[['Agente del vendedor','Representa a quien vende.'],['Tu agente de compra','Lo contratas y pagas mediante un acuerdo escrito.']],note:'Presentarte una vivienda no significa representarte. Revisa quién es el cliente, honorarios, autoridad y conflictos.'},
+  'zh-Hans':{title:'两种中介，代表不同的人。',items:[['卖方中介','代表卖方。'],['你委托的买方中介','由你签书面协议聘请并支付费用。']],note:'帮你看房，不等于代表你。问清委托人是谁、收费、权限和利益冲突。'},
+ }},
+ {question:'How do negotiation, deadline, tender and auction differ?',kind:'compare',sprite:'answer-sale-processes',copy:{
+  en:{title:'Four processes. Check the rules.',items:[['Negotiation','Offer. Counteroffer. Agree the terms.'],['Deadline','Offer by a date. It may sell earlier.'],['Tender','Confidential written offer. Check the tender terms.'],['Auction','Open bidding. Winning commits you unconditionally.']],note:'Negotiation, deadline and tender may allow conditions: have the wording reviewed. At auction, finish checks and confirm finance and insurance before bidding.'},
+  'pt-BR':{title:'Quatro processos. Confira as regras.',items:[['Negociação','Proposta. Contraproposta. Termos combinados.'],['Prazo para propostas','Envie até a data. Pode ser vendido antes.'],['Propostas fechadas (tender)','Proposta escrita e confidencial. Confira os termos.'],['Leilão','Lances abertos. Vencer cria compromisso incondicional.']],note:'Negociação, prazo e tender podem aceitar condições: peça revisão do texto. No leilão, conclua verificações e confirme crédito e seguro antes dos lances.'},
+  es:{title:'Cuatro procesos. Revisa las reglas.',items:[['Negociación','Oferta. Contraoferta. Condiciones acordadas.'],['Fecha límite','Presenta la oferta a tiempo. Puede venderse antes.'],['Ofertas cerradas (tender)','Oferta escrita y confidencial. Revisa sus términos.'],['Subasta','Pujas abiertas. Ganar te compromete sin condiciones.']],note:'Negociación, fecha límite y tender pueden admitir condiciones: pide que revisen el texto. En subasta, completa las comprobaciones y confirma financiación y seguro antes de pujar.'},
+  'zh-Hans':{title:'四种流程，先看清规则。',items:[['议价','出价、还价，再谈妥条款。'],['截止日期售房','按时提交报价，也可能提前售出。'],['密封投标（tender）','提交保密的书面报价，先审查投标条款。'],['拍卖','公开竞价，成功竞得即无条件承诺购买。']],note:'议价、截止日期和投标可能允许附带条件，请律师审阅措辞。参加拍卖，要先完成核查并确认贷款和保险，再出价。'},
+ }},
+];

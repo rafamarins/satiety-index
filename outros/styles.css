@@ -178,6 +178,11 @@ h1 {
   border: 1px solid var(--rule);
   background: var(--ink);
 }
+.project-art--home-veritas {
+  padding: clamp(12px, 3vw, 32px);
+  border: 1px solid var(--rule);
+  background: #fff12d;
+}
 .project-copy {
   align-self: center;
 }

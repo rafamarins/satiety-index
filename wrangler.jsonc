@@ -30,6 +30,14 @@
       "pattern": "rafael.co.nz/outros/satiety-index/*",
       "zone_name": "rafael.co.nz",
     },
+    {
+      "pattern": "rafael.co.nz/outros/home-veritas",
+      "zone_name": "rafael.co.nz",
+    },
+    {
+      "pattern": "rafael.co.nz/outros/home-veritas/*",
+      "zone_name": "rafael.co.nz",
+    },
   ],
   "assets": {
     "directory": "./dist",

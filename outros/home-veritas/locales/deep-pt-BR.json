@@ -1,0 +1,818 @@
+{
+  "chapters": [
+    {
+      "id": "decide",
+      "checklist": [
+        "Anote por que você quer comprar.",
+        "Compare o custo total de alugar e de ter um imóvel.",
+        "Pense no trabalho, na família e em possíveis mudanças.",
+        "Confira quem vai comprar e quem pode comprar legalmente."
+      ],
+      "mistake": "Comprar porque parece que todo mundo está comprando. O imóvel precisa caber na sua vida e no seu orçamento.",
+      "shortcut": "Comece com três pontos inegociáveis e um orçamento mensal confortável. Use esses critérios para descartar imóveis desde cedo.",
+      "details": [
+        {
+          "question": "Aluguel é mesmo dinheiro jogado fora?",
+          "answer": "O aluguel paga por um lugar para morar e por flexibilidade. Ter um imóvel também traz custos que não aumentam sua participação no patrimônio: juros, taxas municipais, seguro e manutenção. Compare quanto tempo pretende morar ali, os custos totais e o que poderia fazer com suas economias. Nenhuma opção é a melhor para todo mundo.",
+          "source": "Settled · finanças e custos",
+          "url": "https://www.settled.govt.nz/buying-a-home/thinking-of-buying/thinking-about-your-finances-when-buying/"
+        },
+        {
+          "question": "Por que comparar aluguel com a parcela do financiamento é injusto?",
+          "answer": "A parcela do financiamento é só uma parte do custo de ter um imóvel. Some taxas municipais, seguro, manutenção e eventuais contribuições à entidade dos proprietários (body corporate) ou aluguel do terreno. Considere também os custos da compra e de uma futura venda. Parte de uma parcela com amortização e juros reduz sua dívida; aluguel e juros não.",
+          "source": "Settled · finanças e custos",
+          "url": "https://www.settled.govt.nz/buying-a-home/thinking-of-buying/thinking-about-your-finances-when-buying/"
+        },
+        {
+          "question": "E se comprarmos juntos, mas com contribuições diferentes?",
+          "answer": "Combinem o arranjo antes de comprar. Peça ao advogado que registre contribuições, participações na propriedade, pagamentos, decisões e o que acontece se alguém quiser sair, se separar ou falecer. Pergunte ao banco como cada devedor responde pelo empréstimo; o acordo entre vocês não altera o contrato do banco.",
+          "source": "Settled · finanças e custos",
+          "url": "https://www.settled.govt.nz/buying-a-home/thinking-of-buying/thinking-about-your-finances-when-buying/"
+        },
+        {
+          "question": "Um visto de residência significa automaticamente que posso comprar?",
+          "answer": "Não presuma isso. A elegibilidade depende de cidadania, status de residência, residência habitual e, às vezes, autorização. Peça ao advogado que verifique sua situação antes de assumir compromissos. Conseguir financiamento e ter direito legal de comprar são questões separadas.",
+          "source": "LINZ · comprar um imóvel residencial para morar",
+          "url": "https://www.linz.govt.nz/guidance/overseas-investment/buying-residential-property-live"
+        },
+        {
+          "question": "Posso usar apoio para o primeiro imóvel se já tive um antes?",
+          "answer": "Talvez. Alguns antigos proprietários podem se qualificar para o saque do KiwiSaver para o primeiro imóvel se atenderem aos critérios pertinentes de situação financeira. Não conte com o dinheiro antes de confirmar a elegibilidade e o valor disponível. Pergunte à Kāinga Ora e ao seu provedor de KiwiSaver qual processo se aplica a você.",
+          "source": "Kāinga Ora · saque do KiwiSaver",
+          "url": "https://kaingaora.govt.nz/en_NZ/home-ownership/kiwisaver-first-home-withdrawal/"
+        },
+        {
+          "question": "Por onde começo e em que ordem faço as coisas?",
+          "answer": "Comece pelas suas necessidades e por um orçamento confortável. Converse com um banco ou assessor de financiamento e escolha seu advogado antes de avançar de verdade com um imóvel. Depois, selecione imóveis e planeje as verificações. Peça ao advogado que revise qualquer proposta e suas condições antes de assinar. Conclua as verificações exigidas, o financiamento e o seguro antes de a compra se tornar incondicional; depois, prepare a conclusão da compra. Em leilões, conclua essas verificações antes de dar lances. É normal voltar a etapas anteriores.",
+          "source": "Settled · o caminho da compra",
+          "url": "https://www.settled.govt.nz/buying-a-home/thinking-of-buying/understanding-the-home-buying-journey/"
+        }
+      ]
+    },
+    {
+      "id": "deposit",
+      "checklist": [
+        "Liste economias e ajuda confirmada.",
+        "Pergunte ao provedor de KiwiSaver sobre elegibilidade e prazos.",
+        "Separe os custos da compra e a reserva de emergência.",
+        "Confirme qualquer doação ou empréstimo familiar com seu banco e advogado."
+      ],
+      "mistake": "Usar toda a economia na entrada e ficar sem dinheiro para advogado, mudança ou reparos.",
+      "shortcut": "Pergunte ao seu provedor de KiwiSaver como funciona o saque antes de começar a fazer propostas.",
+      "details": [
+        {
+          "question": "Preciso de uma entrada de 20%?",
+          "answer": "Vinte por cento é uma meta comum, não uma regra universal. Alguns bancos consideram entradas menores, com critérios próprios e possíveis custos extras. Compradores elegíveis podem usar o programa de empréstimo para o primeiro imóvel (First Home Loan) com uma entrada de 5%. A entrada é só um dos critérios: o banco também precisa avaliar a capacidade de pagamento e o imóvel.",
+          "source": "NZ Government · comprando seu primeiro imóvel",
+          "url": "https://www.govt.nz/browse/housing-and-property/buying-or-selling-a-home/buying-your-first-home/"
+        },
+        {
+          "question": "Como funciona o saque do KiwiSaver para o primeiro imóvel?",
+          "answer": "Em geral, você precisa ter pelo menos três anos de participação no KiwiSaver, pretender morar no imóvel e deixar $1.000 na conta. Seu provedor confirma a elegibilidade, o valor disponível, os documentos e os prazos. O dinheiro é tratado dentro do processo de compra; não presuma que estará disponível imediatamente.",
+          "source": "Kāinga Ora · saque do KiwiSaver",
+          "url": "https://kaingaora.govt.nz/en_NZ/home-ownership/kiwisaver-first-home-withdrawal/"
+        },
+        {
+          "question": "A entrada do financiamento e o sinal do contrato são dois custos separados?",
+          "answer": "São conceitos diferentes. Sua contribuição total, somada ao financiamento, paga o preço. O sinal do contrato (sales deposit) é a parte paga antes, conforme o contrato de compra, normalmente abatida desse mesmo preço. Não é uma entrada extra. Peça ao advogado que confirme o valor, o vencimento e de onde virá o dinheiro.",
+          "source": "Settled · contrato de compra e venda",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-the-sale-and-purchase-agreement-when-buying/"
+        },
+        {
+          "question": "O subsídio First Home Grant ainda está disponível?",
+          "answer": "Não. O subsídio First Home Grant foi encerrado em maio de 2024. O saque do KiwiSaver para o primeiro imóvel e o programa de empréstimo para o primeiro imóvel (First Home Loan) são formas de apoio separadas, com regras próprias de elegibilidade. Artigos, vídeos antigos e a experiência de outras pessoas podem descrever apoios que já não existem.",
+          "source": "NZ Government · comprando seu primeiro imóvel",
+          "url": "https://www.govt.nz/browse/housing-and-property/buying-or-selling-a-home/buying-your-first-home/"
+        },
+        {
+          "question": "A família pode ajudar com a entrada?",
+          "answer": "Pode ser possível, mas doação, empréstimo, garantia e compra conjunta são arranjos diferentes. Diga ao banco e ao advogado exatamente qual é o caso. Documente as condições, inclusive se o dinheiro precisa ser devolvido. Um garantidor ou codevedor pode assumir obrigações importantes: busque orientação independente primeiro.",
+          "source": "Settled · finanças e custos",
+          "url": "https://www.settled.govt.nz/buying-a-home/thinking-of-buying/thinking-about-your-finances-when-buying/"
+        }
+      ]
+    },
+    {
+      "id": "budget",
+      "checklist": [
+        "Orce os custos da compra, não só a casa.",
+        "Some taxas municipais, seguro e manutenção às parcelas.",
+        "Reserve margem para reparos e mudanças de vida.",
+        "Defina seu limite antes de ouvir o máximo do banco."
+      ],
+      "mistake": "Tratar o empréstimo máximo do banco como meta de gasto. A aprovação não significa que as parcelas serão confortáveis.",
+      "shortcut": "Monte um orçamento mensal de proprietário e use-o para todos os imóveis. Para os selecionados, obtenha valores reais de taxas municipais e seguro.",
+      "details": [
+        {
+          "question": "O que pago antes mesmo de receber as chaves?",
+          "answer": "Considere advogado, relatórios do imóvel, inspeções prediais e especializadas, eventual avaliação exigida, seguro e mudança. Alguns custos surgem antes de uma proposta dar certo e podem se repetir em outro imóvel. Peça orçamentos e confira o que está incluído. Mantenha esse dinheiro separado da entrada.",
+          "source": "Settled · finanças e custos",
+          "url": "https://www.settled.govt.nz/buying-a-home/thinking-of-buying/thinking-about-your-finances-when-buying/"
+        },
+        {
+          "question": "O que são as taxas municipais? São os juros do financiamento?",
+          "answer": "São coisas diferentes. As taxas municipais (council rates) são cobranças sobre o imóvel que ajudam a financiar serviços locais. Os juros do financiamento são o custo de tomar dinheiro emprestado. Seu orçamento precisa dos dois. Confira as taxas atuais do imóvel e se água, taxas regionais ou outras cobranças são faturadas separadamente.",
+          "source": "Settled · finanças e custos",
+          "url": "https://www.settled.govt.nz/buying-a-home/thinking-of-buying/thinking-about-your-finances-when-buying/"
+        },
+        {
+          "question": "Quais custos continuam depois da mudança?",
+          "answer": "Parcelas, taxas municipais, seguro e manutenção continuam. Conforme o imóvel, acrescente contribuições à entidade dos proprietários (body corporate), aluguel do terreno, água ou serviços compartilhados. Contas de consumo e transporte também podem mudar. Peça valores específicos do imóvel e considere aumentos futuros, em vez de manter as contas de hoje congeladas no orçamento.",
+          "source": "Settled · finanças e custos",
+          "url": "https://www.settled.govt.nz/buying-a-home/thinking-of-buying/thinking-about-your-finances-when-buying/"
+        },
+        {
+          "question": "Quanto devo guardar para reparos ou emergências?",
+          "answer": "Não existe um valor que sirva para todo comprador. Baseie a reserva de reparos na idade, no estado do imóvel e nos achados da inspeção; mantenha também uma reserva para outros imprevistos. Um telhado perto de precisar de troca exige um plano diferente de um recém-reparado. Peça a especialistas que orcem obras importantes antes de assumir o compromisso.",
+          "source": "Settled · verificações antes da compra",
+          "url": "https://www.settled.govt.nz/buying-a-home/researching-the-property/doing-your-homework/"
+        },
+        {
+          "question": "A avaliação da prefeitura é o valor de mercado do imóvel?",
+          "answer": "A avaliação municipal para fins de taxas serve para calcular essas cobranças. Não é uma avaliação atual de mercado, uma avaliação para o banco nem uma estimativa de reconstrução para o seguro. Esses valores têm finalidades e datas diferentes. Use vendas recentes de imóveis comparáveis e orientação profissional adequada; não faça uma proposta só porque está abaixo do CV ou RV.",
+          "source": "Auckland Council · o que significa a avaliação para taxas municipais",
+          "url": "https://ourauckland.aucklandcouncil.govt.nz/news/2025/06/rating-valuation/"
+        },
+        {
+          "question": "Como saber se as parcelas serão confortáveis?",
+          "answer": "Comece pela renda líquida e por gastos, dívidas e compromissos realistas. Some todos os custos de ter o imóvel e simule parcelas maiores e renda menor. Deixe espaço para a vida normal e os imprevistos. O banco faz sua própria avaliação; seu limite confortável pode ser menor que o valor oferecido.",
+          "source": "Settled · finanças e custos",
+          "url": "https://www.settled.govt.nz/buying-a-home/thinking-of-buying/thinking-about-your-finances-when-buying/"
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "checklist": [
+        "Escolha um advogado imobiliário cedo.",
+        "Compare bancos diretamente e assessores de financiamento.",
+        "Prepare comprovantes de renda, gastos, dívidas e entrada.",
+        "Obtenha por escrito as condições e a validade da pré-aprovação."
+      ],
+      "mistake": "Presumir que a pré-aprovação é uma promessa de financiar qualquer imóvel. O imóvel e o financiamento final ainda precisam de aprovação.",
+      "shortcut": "Mantenha uma pasta reutilizável com os documentos pedidos e uma lista escrita de perguntas para cada banco ou assessor.",
+      "details": [
+        {
+          "question": "Devo falar direto com o banco ou usar um assessor de financiamento?",
+          "answer": "As duas opções podem funcionar. Um assessor pode explicar as opções e consultar os bancos com que trabalha. Pergunte quais bancos ele cobre, quais não cobre, como é remunerado e o que você vai pagar. Você também pode comparar uma oferta direta de banco. O assessor não necessariamente pesquisa o mercado inteiro.",
+          "source": "FMA · orientação sobre financiamento imobiliário",
+          "url": "https://www.fma.govt.nz/consumer/getting-advice/mortgage-advice/"
+        },
+        {
+          "question": "Assessores são gratuitos? O que devo perguntar sobre tarifas?",
+          "answer": "Não presuma que todo serviço é gratuito. Peça por escrito honorários, comissões, conflitos de interesse e qualquer cobrança por saída antecipada ou recuperação de comissão (clawback). Pergunte que orientação e apoio contínuo estão incluídos. Entenda quando pode ter de pagar se refinanciar ou quitar antes do prazo.",
+          "source": "FMA · orientação sobre financiamento imobiliário",
+          "url": "https://www.fma.govt.nz/consumer/getting-advice/mortgage-advice/"
+        },
+        {
+          "question": "O que o banco quer verificar?",
+          "answer": "Espere perguntas e comprovantes sobre renda, gastos, dívidas, compromissos existentes e a origem da entrada. Os documentos exatos dependem do banco e da sua situação. Seja preciso, em vez de tentar deixar suas finanças artificialmente arrumadas. Pergunte que mudanças podem afetar a aprovação enquanto você procura um imóvel.",
+          "source": "Settled · confirmando seu financiamento",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/confirming-your-finances/"
+        },
+        {
+          "question": "O que a pré-aprovação realmente aprova?",
+          "answer": "É uma aprovação condicional de crédito, com condições e prazo de validade. O banco ainda precisa aceitar o imóvel específico e o financiamento final, e pode pedir mais informações ou uma avaliação. Pergunte o que está pendente. Confirme o financiamento antes de assumir um compromisso incondicional, inclusive dar um lance em leilão.",
+          "source": "Settled · confirmando seu financiamento",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/confirming-your-finances/"
+        },
+        {
+          "question": "E se eu tiver uma reclamação sobre meu assessor, banco ou seguradora?",
+          "answer": "Apresente a reclamação à empresa e use o processo dela. Os documentos de divulgação devem indicar o serviço independente de resolução de disputas, que pode ajudar e oferece uma via gratuita se o problema não for resolvido. Guarde registros. A FMA pode analisar questões regulatórias, mas não obtém reparações individuais para você.",
+          "source": "FMA · disputas e proteção ao consumidor",
+          "url": "https://www.fma.govt.nz/consumer/everyday-finance/disputes-and-consumer-protection/"
+        },
+        {
+          "question": "Quem está do meu lado: corretor, assessor ou advogado?",
+          "answer": "O corretor da venda trabalha para o vendedor. Seu advogado revisa os riscos jurídicos e o contrato; seu assessor orienta sobre crédito dentro do escopo do serviço. O inspetor avalia o imóvel dentro do escopo combinado. Use cada um para sua função e escolha seus próprios profissionais, em vez de depender só da equipe do vendedor.",
+          "source": "Settled · verificações antes da compra",
+          "url": "https://www.settled.govt.nz/buying-a-home/researching-the-property/doing-your-homework/"
+        }
+      ]
+    },
+    {
+      "id": "search",
+      "checklist": [
+        "Visite o bairro em horários diferentes.",
+        "Teste o trajeto e os serviços do dia a dia.",
+        "Leia o título e entenda o regime de propriedade.",
+        "Compare o custo total do imóvel, não só o preço anunciado.",
+        "Verifique se há inquilinos e confirme quando poderá se mudar."
+      ],
+      "mistake": "Se apaixonar pela cozinha antes de verificar o título, o transporte, o sol, o barulho e os custos compartilhados.",
+      "shortcut": "Use a mesma lista de verificação em todas as visitas. Fotografe detalhes com autorização e anote suas impressões logo depois.",
+      "details": [
+        {
+          "question": "O que devo verificar sobre a localização?",
+          "answer": "Teste o trajeto real, não só a estimativa do mapa. Visite em horários diferentes para observar trânsito, barulho, estacionamento e sol. Confira acesso a lojas, transporte e serviços importantes para você. Pesquise planos municipais e riscos naturais. Uma visita tranquila no domingo pode não mostrar um dia comum de semana.",
+          "source": "Settled · visitando um imóvel aberto ao público",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/viewing-an-open-home/"
+        },
+        {
+          "question": "Freehold, leasehold, cross-lease e unit title: o que muda?",
+          "answer": "Freehold normalmente inclui terreno e construções, sujeitos a restrições. Leasehold dá direitos por um prazo de arrendamento, muitas vezes com aluguel do terreno. Cross-lease combina copropriedade do terreno e direitos de arrendamento. Unit title inclui uma unidade e partes comuns compartilhadas. Pergunte ao advogado o que é seu, o que você paga e o que precisa de autorização para alterar.",
+          "source": "Settled · regimes de propriedade",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/understanding-types-of-ownership/"
+        },
+        {
+          "question": "O que pode tornar um apartamento mais caro do que parece?",
+          "answer": "Os custos da entidade dos proprietários (body corporate) vão além da contribuição anunciada. Peça documentos de divulgação, atas, contas, seguro, plano de manutenção de longo prazo, informações sobre os fundos e recursos disponíveis e obras propostas. Grandes reparos podem gerar contribuições extras. Confira defeitos, disputas e restrições, e peça ao advogado que explique os documentos antes de assumir compromissos.",
+          "source": "Unit Titles Services · comprando um imóvel em unit title",
+          "url": "https://www.unittitles.govt.nz/buying-or-selling-a-unit-title/buying-or-selling-a-unit-title/buying-a-unit-title/"
+        },
+        {
+          "question": "Comprar imóvel novo ou na planta é mais simples?",
+          "answer": "Pode trazer riscos diferentes, não necessariamente menos verificações. Revise com seu advogado a incorporadora, plantas, especificações, datas de conclusão, proteção do sinal, garantias e condições contratuais. Pergunte o que acontece se a obra atrasar, os custos mudarem ou o financiamento vencer. Um imóvel decorado de demonstração não comprova o que seu contrato inclui.",
+          "source": "Settled · opções de imóvel",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/considering-your-property-options/"
+        },
+        {
+          "question": "O que são servidões, restrições e acessos compartilhados?",
+          "answer": "São direitos ou restrições que podem afetar o uso do terreno. Um acesso compartilhado pode trazer obrigações de passagem e manutenção; um covenant pode limitar construções ou outros usos. Peça ao advogado que explique o título e os documentos em linguagem simples, incluindo limites e tudo que afete seus planos.",
+          "source": "Settled · regimes de propriedade",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/understanding-types-of-ownership/"
+        },
+        {
+          "question": "O plano de manutenção da entidade dos proprietários (body corporate) significa que os reparos já estão pagos?",
+          "answer": "Não. Ter um plano e ter dinheiro suficiente para executá-lo são coisas diferentes. Pergunte o que tem recursos garantidos, quais obras estão previstas, se os proprietários optaram por não manter um fundo de manutenção e se são prováveis contribuições extras. Leia atas e contas e pergunte sobre defeitos conhecidos e disputas.",
+          "source": "Unit Titles Services · planos e fundos de manutenção",
+          "url": "https://www.unittitles.govt.nz/body-corporate-money-and-maintenance/unit-title-maintenance/"
+        },
+        {
+          "question": "E quanto a fossas sépticas, água de reservatório, drenagem ou muros de contenção?",
+          "answer": "Confira a quem pertence cada sistema, seu estado, manutenção necessária e aprovações pertinentes. Pergunte se as inspeções precisam de especialistas em drenagem, esgoto, qualidade da água ou engenharia. Confirme limites e direitos de acesso com seu advogado. Infraestrutura grande ou compartilhada pode gerar custos que uma visita comum e um relatório geral não esclarecem.",
+          "source": "Settled · verificações antes da compra",
+          "url": "https://www.settled.govt.nz/buying-a-home/researching-the-property/doing-your-homework/"
+        },
+        {
+          "question": "E se já houver inquilinos morando no imóvel?",
+          "answer": "Peça ao advogado que confira a locação e as condições de entrega desocupada antes de assinar. A data da conclusão da compra e a data em que você pode se mudar podem ser diferentes. Se for exigida entrega desocupada, o vendedor deve seguir o processo legal de locação e respeitar os direitos dos inquilinos. Não presuma que a compra encerra automaticamente a locação.",
+          "source": "Settled · contrato de compra e venda",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-the-sale-and-purchase-agreement-when-buying/"
+        },
+        {
+          "question": "O que devo observar em uma visita aberta?",
+          "answer": "Olhe além da decoração: cheiro de umidade, manchas de água, janelas, ventilação, sol, armazenamento, drenagem e danos visíveis. Pergunte o que fica no imóvel. Verifique o que consegue acessar com segurança, sem mexer nos materiais. A visita ajuda a escolher o que investigar; não substitui uma inspeção profissional.",
+          "source": "Settled · visitando um imóvel aberto ao público",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/viewing-an-open-home/"
+        }
+      ]
+    },
+    {
+      "id": "inspect",
+      "checklist": [
+        "Peça ao advogado que confira o título e as informações municipais.",
+        "Contrate uma inspeção independente do imóvel.",
+        "Investigue riscos, sinistros anteriores e alterações.",
+        "Confirme seguro em condições aceitáveis antes de a compra se tornar incondicional."
+      ],
+      "mistake": "Tratar um LIM, um relatório de inspeção ou a frase “já tem seguro” como um sinal de que está tudo certo. Cada um responde a perguntas diferentes.",
+      "shortcut": "Peça os documentos do imóvel cedo. Compartilhe o mesmo endereço e as mesmas preocupações com advogado, inspetor, banco e seguradora.",
+      "details": [
+        {
+          "question": "Preciso de um LIM além da inspeção do imóvel?",
+          "answer": "Eles têm funções diferentes. O LIM reúne informações mantidas pela prefeitura; a inspeção avalia o estado dentro do seu escopo. O título registra a propriedade e os direitos incidentes. O arquivo do imóvel pode acrescentar plantas e registros de autorizações. Nenhum garante um imóvel sem defeitos. Pergunte ao advogado e ao inspetor quais relatórios e verificações especializadas este imóvel precisa.",
+          "source": "Settled · verificações antes da compra",
+          "url": "https://www.settled.govt.nz/buying-a-home/researching-the-property/doing-your-homework/"
+        },
+        {
+          "question": "Posso confiar no relatório de inspeção do vendedor?",
+          "answer": "Confira quem o contratou, o escopo, a data, as exclusões e se você pode se apoiar juridicamente nele. Uma inspeção independente dá a chance de fazer suas próprias perguntas. Relatórios podem excluir áreas inacessíveis ou sistemas especializados. Pergunte sobre umidade, telhado, drenagem, fundações, fiação e sinais que exijam um especialista.",
+          "source": "Settled · verificações antes da compra",
+          "url": "https://www.settled.govt.nz/buying-a-home/researching-the-property/doing-your-homework/"
+        },
+        {
+          "question": "Como verifico riscos de inundação, deslizamento ou terremoto?",
+          "answer": "Use informações municipais sobre riscos, o LIM, mapas disponíveis e orientação especializada quando necessário. Investigue sinistros anteriores por riscos naturais e reparos: pergunte o que foi danificado, o que foi pago e quais obras foram concluídas. Não haver sinistro registrado não significa ausência de risco. Pergunte ao advogado sobre a transferência de direitos de sinistros pertinentes.",
+          "source": "Natural Hazards Commission · sinistros anteriores",
+          "url": "https://www.naturalhazards.govt.nz/insurance-and-claims/claims/buying-or-selling-a-home-with-previous-claims/"
+        },
+        {
+          "question": "Por que verificar o seguro antes de a proposta se tornar incondicional?",
+          "answer": "O banco normalmente exige seguro adequado, e uma cotação pode revelar exclusões, franquias altas ou problemas de cobertura. Informe à seguradora os riscos conhecidos, defeitos e obras planejadas. Confirme cobertura aceitável e quando ela precisa começar antes de assumir compromisso incondicional. O seguro do vendedor não garante que você consiga cobertura equivalente.",
+          "source": "Settled · riscos naturais",
+          "url": "https://www.settled.govt.nz/buying-a-home/researching-the-property/understanding-the-impact-of-natural-hazards/"
+        },
+        {
+          "question": "Como investigar um imóvel que pode ter problemas de infiltração?",
+          "answer": "Não julgue a estanqueidade pela tinta nova ou por uma visita em dia seco. Informe ao inspetor preocupações com revestimento externo, telhado, varanda, umidade ou reparos e pergunte se precisa de investigação especializada. Entenda as áreas inacessíveis e os limites do relatório. Orce os reparos identificados e confira as implicações com banco, seguradora e advogado.",
+          "source": "Settled · verificações antes da compra",
+          "url": "https://www.settled.govt.nz/buying-a-home/researching-the-property/doing-your-homework/"
+        },
+        {
+          "question": "Como verificar se a casa será quente e seca?",
+          "answer": "Observe sol, isolamento, aquecimento, ventilação, condensação e cheiro de umidade. Pergunte ao inspetor o que ele consegue avaliar e o que permanece inacessível. Pergunte também sobre vazamentos no telhado e umidade sob o piso. Uma casa aquecida para a visita não é um teste de desempenho no inverno; considere as melhorias necessárias.",
+          "source": "Settled · visitando um imóvel aberto ao público",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/viewing-an-open-home/"
+        },
+        {
+          "question": "O imóvel foi reformado. Quais documentos importam?",
+          "answer": "Compare a obra com os registros municipais, as autorizações de obra exigidas e os certificados de conformidade (CCC). Pergunte sobre alterações que não aparecem nos registros ou na planta do cross-lease. Um certificado de aceitação (certificate of acceptance) tem limites e não equivale a uma autorização de obra retroativa. Peça ao advogado, ao inspetor e à prefeitura que esclareçam obras pendentes de regularização antes da compra.",
+          "source": "Building Performance · certificado de aceitação (certificate of acceptance)",
+          "url": "https://www.building.govt.nz/projects-and-consents/sign-off-and-maintenance/completing-your-project/certificate-of-acceptance"
+        },
+        {
+          "question": "Quando devo pagar pelos relatórios e pelas inspeções?",
+          "answer": "Pergunte ao advogado quais verificações você precisa fazer e quando. Em leilões ou propostas incondicionais, conclua as verificações antes de assumir o compromisso. Em uma proposta condicional, alguns relatórios podem ser obtidos durante o prazo da condição acordada, mas só se o contrato oferecer proteção adequada e tempo suficiente. Confirme a redação antes de assinar e agende os profissionais cedo. Você ainda pode pagar por relatórios de um imóvel que acabar não comprando.",
+          "source": "Settled · contrato de compra e venda",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-the-sale-and-purchase-agreement-when-buying/"
+        }
+      ]
+    },
+    {
+      "id": "offer",
+      "checklist": [
+        "Defina seu máximo antes de negociar.",
+        "Busque orientação jurídica antes de assinar, inclusive outra proposta ainda com a primeira em aberto.",
+        "Confirme condições, datas, sinal e itens incluídos.",
+        "Conclua financiamento e verificações antes de dar lances em leilão."
+      ],
+      "mistake": "Achar que um contrato condicional é um teste sem compromisso. Depois de assinado e aceito, ele obriga as partes conforme seus termos.",
+      "shortcut": "Peça ao advogado que prepare as condições adequadas antes de você ficar sob pressão de prazo.",
+      "details": [
+        {
+          "question": "Qual a diferença entre negociação, tender e deadline sale?",
+          "answer": "Na negociação, há propostas e contrapropostas. Um tender normalmente recebe propostas escritas e confidenciais até um horário definido. Uma deadline sale pede propostas até uma data, mas o imóvel pode ser vendido antes se as regras permitirem. Pergunte como funciona esta venda e quais condições são aceitas. A maior proposta não é aceita automaticamente.",
+          "source": "Consumer Protection · preparando uma proposta",
+          "url": "https://www.consumerprotection.govt.nz/help-product-service/buying-or-renting-a-house/prepare-make-an-offer"
+        },
+        {
+          "question": "Qual é o grande cuidado com leilões?",
+          "answer": "Uma compra arrematada em leilão é incondicional. Conclua verificações jurídicas, inspeções, financiamento específico do imóvel e seguro antes de dar lances, e saiba como vai pagar o sinal. Defina um limite firme antes. Não presuma que poderá incluir uma condição de financiamento ou inspeção depois de vencer.",
+          "source": "Consumer Protection · preparando uma proposta",
+          "url": "https://www.consumerprotection.govt.nz/help-product-service/buying-or-renting-a-house/prepare-make-an-offer"
+        },
+        {
+          "question": "Posso desistir de uma proposta condicional?",
+          "answer": "Não simplesmente porque mudou de ideia. Um acordo condicional assinado e aceito é vinculante; importam as condições exatas, as etapas exigidas e os prazos. Pergunte ao advogado como cada condição funciona e o que acontece se não for atendida. Não dispense condições antes de concluir as verificações e orientações pertinentes.",
+          "source": "Settled · contrato de compra e venda",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-the-sale-and-purchase-agreement-when-buying/"
+        },
+        {
+          "question": "O que deve constar no contrato?",
+          "answer": "Seu advogado deve conferir preço, sinal, data da conclusão da compra, condições, dados do título, bens incluídos e obras ou promessas acordadas. Se um eletrodoméstico, reparo ou outro item é importante, não dependa de uma conversa. Confirme como ele aparece no contrato escrito antes de assinar.",
+          "source": "Settled · contrato de compra e venda",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-the-sale-and-purchase-agreement-when-buying/"
+        },
+        {
+          "question": "Posso fazer propostas por dois imóveis ao mesmo tempo?",
+          "answer": "Você pode ficar obrigado a comprar os dois se ambas forem aceitas. Antes de assinar outra proposta, peça ao advogado que confirme a situação da primeira e oriente sobre vencimento ou retirada. Esperar uma resposta não torna uma proposta inofensiva, e condições não são uma opção de cancelamento livre.",
+          "source": "Settled · contrato de compra e venda",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-the-sale-and-purchase-agreement-when-buying/"
+        },
+        {
+          "question": "Como negociar sem me deixar levar?",
+          "answer": "Defina um limite com base no orçamento e nas evidências sobre o imóvel. Converse com seu advogado ou assessor sobre preço, condições e prazo de conclusão como um conjunto. Em uma disputa com várias propostas, entenda o processo e faça uma proposta com a qual consiga conviver. Pressão e medo de perder a oportunidade não justificam pular verificações.",
+          "source": "Consumer Protection · preparando uma proposta",
+          "url": "https://www.consumerprotection.govt.nz/help-product-service/buying-or-renting-a-house/prepare-make-an-offer"
+        },
+        {
+          "question": "O que fica na casa: cortinas, eletrodomésticos e outros bens?",
+          "answer": "Não presuma que tudo o que viu na visita está incluído. Pergunte quais cortinas, persianas, eletrodomésticos e outros itens ficam, e peça ao advogado que confira a lista escrita de bens incluídos (chattels) antes de assinar. Registre marcas, modelos e o estado acordado dos itens importantes. Confira os itens combinados na inspeção antes da conclusão da compra e avise rapidamente seu advogado se algo estiver faltando ou tiver mudado.",
+          "source": "Settled · contrato de compra e venda",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-the-sale-and-purchase-agreement-when-buying/"
+        }
+      ]
+    },
+    {
+      "id": "mortgage",
+      "checklist": [
+        "Compare a oferta completa de financiamento e as tarifas.",
+        "Entenda a diferença entre período de taxa fixa e prazo total.",
+        "Simule parcelas com juros mais altos.",
+        "Pergunte sobre pagamentos extras, custos de quitação antecipada e condições do incentivo em dinheiro (cashback)."
+      ],
+      "mistake": "Escolher a menor taxa anunciada sem ler as tarifas, a flexibilidade ou as condições de pagamento.",
+      "shortcut": "Peça a todos os bancos o mesmo valor, prazo e tipo de pagamento para facilitar a comparação.",
+      "details": [
+        {
+          "question": "O que são principal e juros?",
+          "answer": "Principal é o valor que você deve. Juros são o custo de tomar esse dinheiro emprestado. Uma parcela com amortização e juros faz as duas coisas: paga juros e reduz a dívida. No início de um empréstimo longo, os juros podem representar uma parcela grande. Pagamentos só de juros geralmente não reduzem o principal durante esse período.",
+          "source": "Sorted · tipos de financiamento imobiliário",
+          "url": "https://sorted.org.nz/guides/home-buying/mortgage-types/"
+        },
+        {
+          "question": "Fixar a taxa por dois anos significa quitar em dois anos?",
+          "answer": "Não. O período fixo é o tempo em que aquela taxa vale. O prazo do empréstimo é o período total de pagamento, que pode ser muito maior. Ao terminar o período fixo, você precisa de uma nova definição de taxa. Pergunte o que acontece automaticamente e se prepare para parcelas diferentes na próxima taxa.",
+          "source": "Sorted · tipos de financiamento imobiliário",
+          "url": "https://sorted.org.nz/guides/home-buying/mortgage-types/"
+        },
+        {
+          "question": "Taxa fixa, variável ou combinada: qual é melhor?",
+          "answer": "A fixa dá previsibilidade da taxa por um período, com limites e possíveis custos de pagamento antecipado. A variável pode mudar e costuma oferecer mais flexibilidade para pagar. A combinada mistura arranjos. A combinação útil depende de renda, economias e planos; peça ao assessor que explique as vantagens e desvantagens para você.",
+          "source": "Sorted · tipos de financiamento imobiliário",
+          "url": "https://sorted.org.nz/guides/home-buying/mortgage-types/"
+        },
+        {
+          "question": "Posso negociar com o banco?",
+          "answer": "Pergunte quais opções de taxas e tarifas estão disponíveis e compare ofertas equivalentes por escrito. Converse sobre flexibilidade de pagamento, cobranças por entrada baixa, condições do incentivo em dinheiro (cashback) e custos de sair ou quitar antes. Uma taxa menor ou incentivo em dinheiro pode ter condições. Pergunte o custo total e as obrigações, não só o número anunciado.",
+          "source": "FMA · orientação sobre financiamento imobiliário",
+          "url": "https://www.fma.govt.nz/consumer/getting-advice/mortgage-advice/"
+        },
+        {
+          "question": "Como funcionam financiamentos offset e revolving credit?",
+          "answer": "O offset usa saldos de contas vinculadas elegíveis para reduzir o valor sobre o qual os juros são calculados. O revolving credit funciona mais como um limite de crédito garantido pelo imóvel, cujo saldo muda com receitas e gastos. Recursos e taxas variam. Antes de escolher, pergunte sobre acesso ao dinheiro, disciplina, redução da dívida e tarifas.",
+          "source": "Sorted · tipos de financiamento imobiliário",
+          "url": "https://sorted.org.nz/guides/home-buying/mortgage-types/"
+        },
+        {
+          "question": "A avaliação do corretor basta para o banco?",
+          "answer": "Não necessariamente. O banco pode exigir uma avaliação que atenda aos critérios dele. Pergunte antes de contratar: avaliador, instruções ou processo podem precisar da aprovação do banco. Preço anunciado, avaliação municipal e estimativa do corretor não substituem uma avaliação aceita pelo banco.",
+          "source": "Settled · confirmando seu financiamento",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/confirming-your-finances/"
+        },
+        {
+          "question": "O que acontece se eu quitar antes ou refinanciar?",
+          "answer": "Seu empréstimo de taxa fixa pode ter custos de pagamento antecipado ou encerramento. Uma oferta de incentivo em dinheiro (cashback) ou o acordo com o assessor também pode exigir devolução de dinheiro se você sair dentro de determinado período. Peça valores por escrito ao banco e ao assessor antes de decidir. Confira se pode fazer pagamentos extras menores sem cobrança.",
+          "source": "Banking Ombudsman · caso de devolução de incentivo em dinheiro (cashback)",
+          "url": "https://www.bankomb.org.nz/guides-and-cases/case-notes/84963"
+        }
+      ]
+    },
+    {
+      "id": "settlement",
+      "checklist": [
+        "Conclua os documentos jurídicos e do financiamento a tempo.",
+        "Confirme que o seguro começa quando exigido.",
+        "Organize a inspeção antes da conclusão da compra.",
+        "Confirme com o advogado os recursos, acertos de valores e retirada das chaves."
+      ],
+      "mistake": "Agendar tudo contando com as chaves logo cedo. A conclusão da compra pode levar tempo.",
+      "shortcut": "Crie uma lista compartilhada de datas com advogado, banco e empresa de mudança, incluindo um plano alternativo se houver atraso na conclusão.",
+      "details": [
+        {
+          "question": "O que acontece no dia da conclusão da compra?",
+          "answer": "Seu advogado conduz as etapas jurídicas e financeiras com o advogado do vendedor e o banco. Após a confirmação da conclusão (settlement), as chaves podem ser liberadas conforme combinado. O horário exato pode variar. Mantenha contato e deixe flexibilidade na mudança, em vez de contar com acesso logo no início do dia.",
+          "source": "Settled · planejando o dia da conclusão da compra",
+          "url": "https://www.settled.govt.nz/buying-a-home/settling-and-moving-in/planning-for-settlement-day-when-buying/"
+        },
+        {
+          "question": "O que verifico na inspeção antes da conclusão?",
+          "answer": "Confira o estado acordado do imóvel, os bens incluídos e as obras que o vendedor se comprometeu a concluir. Compare com o contrato e leve as dúvidas rapidamente ao advogado. Essa visita não substitui a inspeção predial anterior. Agende com antecedência suficiente para que os problemas possam ser tratados antes da conclusão.",
+          "source": "Settled · planejando o dia da conclusão da compra",
+          "url": "https://www.settled.govt.nz/buying-a-home/settling-and-moving-in/planning-for-settlement-day-when-buying/"
+        },
+        {
+          "question": "E se algo estiver quebrado ou faltando antes da conclusão?",
+          "answer": "Avise seu advogado imediatamente e guarde provas claras. Ele pode avaliar seus direitos no contrato e discutir uma solução com o advogado do vendedor. Não presuma que pode atrasar a conclusão, reter dinheiro ou cancelar por conta própria. O contrato e as circunstâncias determinam suas opções.",
+          "source": "Settled · planejando o dia da conclusão da compra",
+          "url": "https://www.settled.govt.nz/buying-a-home/settling-and-moving-in/planning-for-settlement-day-when-buying/"
+        },
+        {
+          "question": "Quando o dinheiro do KiwiSaver precisa estar pronto?",
+          "answer": "Seu provedor e seu advogado precisam de tempo para os documentos do saque e a transferência. Confirme os prazos bem antes de qualquer pagamento depender desse dinheiro. Se quiser usá-lo no sinal previsto no contrato, pergunte cedo sobre os arranjos necessários. Não é um saque instantâneo para sua conta do dia a dia.",
+          "source": "Kāinga Ora · saque do KiwiSaver",
+          "url": "https://kaingaora.govt.nz/en_NZ/home-ownership/kiwisaver-first-home-withdrawal/"
+        },
+        {
+          "question": "Como evitar mandar meu sinal para um golpista?",
+          "answer": "Verifique os dados de pagamento diretamente com seu advogado ou com o destinatário pretendido antes de transferir. Ligue para um número confiável, conferido de forma independente, não para o número de um e-mail inesperado de pagamento. Mudança de conta e urgência são motivos para parar e conferir. Um e-mail familiar ainda pode ser fraudulento.",
+          "source": "New Zealand Law Society · fraude de pagamento por e-mail",
+          "url": "https://www.lawsociety.org.nz/news/newsroom/email-fraud-targets-lawyers/"
+        },
+        {
+          "question": "Por que o valor final da conclusão é diferente do saldo da compra?",
+          "answer": "O demonstrativo de conclusão pode incluir acertos, como taxas municipais já pagas pelo vendedor, além do saldo da compra e de outros valores acordados. Honorários e despesas adiantadas pelo advogado também precisam ser pagos. Peça que ele explique o demonstrativo e exatamente quanto dinheiro disponível é necessário e quando.",
+          "source": "Settled · planejando o dia da conclusão da compra",
+          "url": "https://www.settled.govt.nz/buying-a-home/settling-and-moving-in/planning-for-settlement-day-when-buying/"
+        },
+        {
+          "question": "E se a conclusão da compra atrasar e eu não conseguir as chaves?",
+          "answer": "Fale rapidamente com seu advogado se recursos, documentos ou o vendedor atrasarem a conclusão da compra. Deixe que os advogados confirmem a causa do atraso, sua situação contratual e quaisquer arranjos acordados. Não presuma que você pode se mudar, cancelar ou exigir determinado pagamento. Mantenha flexibilidade nos planos de mudança, armazenamento e hospedagem temporária, e confirme eventuais efeitos no seguro. Espere a confirmação de que a compra foi concluída antes de retirar as chaves conforme combinado.",
+          "source": "Settled · dia da conclusão da compra",
+          "url": "https://www.settled.govt.nz/buying-a-home/settling-and-moving-in/settling-on-settlement-day-when-buying/"
+        }
+      ]
+    },
+    {
+      "id": "living",
+      "checklist": [
+        "Mantenha uma reserva para manutenção e reparos.",
+        "Guarde documentos do imóvel, garantias e dados do seguro.",
+        "Confira regras de autorização e propriedade antes de reformar.",
+        "Anote as renovações do seguro e a próxima mudança de taxa do financiamento."
+      ],
+      "mistake": "Comprar um imóvel “barato para reformar” sem orçar a obra, conferir autorizações ou reservar margem para surpresas.",
+      "shortcut": "Transforme os achados da inspeção em uma lista de manutenção do primeiro ano: urgente, em breve e estética. Orce primeiro o urgente.",
+      "details": [
+        {
+          "question": "Posso reformar assim que o imóvel for meu?",
+          "answer": "Confira antes. Algumas obras precisam de autorização de construção (building consent), e outras aprovações ou restrições da propriedade também podem valer. Obras dispensadas dessa autorização ainda devem cumprir os requisitos aplicáveis. Cross-lease, unit title ou leasehold podem exigir permissões adicionais. Use a ferramenta oficial de autorizações e depois confirme seus planos com a prefeitura e profissionais adequados.",
+          "source": "MBIE · Posso construir?",
+          "url": "https://www.canibuildit.govt.nz/"
+        },
+        {
+          "question": "Building consent e resource consent são a mesma coisa?",
+          "answer": "Não. Building consent trata da conformidade da obra com o código de construção (Building Code). Resource consent trata de regras de planejamento e efeitos ambientais. Um projeto pode precisar de uma, das duas ou de nenhuma, conforme a obra e o local. A dispensa de building consent não elimina outros requisitos. Confirme o projeto específico com a prefeitura.",
+          "source": "MBIE · Posso construir?",
+          "url": "https://www.canibuildit.govt.nz/"
+        },
+        {
+          "question": "O que é um CCC? É igual a um certificado de aceitação (certificate of acceptance)?",
+          "answer": "O certificado de conformidade com o código de construção (CCC) confirma que a obra cumpre sua autorização. O certificado de aceitação (certificate of acceptance) se aplica em outras circunstâncias e só pode abranger o que a prefeitura consegue avaliar. Não é uma autorização de obra retroativa nem uma garantia da casa inteira. Pergunte ao advogado e à prefeitura o que o documento específico cobre e o que deixa de fora.",
+          "source": "Building Performance · certificado de aceitação (certificate of acceptance)",
+          "url": "https://www.building.govt.nz/projects-and-consents/sign-off-and-maintenance/completing-your-project/certificate-of-acceptance"
+        },
+        {
+          "question": "Como faço o orçamento de uma reforma?",
+          "answer": "Defina bem o escopo e os orçamentos, confira aprovações e reserve margem para condições ocultas e mudanças. Imóveis existentes podem revelar problemas só quando a obra começa. Inclua honorários profissionais, custos de autorizações, efeitos no seguro e um lugar para morar, se necessário. Não trate uma estimativa estética rápida como orçamento para reparos estruturais ou de estanqueidade.",
+          "source": "Building Performance · reformando um imóvel existente",
+          "url": "https://www.building.govt.nz/getting-started/stages-of-the-building-process/renovations-differ-to-new-builds"
+        },
+        {
+          "question": "E se eu encontrar amianto ou suspeitar de materiais perigosos?",
+          "answer": "Não fure, lixe, quebre nem remova material suspeito para descobrir. Busque avaliação e orientação adequadas de profissionais qualificados. Mexer no amianto pode liberar fibras nocivas; pode ser necessário manejo especializado. Antes de comprar um imóvel antigo para reformar, investigue se a obra provável vai mexer nesses materiais e inclua isso no escopo e no orçamento.",
+          "source": "Health New Zealand · cuidados com amianto",
+          "url": "https://www.healthnz.govt.nz/health-topics/keeping-healthy/healthy-homes-environments/hazardous-substances/asbestos/dealing-with-asbestos"
+        },
+        {
+          "question": "O que devo fazer sobre manutenção e seguro?",
+          "answer": "Use o relatório do imóvel para priorizar reparos e manutenção preventiva. Guarde registros e informe à seguradora mudanças ou obras planejadas que possam afetar a cobertura. Na renovação, revise cobertura, franquias e premissas de reconstrução. Ter seguro não elimina a necessidade de manter o imóvel nem de entender as exclusões da apólice.",
+          "source": "Settled · riscos naturais",
+          "url": "https://www.settled.govt.nz/buying-a-home/researching-the-property/understanding-the-impact-of-natural-hazards/"
+        },
+        {
+          "question": "E se ficar difícil pagar as parcelas?",
+          "answer": "Fale cedo com seu banco ou assessor, em vez de esperar atrasar pagamentos. Explique o que mudou e pergunte as opções disponíveis e seus custos de longo prazo. Antes de acabar o período fixo, revise a próxima taxa e seu orçamento. Um prazo maior pode reduzir as parcelas, mas aumentar os juros totais.",
+          "source": "FMA · orientação sobre financiamento imobiliário",
+          "url": "https://www.fma.govt.nz/consumer/getting-advice/mortgage-advice/"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "checklist": [
+        "Pergunte quem o corretor representa.",
+        "Peça informações obrigatórias e respostas importantes por escrito.",
+        "Confira a licença e escolha seus próprios assessores.",
+        "Revise qualquer contrato de representação do comprador antes de assinar."
+      ],
+      "mistake": "Achar que um corretor da venda prestativo é seu assessor independente.",
+      "shortcut": "Na primeira conversa, faça uma pergunta direta: quem você representa nesta venda?",
+      "details": [
+        {
+          "question": "Para quem o corretor imobiliário trabalha?",
+          "answer": "O corretor responsável pelo anúncio atua para o vendedor, que normalmente paga a comissão. Mesmo assim, deve tratar compradores com justiça e honestidade. Você contrata e paga seu próprio corretor do comprador por meio de um contrato escrito separado. Mantenha seu advogado envolvido: nenhum desses papéis substitui orientação jurídica ou técnica sobre a construção de forma independente.",
+          "source": "Settled · corretores e compra direta do proprietário",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+        },
+        {
+          "question": "Um corretor que me mostra imóveis é meu corretor do comprador?",
+          "answer": "Não necessariamente. Ajudar a encontrar um anúncio ou dividir uma venda com outra imobiliária não significa, por si só, que ele representa você. Pergunte quem é o cliente dele. Um verdadeiro contrato de representação do comprador deve explicar serviços, honorários e poderes. Confira a licença e peça ao seu advogado que revise o contrato antes de assinar. A mesma imobiliária não pode representar os dois lados na mesma transação.",
+          "source": "REA · corretores do comprador",
+          "url": "https://www.rea.govt.nz/real-estate-professionals/industry-guidance-and-information/buyers-agent-information/"
+        },
+        {
+          "question": "O que o corretor deve informar e o que ainda preciso verificar?",
+          "answer": "Corretores não podem enganar compradores nem omitir informações que precisam ser fornecidas. Devem informar defeitos conhecidos e alertar sobre riscos prováveis de defeitos ocultos. Peça informações por escrito sobre reparos, autorizações, riscos, itens incluídos e qualquer ligação com o vendedor. Confirme pontos importantes com seu advogado, inspetor e council (prefeitura local); essas informações não garantem que todos os defeitos sejam conhecidos.",
+          "source": "REA · regras de conduta e atendimento ao cliente",
+          "url": "https://www.settled.govt.nz/assets/Uploads/Resources/Guides/Code-of-conduct.pdf"
+        },
+        {
+          "question": "Devo contar ao corretor da venda meu orçamento máximo?",
+          "answer": "Você pode dizer quanto está disposto a oferecer sem revelar seu limite absoluto. Não presuma que o corretor do vendedor esteja dando orientação confidencial de compra. Pergunte como as informações serão usadas, seja honesto sobre sua situação e mantenha seu limite de orçamento separado da pressão da venda.",
+          "source": "Settled · corretores e compra direta do proprietário",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+        },
+        {
+          "question": "Como verifico a licença de um corretor ou relato um problema?",
+          "answer": "Use o registro público da REA para conferir a licença atual e as informações disciplinares disponíveis. Guarde mensagens e documentos se algo preocupar você. Leve o problema à imobiliária ou ao gerente responsável e, quando adequado, siga as orientações da REA para reclamações. Um proprietário particular que vende sem licença de corretor fica fora do processo de reclamações da REA contra corretores; pergunte ao seu advogado qual caminho seguir.",
+          "source": "Settled · corretores e compra direta do proprietário",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+        }
+      ]
+    },
+    {
+      "id": "sales",
+      "checklist": [
+        "Confirme o método, o prazo e as regras para venda antecipada.",
+        "Saiba quando você pode assumir um compromisso vinculante.",
+        "Providencie verificações do imóvel e condições adequadas.",
+        "Confira a autoridade do vendedor e cláusulas incomuns."
+      ],
+      "mistake": "Tratar o nome do método de venda ou o preço anunciado como se fossem todas as regras.",
+      "shortcut": "Antes de pagar por verificações, envie os documentos e o cronograma da venda ao seu advogado.",
+      "details": [
+        {
+          "question": "Qual é a diferença entre negociação, deadline, tender e leilão?",
+          "answer": "Na negociação, há propostas e contrapropostas. Uma deadline sale recebe propostas até uma data e pode permitir venda antecipada. Um tender recebe propostas escritas confidenciais conforme suas regras. No leilão, os lances são abertos; uma compra concluída em leilão é incondicional. Para cada imóvel, confirme com seu advogado os documentos, datas, condições e arranjos do sinal aplicáveis.",
+          "source": "Settled · negociação e referências de preço",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-negotiation/"
+        },
+        {
+          "question": "Preço pedido, BEO, BBO ou “offers over” garantem aceitação?",
+          "answer": "Não. São formas de indicar a expectativa de preço, não uma promessa de aceitar sua proposta. BEO significa buyer enquiry over (consultas de compradores acima do valor indicado); BBO significa buyer budget over (orçamento do comprador acima do valor indicado). POA significa price on application (preço sob consulta). Pergunte sobre a expectativa do vendedor, compare as informações e seu orçamento e negocie preço e termos em um contrato devidamente revisado.",
+          "source": "Settled · negociação e referências de preço",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-negotiation/"
+        },
+        {
+          "question": "Um imóvel em deadline ou tender pode ser vendido antes do encerramento?",
+          "answer": "Pode, se o processo e as regras permitirem uma venda antecipada. Procure “unless sold prior” (salvo venda anterior) e pergunte diretamente ao corretor. Registre seu interesse e peça aviso de proposta antecipada ou alteração no horário de encerramento. Não presuma que o prazo anunciado garanta tempo para concluir suas verificações.",
+          "source": "Settled · vendas com prazo para propostas",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-deadline/"
+        },
+        {
+          "question": "O que devo verificar antes de apresentar um tender?",
+          "answer": "Peça ao seu advogado que revise os documentos do tender, as condições, a validade da proposta e as regras de retirada. Normalmente, o sinal é apresentado junto com o tender; confirme valor, prazo e como ficará guardado. Pergunte se pode haver venda antecipada. O vendedor não é obrigado a aceitar a maior proposta nem qualquer proposta.",
+          "source": "Settled · propostas fechadas (tender)",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-tender/"
+        },
+        {
+          "question": "E se o imóvel não for vendido no leilão ou chegar uma proposta antes?",
+          "answer": "“Passing in” significa que o imóvel não foi vendido pelo processo de leilão naquele momento; pode haver negociação depois. Pergunte qual processo e contrato passarão a valer. As regras do leilão podem continuar valendo, então uma proposta posterior ainda pode precisar ser incondicional. Uma proposta antecipada pode mudar a data do leilão. Não presuma que poderá acrescentar condições depois de um lance vencedor; consulte seu advogado antes de fazer uma proposta pré-leilão ou assumir um compromisso negociado depois.",
+          "source": "Settled · compra em leilão",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-auction/"
+        },
+        {
+          "question": "O que é um processo de múltiplas propostas? Posso melhorar a minha depois?",
+          "answer": "Um processo de múltiplas propostas exige mais de uma proposta escrita vigente. Pergunte ao corretor como funciona o processo daquela imobiliária e quando sua proposta expira. Talvez você não tenha chance de melhorá-la. O vendedor pode considerar condições e prazos além do preço, rejeitar todas as propostas ou continuar negociando. Respeite seu limite e mantenha as proteções jurídicas de que precisa.",
+          "source": "Settled · várias propostas",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-a-multi-offer-process/"
+        },
+        {
+          "question": "Como compro diretamente de um proprietário particular?",
+          "answer": "Confirme a identidade e a autoridade do vendedor e peça ao seu advogado que prepare ou revise o contrato de compra e venda. Providencie as mesmas verificações de imóvel, financiamento e seguro. Peça ao advogado ou conveyancer (profissional de transferência imobiliária) que organize o recebimento seguro do sinal em uma trust account (conta de valores de clientes); não presuma que uma transferência direta ao vendedor seja adequada. Vendedores particulares devem informar problemas conhecidos, mas o processo da REA contra corretores não cobre um vendedor particular sem licença. As proteções jurídicas dependem das circunstâncias.",
+          "source": "Settled · corretores e compra direta do proprietário",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+        },
+        {
+          "question": "Quais riscos extras existem numa mortgagee sale?",
+          "answer": "Numa mortgagee sale, o credor exerce seu poder de vender o imóvel hipotecado. As proteções e garantias contratuais podem ser diferentes, e acesso, entrega desocupada, itens incluídos ou seguro podem ser incertos. Obtenha orientação jurídica especializada sobre os termos exatos e os riscos antes de dar lances ou assinar. Confirme o que pode inspecionar, quando passa a ser responsável e se seu financiador e sua seguradora aceitam o arranjo. A venda pode ser retirada se o proprietário quitar a hipoteca antes do settlement (conclusão da compra). Um preço aparentemente baixo não prova que seja um bom negócio.",
+          "source": "Settled · opções de imóveis",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/considering-your-property-options/"
+        },
+        {
+          "question": "O que muda quando o vendedor é um espólio ou um trust?",
+          "answer": "Peça ao seu advogado que confirme quem tem autoridade para assinar e se alguma etapa do espólio ou trust (estrutura de gestão de bens) afeta os prazos. Confira as garantias, os itens incluídos e os termos de settlement (conclusão da compra), em vez de presumir uma venda padrão. Esses nomes descrevem a situação do vendedor, não um processo separado de lances: o imóvel ainda pode ser vendido por negociação, tender ou leilão.",
+          "source": "Settled · espólios e trusts",
+          "url": "https://www.settled.govt.nz/selling-a-home/thinking-of-selling/planning-to-sell/"
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "category": "ANTES DE COMEÇAR",
+      "title": "Apoio para o primeiro imóvel",
+      "description": "Confira as opções de saque do KiwiSaver e programa de empréstimo para o primeiro imóvel (First Home Loan). Confirme a elegibilidade antes de contar com o dinheiro.",
+      "url": "https://www.govt.nz/browse/housing-and-property/buying-or-selling-a-home/buying-your-first-home/"
+    },
+    {
+      "category": "ANTES DE COMEÇAR",
+      "title": "Você pode comprar legalmente?",
+      "description": "Orientações da LINZ sobre cidadania, residência e quando pode ser necessária autorização para investimento estrangeiro.",
+      "url": "https://www.linz.govt.nz/guidance/overseas-investment/buying-residential-property-live"
+    },
+    {
+      "category": "DINHEIRO E ORIENTAÇÃO",
+      "title": "Escolhendo um assessor de financiamento",
+      "description": "Perguntas sobre bancos incluídos, comissões, honorários, conflitos de interesse e orientação.",
+      "url": "https://www.fma.govt.nz/consumer/getting-advice/mortgage-advice/"
+    },
+    {
+      "category": "DOCUMENTOS DO IMÓVEL",
+      "title": "Títulos, plantas e direitos",
+      "description": "Encontre registros do título e documentos registrados. Peça ao advogado que interprete servidões, covenants e restrições.",
+      "url": "https://lrs.linz.govt.nz/"
+    },
+    {
+      "category": "DOCUMENTOS DO IMÓVEL",
+      "title": "O que perguntar à prefeitura",
+      "description": "LIM, arquivo do imóvel, plantas, autorizações e registros de conclusão. O LIM e a inspeção do imóvel respondem a perguntas diferentes.",
+      "url": "https://www.building.govt.nz/getting-started/your-rights-and-obligations/homeowner-rights-and-obligations/buying-a-house/what-can-the-council-tell-you-about-the-house"
+    },
+    {
+      "category": "RISCOS E SEGURO",
+      "title": "Riscos naturais",
+      "description": "Investigue inundações, riscos costeiros, terremotos e outros riscos. Confirme a cobertura para o endereço específico antes de assumir compromissos.",
+      "url": "https://www.settled.govt.nz/buying-a-home/researching-the-property/understanding-the-impact-of-natural-hazards/"
+    },
+    {
+      "category": "RISCOS E SEGURO",
+      "title": "Danos e sinistros anteriores",
+      "description": "Confira os reparos e a transferência de direitos de sinistros da NHC/EQC. Um sinistro pago não comprova que o dano foi reparado.",
+      "url": "https://www.naturalhazards.govt.nz/insurance-and-claims/claims/buying-or-selling-a-home-with-previous-claims/"
+    },
+    {
+      "category": "REFORMAS E AUTORIZAÇÕES",
+      "title": "Preciso de autorização?",
+      "description": "Comece pela ferramenta da MBIE e confirme seu projeto específico com a prefeitura. Obras dispensadas de autorização ainda têm requisitos.",
+      "url": "https://www.canibuildit.govt.nz/"
+    },
+    {
+      "category": "REFORMAS E AUTORIZAÇÕES",
+      "title": "Aprovações de obra e planejamento",
+      "description": "Confira building consent, resource consent e outras permissões. Uma aprovação não substitui as demais.",
+      "url": "https://www.building.govt.nz/projects-and-consents/planning-a-successful-build/scope-and-design/check-if-you-need-consents"
+    },
+    {
+      "category": "REFORMAS E AUTORIZAÇÕES",
+      "title": "Conclusão e falta de aprovação final",
+      "description": "Entenda o certificado de aceitação (certificate of acceptance) e seus limites quando a obra foi feita sem a autorização exigida.",
+      "url": "https://www.building.govt.nz/projects-and-consents/sign-off-and-maintenance/completing-your-project/certificate-of-acceptance"
+    },
+    {
+      "category": "EDIFICAÇÕES COMPARTILHADAS",
+      "title": "Comprando um imóvel em unit title",
+      "description": "Declarações de divulgação, informações da entidade dos proprietários (body corporate), recursos para manutenção e responsabilidades compartilhadas.",
+      "url": "https://www.unittitles.govt.nz/buying-or-selling-a-unit-title/buying-or-selling-a-unit-title/buying-a-unit-title/"
+    },
+    {
+      "category": "AS REGRAS NA ÍNTEGRA",
+      "title": "Lei de Construção de 2004 (Building Act 2004)",
+      "description": "A legislação que rege obras, autorizações e conformidade. Use a versão vigente com orientação profissional.",
+      "url": "https://www.legislation.govt.nz/act/public/2004/72/en/latest/"
+    },
+    {
+      "category": "AS REGRAS NA ÍNTEGRA",
+      "title": "Lei de Propriedade por Unidades de 2010 (Unit Titles Act 2010)",
+      "description": "A legislação sobre propriedade de unidades, body corporates, gestão financeira e obrigações de divulgação.",
+      "url": "https://www.legislation.govt.nz/act/public/2010/0022/latest/DLM1160440.html"
+    },
+    {
+      "category": "ANTES DE ASSINAR",
+      "title": "Entenda o contrato",
+      "description": "Leia sobre o contrato de compra e venda, suas condições e o compromisso que você assume.",
+      "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-the-sale-and-purchase-agreement-when-buying/"
+    },
+    {
+      "category": "REFORMAS E SEGURANÇA",
+      "title": "Amianto: confira antes de mexer",
+      "description": "Orientações da Health New Zealand sobre suspeita de amianto e avaliação ou remoção profissional.",
+      "url": "https://www.healthnz.govt.nz/health-topics/keeping-healthy/healthy-homes-environments/hazardous-substances/asbestos/dealing-with-asbestos"
+    },
+    {
+      "category": "CORRETORES E MÉTODOS DE VENDA",
+      "title": "Quem representa você?",
+      "description": "Corretores do vendedor e do comprador, proprietários particulares e verificações antes de assinar.",
+      "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+    },
+    {
+      "category": "CORRETORES E MÉTODOS DE VENDA",
+      "title": "Verifique a licença de um corretor",
+      "description": "Registro público da REA de profissionais imobiliários licenciados.",
+      "url": "https://publicregister.rea.govt.nz/"
+    },
+    {
+      "category": "CORRETORES E MÉTODOS DE VENDA",
+      "title": "Conduta e informações dos corretores",
+      "description": "Regras de conduta profissional, atendimento ao cliente e informações obrigatórias, incluindo defeitos conhecidos e riscos prováveis de defeitos ocultos.",
+      "url": "https://www.settled.govt.nz/assets/Uploads/Resources/Guides/Code-of-conduct.pdf"
+    },
+    {
+      "category": "CORRETORES E MÉTODOS DE VENDA",
+      "title": "Regras do tender e sinais",
+      "description": "Propostas confidenciais, condições, arranjos do sinal e possíveis vendas antecipadas.",
+      "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-tender/"
+    },
+    {
+      "category": "CORRETORES E MÉTODOS DE VENDA",
+      "title": "Vendas com prazo e propostas antecipadas",
+      "description": "Entenda os prazos de encerramento e o que “unless sold prior” (salvo venda anterior) pode significar.",
+      "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-deadline/"
+    },
+    {
+      "category": "CORRETORES E MÉTODOS DE VENDA",
+      "title": "Propostas escritas concorrentes",
+      "description": "Como funciona o processo de múltiplas propostas e por que outra chance não é garantida.",
+      "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-a-multi-offer-process/"
+    }
+  ],
+  "sourceLabels": {
+    "Settled · finances and costs": "Settled · finanças e custos",
+    "LINZ · who can buy": "LINZ · quem pode comprar",
+    "Settled · property homework": "Settled · verificações do imóvel",
+    "NZ Government · first-home help": "NZ Government · apoio para o primeiro imóvel",
+    "Inland Revenue · KiwiSaver withdrawal": "Inland Revenue · saque do KiwiSaver",
+    "Settled · the purchase agreement": "Settled · o contrato de compra",
+    "FMA · mortgage advice": "FMA · orientação sobre financiamento imobiliário",
+    "Settled · confirming finance": "Settled · confirmando o financiamento",
+    "Sorted · mortgage types": "Sorted · tipos de financiamento imobiliário",
+    "Settled · neighbourhood checks": "Settled · verificações do bairro",
+    "Settled · natural hazards": "Settled · riscos naturais",
+    "Settled · property options": "Settled · opções de imóveis",
+    "Settled · types of ownership": "Settled · regimes de propriedade",
+    "Unit Titles Services · buying a unit": "Unit Titles Services · comprando uma unidade",
+    "Settled · viewing a home": "Settled · visitando um imóvel",
+    "MBIE · council records": "MBIE · registros municipais",
+    "LINZ · land records": "LINZ · registros de terrenos",
+    "MBIE · check consent requirements": "MBIE · confira as autorizações necessárias",
+    "Building Act · current legislation": "Building Act · legislação vigente",
+    "NHC · previous claims": "NHC · sinistros anteriores",
+    "Settled · buying at auction": "Settled · compra em leilão",
+    "Consumer Protection · preparing an offer": "Consumer Protection · preparando uma proposta",
+    "Settled · settlement day": "Settled · dia da conclusão da compra",
+    "Law Society · payment fraud": "Law Society · fraude de pagamento",
+    "MBIE · renovating a home": "MBIE · reformando um imóvel",
+    "Health NZ · asbestos": "Health NZ · amianto",
+    "Settled · agents and private sales": "Settled · corretores e compra direta do proprietário",
+    "REA · buyer’s agents": "REA · corretores do comprador",
+    "REA · check an agent’s licence": "REA · verificar a licença de um corretor",
+    "REA · conduct and client care rules": "REA · regras de conduta e atendimento ao cliente",
+    "Settled · negotiation and price guides": "Settled · negociação e referências de preço",
+    "Settled · deadline sales": "Settled · vendas com prazo para propostas",
+    "Settled · tenders": "Settled · propostas fechadas (tender)",
+    "Settled · multiple offers": "Settled · várias propostas",
+    "Settled · estates and trusts": "Settled · espólios e trusts"
+  }
+}

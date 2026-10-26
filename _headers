@@ -12,3 +12,9 @@
 
 /favicon.svg
   Cache-Control: public, max-age=0, must-revalidate
+
+/outros/home-veritas/*
+  Cache-Control: public, max-age=0, must-revalidate
+
+/outros/home-veritas/assets/js/*
+  Cache-Control: public, max-age=31536000, immutable

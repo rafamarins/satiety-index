@@ -1,0 +1,23 @@
+[
+  {
+    "key": "answer-renting",
+    "prompt": "Create a standalone editorial photographic cut-paper COLLAGE for the existing Home Truths NZ first-home buyer guide. The supplied image is ART DIRECTION ONLY: match crisp real photographic cutouts, realistic tactile materials, subtle torn white edges, restrained cobalt-blue paper scraps, warm natural light. New scene, not the reference scene. Transparent background. Landscape 3:2 composition, large clear objects, all objects fully visible with safe margin. No words, letters, numbers, logo, UI or watermark. Not vector icons, cartoons or plastic 3D. Purpose: the visual must explain an everyday first-home-buyer idea, readable at 300px wide. Avoid extra decoration and impossible buildings. Subject: a modest NZ rental weatherboard home in the background, a large realistic open travel suitcase and two neat moving boxes in the foreground, and an ordinary silver door key resting on a plain blank rental-document folder. A little potted plant in one moving box. The clearly legible story is a place to live with flexibility to move. No people, no money, no sale signs. Suitcase and key dominant; house secondary.",
+    "tool": "built-in image_gen",
+    "source": "/Users/rms/.codex/generated_images/01a17269-4490-7ae3-a66b-a990466fa0be/exec-d8c0fe9b-2b95-418d-8f1c-92b8a175df30.png",
+    "asset": "assets/home-truths/answer-renting.webp"
+  },
+  {
+    "key": "answer-ownership-costs",
+    "prompt": "Create a standalone editorial photographic cut-paper COLLAGE for the existing Home Truths NZ first-home buyer guide. The supplied image is ART DIRECTION ONLY: match crisp real photographic cutouts, realistic tactile materials, subtle torn white edges, restrained cobalt-blue paper scraps, warm natural light. New scene, not the reference scene. Transparent background. Landscape 3:2 composition, large clear objects, all objects fully visible with safe margin. No words, letters, numbers, logo, UI or watermark. Not vector icons, cartoons or plastic 3D. Purpose: the visual must explain an everyday first-home-buyer idea, readable at 300px wide. Avoid extra decoration and impossible buildings. Subject: a modest NZ weatherboard home behind a carefully organized foreground still life of a long curling blank receipt, small sturdy blue umbrella representing insurance, a tray with paintbrush and spanner representing maintenance, and a plain council-style window envelope representing rates. The clearly legible story is several continuing costs beyond the home loan. Keep the receipt blank except subtle faint grey rules, no numerals or text. The four foreground objects must be clearly separate and recognizable, not a cluttered heap. One coherent normal roof; no lifted roof.",
+    "tool": "built-in image_gen",
+    "source": "/Users/rms/.codex/generated_images/01a17269-4490-7ae3-a66b-a990466fa0be/exec-38b80dda-432c-4238-8fb2-5dd59085bf3c.png",
+    "asset": "assets/home-truths/answer-ownership-costs.webp"
+  },
+  {
+    "key": "answer-inclusions",
+    "prompt": "Create a standalone editorial photographic cut-paper COLLAGE for the existing Home Truths NZ first-home buyer guide. The supplied image is ART DIRECTION ONLY: match crisp real photographic cutouts, realistic tactile materials, subtle torn white edges, restrained cobalt-blue paper scraps, warm natural light. New scene, not the reference scene. Transparent background. Landscape 3:2 composition, large clear objects, all objects fully visible with safe margin. No words, letters, numbers, logo, UI or watermark. Not vector icons, cartoons or plastic 3D. Purpose: the visual must explain an everyday first-home-buyer idea, readable at 300px wide. Avoid extra decoration and impossible buildings. Subject: a clear photographic cutaway vignette of one small NZ living room and adjacent kitchen corner: large window with pale curtains on a curtain rod at left, freestanding stainless refrigerator at right, a compact white dishwasher beneath a short kitchen bench, and a blank written agreement on a clipboard with a pen in the lower foreground. No outer house, no roof, no tiny appliances. The visual story is ask which curtains and appliances stay, and record it in the contract. Curtains, refrigerator, dishwasher and contract are each clearly visible and distinct. Keep room architecture plausible and sparse. Do not imply everything is included: no ticks, approved stamps, seals or arrows.",
+    "tool": "built-in image_gen",
+    "source": "/Users/rms/.codex/generated_images/01a17269-4490-7ae3-a66b-a990466fa0be/exec-b0812564-584d-4a9d-9c17-88784536e39d.png",
+    "asset": "assets/home-truths/answer-inclusions.webp"
+  }
+]

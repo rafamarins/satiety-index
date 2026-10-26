@@ -1,0 +1,770 @@
+{
+  "areas": {
+    "begin": {
+      "label": "Primeros pasos",
+      "title": "¿Comprar es lo mejor para mí?",
+      "description": "Tus planes. Alquilar o comprar. Comprar en conjunto."
+    },
+    "money": {
+      "label": "Dinero y apoyo",
+      "title": "¿Cuánto puedo pagar?",
+      "description": "Ahorro inicial, KiwiSaver, bancos, asesores y préstamos."
+    },
+    "find": {
+      "label": "Encontrar un hogar",
+      "title": "¿Dónde me sentiría en casa?",
+      "description": "Barrios, tipos de vivienda, agentes y visitas."
+    },
+    "checks": {
+      "label": "Revisar la propiedad",
+      "title": "¿Qué estoy comprando realmente?",
+      "description": "Inspecciones, documentos, riesgos y seguros."
+    },
+    "buy": {
+      "label": "Concretar la compra",
+      "title": "¿Cómo llego a recibir las llaves?",
+      "description": "Métodos de venta, ofertas, contratos y cierre."
+    },
+    "own": {
+      "label": "La vida como propietario",
+      "title": "¿Qué pasa después de mudarme?",
+      "description": "Mantenimiento, reformas y cuidados del día a día."
+    }
+  },
+  "topics": {
+    "decide": {
+      "label": "¿Alquilar o comprar?",
+      "headline": "Tu primera casa.\nA tu ritmo.",
+      "intro": "Empieza por la vida que quieres. Comprar es una elección, no una carrera.",
+      "bridge": "Ahora, descubre los costos que van más allá del precio anunciado.",
+      "cards": {
+        "life": {
+          "label": "Tu vida",
+          "title": "¿Qué debe encajar?",
+          "body": "Piensa más allá de recibir las llaves. Tus planes de trabajo, familia y mudanzas importan tanto como la casa.",
+          "checks": [
+            "Anota tres requisitos indispensables",
+            "Piensa en posibles mudanzas",
+            "Acuerden quién va a comprar"
+          ],
+          "gotcha": "El calendario de otra persona no marca tu plazo."
+        },
+        "compare": {
+          "label": "Alquilar o comprar",
+          "title": "Compara el panorama completo.",
+          "body": "Alquilar da flexibilidad. Ser propietario aporta control, responsabilidades y costos. Compara ambas opciones con tus planes, no solo con el pago de este mes.",
+          "checks": [
+            "Compara todos los gastos mensuales",
+            "Incluye los costos de comprar y vender",
+            "Deja margen para imprevistos"
+          ],
+          "gotcha": "La cuota hipotecaria no es todo el costo de tener una vivienda."
+        },
+        "together": {
+          "label": "Comprar en conjunto",
+          "title": "Acuerden antes de comprometerse.",
+          "body": "Aportes distintos, ayuda familiar y situación de residencia pueden cambiar el acuerdo. Consulta a tu abogado antes de prometer nada.",
+          "checks": [
+            "Comprueba quién puede comprar legalmente",
+            "Registra el aporte de cada persona",
+            "Acuerden qué hacer si cambian los planes"
+          ],
+          "gotcha": "La aprobación del préstamo no confirma tu derecho legal a comprar."
+        }
+      }
+    },
+    "budget": {
+      "label": "El costo total",
+      "headline": "El precio no cuenta\ntoda la historia.",
+      "intro": "Deja espacio para los gastos de compra, las cuentas habituales y lo que se avería.",
+      "bridge": "Ahora, separa el aporte inicial del dinero que necesitas conservar.",
+      "cards": {
+        "buying": {
+          "label": "Gastos de compra",
+          "title": "Reserva dinero para comprar.",
+          "body": "Abogados, informes, inspecciones, valoraciones y mudanza pueden generar gastos antes o alrededor del cierre de la compra (settlement). Pide presupuestos para tu caso.",
+          "checks": [
+            "Pide presupuestos de abogado e informes",
+            "Prevé gastos de ofertas que no prosperen",
+            "Aparta dinero para la mudanza"
+          ],
+          "gotcha": "Puedes pagar revisiones de una vivienda que finalmente no compres."
+        },
+        "ongoing": {
+          "label": "Gastos habituales",
+          "title": "Suma los gastos menos evidentes.",
+          "body": "Empieza por las cuotas y añade tasas municipales (rates), seguro y mantenimiento. Revisa cuotas compartidas, alquiler del terreno, agua y transporte cuando correspondan.",
+          "checks": [
+            "Consulta las tasas municipales reales",
+            "Pide una cotización de seguro",
+            "Comprueba los cargos de la propiedad compartida"
+          ],
+          "gotcha": "Las tasas municipales (rates) y los intereses hipotecarios son gastos distintos."
+        },
+        "buffer": {
+          "label": "Tu reserva",
+          "title": "Deja margen para respirar.",
+          "body": "Fija un límite que te resulte cómodo. Prueba cuotas más altas e ingresos más bajos, e incluye las reparaciones señaladas en la inspección.",
+          "checks": [
+            "Simula un mes más difícil",
+            "Presupuesta las reparaciones importantes",
+            "Protege tus ahorros de emergencia"
+          ],
+          "gotcha": "El máximo que presta el banco no es una meta de gasto."
+        }
+      }
+    },
+    "deposit": {
+      "label": "Aporte inicial y KiwiSaver",
+      "headline": "Tu parte.\nLa parte del banco.",
+      "intro": "Tu aporte inicial y el préstamo cubren el precio. La reserva para gastos de compra queda aparte.",
+      "bridge": "Lleva tus cifras y preguntas a un banco o asesor.",
+      "cards": {
+        "savings": {
+          "label": "Tus ahorros",
+          "title": "Cuenta con dinero confirmado.",
+          "body": "Enumera tus ahorros y la ayuda acordada. Una donación, un préstamo y una garantía familiar crean obligaciones diferentes: informa al banco y al abogado de cuál se trata.",
+          "checks": [
+            "Enumera los ahorros disponibles",
+            "Documenta la ayuda familiar",
+            "Separa los gastos del aporte inicial"
+          ],
+          "gotcha": "La señal del contrato (sales deposit) es un anticipo del precio, no un costo adicional."
+        },
+        "kiwisaver": {
+          "label": "KiwiSaver",
+          "title": "Consulta pronto a tu proveedor.",
+          "body": "Por lo general, se requieren tres años de afiliación. Tu proveedor confirma si cumples los requisitos, el importe disponible y el proceso de retiro.",
+          "checks": [
+            "Solicita una revisión de elegibilidad",
+            "Confirma cuánto debe permanecer en la cuenta",
+            "Coordina los plazos con tu abogado"
+          ],
+          "gotcha": "El saldo de KiwiSaver no es automáticamente el importe que puedes retirar."
+        },
+        "support": {
+          "label": "Otras ayudas",
+          "title": "Revisa las opciones actuales.",
+          "body": "Quienes cumplan los requisitos pueden acceder a un préstamo para primera vivienda (First Home Loan) con un aporte inicial menor. Consulta los criterios vigentes con Kāinga Ora y una entidad participante.",
+          "checks": [
+            "Revisa las ayudas actuales",
+            "Pregunta por los requisitos del banco",
+            "Confirma la ayuda antes de contar con ella"
+          ],
+          "gotcha": "La subvención First Home Grant terminó en mayo de 2024; las guías antiguas aún pueden mencionarla."
+        }
+      }
+    },
+    "team": {
+      "label": "Banco y asesor",
+      "headline": "Tu primera charla con el asesor.\nLleva preguntas.",
+      "intro": "Tu asesor hipotecario te ayuda con el préstamo; tu abogado revisa los riesgos legales. Elige a tus propios asesores y pregunta qué cubre cada uno.",
+      "bridge": "Antes de buscar vivienda, entiende cómo funcionará el préstamo.",
+      "cards": {
+        "compare": {
+          "label": "Compara bancos",
+          "title": "¿Qué bancos comparas?",
+          "body": "Pregunta con qué entidades trabaja el asesor y por qué recomienda una opción. También puedes comparar una oferta directa de un banco.",
+          "checks": [
+            "Pregunta qué bancos están incluidos",
+            "Pregunta cuáles quedan fuera",
+            "Pide una comparación por escrito"
+          ],
+          "gotcha": "Un asesor no necesariamente busca en todo el mercado."
+        },
+        "paid": {
+          "label": "Cómo cobran",
+          "title": "Entiende qué podrías tener que pagar.",
+          "body": "Pregunta por comisiones, honorarios y cargos si cambias antes de tiempo. Pide por escrito en qué casos se aplican y sus importes.",
+          "checks": [
+            "Pregunta por las comisiones",
+            "Revisa honorarios y posibles cargos por devolución de comisión (clawback)",
+            "Pregunta qué incluye el apoyo continuo"
+          ],
+          "gotcha": "Devolver el incentivo en efectivo (cashback) al banco y devolver la comisión al asesor (clawback) son cargos diferentes."
+        },
+        "prepare": {
+          "label": "Qué llevar",
+          "title": "Facilita la próxima conversación.",
+          "body": "Reúne justificantes de ingresos, gastos, deudas y aporte inicial. Elige pronto a tu propio abogado inmobiliario y pregunta al banco por las condiciones de la preaprobación.",
+          "checks": [
+            "Reúne los documentos solicitados",
+            "Elige a tu propio abogado",
+            "Confirma condiciones y vencimiento de la aprobación"
+          ],
+          "gotcha": "La preaprobación aún requiere aprobar la propiedad y el préstamo definitivo."
+        }
+      }
+    },
+    "mortgage": {
+      "label": "Entiende el préstamo",
+      "headline": "Pide el préstamo.\nEntiende el acuerdo.",
+      "intro": "La cuota es solo una cifra. La estructura, los cargos y la flexibilidad también importan.",
+      "bridge": "Con un presupuesto cómodo, prueba la vida alrededor de la casa.",
+      "cards": {
+        "repayments": {
+          "label": "Cuotas",
+          "title": "Prueba otro escenario.",
+          "body": "Una cuota de capital e intereses cubre los intereses y reduce la deuda. Cambia el importe, la tasa y el plazo del ejemplo para ver cómo se relacionan.",
+          "checks": [
+            "Prueba una tasa más alta",
+            "Compara distintos plazos",
+            "Añade los demás gastos de la vivienda"
+          ],
+          "gotcha": "La calculadora es ilustrativa: no muestra tasas actuales ni una decisión de crédito."
+        },
+        "structure": {
+          "label": "Fijo o variable",
+          "title": "Pregunta qué cambia y cuándo.",
+          "body": "Las opciones fijas, variables, mixtas y con compensación de saldos (offset) funcionan de forma diferente. Pide al asesor que explique cada una según tus gastos e ingresos.",
+          "checks": [
+            "Compara las opciones por escrito",
+            "Revisa las reglas para pagos adicionales",
+            "Anota cuándo vence la tasa fija"
+          ],
+          "gotcha": "Una tasa fija por dos años no significa un préstamo de dos años."
+        },
+        "exit": {
+          "label": "Cargos y cambio de banco",
+          "title": "Lee las condiciones de salida.",
+          "body": "Una tasa anunciada baja o un incentivo en efectivo (cashback) pueden tener condiciones. Pregunta qué pasa si pagas antes de tiempo, vendes o cambias de banco.",
+          "checks": [
+            "Pregunta por costos de cancelación anticipada",
+            "Lee las condiciones del incentivo en efectivo (cashback)",
+            "Compara el acuerdo completo"
+          ],
+          "gotcha": "Cambiar antes de tiempo puede generar más de un cargo."
+        }
+      }
+    },
+    "neighbourhood": {
+      "label": "El barrio",
+      "headline": "Te gusta la casa.\nPrueba el barrio.",
+      "intro": "También estás eligiendo el trayecto diario, los vecinos y el entorno.",
+      "bridge": "Ahora, busca una vivienda y un régimen de propiedad acordes a tus necesidades.",
+      "cards": {
+        "travel": {
+          "label": "Desplazamientos",
+          "title": "Prueba tu trayecto habitual.",
+          "body": "Camina, conduce o usa transporte público a la hora en que realmente lo harías. Comprueba el recorrido completo, no solo el mapa.",
+          "checks": [
+            "Haz el trayecto a tu hora habitual",
+            "Revisa el recorrido de puerta a puerta",
+            "Prueba una ruta alternativa"
+          ],
+          "gotcha": "Una visita tranquila un domingo puede ocultar un trayecto complicado entre semana."
+        },
+        "times": {
+          "label": "Día y noche",
+          "title": "Vuelve a otra hora.",
+          "body": "Observa el sol, el tráfico, el ruido y la actividad alrededor de la casa. Piensa en la estación del año además de la hora.",
+          "checks": [
+            "Visita por la mañana y por la noche",
+            "Presta atención al ruido cercano",
+            "Comprueba la luz solar probable en invierno"
+          ],
+          "gotcha": "Una visita soleada no muestra todas las estaciones."
+        },
+        "local": {
+          "label": "Revisiones locales",
+          "title": "Mira más allá de la parcela.",
+          "body": "Pregunta por desarrollos cercanos, servicios locales y riesgos del terreno. Usa información municipal y tus propias comprobaciones junto con la descripción del agente.",
+          "checks": [
+            "Consulta la información urbanística",
+            "Busca información sobre riesgos naturales",
+            "Confirma los servicios que necesitas"
+          ],
+          "gotcha": "La vista o la parcela vacía de al lado pueden cambiar."
+        }
+      }
+    },
+    "homes": {
+      "label": "Vivienda y propiedad",
+      "headline": "Puertas parecidas.\nCompromisos distintos.",
+      "intro": "Casa, casa adosada (townhouse) o apartamento describe la forma, pero no todos tus derechos y responsabilidades.",
+      "bridge": "Lleva tus requisitos indispensables a la visita.",
+      "cards": {
+        "needs": {
+          "label": "Tu selección",
+          "title": "Elige lo realmente indispensable.",
+          "body": "Separa necesidades de preferencias. Las viviendas existentes, nuevas, sobre plano o para reformar requieren distintas comprobaciones y decisiones.",
+          "checks": [
+            "Elige tres requisitos irrenunciables",
+            "Comprueba espacio y acceso",
+            "Compara estado y mantenimiento"
+          ],
+          "gotcha": "Una vivienda nueva también necesita una revisión cuidadosa del contrato y la finalización."
+        },
+        "title": {
+          "label": "El título",
+          "title": "Averigua qué será tuyo.",
+          "body": "Freehold, cross-lease, leasehold y unit title son regímenes distintos. Pregunta a tu abogado por límites, restricciones, zonas compartidas y permisos.",
+          "checks": [
+            "Pide al abogado que revise el título",
+            "Comprueba accesos compartidos y límites",
+            "Pregunta por restricciones a las modificaciones"
+          ],
+          "gotcha": "Un precio más bajo en leasehold puede implicar un alquiler continuo del terreno."
+        },
+        "shared": {
+          "label": "Edificios compartidos",
+          "title": "Lee los compromisos comunes.",
+          "body": "En un unit title, examina la información divulgada, los registros de la entidad de propietarios (body corporate) y los fondos de mantenimiento. En otros acuerdos compartidos, pregunta quién paga y quién decide.",
+          "checks": [
+            "Solicita los registros pertinentes",
+            "Revisa obras previstas y cuotas",
+            "Pregunta por disputas y seguro"
+          ],
+          "gotcha": "Un plan de mantenimiento no demuestra que haya suficiente dinero ahorrado."
+        }
+      }
+    },
+    "viewing": {
+      "label": "Al visitar una vivienda",
+      "headline": "Mira la casa.\nHaz las preguntas difíciles.",
+      "intro": "Una visita abierta es un primer vistazo. Convierte lo que observes en preguntas para investigar.",
+      "bridge": "Si entra en tu selección, organiza las revisiones más detalladas.",
+      "cards": {
+        "notice": {
+          "label": "Mira de cerca",
+          "title": "Mira más allá de la decoración.",
+          "body": "Observa manchas, olores, ventilación y estado. Pide permiso antes de probar equipamiento o tomar fotos, y anota las dudas mientras las recuerdas.",
+          "checks": [
+            "Observa techos y ventanas",
+            "Pregunta por calefacción y ventilación",
+            "Anota lo que necesita explicación"
+          ],
+          "gotcha": "La pintura nueva puede ocultar una pregunta; no puede responderla."
+        },
+        "questions": {
+          "label": "Pregunta al agente",
+          "title": "Pregunta qué ha pasado aquí.",
+          "body": "Pregunta por reparaciones, modificaciones, defectos conocidos, siniestros y qué se queda en la propiedad. Solicita documentos para las respuestas importantes.",
+          "checks": [
+            "Pregunta por reparaciones y filtraciones",
+            "Pregunta qué está incluido",
+            "Pide pruebas por escrito"
+          ],
+          "gotcha": "El agente de venta trabaja para el vendedor; busca tu propio asesoramiento."
+        },
+        "compare": {
+          "label": "Compara con criterio",
+          "title": "Usa las mismas comprobaciones cada vez.",
+          "body": "Compara cada vivienda con tus requisitos y guarda juntas las notas. Organiza otra visita si necesitas más tiempo o un especialista.",
+          "checks": [
+            "Usa tu lista de requisitos",
+            "Anota preguntas para darles seguimiento",
+            "Organiza otra visita si hace falta"
+          ],
+          "gotcha": "Una visita no sustituye una inspección independiente del edificio."
+        }
+      }
+    },
+    "inspection": {
+      "label": "La inspección",
+      "headline": "Mira más allá\nde la pintura nueva.",
+      "intro": "Acude a un inspector cualificado para entender el estado, los límites de la inspección y las revisiones pendientes.",
+      "bridge": "El edificio y sus documentos deben contar la misma historia.",
+      "cards": {
+        "scope": {
+          "label": "Qué incluye",
+          "title": "¿Qué no se pudo revisar?",
+          "body": "Acuerda el alcance de la inspección y lee sus limitaciones. Pregunta qué zonas eran inaccesibles y qué problemas requieren un especialista.",
+          "checks": [
+            "Pide un informe de ejemplo",
+            "Confirma acceso y alcance",
+            "Pregunta por revisiones especializadas"
+          ],
+          "gotcha": "Un informe de inspección tiene límites; no es una garantía."
+        },
+        "water": {
+          "label": "Humedad y confort",
+          "title": "Busca la causa, no solo la mancha.",
+          "body": "Pregunta por techo, drenaje, humedad, aislamiento y ventilación. Una señal sin explicación necesita investigación, no solo un presupuesto estético.",
+          "checks": [
+            "Pregunta por entradas de agua",
+            "Revisa confort térmico y ventilación",
+            "Investiga los hallazgos sin explicación"
+          ],
+          "gotcha": "Una visita en un día seco no demuestra que la casa sea seca."
+        },
+        "repairs": {
+          "label": "Qué sigue",
+          "title": "Convierte los hallazgos en decisiones.",
+          "body": "Comenta las dudas con el inspector y tu abogado. Haz evaluar y presupuestar las obras importantes antes de comprometerte más allá de las protecciones acordadas.",
+          "checks": [
+            "Separa lo urgente de lo estético",
+            "Pide presupuestos a especialistas",
+            "Habla de los hallazgos con tu abogado"
+          ],
+          "gotcha": "No des por hecho que puedes basarte en un informe encargado por otra persona."
+        }
+      }
+    },
+    "records": {
+      "label": "Documentos y permisos",
+      "headline": "Revisa la casa.\nRevisa sus documentos.",
+      "intro": "Tu abogado, los registros municipales y la inspección responden preguntas distintas. Analízalos en conjunto.",
+      "bridge": "Ahora, confirma que la propiedad pueda obtener la cobertura que necesitas.",
+      "cards": {
+        "council": {
+          "label": "Registros municipales",
+          "title": "¿Qué sabe el municipio?",
+          "body": "El LIM es un informe con información de la propiedad que conserva el municipio. Solicítalo junto con el expediente de la propiedad; revisa riesgos, planos y aprobaciones con tu abogado.",
+          "checks": [
+            "Solicita los registros pertinentes",
+            "Revisa los problemas registrados",
+            "Compara los planos con la vivienda"
+          ],
+          "gotcha": "Un LIM no es una inspección física del edificio."
+        },
+        "alterations": {
+          "label": "Modificaciones anteriores",
+          "title": "¿Coinciden los cambios y los documentos?",
+          "body": "Solicita permisos y registros de finalización de las modificaciones. Busca asesoramiento sobre documentos faltantes y otros permisos que pudieran haber sido necesarios.",
+          "checks": [
+            "Pregunta qué se modificó",
+            "Busca aprobaciones y certificados de finalización",
+            "Investiga los registros faltantes"
+          ],
+          "gotcha": "El permiso de obra (building consent), el certificado de cumplimiento del código de construcción (CCC) y el certificado de aceptación (certificate of acceptance) son documentos diferentes."
+        },
+        "rights": {
+          "label": "Derechos y acceso",
+          "title": "¿Puedes usarla como planeas?",
+          "body": "Pide a tu abogado que explique servidumbres (easements), restricciones (covenants) y responsabilidades compartidas. Confirma servicios y acceso, especialmente en propiedades rurales o poco habituales.",
+          "checks": [
+            "Comprueba acceso y servicios",
+            "Pregunta por restricciones del título",
+            "Confirma los permisos para tus planes"
+          ],
+          "gotcha": "Una aprobación de obra no anula una restricción del título."
+        }
+      }
+    },
+    "insurance": {
+      "label": "Riesgos y seguro",
+      "headline": "Revisa el riesgo.\nConfirma la cobertura.",
+      "intro": "Consulta por la dirección concreta antes de comprometerte, no después de comprar.",
+      "bridge": "Con las revisiones en marcha, entiende cómo funciona esta venta.",
+      "cards": {
+        "hazards": {
+          "label": "El terreno",
+          "title": "¿Qué podría afectar a este lugar?",
+          "body": "Investiga riesgos de inundación, deslizamientos, fenómenos costeros y terremotos. Usa registros municipales y asesoramiento especializado adecuado a la ubicación.",
+          "checks": [
+            "Lee la información sobre riesgos naturales",
+            "Pregunta por daños anteriores",
+            "Busca asesoramiento especializado si hace falta"
+          ],
+          "gotcha": "Un mapa de riesgos no responde a todas las preguntas de una propiedad concreta."
+        },
+        "cover": {
+          "label": "La póliza",
+          "title": "¿Puedes asegurar esta vivienda?",
+          "body": "Pregunta a una aseguradora por cobertura, exclusiones, deducibles y estimaciones de reconstrucción. Confirma los requisitos del banco antes de comprometerte sin condiciones o pujar.",
+          "checks": [
+            "Pide una cotización para esa dirección",
+            "Revisa exclusiones y deducibles",
+            "Confirma los requisitos del banco"
+          ],
+          "gotcha": "El seguro del vendedor no demuestra que puedas obtener la misma cobertura."
+        },
+        "claims": {
+          "label": "Siniestros anteriores",
+          "title": "Sigue el siniestro y la reparación.",
+          "body": "Pregunta por reclamaciones anteriores ante NHC/EQC y las reparaciones. Pide a tu abogado que revise asuntos pendientes y cualquier cesión de derechos de reclamación.",
+          "checks": [
+            "Solicita información de las reclamaciones",
+            "Comprueba las pruebas de reparación",
+            "Pregunta al abogado por la cesión"
+          ],
+          "gotcha": "Una reclamación resuelta no demuestra que se hayan terminado todas las reparaciones."
+        }
+      }
+    },
+    "offer": {
+      "label": "Ofertas y contratos",
+      "headline": "Antes de firmar.\nAntes de pujar.",
+      "intro": "El método de venta cambia los plazos. Involucra a tu abogado antes de comprometerte.",
+      "bridge": "A medida que avance el acuerdo, prepara la entrega con tu abogado.",
+      "cards": {
+        "method": {
+          "label": "Métodos de venta",
+          "title": "Conoce las reglas de esta venta.",
+          "body": "Negociación, tender, deadline sale y procesos con varias ofertas funcionan de forma distinta. Pregunta por el calendario exacto y si el vendedor puede aceptar una oferta anticipada.",
+          "checks": [
+            "Confirma el proceso de venta",
+            "Comprueba si puede venderse antes del plazo",
+            "Fija tu propio límite"
+          ],
+          "gotcha": "La presión de otro comprador no elimina la necesidad de tus revisiones."
+        },
+        "auction": {
+          "label": "Subasta",
+          "title": "Haz las revisiones antes de pujar.",
+          "body": "Una compra en subasta es incondicional. Organiza financiación, seguro, revisiones de la propiedad y asesoramiento legal antes de pujar.",
+          "checks": [
+            "Confirma fondos y seguro",
+            "Completa las comprobaciones necesarias",
+            "Acuerden autorización para pujar y límite"
+          ],
+          "gotcha": "Ganar la subasta te compromete a comprar."
+        },
+        "contract": {
+          "label": "El contrato",
+          "title": "Entiende qué te obliga.",
+          "body": "Pide a tu abogado que revise condiciones, plazos, señal, elementos incluidos y cierre de la compra (settlement). Pregunta qué debe suceder antes de cumplir o renunciar a cada condición.",
+          "checks": [
+            "Obtén revisión legal antes de firmar",
+            "Anota fechas y condiciones",
+            "Confirma los elementos incluidos"
+          ],
+          "gotcha": "Un contrato condicional sigue siendo vinculante; no ofrece cancelación libre."
+        }
+      }
+    },
+    "settlement": {
+      "label": "Recibir las llaves",
+      "headline": "Una última revisión.\nDespués, tu puerta.",
+      "intro": "Coordina inspección, documentos, dinero y seguro antes de la mudanza.",
+      "bridge": "Las llaves marcan un hito. Ahora, prepara un plan para cuidar la vivienda.",
+      "cards": {
+        "inspection": {
+          "label": "Inspección final",
+          "title": "Compárala con lo acordado.",
+          "body": "Usa la inspección previa al cierre para comprobar el estado acordado y los elementos incluidos. Avisa pronto a tu abogado si faltan cosas o hay daños nuevos.",
+          "checks": [
+            "Comprueba las reparaciones acordadas",
+            "Revisa los bienes incluidos (chattels)",
+            "Comunica los problemas a tu abogado"
+          ],
+          "gotcha": "No dejes un problema para cuando recojas las llaves."
+        },
+        "money": {
+          "label": "Dinero y cobertura",
+          "title": "Ten todo listo a tiempo.",
+          "body": "Confirma con tu abogado y banco los documentos del préstamo, los plazos de KiwiSaver, los fondos restantes y el seguro. Verifica las instrucciones de pago por un medio de contacto fiable.",
+          "checks": [
+            "Confirma documentos y fondos",
+            "Confirma cuándo empieza la cobertura",
+            "Verifica los datos bancarios por otra vía"
+          ],
+          "gotcha": "Un correo que cambia los datos bancarios puede ser una estafa."
+        },
+        "keys": {
+          "label": "La entrega",
+          "title": "Espera la confirmación del cierre.",
+          "body": "Tu abogado coordina el cierre de la compra (settlement). Organiza la entrega de llaves después de la confirmación, con algo de flexibilidad para la mudanza y el acceso.",
+          "checks": [
+            "Espera la confirmación de tu abogado",
+            "Confirma la recogida de llaves",
+            "Registra los medidores y organiza los servicios"
+          ],
+          "gotcha": "No se garantizan las llaves a primera hora de la mañana del cierre."
+        }
+      }
+    },
+    "living": {
+      "label": "La vida como propietario",
+      "headline": "Tu casa.\nCuidarla se nota.",
+      "intro": "Mantén al día las reparaciones, los gastos habituales y los cambios en tu vida.",
+      "bridge": "¿Planeas cambios? Revisa las reglas antes de usar las herramientas.",
+      "cards": {
+        "care": {
+          "label": "Que todo funcione",
+          "title": "Empieza por lo urgente.",
+          "body": "Usa el informe de inspección para planificar el mantenimiento. Atiende problemas de seguridad y agua antes de mejoras estéticas, con profesionales adecuados.",
+          "checks": [
+            "Enumera las reparaciones urgentes",
+            "Programa el mantenimiento habitual",
+            "Conserva registros y garantías"
+          ],
+          "gotcha": "Los pequeños problemas de agua pueden salir caros si se ignoran."
+        },
+        "review": {
+          "label": "Revisa los gastos",
+          "title": "Anota las fechas en el calendario.",
+          "body": "Revisa seguro, condiciones del préstamo y ahorros para mantenimiento cuando cambie la propiedad o tu situación. Pide ayuda pronto si te cuesta pagar las cuotas.",
+          "checks": [
+            "Anota renovaciones del préstamo y del seguro",
+            "Revisa la cobertura tras los cambios",
+            "Contacta pronto al banco si tienes dificultades"
+          ],
+          "gotcha": "El préstamo y la cobertura adecuados pueden cambiar con tu vida."
+        },
+        "shared": {
+          "label": "Responsabilidades comunes",
+          "title": "Mantén el diálogo con los demás propietarios.",
+          "body": "Entiende cómo funcionan el mantenimiento y las decisiones compartidas. Lee los avisos, entiende las obras propuestas y conserva tus propios registros.",
+          "checks": [
+            "Lee los avisos de la propiedad compartida",
+            "Presupuesta las cuotas acordadas",
+            "Guarda las decisiones por escrito"
+          ],
+          "gotcha": "La propiedad compartida puede implicar gastos más allá de tu propia puerta."
+        }
+      }
+    },
+    "renovate": {
+      "label": "Reforma con cuidado",
+      "headline": "Hazla tuya.\nRevisa antes de cambiar.",
+      "intro": "Empieza por el alcance, los permisos y un presupuesto realista. Después, elige a las personas adecuadas.",
+      "bridge": "Ten a mano tus comprobaciones guardadas y vuelve cuando cambien tus planes.",
+      "cards": {
+        "permissions": {
+          "label": "Permisos",
+          "title": "Comprueba más de una regla.",
+          "body": "Consulta al municipio sobre el permiso de construcción (building consent) y la autorización urbanística (resource consent). Revisa las restricciones del título y las aprobaciones de otros propietarios antes de iniciar la obra.",
+          "checks": [
+            "Confirma los permisos necesarios",
+            "Revisa el título y las aprobaciones compartidas",
+            "Deja tiempo para las aprobaciones"
+          ],
+          "gotcha": "No necesitar permiso de construcción no significa que no se apliquen otras reglas."
+        },
+        "scope": {
+          "label": "Alcance y presupuesto",
+          "title": "Incluye el trabajo oculto.",
+          "body": "Define un alcance claro, pide presupuestos por escrito y asesoramiento profesional adecuado. Deja margen para condiciones desconocidas e informa a tu aseguradora de las obras previstas.",
+          "checks": [
+            "Compara presupuestos detallados por escrito",
+            "Mantén una reserva para imprevistos",
+            "Informa de tus planes a la aseguradora"
+          ],
+          "gotcha": "Una reforma estética puede revelar problemas estructurales o de humedad."
+        },
+        "finish": {
+          "label": "Seguridad y finalización",
+          "title": "Conserva las pruebas del buen trabajo.",
+          "body": "Revisa materiales potencialmente peligrosos antes de alterarlos. Acude a especialistas adecuados y conserva las aprobaciones, inspecciones, garantías y registros de finalización requeridos.",
+          "checks": [
+            "Comprueba antes de alterar materiales antiguos",
+            "Usa profesionales cualificados cuando se exija",
+            "Conserva los registros de finalización"
+          ],
+          "gotcha": "No cortes, lijes ni retires materiales sospechosos de contener amianto sin asesoramiento adecuado."
+        }
+      }
+    },
+    "agents": {
+      "label": "Agentes inmobiliarios",
+      "headline": "¿Quién trabaja\npara quién?",
+      "intro": "Recibir ayuda es útil. Saber quién te representa importa aún más.",
+      "bridge": "Cuando te interese una vivienda, averigua cómo funciona esa venta.",
+      "cards": {
+        "roles": {
+          "label": "A quién representan",
+          "title": "Pregunta a quién representan.",
+          "body": "El agente de la venta representa al vendedor. Un agente del comprador te representa mediante un contrato aparte. Tu abogado revisa la parte legal.",
+          "checks": [
+            "Pregunta a quién representa el agente",
+            "Elige tu propio abogado",
+            "Lee cualquier contrato de representación"
+          ],
+          "gotcha": "Enseñarte viviendas no convierte a alguien automáticamente en tu agente del comprador."
+        },
+        "disclosures": {
+          "label": "Preguntas y pruebas",
+          "title": "Pregunta. Después pide los documentos.",
+          "body": "Pregunta por defectos, reparaciones, permisos, riesgos y elementos incluidos. Los agentes deben actuar de forma justa e informar de problemas relevantes; aun así, organiza tus propias comprobaciones.",
+          "checks": [
+            "Pide la información por escrito",
+            "Comprueba los documentos de forma independiente",
+            "Incluye las promesas importantes en el contrato"
+          ],
+          "gotcha": "Una respuesta segura no sustituye un informe de inspección ni una revisión legal."
+        },
+        "your-agent": {
+          "label": "Tu propio agente",
+          "title": "Entiende qué estás contratando.",
+          "body": "Antes de contratar a un agente del comprador, revisa su licencia, servicios, honorarios, conflictos y poderes para negociar o pujar. Pide a tu abogado que revise el contrato.",
+          "checks": [
+            "Consulta el registro público de REA",
+            "Acuerda honorarios y servicios por escrito",
+            "Fija límites de autorización y de puja"
+          ],
+          "gotcha": "Un agente que te presenta una vivienda anunciada por otra agencia puede seguir trabajando para el vendedor."
+        }
+      }
+    },
+    "sales": {
+      "label": "Formas de comprar",
+      "headline": "La misma vivienda.\nDistintas reglas de compra.",
+      "intro": "Primero comprueba quién vende. Después, el proceso, las fechas y las condiciones.",
+      "bridge": "Ahora pide a tu abogado que refleje tu oferta y tus protecciones en el contrato adecuado.",
+      "cards": {
+        "process": {
+          "label": "Procesos de venta",
+          "title": "¿Qué proceso se sigue aquí?",
+          "body": "La negociación, la fecha límite, el tender (ofertas cerradas) y la subasta cambian cuándo presentas tu oferta y qué debes comprobar antes. Consigue las reglas exactas de esta vivienda.",
+          "checks": [
+            "Confirma el método de venta y las fechas",
+            "Pregunta si puede venderse antes",
+            "Consulta las condiciones con tu abogado"
+          ],
+          "gotcha": "En una subasta, termina las comprobaciones y confirma financiación y seguro antes de pujar."
+        },
+        "competition": {
+          "label": "Precio y competencia",
+          "title": "Una referencia de precio no es una promesa.",
+          "body": "El precio anunciado, BEO u “offers over” (ofertas por encima de cierta cantidad) son referencias, no la aceptación de tu oferta. Varias ofertas escritas pueden dar lugar a un proceso de ofertas múltiples.",
+          "checks": [
+            "Usa datos del inmueble y tu presupuesto",
+            "Pregunta cómo se gestionan las ofertas competidoras",
+            "Confirma cuándo caduca tu oferta"
+          ],
+          "gotcha": "Puede que no tengas otra oportunidad de mejorar tu oferta. Mantén las protecciones que necesitas."
+        },
+        "special": {
+          "label": "Compra directa y ventas especiales",
+          "title": "Otro vendedor. Más preguntas.",
+          "body": "Comprar directamente al propietario, a un prestamista que vende por una hipoteca o a una herencia puede cambiar las comprobaciones y los términos del contrato. Involucra a tu abogado desde el principio.",
+          "checks": [
+            "Confirma quién tiene autoridad para vender",
+            "Revisa posesión, elementos incluidos y garantías",
+            "Pide que revisen los acuerdos sobre la señal"
+          ],
+          "gotcha": "Que no haya agente no significa que no haya contrato. Una venta por el acreedor hipotecario no es automáticamente una ganga."
+        }
+      }
+    }
+  },
+  "sourceLabels": {
+    "Settled · finances and costs": "Settled · finanzas y costos",
+    "LINZ · who can buy": "LINZ · quién puede comprar",
+    "Settled · property homework": "Settled · comprobaciones de la propiedad",
+    "NZ Government · first-home help": "NZ Government · ayuda para la primera vivienda",
+    "Inland Revenue · KiwiSaver withdrawal": "Inland Revenue · retiro de KiwiSaver",
+    "Settled · the purchase agreement": "Settled · el contrato de compra",
+    "FMA · mortgage advice": "FMA · asesoramiento hipotecario",
+    "Settled · confirming finance": "Settled · confirmar la financiación",
+    "Sorted · mortgage types": "Sorted · tipos de hipoteca",
+    "Settled · neighbourhood checks": "Settled · comprobaciones del barrio",
+    "Settled · natural hazards": "Settled · riesgos naturales",
+    "Settled · property options": "Settled · opciones de vivienda",
+    "Settled · types of ownership": "Settled · regímenes de propiedad",
+    "Unit Titles Services · buying a unit": "Unit Titles Services · comprar una unidad",
+    "Settled · viewing a home": "Settled · visitar una vivienda",
+    "MBIE · council records": "MBIE · registros municipales",
+    "LINZ · land records": "LINZ · registros de terrenos",
+    "MBIE · check consent requirements": "MBIE · revisa los permisos necesarios",
+    "Building Act · current legislation": "Building Act · legislación vigente",
+    "NHC · previous claims": "NHC · reclamaciones anteriores",
+    "Settled · buying at auction": "Settled · comprar en subasta",
+    "Consumer Protection · preparing an offer": "Consumer Protection · preparar una oferta",
+    "Settled · settlement day": "Settled · día del cierre",
+    "Law Society · payment fraud": "Law Society · fraude de pago",
+    "MBIE · renovating a home": "MBIE · reformar una vivienda",
+    "Health NZ · asbestos": "Health NZ · amianto",
+    "Settled · agents and private sales": "Settled · agentes y compra directa al propietario",
+    "REA · buyer’s agents": "REA · agentes del comprador",
+    "REA · check an agent’s licence": "REA · comprobar la licencia de un agente",
+    "REA · conduct and client care rules": "REA · normas de conducta y atención al cliente",
+    "Settled · negotiation and price guides": "Settled · negociación y referencias de precio",
+    "Settled · deadline sales": "Settled · ventas con fecha límite",
+    "Settled · tenders": "Settled · ofertas cerradas (tender)",
+    "Settled · multiple offers": "Settled · varias ofertas",
+    "Settled · estates and trusts": "Settled · herencias y trusts"
+  }
+}

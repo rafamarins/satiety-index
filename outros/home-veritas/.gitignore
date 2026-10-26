@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.wrangler/
+index.html
+home-truths.bundle.js
+assets/js/
+qa/*
+!qa/*.md
+!qa/*.js
+.DS_Store

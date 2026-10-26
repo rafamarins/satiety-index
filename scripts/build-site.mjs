@@ -1,6 +1,9 @@
 import { cp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import { basename, extname } from "node:path";
+import { fileURLToPath } from "node:url";
+import { execFile } from "node:child_process";
+import { promisify } from "node:util";
 import { build, transform } from "esbuild";
 import sharp from "sharp";
 import { FOODS } from "../foods.js";
@@ -13,6 +16,12 @@ const hash = (bytes) =>
   createHash("sha256").update(bytes).digest("hex").slice(0, 12);
 const replacements = new Map();
 const illustrations = {};
+const homeVeritas = new URL("outros/home-veritas/", project);
+
+// Build from the sibling project's source; publish only its explicit dist package.
+await promisify(execFile)(process.execPath, ["build-home-truths.js"], {
+  cwd: fileURLToPath(homeVeritas),
+});
 
 async function hashedAsset(relative, bytes, root = output) {
   const extension = extname(relative);
@@ -133,6 +142,7 @@ for (const isParent of [false, true]) {
   );
   await writeFile(new URL("index.html", root), html);
 }
+await cp(new URL("dist/", homeVeritas), new URL("outros/home-veritas/", distribution), { recursive: true });
 console.log(
-  `Built both pages, ${FOODS.length * 3} responsive illustrations, bundled scripts and fingerprinted assets.`,
+  `Built Outros, Satiety Index and Home Veritas; ${FOODS.length * 3} responsive food illustrations and project assets.`,
 );

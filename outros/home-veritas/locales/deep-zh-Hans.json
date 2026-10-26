@@ -1,0 +1,818 @@
+{
+  "chapters": [
+    {
+      "id": "decide",
+      "checklist": [
+        "写下你为什么想买房。",
+        "比较租房与买房自住的全部费用。",
+        "考虑工作、家庭和未来可能的搬家。",
+        "确认由谁共同购买，以及谁在法律上有资格买房。"
+      ],
+      "mistake": "看到别人似乎都在买房，就跟着买。房子需要适合你的生活，也要在你的预算之内。",
+      "shortcut": "先列出三项不能妥协的要求，再定一个负担舒适的每月预算。用它们尽早排除不合适的房子。",
+      "details": [
+        {
+          "question": "租金真的是“白花的钱”吗？",
+          "answer": "租金换来的是居住空间和灵活性。持有房产也有不会增加房产净值的开支，例如利息、地税（rates）、保险和维护费。比较你预计会住多久、所有费用，以及存款还可以怎样使用。没有一种选择适合所有人。",
+          "source": "Settled · 财务与费用",
+          "url": "https://www.settled.govt.nz/buying-a-home/thinking-of-buying/thinking-about-your-finances-when-buying/"
+        },
+        {
+          "question": "为什么不能只比较租金和房贷还款额？",
+          "answer": "房贷还款只是持有房产的一部分开支。还要加上地税、保险、维护费，以及可能的业主法人团体（body corporate）费用或地租。也要考虑买房和日后卖房的费用。本金加利息的还款中，一部分会减少你的债务；租金和利息则不会。",
+          "source": "Settled · 财务与费用",
+          "url": "https://www.settled.govt.nz/buying-a-home/thinking-of-buying/thinking-about-your-finances-when-buying/"
+        },
+        {
+          "question": "一起买房，但各自出资不同，怎么办？",
+          "answer": "买房前先商定安排。请律师记录各方出资、产权比例、付款责任、决策方式，以及有人想退出、双方分开或有人去世时怎么办。向贷款机构确认每位借款人对贷款承担什么责任；你们的私人协议不会改变银行合同。",
+          "source": "Settled · 财务与费用",
+          "url": "https://www.settled.govt.nz/buying-a-home/thinking-of-buying/thinking-about-your-finances-when-buying/"
+        },
+        {
+          "question": "有居民签证就一定可以买房吗？",
+          "answer": "不要这样假设。资格取决于国籍、居留身份、是否通常居住在新西兰（ordinarily resident），有时还需要许可。作出承诺前，请律师根据你的情况核实。能否获得房贷与是否在法律上有购房资格，是两个不同的问题。",
+          "source": "LINZ · 购买自住住宅",
+          "url": "https://www.linz.govt.nz/guidance/overseas-investment/buying-residential-property-live"
+        },
+        {
+          "question": "以前有过房产，还能申请首次购房帮助吗？",
+          "answer": "有可能。有些曾经拥有房产的人，如果符合相关财务状况标准，也可能符合 KiwiSaver 首次购房提款资格。在资格和可提取金额确认前，不要把这笔钱算进可用资金。向 Kāinga Ora 和你的 KiwiSaver 管理机构确认适用的流程。",
+          "source": "Kāinga Ora · KiwiSaver 提款",
+          "url": "https://kaingaora.govt.nz/en_NZ/home-ownership/kiwisaver-first-home-withdrawal/"
+        },
+        {
+          "question": "应该从哪里开始？各个步骤按什么顺序进行？",
+          "answer": "先明确自己的需求和能安心负担的预算。在认真考虑某套房产之前，先与贷款机构或房贷顾问沟通，并选好律师。然后筛选房源，安排房产核查。签字前，请律师审查报价和附带条件。在合同变为无条件前，完成所需检查、融资和保险安排，然后准备交割。如果参加拍卖，这些检查必须在竞价前完成。过程中可能需要回头重新考虑之前的步骤。",
+          "source": "Settled · 购房流程",
+          "url": "https://www.settled.govt.nz/buying-a-home/thinking-of-buying/understanding-the-home-buying-journey/"
+        }
+      ]
+    },
+    {
+      "id": "deposit",
+      "checklist": [
+        "列出存款和已经确认的资助。",
+        "向 KiwiSaver 管理机构了解资格和办理时间。",
+        "把购房费用和应急资金另留出来。",
+        "与贷款机构和律师确认家人的赠款或借款安排。"
+      ],
+      "mistake": "把所有积蓄都用作首付，结果没有钱支付律师费、搬家费或维修费。",
+      "shortcut": "开始出价前，就向 KiwiSaver 管理机构了解提款流程。",
+      "details": [
+        {
+          "question": "首付一定要达到 20% 吗？",
+          "answer": "20% 是常见目标，并非统一规定。有些贷款机构会考虑较低首付，但有各自的标准，也可能收取额外费用。符合条件的买家可以通过 首次购房贷款计划（First Home Loan），以 5% 首付购房。首付只是审核的一部分：贷款机构还要评估还款能力和房产本身。",
+          "source": "NZ Government · 购买第一套住房",
+          "url": "https://www.govt.nz/browse/housing-and-property/buying-or-selling-a-home/buying-your-first-home/"
+        },
+        {
+          "question": "KiwiSaver 首次购房提款怎么办理？",
+          "answer": "通常，你需要参加 KiwiSaver 至少三年，打算自住，并在账户中保留 $1,000。管理机构会确认资格、可提取金额、所需文件和办理时间。这笔款项会通过购房流程处理，不要假设能立即到账。",
+          "source": "Kāinga Ora · KiwiSaver 提款",
+          "url": "https://kaingaora.govt.nz/en_NZ/home-ownership/kiwisaver-first-home-withdrawal/"
+        },
+        {
+          "question": "银行说的首付和买卖合同中的预付款，是两笔独立费用吗？",
+          "answer": "它们指的是不同概念。你投入的全部自有资金加上房贷，用来支付房价。合同预付款（sales deposit）是按照购房合同提前支付的一部分款项，通常计入同一笔房价，并不是在首付之外再多付一笔。请律师确认金额、到期日，以及这笔钱从哪里来。",
+          "source": "Settled · 房屋买卖协议",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-the-sale-and-purchase-agreement-when-buying/"
+        },
+        {
+          "question": "首次购房补助（First Home Grant）还可以申请吗？",
+          "answer": "不可以。首次购房补助（First Home Grant） 已于 2024 年 5 月停止。KiwiSaver 首次购房提款和 首次购房贷款计划（First Home Loan） 是另外两种帮助，各有资格要求。旧文章、视频或别人的购房经历中提到的资助，现在可能已经不存在。",
+          "source": "NZ Government · 购买第一套住房",
+          "url": "https://www.govt.nz/browse/housing-and-property/buying-or-selling-a-home/buying-your-first-home/"
+        },
+        {
+          "question": "家人可以帮忙付首付吗？",
+          "answer": "可能可以，但赠款、借款、担保和共同购房是不同安排。必须向贷款机构和律师说明究竟是哪一种。把条款写下来，包括是否需要还款。担保人或共同借款人可能承担重大责任，应先取得独立意见。",
+          "source": "Settled · 财务与费用",
+          "url": "https://www.settled.govt.nz/buying-a-home/thinking-of-buying/thinking-about-your-finances-when-buying/"
+        }
+      ]
+    },
+    {
+      "id": "budget",
+      "checklist": [
+        "计算购房相关费用，不只看房价。",
+        "在还款之外，加上地税、保险和维护费。",
+        "为维修和生活变化留出余地。",
+        "听银行的最高贷款额度前，先定自己的上限。"
+      ],
+      "mistake": "把银行愿意借出的最高金额当成购房预算目标。贷款获批，并不代表还款时会感到轻松。",
+      "shortcut": "做一份每月持有房产的预算，用它比较每套房子。对进入候选名单的房子，查清实际物业税和保险费用。",
+      "details": [
+        {
+          "question": "还没拿到钥匙，就要支付哪些费用？",
+          "answer": "要准备法律服务、房产资料报告、验房及专项检查、可能要求的估价、保险和搬家费用。有些费用在出价成功前就会发生，换一套房子时可能还要再付一次。先索取报价，确认包含什么服务。这笔钱要在购房首付之外另留。",
+          "source": "Settled · 财务与费用",
+          "url": "https://www.settled.govt.nz/buying-a-home/thinking-of-buying/thinking-about-your-finances-when-buying/"
+        },
+        {
+          "question": "地税（rates）是什么？和房贷利率一样吗？",
+          "answer": "不是一回事。地税是房产相关收费，用于支持当地公共服务。房贷利息则是向贷款机构借钱的成本。住房预算需要同时考虑这两项。查清该房产当前的地税，并确认水费、区域政府收费或其他费用是否另行收取。",
+          "source": "Settled · 财务与费用",
+          "url": "https://www.settled.govt.nz/buying-a-home/thinking-of-buying/thinking-about-your-finances-when-buying/"
+        },
+        {
+          "question": "搬进去以后，还有哪些持续费用？",
+          "answer": "还款、地税、保险和维护费都会继续。根据房产情况，可能还要加上业主法人团体费用、地租、水费或共用服务费。水电等生活费用和交通费用也可能变化。索取该房产的实际金额，并考虑未来上涨，不要假设账单永远停留在今天的水平。",
+          "source": "Settled · 财务与费用",
+          "url": "https://www.settled.govt.nz/buying-a-home/thinking-of-buying/thinking-about-your-finances-when-buying/"
+        },
+        {
+          "question": "应该留多少维修费或应急资金？",
+          "answer": "没有适合所有买家的固定金额。根据建筑年龄、房屋状况和检查结果安排维修预算，同时为其他意外保留应急资金。屋顶即将需要更换，与刚刚维修过的屋顶，所需计划不同。作出承诺前，请专业人士估算大项工程的费用。",
+          "source": "Settled · 购房前调查",
+          "url": "https://www.settled.govt.nz/buying-a-home/researching-the-property/doing-your-homework/"
+        },
+        {
+          "question": "地方政府估值就是房子的市场价值吗？",
+          "answer": "地方政府的物业税估值（rating valuation）用于计算物业税。它不是当前市场估价、银行估值，也不是保险重建成本估算。这些数字的用途和估值日期各不相同。应参考近期类似房产的成交记录，并取得合适的专业意见；不要仅仅因为价格低于 CV 或 RV 就出价。",
+          "source": "Auckland Council · 物业税估值的含义",
+          "url": "https://ourauckland.aucklandcouncil.govt.nz/news/2025/06/rating-valuation/"
+        },
+        {
+          "question": "怎么判断还款额是否在自己舒适的承受范围内？",
+          "answer": "先看税后收入、实际生活开支、债务和其他付款责任。加上持有房产的全部费用，再试算还款增加或收入减少的情况。给日常生活和意外留出空间。贷款机构有自己的评估；你觉得舒适的上限，可以低于它愿意借给你的金额。",
+          "source": "Settled · 财务与费用",
+          "url": "https://www.settled.govt.nz/buying-a-home/thinking-of-buying/thinking-about-your-finances-when-buying/"
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "checklist": [
+        "尽早选好房产律师。",
+        "比较直接向贷款机构申请和通过房贷顾问申请的选择。",
+        "准备收入、开支、债务和首付来源证明。",
+        "取得书面的贷款预批条款和到期日。"
+      ],
+      "mistake": "以为贷款预批意味着银行承诺为任何房子提供贷款。具体房产和最终贷款仍需要审批。",
+      "shortcut": "把申请材料放在一个可重复使用的文件夹中，再为每位贷款机构或顾问准备一份书面问题清单。",
+      "details": [
+        {
+          "question": "应该直接找银行，还是找房贷中介？",
+          "answer": "两种方式都可以。房贷顾问可以解释选择，并联系与其合作的贷款机构。问清他们覆盖哪些机构、不覆盖哪些机构、如何获得报酬，以及你需要付多少钱。也可以拿银行的直接报价作比较。中介不一定会搜索整个市场。",
+          "source": "FMA · 房贷建议",
+          "url": "https://www.fma.govt.nz/consumer/getting-advice/mortgage-advice/"
+        },
+        {
+          "question": "房贷中介免费吗？费用方面要问什么？",
+          "answer": "不要假设所有服务都免费。要求对方书面说明费用、佣金、利益冲突，以及提前结束服务或追回佣金时可能向你收取的费用。问清包含哪些建议和后续支持。了解如果你转贷或提前还款，什么情况下可能需要付钱。",
+          "source": "FMA · 房贷建议",
+          "url": "https://www.fma.govt.nz/consumer/getting-advice/mortgage-advice/"
+        },
+        {
+          "question": "银行想看哪些资料？",
+          "answer": "通常会询问并要求你提供收入、开支、债务、已有付款责任和首付来源的证明。具体文件取决于贷款机构和你的情况。应如实提供资料，不要刻意把财务状况包装得过于整齐。问清在看房期间，哪些变化可能影响贷款批准。",
+          "source": "Settled · 确认融资",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/confirming-your-finances/"
+        },
+        {
+          "question": "贷款预批到底批准了什么？",
+          "answer": "它是附带条件的贷款批准，有具体条款和到期日。银行仍须接受你选定的房产和最终贷款，也可能要求补充资料或估价。问清还有哪些事项未完成。作出无条件承诺前，包括在拍卖中出价前，必须确认融资安排。",
+          "source": "Settled · 确认融资",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/confirming-your-finances/"
+        },
+        {
+          "question": "对中介、银行或保险公司不满意，如何投诉？",
+          "answer": "先向服务机构提出问题，并使用其投诉流程。它的披露文件应注明所属的独立争议解决机构；如果问题无法解决，该机构可以提供帮助，并有免费的处理途径。保留记录。FMA 可以考虑监管方面的问题，但不会为你争取个人补救或赔偿。",
+          "source": "FMA · 争议与消费者保护",
+          "url": "https://www.fma.govt.nz/consumer/everyday-finance/disputes-and-consumer-protection/"
+        },
+        {
+          "question": "房产中介、房贷顾问和律师，谁代表我的利益？",
+          "answer": "卖方房产中介为卖方工作。你的律师审查法律风险和合同；你的房贷顾问在其服务范围内提供借贷建议。验房师在约定范围内评估建筑。让每个人负责自己的专业工作，并选择你自己的顾问，不要只依靠卖方的团队。",
+          "source": "Settled · 购房前调查",
+          "url": "https://www.settled.govt.nz/buying-a-home/researching-the-property/doing-your-homework/"
+        }
+      ]
+    },
+    {
+      "id": "search",
+      "checklist": [
+        "在不同时间到周边走走。",
+        "实际体验通勤和日常服务。",
+        "阅读产权记录，弄清持有形式。",
+        "比较房产的总费用，不只比较叫价。",
+        "确认是否有租客，以及何时可以入住。"
+      ],
+      "mistake": "还没查产权、交通、日照、噪音和共用费用，就先爱上了厨房。",
+      "shortcut": "每套房子都用同一份看房清单。拍摄细节前先征得同意，看完后立即记录。",
+      "details": [
+        {
+          "question": "地段方面应该查什么？",
+          "answer": "实际走一遍通勤路线，不只看地图估算。在不同时间了解交通、噪音、停车和日照。确认商店、交通设施和你重视的服务是否方便。了解地方政府规划和自然灾害风险。星期日安静的开放看房，未必代表平常工作日的情况。",
+          "source": "Settled · 开放看房",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/viewing-an-open-home/"
+        },
+        {
+          "question": "永久产权、租赁产权、交叉租赁和单元产权，有什么不同？",
+          "answer": "永久产权（freehold）通常包括土地和建筑，但仍可能受限制。租赁产权（leasehold）提供租期内的权利，通常要付地租。交叉租赁（cross lease）结合共有土地权益与租赁权。单元产权（unit title）包括独立单元和共有部分的权益。请律师说明你拥有什么、需要支付什么，以及哪些改动须取得许可。",
+          "source": "Settled · 产权类型",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/understanding-types-of-ownership/"
+        },
+        {
+          "question": "什么会让公寓的实际费用远超预期？",
+          "answer": "业主法人团体（body corporate）的成本不止广告上列出的日常费用。索取披露文件、会议记录、账目、保险、长期维护计划、资金安排和拟进行的工程资料。大规模维修可能需要特别征费。查清建筑缺陷、纠纷和限制，并在作出承诺前请律师解释这些文件。",
+          "source": "Unit Titles Services · 购买单元产权房产",
+          "url": "https://www.unittitles.govt.nz/buying-or-selling-a-unit-title/buying-or-selling-a-unit-title/buying-a-unit-title/"
+        },
+        {
+          "question": "买新房或楼花更简单吗？",
+          "answer": "它们可能带来不同风险，而不是减少核查。与律师一起审查开发商、图纸、规格、完工日期、预付款保障、保修和合同条款。问清如果完工延迟、费用变化或贷款批准到期，会怎样处理。样板房不能证明合同包含哪些内容。",
+          "source": "Settled · 房产选择",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/considering-your-property-options/"
+        },
+        {
+          "question": "地役权、限制性契约和共用车道是什么？",
+          "answer": "这些权利或限制可能影响你使用土地的方式。共用车道可能附带通行和维护义务；限制性契约（covenant）可能限制建筑或其他用途。请律师用容易理解的话解释产权和相关文件，包括边界以及任何会影响你计划的内容。",
+          "source": "Settled · 产权类型",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/understanding-types-of-ownership/"
+        },
+        {
+          "question": "业主法人团体有维护计划，是否代表维修费已经准备好了？",
+          "answer": "不是。有计划和有足够资金执行计划，是两回事。问清哪些项目已有资金、哪些工程即将到期、业主是否选择不设维护基金，以及是否可能额外征费。阅读会议记录和账目，并询问已知缺陷和纠纷。",
+          "source": "Unit Titles Services · 维护计划与资金",
+          "url": "https://www.unittitles.govt.nz/body-corporate-money-and-maintenance/unit-title-maintenance/"
+        },
+        {
+          "question": "化粪池、水箱供水、排水或挡土墙要注意什么？",
+          "answer": "确认每项设施归谁所有、现况如何、有什么维护需要，以及相关审批情况。问清是否需要排水、污水、水质或工程专业人员检查。通过律师确认边界和通行权。大型或共用设施可能带来费用，普通看房和一般验房报告未必能查清。",
+          "source": "Settled · 购房前调查",
+          "url": "https://www.settled.govt.nz/buying-a-home/researching-the-property/doing-your-homework/"
+        },
+        {
+          "question": "房子里已经有租客，怎么办？",
+          "answer": "签字前请律师检查租约和空置交付（vacant possession）条款。交割日不一定就是你可以搬入的日子。如果需要空置交付，卖方必须遵循合法租赁程序并尊重租客权利。不要以为买下房子就会自动终止租约。",
+          "source": "Settled · 房屋买卖协议",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-the-sale-and-purchase-agreement-when-buying/"
+        },
+        {
+          "question": "开放看房时应该留意什么？",
+          "answer": "不要只看布置：留意潮湿气味、水渍、窗户、通风、日照、储物空间、排水和可见损坏。问清哪些物品随房出售。只检查可以安全到达的地方，不要扰动材料。看房能帮助你决定要进一步调查什么，但不能代替专业验房。",
+          "source": "Settled · 开放看房",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/viewing-an-open-home/"
+        }
+      ]
+    },
+    {
+      "id": "inspect",
+      "checklist": [
+        "请律师检查产权和地方政府资料。",
+        "委托独立验房。",
+        "调查灾害风险、过去的理赔和改建。",
+        "合同变为无条件前，确认能以可接受的条款投保。"
+      ],
+      "mistake": "把 LIM、验房报告或“现在已经投保”当成全面过关的证明。它们回答的是不同问题。",
+      "shortcut": "尽早索取房产文件。向律师、验房师、贷款机构和保险公司提供同一个地址和同样的疑问。",
+      "details": [
+        {
+          "question": "有了验房报告，还需要 LIM 吗？",
+          "answer": "它们作用不同。土地信息备忘录（LIM）包含地方政府持有的信息；验房是在约定范围内评估房屋状况。产权记录说明所有权和相关权益。房产档案（property file）可以补充图纸和审批记录。任何一种都不能保证房子没有缺陷。请律师和验房师判断，这套房子需要哪些报告和专项检查。",
+          "source": "Settled · 购房前调查",
+          "url": "https://www.settled.govt.nz/buying-a-home/researching-the-property/doing-your-homework/"
+        },
+        {
+          "question": "可以依赖卖方提供的验房报告吗？",
+          "answer": "查清是谁委托的、检查范围、日期、排除项目，以及你在法律上能否依赖这份报告。独立验房让你有机会提出自己的问题。报告可能不包含无法进入的区域或专业系统。询问潮湿、屋顶、排水、地基、电线，以及哪些迹象需要专业人员进一步调查。",
+          "source": "Settled · 购房前调查",
+          "url": "https://www.settled.govt.nz/buying-a-home/researching-the-property/doing-your-homework/"
+        },
+        {
+          "question": "怎么检查洪水、滑坡或地震风险？",
+          "answer": "查看地方政府的灾害信息、LIM、可用的灾害地图，并在需要时取得专业意见。调查过去的自然灾害理赔和维修：哪里受损、赔了多少钱、完成了哪些工程。没有理赔记录不等于没有风险。请律师说明相关理赔权利如何转让。",
+          "source": "Natural Hazards Commission · 以往理赔",
+          "url": "https://www.naturalhazards.govt.nz/insurance-and-claims/claims/buying-or-selling-a-home-with-previous-claims/"
+        },
+        {
+          "question": "为什么要在合同变为无条件前检查保险？",
+          "answer": "贷款机构通常要求适当保险，报价也可能暴露除外责任、高额自付额或承保问题。向保险公司说明已知灾害风险、缺陷和计划进行的工程。在作出无条件承诺前，确认有可接受的保障，以及何时必须生效。卖方有保险，不代表你一定能获得同等保障。",
+          "source": "Settled · 自然灾害",
+          "url": "https://www.settled.govt.nz/buying-a-home/researching-the-property/understanding-the-impact-of-natural-hazards/"
+        },
+        {
+          "question": "怀疑房子有渗漏问题，应该怎么调查？",
+          "answer": "不要凭新油漆或一次干燥天气下的看房来判断防水性能。把有关外墙、屋顶、阳台、潮湿或维修的疑问告诉验房师，询问是否需要专项调查。弄清无法检查的区域和报告的局限。估算已发现的修复工程费用，并与贷款机构、保险公司和律师确认影响。",
+          "source": "Settled · 购房前调查",
+          "url": "https://www.settled.govt.nz/buying-a-home/researching-the-property/doing-your-homework/"
+        },
+        {
+          "question": "怎么判断房子是否保暖、干燥？",
+          "answer": "留意日照、保温、供暖、通风、冷凝水和潮湿气味。问验房师能评估哪些内容，还有哪些地方无法进入。也要询问屋顶漏水和地板下潮湿情况。开放看房前刚开过暖气，不代表冬天住起来就暖和；要为必要改善预留费用。",
+          "source": "Settled · 开放看房",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/viewing-an-open-home/"
+        },
+        {
+          "question": "房子翻新过，哪些文件重要？",
+          "answer": "将工程与地方政府记录、所需建筑许可（building consent）和建筑合规证书（code compliance certificate）核对。询问记录或交叉租赁图纸中没有显示的改建。工程认可证书（certificate of acceptance）有其局限，并不等于事后补发的建筑许可。买房前，请律师、验房师和地方政府弄清尚未解决的工程问题。",
+          "source": "Building Performance · 工程认可证书",
+          "url": "https://www.building.govt.nz/projects-and-consents/sign-off-and-maintenance/completing-your-project/certificate-of-acceptance"
+        },
+        {
+          "question": "什么时候应该付费获取报告和安排检查？",
+          "answer": "请律师说明需要哪些检查，以及何时完成。参加拍卖或作出无条件报价时，要在作出承诺前完成尽职调查。如果是附条件报价，有些报告可以在约定的条件期内取得，但前提是合同提供适当保障，并留有足够时间。签字前确认条款措辞，并尽早预约专业人士。即使最后没有买下那套房子，你也可能已经支付了报告费用。",
+          "source": "Settled · 房屋买卖协议",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-the-sale-and-purchase-agreement-when-buying/"
+        }
+      ]
+    },
+    {
+      "id": "offer",
+      "checklist": [
+        "谈价前定好最高限价。",
+        "签字前征询法律意见，包括同时存在其他报价时。",
+        "确认条件、日期、预付款和随房物品。",
+        "参加拍卖竞价前完成融资和各项检查。"
+      ],
+      "mistake": "以为附条件合同可以随便试一试。一旦签署并被接受，就会按其条款产生约束力。",
+      "shortcut": "提前让律师准备合适的合同条件，别等到时间紧迫才处理。",
+      "details": [
+        {
+          "question": "议价、招标和截止日期销售有什么区别？",
+          "answer": "议价允许买卖双方报价和还价。招标（tender）通常要求在指定时间前提交保密的书面报价。截止日期销售（deadline sale）要求在指定日期前出价，但如果销售条款允许，也可能提前售出。问清这次销售如何进行，以及允许附带什么条件。最高报价不一定会被接受。",
+          "source": "Consumer Protection · 准备报价",
+          "url": "https://www.consumerprotection.govt.nz/help-product-service/buying-or-renting-a-house/prepare-make-an-offer"
+        },
+        {
+          "question": "拍卖最大的注意点是什么？",
+          "answer": "拍卖成功买入的交易是无条件的。竞价前完成法律审查、验房，以及针对这套房产的贷款和保险核查，并明确预付款如何支付。事先设定不可超出的上限。不要以为拍得后还能加上融资或验房条件。",
+          "source": "Consumer Protection · 准备报价",
+          "url": "https://www.consumerprotection.govt.nz/help-product-service/buying-or-renting-a-house/prepare-make-an-offer"
+        },
+        {
+          "question": "附条件报价可以随时退出吗？",
+          "answer": "不能仅仅因为改变主意就退出。已签署并被接受的附条件协议有约束力；具体条件、所需步骤和截止时间都很重要。请律师说明每项条件如何运作，以及未满足时会怎样。在完成相关核查并取得专业意见前，不要同意放弃合同中的条件。",
+          "source": "Settled · 房屋买卖协议",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-the-sale-and-purchase-agreement-when-buying/"
+        },
+        {
+          "question": "协议里应该写清哪些内容？",
+          "answer": "律师应检查价格、预付款、交割日期、条件、产权资料、随房动产（chattels），以及约定的工程或承诺。如果某件电器、维修或其他项目对你很重要，不要只依赖口头沟通。签字前确认书面协议如何约定。",
+          "source": "Settled · 房屋买卖协议",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-the-sale-and-purchase-agreement-when-buying/"
+        },
+        {
+          "question": "可以同时对两套房子出价吗？",
+          "answer": "如果两份报价都被接受，你可能必须买下两套房子。签另一份报价前，请律师确认第一份报价的状态，并就到期或撤回提供意见。等待回复并不代表报价没有风险，附带条件也不是随意取消的通行证。",
+          "source": "Settled · 房屋买卖协议",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-the-sale-and-purchase-agreement-when-buying/"
+        },
+        {
+          "question": "怎样谈价才不容易被带着走？",
+          "answer": "根据预算和房产证据设定上限。请律师或顾问把价格、条件和交割时间放在一起考虑。如果有多方竞价，先理解流程，再给出你能接受的报价。压力和怕错过的心情，都不是跳过检查的理由。",
+          "source": "Consumer Protection · 准备报价",
+          "url": "https://www.consumerprotection.govt.nz/help-product-service/buying-or-renting-a-house/prepare-make-an-offer"
+        },
+        {
+          "question": "哪些东西随房出售：窗帘、电器和其他动产？",
+          "answer": "不要以为看房时看到的东西都包含在房价中。问清哪些窗帘、百叶帘、电器和其他物品会留下，并在签字前请律师检查书面的随房动产清单（chattels list）。记录重要物品的品牌、型号和约定状态。在交割前检查时核对这些物品；如果有缺失或变化，尽快告诉律师。",
+          "source": "Settled · 房屋买卖协议",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-the-sale-and-purchase-agreement-when-buying/"
+        }
+      ]
+    },
+    {
+      "id": "mortgage",
+      "checklist": [
+        "比较完整贷款方案和费用。",
+        "分清固定利率期和整个贷款期限。",
+        "试算较高利率下的还款额。",
+        "询问额外还款、提前终止费用和返现条件。"
+      ],
+      "mistake": "只选广告利率最低的贷款，却没看费用、灵活性和还款条件。",
+      "shortcut": "让各贷款机构按同样的贷款金额、期限和还款方式报价，更容易比较。",
+      "details": [
+        {
+          "question": "本金和利息是什么？",
+          "answer": "本金是你欠的金额。利息是借用这笔钱的成本。本金加利息还款会同时支付利息并减少债务。长期贷款初期，利息可能占还款额的较大部分。只付利息的还款方式，通常不会在该期间减少本金。",
+          "source": "Sorted · 房贷类型",
+          "url": "https://sorted.org.nz/guides/home-buying/mortgage-types/"
+        },
+        {
+          "question": "固定利率两年，是指两年内还清贷款吗？",
+          "answer": "不是。固定利率期是该利率适用的时间。贷款期限是整体还款期，可能长得多。固定利率期结束后，你需要新的利率安排。问清届时系统会自动怎么处理，并为新利率下还款额可能变化作准备。",
+          "source": "Sorted · 房贷类型",
+          "url": "https://sorted.org.nz/guides/home-buying/mortgage-types/"
+        },
+        {
+          "question": "固定、浮动还是组合贷款更合适？",
+          "answer": "固定利率让一段时间内的利率明确，但提前还款会有限制，也可能有费用。浮动利率可以变化，通常有更大的还款灵活性。组合贷款把不同安排结合起来。合适的搭配取决于你的收入、存款和计划；请顾问解释对你而言的利弊。",
+          "source": "Sorted · 房贷类型",
+          "url": "https://sorted.org.nz/guides/home-buying/mortgage-types/"
+        },
+        {
+          "question": "可以和银行谈条件吗？",
+          "answer": "询问有哪些利率和费用选择，并比较条件相当的书面报价。讨论还款灵活性、低首付附加费用、返现条件，以及转出或提前还款的成本。较低利率或现金奖励可能附带条件。应问清总成本和责任，而不只看宣传数字。",
+          "source": "FMA · 房贷建议",
+          "url": "https://www.fma.govt.nz/consumer/getting-advice/mortgage-advice/"
+        },
+        {
+          "question": "抵息贷款和循环信贷如何运作？",
+          "answer": "抵息贷款（offset loan）利用符合条件的关联账户余额，减少计算利息的贷款金额。循环信贷（revolving credit）更像以住房担保的透支账户，收入和支出会改变余额。功能和利率因产品而异。选择前，问清资金使用方式、所需自律、还本进度和费用。",
+          "source": "Sorted · 房贷类型",
+          "url": "https://sorted.org.nz/guides/home-buying/mortgage-types/"
+        },
+        {
+          "question": "房产中介的估价足够满足银行要求吗？",
+          "answer": "不一定。贷款机构可能要求符合自身标准的估值。委托估价前先询问：估价师、委托要求或流程可能需要贷款机构认可。叫价、地方政府估值和房产中介估价，不能与贷款机构接受的估值互相替代。",
+          "source": "Settled · 确认融资",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/confirming-your-finances/"
+        },
+        {
+          "question": "提前还款或转贷会怎样？",
+          "answer": "固定利率贷款可能有提前还款费或提前终止费用（break costs）。返现方案或顾问服务安排也可能要求你在指定期限内离开时退还款项。决定前，向贷款机构和顾问取得书面金额。也要确认能否免费进行较小金额的额外还款。",
+          "source": "Banking Ombudsman · 返现退还案例",
+          "url": "https://www.bankomb.org.nz/guides-and-cases/case-notes/84963"
+        }
+      ]
+    },
+    {
+      "id": "settlement",
+      "checklist": [
+        "按时完成贷款和法律文件。",
+        "确认保险在要求的时间生效。",
+        "安排交割前检查。",
+        "与律师确认资金、费用调整和领取钥匙安排。"
+      ],
+      "mistake": "把所有安排都建立在一大早能拿到钥匙的假设上。交割可能需要时间。",
+      "shortcut": "与律师、贷款机构和搬家公司共用一份日期清单，并写明交割延迟时的备用安排。",
+      "details": [
+        {
+          "question": "交割日会发生什么？",
+          "answer": "你的律师会与卖方律师及贷款机构处理法律和资金步骤。确认交割完成后，才按约定交付钥匙。具体时间可能不同。保持联系，给搬家计划留一些弹性，不要假设当天一早就能进屋。",
+          "source": "Settled · 交割日安排",
+          "url": "https://www.settled.govt.nz/buying-a-home/settling-and-moving-in/planning-for-settlement-day-when-buying/"
+        },
+        {
+          "question": "交割前检查要看什么？",
+          "answer": "核对房屋是否处于约定状态、随房物品是否齐全，以及卖方承诺完成的工程是否已做。对照合同，发现问题尽快通知律师。这不能代替此前的验房。尽早安排，给交割前解决问题留出时间。",
+          "source": "Settled · 交割日安排",
+          "url": "https://www.settled.govt.nz/buying-a-home/settling-and-moving-in/planning-for-settlement-day-when-buying/"
+        },
+        {
+          "question": "交割前发现东西坏了或不见了，怎么办？",
+          "answer": "立即告诉律师，并保留清楚的证据。律师可以评估你在协议下的权利，并与卖方律师讨论补救方式。不要自行认定可以推迟交割、扣留款项或取消交易。你的选择取决于合同和具体情况。",
+          "source": "Settled · 交割日安排",
+          "url": "https://www.settled.govt.nz/buying-a-home/settling-and-moving-in/planning-for-settlement-day-when-buying/"
+        },
+        {
+          "question": "KiwiSaver 资金什么时候要准备好？",
+          "answer": "管理机构和律师需要时间处理提款文件和转账。在任何付款需要这笔资金之前，就确认好各自的截止时间。如果想用于支付合同预付款，应尽早询问所需安排。这不是即时提取到日常银行账户的提款。",
+          "source": "Kāinga Ora · KiwiSaver 提款",
+          "url": "https://kaingaora.govt.nz/en_NZ/home-ownership/kiwisaver-first-home-withdrawal/"
+        },
+        {
+          "question": "怎样避免把预付款转给骗子？",
+          "answer": "转账前，直接向律师或预定收款人核实付款信息。拨打可信且经过独立核实的电话号码，不要使用意外收到的付款邮件中的号码。遇到收款账户变更或催促付款，应停下来核实。看起来熟悉的邮件也可能是诈骗。",
+          "source": "New Zealand Law Society · 电子邮件付款诈骗",
+          "url": "https://www.lawsociety.org.nz/news/newsroom/email-fraud-targets-lawyers/"
+        },
+        {
+          "question": "为什么最终交割金额与剩余房款不同？",
+          "answer": "交割结算单除了剩余房款和其他约定金额，可能还有费用调整，例如卖方已预付的地税。律师费和代垫费用也需要支付。请律师解释结算单，并明确说明需要多少已结清、可用的资金，以及何时到账。",
+          "source": "Settled · 交割日安排",
+          "url": "https://www.settled.govt.nz/buying-a-home/settling-and-moving-in/planning-for-settlement-day-when-buying/"
+        },
+        {
+          "question": "如果交割延迟，拿不到钥匙，怎么办？",
+          "answer": "如果资金、文件或卖方方面的问题导致交割延迟，尽快联系律师。让双方律师确认延误原因、你在合同下的权利和义务，以及任何商定安排。不要假设自己可以搬入、取消交易，或要求某笔特定款项。搬家、仓储和临时住宿的安排要留有弹性，并确认对保险有何影响。等到确认交割完成后，再按约定领取钥匙。",
+          "source": "Settled · 交割日",
+          "url": "https://www.settled.govt.nz/buying-a-home/settling-and-moving-in/settling-on-settlement-day-when-buying/"
+        }
+      ]
+    },
+    {
+      "id": "living",
+      "checklist": [
+        "保留维护和维修资金。",
+        "保存房产记录、保修和保险资料。",
+        "翻新前检查审批要求和产权规则。",
+        "记下保险续保日和房贷下次利率调整日。"
+      ],
+      "mistake": "买下“便宜、修修就好”的房子，却没估算工程费用、核实许可或为意外留余地。",
+      "shortcut": "把验房发现整理为第一年的维护清单：紧急、近期处理和外观改善。先估算紧急项目费用。",
+      "details": [
+        {
+          "question": "买下房子就可以马上翻新吗？",
+          "answer": "先核实。有些工程需要建筑许可，其他审批或产权限制也可能适用。免于建筑许可的工程仍必须满足相关要求。交叉租赁、单元产权或租赁产权可能还需要额外许可。先使用官方审批查询工具，再与地方政府和适当的专业人士确认计划。",
+          "source": "MBIE · 可以进行这项建筑工程吗？",
+          "url": "https://www.canibuildit.govt.nz/"
+        },
+        {
+          "question": "建筑许可和资源许可是一回事吗？",
+          "answer": "不是。建筑许可（building consent）关注建筑工程是否符合建筑规范（Building Code）。资源许可（resource consent）关注规划规则和环境影响。根据工程和地点不同，项目可能需要其中一种、两种都需要，或两种都不需要。免于建筑许可，并不意味着其他要求也免除。向地方政府确认你的具体项目。",
+          "source": "MBIE · 可以进行这项建筑工程吗？",
+          "url": "https://www.canibuildit.govt.nz/"
+        },
+        {
+          "question": "CCC 是什么？和工程认可证书一样吗？",
+          "answer": "建筑合规证书（code compliance certificate，CCC）确认建筑工程符合其建筑许可。工程认可证书（certificate of acceptance）适用于不同情况，只能覆盖地方政府能够评估的内容。它不是事后补发的建筑许可，也不是整栋房屋的保证。请律师和地方政府说明这份具体文件涵盖什么、不涵盖什么。",
+          "source": "Building Performance · 工程认可证书",
+          "url": "https://www.building.govt.nz/projects-and-consents/sign-off-and-maintenance/completing-your-project/certificate-of-acceptance"
+        },
+        {
+          "question": "怎么做翻新预算？",
+          "answer": "明确工程范围和报价，核实审批，并为隐藏问题和变更预留空间。现有建筑的问题有时要开工后才会发现。预算应包括专业服务费、审批费、对保险的影响，以及必要时的临时住处费用。不要把简单外观翻新的粗略估算，当作结构或防渗漏维修的价格。",
+          "source": "Building Performance · 现有住房翻新",
+          "url": "https://www.building.govt.nz/getting-started/stages-of-the-building-process/renovations-differ-to-new-builds"
+        },
+        {
+          "question": "发现石棉或怀疑有不安全材料，怎么办？",
+          "answer": "不要为了确认而钻孔、打磨、敲碎或移除可疑材料。请合资格专业人士作适当评估并提供意见。扰动石棉可能释放有害纤维，需要专业处理。购买需要翻修的旧房前，调查计划工程是否会扰动这些材料，并把处理工作计入范围和预算。",
+          "source": "Health New Zealand · 石棉处理",
+          "url": "https://www.healthnz.govt.nz/health-topics/keeping-healthy/healthy-homes-environments/hazardous-substances/asbestos/dealing-with-asbestos"
+        },
+        {
+          "question": "维护和保险方面要做什么？",
+          "answer": "根据验房报告安排维修和预防性维护的优先顺序。保存记录，并向保险公司说明可能影响保障的变更或计划工程。续保时检查保障、自付额和重建估算所依据的假设。有保险并不意味着可以忽略房屋维护，也不能省略对除外责任的了解。",
+          "source": "Settled · 自然灾害",
+          "url": "https://www.settled.govt.nz/buying-a-home/researching-the-property/understanding-the-impact-of-natural-hazards/"
+        },
+        {
+          "question": "还款开始有困难，怎么办？",
+          "answer": "尽早联系贷款机构或房贷顾问，不要等到逾期。说明发生了什么变化，询问可用方案及其长期成本。固定利率期结束前，重新检查下一期利率和预算。延长贷款期限可能降低每期还款，但也可能增加总利息。",
+          "source": "FMA · 房贷建议",
+          "url": "https://www.fma.govt.nz/consumer/getting-advice/mortgage-advice/"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "checklist": [
+        "问清中介代表谁。",
+        "要求书面披露及重要问题的书面答复。",
+        "核查执照，并自行选择顾问。",
+        "签署前审查任何买方代理协议。"
+      ],
+      "mistake": "把热心的卖方中介当成你的独立顾问。",
+      "shortcut": "第一次交谈时就直接问：在这次出售中，你代表谁？",
+      "details": [
+        {
+          "question": "房地产中介为谁工作？",
+          "answer": "挂牌中介代表卖家，佣金通常由卖家支付。他们仍必须公平、诚实地对待买家。你通过单独的书面协议聘请自己的买方中介，并支付其费用。让律师持续参与：这些角色都不能替代独立的法律或建筑专业意见。",
+          "source": "Settled · 中介与业主直接出售",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+        },
+        {
+          "question": "带我看房的中介就是我的买方中介吗？",
+          "answer": "不一定。帮你找房源，或与另一家中介合作完成出售，本身不代表他们代理你。问清他们的客户是谁。真正的买方代理协议应说明服务、费用与权限。核查执照，并在签署前请律师审查。同一家中介机构不得在同一交易中同时代理买卖双方。",
+          "source": "REA · 买方中介",
+          "url": "https://www.rea.govt.nz/real-estate-professionals/industry-guidance-and-information/buyers-agent-information/"
+        },
+        {
+          "question": "中介必须披露什么？我还要核查什么？",
+          "answer": "中介不得误导买家，也不得隐瞒必须提供的信息。他们必须披露已知缺陷，并提醒买家注意可能存在的隐蔽缺陷风险。要求提供有关维修、建筑许可、风险、包含物品以及与卖家任何关系的书面信息。与律师、验房师及 council（地方政府）核实重要事项；已作披露并不保证所有缺陷都已被发现。",
+          "source": "REA · 行为及客户服务规则",
+          "url": "https://www.settled.govt.nz/assets/Uploads/Resources/Guides/Code-of-conduct.pdf"
+        },
+        {
+          "question": "我该告诉卖方中介自己的最高预算吗？",
+          "answer": "你可以说明愿意出多少钱，而不必主动透露绝对上限。不要以为卖方中介是在向你提供保密的购房建议。询问信息将如何使用，如实说明自身情况，并把自己的预算上限与销售压力分开考虑。",
+          "source": "Settled · 中介与业主直接出售",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+        },
+        {
+          "question": "如何核查中介执照或反映问题？",
+          "answer": "通过 REA 公开名册核查此人当前的执照及可查的纪律处分信息。如有疑虑，保存消息和文件。向中介机构或监督经理反映，并在适当情况下参考 REA 的投诉指引。不持中介执照的私人卖家不属于 REA 的中介投诉程序范围；请向律师咨询相应途径。",
+          "source": "Settled · 中介与业主直接出售",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+        }
+      ]
+    },
+    {
+      "id": "sales",
+      "checklist": [
+        "确认出售方式、截止日期及提前出售规则。",
+        "弄清何时可能承担有约束力的义务。",
+        "安排房产核查及合适的附加条件。",
+        "核查卖家权限及任何特殊条款。"
+      ],
+      "mistake": "以为出售方式的名称或广告价格就是全部规则。",
+      "shortcut": "支付核查费用前，先把出售文件及时间表交给律师。",
+      "details": [
+        {
+          "question": "协商、限期报价、密封投标和拍卖有何区别？",
+          "answer": "协商允许报价与还价。限期报价出售（deadline sale）邀请买家在指定日期前报价，也可能允许提前售出。密封投标（tender）按投标规则接收保密的书面报价。拍卖采用公开竞价；拍卖成交的购买是无条件的。每套房都应请律师确认实际文件、日期、条件及合同预付款安排。",
+          "source": "Settled · 协商与价格参考",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-negotiation/"
+        },
+        {
+          "question": "挂牌价、BEO、BBO 或“offers over”保证报价会被接受吗？",
+          "answer": "不保证。这些是表达价格预期的方式，不是接受你报价的承诺。BEO 是 buyer enquiry over，表示欢迎高于标示金额的买家询价；BBO 是 buyer budget over，表示买家预算需高于标示金额。POA 是 price on application，即价格需询问。了解卖家预期，比较相关资料与自身预算，并通过经过妥善审查的协议协商价格与条款。",
+          "source": "Settled · 协商与价格参考",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-negotiation/"
+        },
+        {
+          "question": "限期报价或密封投标的房产能在截止前售出吗？",
+          "answer": "如果流程和条款允许，就有可能。留意“unless sold prior”（除非提前售出），并直接询问中介。登记你的购买意向，要求在出现提前报价或截止时间变更时通知你。不要以为广告上的截止日期就保证你有足够时间完成核查。",
+          "source": "Settled · 限期报价出售",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-deadline/"
+        },
+        {
+          "question": "提交密封投标前应核查什么？",
+          "answer": "请律师审查投标文件、任何附加条件、报价有效期及撤回规则。通常需随投标提交合同预付款；确认金额、时间及款项如何保管。询问是否可能提前出售。卖家不必接受最高报价，也可以不接受任何报价。",
+          "source": "Settled · 密封投标",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-tender/"
+        },
+        {
+          "question": "拍卖流拍，或拍卖日前收到报价，会怎样？",
+          "answer": "“Passing in”表示房产在当时的拍卖流程中未售出，之后可能进行协商。询问接下来适用什么流程和合同。拍卖规则可能继续适用，因此后续报价也可能仍须是无条件的。提前报价可能改变拍卖时间安排。不要以为竞拍成功后还能添加条件；提交拍卖前报价或之后通过协商作出承诺前，先咨询律师。",
+          "source": "Settled · 拍卖买房",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-auction/"
+        },
+        {
+          "question": "什么是多报价流程？以后还能提高报价吗？",
+          "answer": "多报价流程需要同时存在不止一份有效书面报价。向中介询问该机构的具体流程，以及你的报价何时失效。你可能没有机会提高报价。卖家可以同时考虑价格、条件与时间，拒绝所有报价，或继续协商。守住自己的上限，保留所需的法律保护。",
+          "source": "Settled · 多份报价",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-a-multi-offer-process/"
+        },
+        {
+          "question": "如何直接向私人业主买房？",
+          "answer": "确认卖家身份及出售权限，请律师起草或审查买卖协议。同样要安排房产、贷款和保险核查。请律师或 conveyancer（房产过户专业人士）通过 trust account（客户资金专用账户）安全处理合同预付款；不要以为直接转账给卖家就合适。私人卖家必须披露已知问题，但 REA 的中介投诉程序不适用于不持中介执照的私人卖家。法律保护取决于具体情况。",
+          "source": "Settled · 中介与业主直接出售",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+        },
+        {
+          "question": "抵押权人出售有哪些额外风险？",
+          "answer": "在 mortgagee sale（抵押权人出售）中，贷款机构行使其出售权。合同保护及保证可能不同，能否进入房屋、能否空置交付、包含哪些物品及保险安排都可能不确定。竞拍或签署前，就具体条款和风险寻求专业法律意见。确认你能检查什么、何时开始承担责任，以及你的贷款机构和保险公司是否接受该安排。如果业主在 settlement（交割）前还清抵押贷款，出售可能被撤回。看似低价并不证明物有所值。",
+          "source": "Settled · 房产选择",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/considering-your-property-options/"
+        },
+        {
+          "question": "卖家是遗产管理方或信托时，有什么不同？",
+          "answer": "请律师确认谁有权签署，以及遗产或 trust（信托）的相关手续是否影响时间安排。核查实际保证、包含物品和 settlement（交割）条款，不要假设与普通出售相同。这些词描述的是卖家的情况，并非独立的竞价流程：房产仍可能通过协商、密封投标或拍卖出售。",
+          "source": "Settled · 遗产与信托",
+          "url": "https://www.settled.govt.nz/selling-a-home/thinking-of-selling/planning-to-sell/"
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "category": "开始之前",
+      "title": "首次购房支持",
+      "description": "了解 KiwiSaver 提款和 首次购房贷款计划（First Home Loan）。把这笔钱算进预算前，先确认资格。",
+      "url": "https://www.govt.nz/browse/housing-and-property/buying-or-selling-a-home/buying-your-first-home/"
+    },
+    {
+      "category": "开始之前",
+      "title": "你有合法购房资格吗？",
+      "description": "LINZ 关于国籍、居留身份，以及何时可能需要海外投资许可的说明。",
+      "url": "https://www.linz.govt.nz/guidance/overseas-investment/buying-residential-property-live"
+    },
+    {
+      "category": "资金与建议",
+      "title": "选择房贷顾问",
+      "description": "了解应询问的贷款机构覆盖范围、佣金、费用、利益冲突和咨询服务问题。",
+      "url": "https://www.fma.govt.nz/consumer/getting-advice/mortgage-advice/"
+    },
+    {
+      "category": "房产记录",
+      "title": "产权、图纸与相关权益",
+      "description": "查询产权记录和已登记文件。请律师解释地役权、限制性契约和其他限制。",
+      "url": "https://lrs.linz.govt.nz/"
+    },
+    {
+      "category": "房产记录",
+      "title": "应该向地方政府询问什么？",
+      "description": "了解 LIM、房产档案、图纸、审批和完工记录。LIM 与验房回答的是不同问题。",
+      "url": "https://www.building.govt.nz/getting-started/your-rights-and-obligations/homeowner-rights-and-obligations/buying-a-house/what-can-the-council-tell-you-about-the-house"
+    },
+    {
+      "category": "灾害与保险",
+      "title": "自然灾害",
+      "description": "调查洪水、海岸、地震及其他灾害风险。作出承诺前，确认该地址的具体承保情况。",
+      "url": "https://www.settled.govt.nz/buying-a-home/researching-the-property/understanding-the-impact-of-natural-hazards/"
+    },
+    {
+      "category": "灾害与保险",
+      "title": "以往损坏与理赔",
+      "description": "检查维修情况及 自然灾害委员会（NHC，原 EQC） 理赔权利的转让。已获赔款不代表损坏已经修复。",
+      "url": "https://www.naturalhazards.govt.nz/insurance-and-claims/claims/buying-or-selling-a-home-with-previous-claims/"
+    },
+    {
+      "category": "翻新与审批",
+      "title": "我需要申请许可吗？",
+      "description": "先使用 MBIE 的工具，再向地方政府确认你的具体工程。豁免工程仍有适用要求。",
+      "url": "https://www.canibuildit.govt.nz/"
+    },
+    {
+      "category": "翻新与审批",
+      "title": "建筑与规划审批",
+      "description": "核查建筑许可、资源许可和其他审批。一项批准不能代替其他批准。",
+      "url": "https://www.building.govt.nz/projects-and-consents/planning-a-successful-build/scope-and-design/check-if-you-need-consents"
+    },
+    {
+      "category": "翻新与审批",
+      "title": "完工与缺少验收文件",
+      "description": "了解工程未取得所需建筑许可时，工程认可证书（certificate of acceptance）的作用与局限。",
+      "url": "https://www.building.govt.nz/projects-and-consents/sign-off-and-maintenance/completing-your-project/certificate-of-acceptance"
+    },
+    {
+      "category": "共用建筑",
+      "title": "购买单元产权房产",
+      "description": "了解披露声明、业主法人团体资料、维护资金和共同责任。",
+      "url": "https://www.unittitles.govt.nz/buying-or-selling-a-unit-title/buying-or-selling-a-unit-title/buying-a-unit-title/"
+    },
+    {
+      "category": "法律原文",
+      "title": "《2004 年建筑法》（Building Act 2004）",
+      "description": "规范建筑工程、许可和合规的法律。请结合专业意见使用现行版本。",
+      "url": "https://www.legislation.govt.nz/act/public/2004/72/en/latest/"
+    },
+    {
+      "category": "法律原文",
+      "title": "《2010 年单元产权法》（Unit Titles Act 2010）",
+      "description": "有关单元所有权、业主法人团体、财务管理和披露义务的法律。",
+      "url": "https://www.legislation.govt.nz/act/public/2010/0022/latest/DLM1160440.html"
+    },
+    {
+      "category": "签字之前",
+      "title": "读懂合同",
+      "description": "了解房屋买卖协议、附带条件，以及你正在作出的承诺。",
+      "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-the-sale-and-purchase-agreement-when-buying/"
+    },
+    {
+      "category": "翻新与安全",
+      "title": "石棉：扰动前先检查",
+      "description": "Health New Zealand 关于疑似石棉以及专业评估或移除的指导。",
+      "url": "https://www.healthnz.govt.nz/health-topics/keeping-healthy/healthy-homes-environments/hazardous-substances/asbestos/dealing-with-asbestos"
+    },
+    {
+      "category": "中介与出售方式",
+      "title": "谁代表你？",
+      "description": "卖方中介、买方中介、私人业主，以及签署前应做的核查。",
+      "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+    },
+    {
+      "category": "中介与出售方式",
+      "title": "核查中介执照",
+      "description": "REA 持牌房地产专业人士公开名册。",
+      "url": "https://publicregister.rea.govt.nz/"
+    },
+    {
+      "category": "中介与出售方式",
+      "title": "中介行为与信息披露",
+      "description": "专业行为、客户服务及信息披露要求，包括已知缺陷及可能存在的隐蔽缺陷风险。",
+      "url": "https://www.settled.govt.nz/assets/Uploads/Resources/Guides/Code-of-conduct.pdf"
+    },
+    {
+      "category": "中介与出售方式",
+      "title": "密封投标规则与合同预付款",
+      "description": "保密报价、附加条件、合同预付款安排及可能的提前出售。",
+      "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-tender/"
+    },
+    {
+      "category": "中介与出售方式",
+      "title": "限期报价出售与提前报价",
+      "description": "了解截止日期，以及“unless sold prior”（除非提前售出）可能意味着什么。",
+      "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-deadline/"
+    },
+    {
+      "category": "中介与出售方式",
+      "title": "相互竞争的书面报价",
+      "description": "多报价流程如何运作，以及为何不保证还有下一次机会。",
+      "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-a-multi-offer-process/"
+    }
+  ],
+  "sourceLabels": {
+    "Settled · finances and costs": "Settled · 财务与费用",
+    "LINZ · who can buy": "LINZ · 购房资格",
+    "Settled · property homework": "Settled · 房产调查",
+    "NZ Government · first-home help": "NZ Government · 首次购房帮助",
+    "Inland Revenue · KiwiSaver withdrawal": "Inland Revenue · KiwiSaver 提款",
+    "Settled · the purchase agreement": "Settled · 购房协议",
+    "FMA · mortgage advice": "FMA · 房贷建议",
+    "Settled · confirming finance": "Settled · 确认融资",
+    "Sorted · mortgage types": "Sorted · 房贷类型",
+    "Settled · neighbourhood checks": "Settled · 周边环境调查",
+    "Settled · natural hazards": "Settled · 自然灾害",
+    "Settled · property options": "Settled · 房产选择",
+    "Settled · types of ownership": "Settled · 产权类型",
+    "Unit Titles Services · buying a unit": "Unit Titles Services · 购买单元产权房产",
+    "Settled · viewing a home": "Settled · 看房",
+    "MBIE · council records": "MBIE · 地方政府记录",
+    "LINZ · land records": "LINZ · 土地记录",
+    "MBIE · check consent requirements": "MBIE · 核查审批要求",
+    "Building Act · current legislation": "Building Act · 现行法律",
+    "NHC · previous claims": "NHC · 以往理赔",
+    "Settled · buying at auction": "Settled · 拍卖买房",
+    "Consumer Protection · preparing an offer": "Consumer Protection · 准备报价",
+    "Settled · settlement day": "Settled · 交割日",
+    "Law Society · payment fraud": "Law Society · 付款诈骗",
+    "MBIE · renovating a home": "MBIE · 住房翻新",
+    "Health NZ · asbestos": "Health NZ · 石棉",
+    "Settled · agents and private sales": "Settled · 中介与业主直接出售",
+    "REA · buyer’s agents": "REA · 买方中介",
+    "REA · check an agent’s licence": "REA · 核查中介执照",
+    "REA · conduct and client care rules": "REA · 行为及客户服务规则",
+    "Settled · negotiation and price guides": "Settled · 协商与价格参考",
+    "Settled · deadline sales": "Settled · 限期报价出售",
+    "Settled · tenders": "Settled · 密封投标",
+    "Settled · multiple offers": "Settled · 多份报价",
+    "Settled · estates and trusts": "Settled · 遗产与信托"
+  }
+}

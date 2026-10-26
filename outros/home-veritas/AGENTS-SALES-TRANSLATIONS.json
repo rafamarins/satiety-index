@@ -1,0 +1,749 @@
+{
+  "pt-BR": {
+    "topics": {
+      "agents": {
+        "label": "Corretores imobiliários",
+        "headline": "Quem trabalha\npara quem?",
+        "intro": "Ter ajuda é bom. Saber quem representa você é ainda mais importante.",
+        "bridge": "Quando um imóvel interessar, descubra como funciona aquela venda.",
+        "cards": {
+          "roles": {
+            "label": "Quem representam",
+            "title": "Pergunte quem eles representam.",
+            "body": "O corretor da venda representa o vendedor. Um corretor do comprador representa você por meio de um contrato separado. Seu advogado verifica a parte jurídica.",
+            "checks": [
+              "Pergunte quem o corretor representa",
+              "Escolha seu próprio advogado",
+              "Leia qualquer contrato de representação"
+            ],
+            "gotcha": "Mostrar imóveis não faz de alguém automaticamente o seu corretor do comprador."
+          },
+          "disclosures": {
+            "label": "Perguntas e provas",
+            "title": "Pergunte. Depois peça os registros.",
+            "body": "Pergunte sobre defeitos, reparos, autorizações, riscos e itens incluídos. Corretores devem agir de forma justa e informar problemas relevantes; mesmo assim, providencie suas próprias verificações.",
+            "checks": [
+              "Peça as informações por escrito",
+              "Verifique os documentos de forma independente",
+              "Registre promessas importantes no contrato"
+            ],
+            "gotcha": "Uma resposta confiante não substitui um laudo de inspeção nem uma análise jurídica."
+          },
+          "your-agent": {
+            "label": "Seu próprio corretor",
+            "title": "Saiba o que está contratando.",
+            "body": "Antes de contratar um corretor do comprador, confira licença, serviços, honorários, conflitos e poderes para negociar ou dar lances. Peça ao seu advogado que revise o contrato.",
+            "checks": [
+              "Consulte o registro público da REA",
+              "Combine honorários e serviços por escrito",
+              "Defina limites de aprovação e de lances"
+            ],
+            "gotcha": "Um corretor que apresenta um imóvel anunciado por outra imobiliária ainda pode estar trabalhando para o vendedor."
+          }
+        }
+      },
+      "sales": {
+        "label": "Formas de comprar",
+        "headline": "O mesmo imóvel.\nRegras de compra diferentes.",
+        "intro": "Primeiro, confira quem está vendendo. Depois, o processo, as datas e as condições.",
+        "bridge": "Agora peça ao seu advogado que coloque sua proposta e suas proteções no contrato adequado.",
+        "cards": {
+          "process": {
+            "label": "Processos de venda",
+            "title": "Qual é o processo desta venda?",
+            "body": "Negociação, prazo para propostas, tender (propostas fechadas) e leilão mudam quando você apresenta a proposta e o que precisa verificar antes. Obtenha as regras exatas deste imóvel.",
+            "checks": [
+              "Confirme o método de venda e as datas",
+              "Pergunte se pode ser vendido antes",
+              "Converse com seu advogado sobre condições"
+            ],
+            "gotcha": "No leilão, conclua as verificações e confirme financiamento e seguro antes de dar lances."
+          },
+          "competition": {
+            "label": "Preço e concorrência",
+            "title": "Referência de preço não é promessa.",
+            "body": "Preço pedido, BEO ou “offers over” (propostas acima de certo valor) são referências, não a aceitação da sua proposta. Várias propostas escritas podem gerar um processo de múltiplas propostas.",
+            "checks": [
+              "Use informações do imóvel e seu orçamento",
+              "Pergunte como tratam propostas concorrentes",
+              "Confirme a validade da sua proposta"
+            ],
+            "gotcha": "Talvez você não tenha outra chance de melhorar a proposta. Mantenha as proteções de que precisa."
+          },
+          "special": {
+            "label": "Compra direta e vendas especiais",
+            "title": "Outro vendedor. Mais perguntas.",
+            "body": "Comprar diretamente do proprietário, de um credor que vende pela hipoteca ou de um espólio pode mudar as verificações e os termos do contrato. Envolva seu advogado desde cedo.",
+            "checks": [
+              "Confirme quem tem autoridade para vender",
+              "Confira posse, itens incluídos e garantias",
+              "Peça que verifiquem os arranjos do sinal"
+            ],
+            "gotcha": "Não ter corretor não significa não ter contrato. Uma venda pelo credor hipotecário não é automaticamente uma pechincha."
+          }
+        }
+      }
+    },
+    "chapters": [
+      {
+        "id": "agents",
+        "checklist": [
+          "Pergunte quem o corretor representa.",
+          "Peça informações obrigatórias e respostas importantes por escrito.",
+          "Confira a licença e escolha seus próprios assessores.",
+          "Revise qualquer contrato de representação do comprador antes de assinar."
+        ],
+        "mistake": "Achar que um corretor da venda prestativo é seu assessor independente.",
+        "shortcut": "Na primeira conversa, faça uma pergunta direta: quem você representa nesta venda?",
+        "details": [
+          {
+            "question": "Para quem o corretor imobiliário trabalha?",
+            "answer": "O corretor responsável pelo anúncio atua para o vendedor, que normalmente paga a comissão. Mesmo assim, deve tratar compradores com justiça e honestidade. Você contrata e paga seu próprio corretor do comprador por meio de um contrato escrito separado. Mantenha seu advogado envolvido: nenhum desses papéis substitui orientação jurídica ou técnica sobre a construção de forma independente.",
+            "source": "Settled · corretores e compra direta do proprietário",
+            "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+          },
+          {
+            "question": "Um corretor que me mostra imóveis é meu corretor do comprador?",
+            "answer": "Não necessariamente. Ajudar a encontrar um anúncio ou dividir uma venda com outra imobiliária não significa, por si só, que ele representa você. Pergunte quem é o cliente dele. Um verdadeiro contrato de representação do comprador deve explicar serviços, honorários e poderes. Confira a licença e peça ao seu advogado que revise o contrato antes de assinar. A mesma imobiliária não pode representar os dois lados na mesma transação.",
+            "source": "REA · corretores do comprador",
+            "url": "https://www.rea.govt.nz/real-estate-professionals/industry-guidance-and-information/buyers-agent-information/"
+          },
+          {
+            "question": "O que o corretor deve informar e o que ainda preciso verificar?",
+            "answer": "Corretores não podem enganar compradores nem omitir informações que precisam ser fornecidas. Devem informar defeitos conhecidos e alertar sobre riscos prováveis de defeitos ocultos. Peça informações por escrito sobre reparos, autorizações, riscos, itens incluídos e qualquer ligação com o vendedor. Confirme pontos importantes com seu advogado, inspetor e council (prefeitura local); essas informações não garantem que todos os defeitos sejam conhecidos.",
+            "source": "REA · regras de conduta e atendimento ao cliente",
+            "url": "https://www.settled.govt.nz/assets/Uploads/Resources/Guides/Code-of-conduct.pdf"
+          },
+          {
+            "question": "Devo contar ao corretor da venda meu orçamento máximo?",
+            "answer": "Você pode dizer quanto está disposto a oferecer sem revelar seu limite absoluto. Não presuma que o corretor do vendedor esteja dando orientação confidencial de compra. Pergunte como as informações serão usadas, seja honesto sobre sua situação e mantenha seu limite de orçamento separado da pressão da venda.",
+            "source": "Settled · corretores e compra direta do proprietário",
+            "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+          },
+          {
+            "question": "Como verifico a licença de um corretor ou relato um problema?",
+            "answer": "Use o registro público da REA para conferir a licença atual e as informações disciplinares disponíveis. Guarde mensagens e documentos se algo preocupar você. Leve o problema à imobiliária ou ao gerente responsável e, quando adequado, siga as orientações da REA para reclamações. Um proprietário particular que vende sem licença de corretor fica fora do processo de reclamações da REA contra corretores; pergunte ao seu advogado qual caminho seguir.",
+            "source": "Settled · corretores e compra direta do proprietário",
+            "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+          }
+        ]
+      },
+      {
+        "id": "sales",
+        "checklist": [
+          "Confirme o método, o prazo e as regras para venda antecipada.",
+          "Saiba quando você pode assumir um compromisso vinculante.",
+          "Providencie verificações do imóvel e condições adequadas.",
+          "Confira a autoridade do vendedor e cláusulas incomuns."
+        ],
+        "mistake": "Tratar o nome do método de venda ou o preço anunciado como se fossem todas as regras.",
+        "shortcut": "Antes de pagar por verificações, envie os documentos e o cronograma da venda ao seu advogado.",
+        "details": [
+          {
+            "question": "Qual é a diferença entre negociação, deadline, tender e leilão?",
+            "answer": "Na negociação, há propostas e contrapropostas. Uma deadline sale recebe propostas até uma data e pode permitir venda antecipada. Um tender recebe propostas escritas confidenciais conforme suas regras. No leilão, os lances são abertos; uma compra concluída em leilão é incondicional. Para cada imóvel, confirme com seu advogado os documentos, datas, condições e arranjos do sinal aplicáveis.",
+            "source": "Settled · negociação e referências de preço",
+            "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-negotiation/"
+          },
+          {
+            "question": "Preço pedido, BEO, BBO ou “offers over” garantem aceitação?",
+            "answer": "Não. São formas de indicar a expectativa de preço, não uma promessa de aceitar sua proposta. BEO significa buyer enquiry over (consultas de compradores acima do valor indicado); BBO significa buyer budget over (orçamento do comprador acima do valor indicado). POA significa price on application (preço sob consulta). Pergunte sobre a expectativa do vendedor, compare as informações e seu orçamento e negocie preço e termos em um contrato devidamente revisado.",
+            "source": "Settled · negociação e referências de preço",
+            "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-negotiation/"
+          },
+          {
+            "question": "Um imóvel em deadline ou tender pode ser vendido antes do encerramento?",
+            "answer": "Pode, se o processo e as regras permitirem uma venda antecipada. Procure “unless sold prior” (salvo venda anterior) e pergunte diretamente ao corretor. Registre seu interesse e peça aviso de proposta antecipada ou alteração no horário de encerramento. Não presuma que o prazo anunciado garanta tempo para concluir suas verificações.",
+            "source": "Settled · vendas com prazo para propostas",
+            "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-deadline/"
+          },
+          {
+            "question": "O que devo verificar antes de apresentar um tender?",
+            "answer": "Peça ao seu advogado que revise os documentos do tender, as condições, a validade da proposta e as regras de retirada. Normalmente, o sinal é apresentado junto com o tender; confirme valor, prazo e como ficará guardado. Pergunte se pode haver venda antecipada. O vendedor não é obrigado a aceitar a maior proposta nem qualquer proposta.",
+            "source": "Settled · propostas fechadas (tender)",
+            "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-tender/"
+          },
+          {
+            "question": "E se o imóvel não for vendido no leilão ou chegar uma proposta antes?",
+            "answer": "“Passing in” significa que o imóvel não foi vendido pelo processo de leilão naquele momento; pode haver negociação depois. Pergunte qual processo e contrato passarão a valer. As regras do leilão podem continuar valendo, então uma proposta posterior ainda pode precisar ser incondicional. Uma proposta antecipada pode mudar a data do leilão. Não presuma que poderá acrescentar condições depois de um lance vencedor; consulte seu advogado antes de fazer uma proposta pré-leilão ou assumir um compromisso negociado depois.",
+            "source": "Settled · compra em leilão",
+            "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-auction/"
+          },
+          {
+            "question": "O que é um processo de múltiplas propostas? Posso melhorar a minha depois?",
+            "answer": "Um processo de múltiplas propostas exige mais de uma proposta escrita vigente. Pergunte ao corretor como funciona o processo daquela imobiliária e quando sua proposta expira. Talvez você não tenha chance de melhorá-la. O vendedor pode considerar condições e prazos além do preço, rejeitar todas as propostas ou continuar negociando. Respeite seu limite e mantenha as proteções jurídicas de que precisa.",
+            "source": "Settled · várias propostas",
+            "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-a-multi-offer-process/"
+          },
+          {
+            "question": "Como compro diretamente de um proprietário particular?",
+            "answer": "Confirme a identidade e a autoridade do vendedor e peça ao seu advogado que prepare ou revise o contrato de compra e venda. Providencie as mesmas verificações de imóvel, financiamento e seguro. Peça ao advogado ou conveyancer (profissional de transferência imobiliária) que organize o recebimento seguro do sinal em uma trust account (conta de valores de clientes); não presuma que uma transferência direta ao vendedor seja adequada. Vendedores particulares devem informar problemas conhecidos, mas o processo da REA contra corretores não cobre um vendedor particular sem licença. As proteções jurídicas dependem das circunstâncias.",
+            "source": "Settled · corretores e compra direta do proprietário",
+            "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+          },
+          {
+            "question": "Quais riscos extras existem numa mortgagee sale?",
+            "answer": "Numa mortgagee sale, o credor exerce seu poder de vender o imóvel hipotecado. As proteções e garantias contratuais podem ser diferentes, e acesso, entrega desocupada, itens incluídos ou seguro podem ser incertos. Obtenha orientação jurídica especializada sobre os termos exatos e os riscos antes de dar lances ou assinar. Confirme o que pode inspecionar, quando passa a ser responsável e se seu financiador e sua seguradora aceitam o arranjo. A venda pode ser retirada se o proprietário quitar a hipoteca antes do settlement (conclusão da compra). Um preço aparentemente baixo não prova que seja um bom negócio.",
+            "source": "Settled · opções de imóveis",
+            "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/considering-your-property-options/"
+          },
+          {
+            "question": "O que muda quando o vendedor é um espólio ou um trust?",
+            "answer": "Peça ao seu advogado que confirme quem tem autoridade para assinar e se alguma etapa do espólio ou trust (estrutura de gestão de bens) afeta os prazos. Confira as garantias, os itens incluídos e os termos de settlement (conclusão da compra), em vez de presumir uma venda padrão. Esses nomes descrevem a situação do vendedor, não um processo separado de lances: o imóvel ainda pode ser vendido por negociação, tender ou leilão.",
+            "source": "Settled · espólios e trusts",
+            "url": "https://www.settled.govt.nz/selling-a-home/thinking-of-selling/planning-to-sell/"
+          }
+        ]
+      }
+    ],
+    "resources": [
+      {
+        "category": "CORRETORES E MÉTODOS DE VENDA",
+        "title": "Quem representa você?",
+        "description": "Corretores do vendedor e do comprador, proprietários particulares e verificações antes de assinar.",
+        "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+      },
+      {
+        "category": "CORRETORES E MÉTODOS DE VENDA",
+        "title": "Verifique a licença de um corretor",
+        "description": "Registro público da REA de profissionais imobiliários licenciados.",
+        "url": "https://publicregister.rea.govt.nz/"
+      },
+      {
+        "category": "CORRETORES E MÉTODOS DE VENDA",
+        "title": "Conduta e informações dos corretores",
+        "description": "Regras de conduta profissional, atendimento ao cliente e informações obrigatórias, incluindo defeitos conhecidos e riscos prováveis de defeitos ocultos.",
+        "url": "https://www.settled.govt.nz/assets/Uploads/Resources/Guides/Code-of-conduct.pdf"
+      },
+      {
+        "category": "CORRETORES E MÉTODOS DE VENDA",
+        "title": "Regras do tender e sinais",
+        "description": "Propostas confidenciais, condições, arranjos do sinal e possíveis vendas antecipadas.",
+        "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-tender/"
+      },
+      {
+        "category": "CORRETORES E MÉTODOS DE VENDA",
+        "title": "Vendas com prazo e propostas antecipadas",
+        "description": "Entenda os prazos de encerramento e o que “unless sold prior” (salvo venda anterior) pode significar.",
+        "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-deadline/"
+      },
+      {
+        "category": "CORRETORES E MÉTODOS DE VENDA",
+        "title": "Propostas escritas concorrentes",
+        "description": "Como funciona o processo de múltiplas propostas e por que outra chance não é garantida.",
+        "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-a-multi-offer-process/"
+      }
+    ],
+    "sourceLabels": {
+      "Settled · agents and private sales": "Settled · corretores e compra direta do proprietário",
+      "REA · buyer’s agents": "REA · corretores do comprador",
+      "REA · check an agent’s licence": "REA · verificar a licença de um corretor",
+      "REA · conduct and client care rules": "REA · regras de conduta e atendimento ao cliente",
+      "Settled · negotiation and price guides": "Settled · negociação e referências de preço",
+      "Settled · deadline sales": "Settled · vendas com prazo para propostas",
+      "Settled · tenders": "Settled · propostas fechadas (tender)",
+      "Settled · buying at auction": "Settled · compra em leilão",
+      "Settled · multiple offers": "Settled · várias propostas",
+      "Settled · property options": "Settled · opções de imóveis",
+      "Settled · estates and trusts": "Settled · espólios e trusts"
+    }
+  },
+  "es": {
+    "topics": {
+      "agents": {
+        "label": "Agentes inmobiliarios",
+        "headline": "¿Quién trabaja\npara quién?",
+        "intro": "Recibir ayuda es útil. Saber quién te representa importa aún más.",
+        "bridge": "Cuando te interese una vivienda, averigua cómo funciona esa venta.",
+        "cards": {
+          "roles": {
+            "label": "A quién representan",
+            "title": "Pregunta a quién representan.",
+            "body": "El agente de la venta representa al vendedor. Un agente del comprador te representa mediante un contrato aparte. Tu abogado revisa la parte legal.",
+            "checks": [
+              "Pregunta a quién representa el agente",
+              "Elige tu propio abogado",
+              "Lee cualquier contrato de representación"
+            ],
+            "gotcha": "Enseñarte viviendas no convierte a alguien automáticamente en tu agente del comprador."
+          },
+          "disclosures": {
+            "label": "Preguntas y pruebas",
+            "title": "Pregunta. Después pide los documentos.",
+            "body": "Pregunta por defectos, reparaciones, permisos, riesgos y elementos incluidos. Los agentes deben actuar de forma justa e informar de problemas relevantes; aun así, organiza tus propias comprobaciones.",
+            "checks": [
+              "Pide la información por escrito",
+              "Comprueba los documentos de forma independiente",
+              "Incluye las promesas importantes en el contrato"
+            ],
+            "gotcha": "Una respuesta segura no sustituye un informe de inspección ni una revisión legal."
+          },
+          "your-agent": {
+            "label": "Tu propio agente",
+            "title": "Entiende qué estás contratando.",
+            "body": "Antes de contratar a un agente del comprador, revisa su licencia, servicios, honorarios, conflictos y poderes para negociar o pujar. Pide a tu abogado que revise el contrato.",
+            "checks": [
+              "Consulta el registro público de REA",
+              "Acuerda honorarios y servicios por escrito",
+              "Fija límites de autorización y de puja"
+            ],
+            "gotcha": "Un agente que te presenta una vivienda anunciada por otra agencia puede seguir trabajando para el vendedor."
+          }
+        }
+      },
+      "sales": {
+        "label": "Formas de comprar",
+        "headline": "La misma vivienda.\nDistintas reglas de compra.",
+        "intro": "Primero comprueba quién vende. Después, el proceso, las fechas y las condiciones.",
+        "bridge": "Ahora pide a tu abogado que refleje tu oferta y tus protecciones en el contrato adecuado.",
+        "cards": {
+          "process": {
+            "label": "Procesos de venta",
+            "title": "¿Qué proceso se sigue aquí?",
+            "body": "La negociación, la fecha límite, el tender (ofertas cerradas) y la subasta cambian cuándo presentas tu oferta y qué debes comprobar antes. Consigue las reglas exactas de esta vivienda.",
+            "checks": [
+              "Confirma el método de venta y las fechas",
+              "Pregunta si puede venderse antes",
+              "Consulta las condiciones con tu abogado"
+            ],
+            "gotcha": "En una subasta, termina las comprobaciones y confirma financiación y seguro antes de pujar."
+          },
+          "competition": {
+            "label": "Precio y competencia",
+            "title": "Una referencia de precio no es una promesa.",
+            "body": "El precio anunciado, BEO u “offers over” (ofertas por encima de cierta cantidad) son referencias, no la aceptación de tu oferta. Varias ofertas escritas pueden dar lugar a un proceso de ofertas múltiples.",
+            "checks": [
+              "Usa datos del inmueble y tu presupuesto",
+              "Pregunta cómo se gestionan las ofertas competidoras",
+              "Confirma cuándo caduca tu oferta"
+            ],
+            "gotcha": "Puede que no tengas otra oportunidad de mejorar tu oferta. Mantén las protecciones que necesitas."
+          },
+          "special": {
+            "label": "Compra directa y ventas especiales",
+            "title": "Otro vendedor. Más preguntas.",
+            "body": "Comprar directamente al propietario, a un prestamista que vende por una hipoteca o a una herencia puede cambiar las comprobaciones y los términos del contrato. Involucra a tu abogado desde el principio.",
+            "checks": [
+              "Confirma quién tiene autoridad para vender",
+              "Revisa posesión, elementos incluidos y garantías",
+              "Pide que revisen los acuerdos sobre la señal"
+            ],
+            "gotcha": "Que no haya agente no significa que no haya contrato. Una venta por el acreedor hipotecario no es automáticamente una ganga."
+          }
+        }
+      }
+    },
+    "chapters": [
+      {
+        "id": "agents",
+        "checklist": [
+          "Pregunta a quién representa el agente.",
+          "Pide la información obligatoria y las respuestas importantes por escrito.",
+          "Comprueba la licencia y elige tus propios asesores.",
+          "Revisa cualquier contrato de representación del comprador antes de firmar."
+        ],
+        "mistake": "Suponer que un agente de la venta amable es tu asesor independiente.",
+        "shortcut": "En la primera conversación, haz una pregunta directa: ¿a quién representas en esta venta?",
+        "details": [
+          {
+            "question": "¿Para quién trabaja el agente inmobiliario?",
+            "answer": "El agente que anuncia el inmueble actúa para el vendedor, que normalmente paga la comisión. Aun así, debe tratar a los compradores con justicia y honestidad. Tú contratas y pagas a tu propio agente del comprador mediante un contrato escrito aparte. Mantén a tu abogado involucrado: ninguno de estos papeles sustituye el asesoramiento legal o técnico sobre la construcción de forma independiente.",
+            "source": "Settled · agentes y compra directa al propietario",
+            "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+          },
+          {
+            "question": "¿El agente que me enseña viviendas es mi agente del comprador?",
+            "answer": "No necesariamente. Ayudarte a encontrar un anuncio o compartir una venta con otra agencia no significa por sí solo que te represente. Pregunta quién es su cliente. Un verdadero contrato de representación del comprador debe explicar servicios, honorarios y poderes. Comprueba la licencia y pide a tu abogado que lo revise antes de firmar. La misma agencia no puede representar a ambas partes en la misma operación.",
+            "source": "REA · agentes del comprador",
+            "url": "https://www.rea.govt.nz/real-estate-professionals/industry-guidance-and-information/buyers-agent-information/"
+          },
+          {
+            "question": "¿Qué debe comunicar el agente y qué debo seguir comprobando?",
+            "answer": "Los agentes no pueden engañar a los compradores ni ocultar información que deba facilitarse. Deben comunicar los defectos conocidos y advertir de riesgos probables de defectos ocultos. Pide información por escrito sobre reparaciones, permisos, riesgos, elementos incluidos y cualquier vínculo con el vendedor. Verifica los puntos importantes con tu abogado, inspector y council (ayuntamiento local); esta información no garantiza que se conozcan todos los defectos.",
+            "source": "REA · normas de conducta y atención al cliente",
+            "url": "https://www.settled.govt.nz/assets/Uploads/Resources/Guides/Code-of-conduct.pdf"
+          },
+          {
+            "question": "¿Debo decir al agente de la venta cuál es mi presupuesto máximo?",
+            "answer": "Puedes indicar cuánto estás dispuesto a ofrecer sin revelar tu límite absoluto. No supongas que el agente del vendedor te da asesoramiento de compra confidencial. Pregunta cómo se usará la información, explica tu situación con honestidad y mantén tu límite de presupuesto al margen de la presión de la venta.",
+            "source": "Settled · agentes y compra directa al propietario",
+            "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+          },
+          {
+            "question": "¿Cómo compruebo la licencia de un agente o planteo una queja?",
+            "answer": "Usa el registro público de REA para comprobar la licencia vigente y la información disciplinaria disponible. Guarda mensajes y documentos si algo te preocupa. Plantea el problema a la agencia o al responsable de supervisión y utiliza las orientaciones de REA sobre reclamaciones cuando corresponda. Un propietario particular que vende sin licencia de agente queda fuera del proceso de reclamaciones de REA contra agentes; consulta a tu abogado qué vía seguir.",
+            "source": "Settled · agentes y compra directa al propietario",
+            "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+          }
+        ]
+      },
+      {
+        "id": "sales",
+        "checklist": [
+          "Confirma el método, el plazo y las reglas de venta anticipada.",
+          "Entiende cuándo podrías asumir un compromiso vinculante.",
+          "Organiza comprobaciones del inmueble y condiciones adecuadas.",
+          "Revisa la autoridad del vendedor y cualquier cláusula inusual."
+        ],
+        "mistake": "Tomar el nombre del método de venta o el precio anunciado como si fueran todas las reglas.",
+        "shortcut": "Antes de pagar por comprobaciones, envía a tu abogado los documentos y el calendario de la venta.",
+        "details": [
+          {
+            "question": "¿En qué se diferencian negociación, deadline, tender y subasta?",
+            "answer": "La negociación permite ofertas y contraofertas. Una deadline sale recibe ofertas hasta una fecha y puede permitir una venta anticipada. Un tender recibe ofertas escritas confidenciales según sus reglas. Una subasta utiliza pujas abiertas; una compra adjudicada en subasta es incondicional. Para cada inmueble, confirma con tu abogado los documentos, fechas, condiciones y acuerdos sobre la señal aplicables.",
+            "source": "Settled · negociación y referencias de precio",
+            "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-negotiation/"
+          },
+          {
+            "question": "¿El precio anunciado, BEO, BBO u “offers over” garantizan la aceptación?",
+            "answer": "No. Son formas de indicar expectativas de precio, no una promesa de aceptar tu oferta. BEO significa buyer enquiry over (consultas de compradores por encima del importe indicado); BBO significa buyer budget over (presupuesto del comprador por encima del importe indicado). POA significa price on application (precio a consultar). Pregunta por las expectativas del vendedor, compara los datos y tu presupuesto, y negocia precio y términos mediante un contrato debidamente revisado.",
+            "source": "Settled · negociación y referencias de precio",
+            "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-negotiation/"
+          },
+          {
+            "question": "¿Puede venderse una vivienda en deadline o tender antes del cierre?",
+            "answer": "Puede, si el proceso y las reglas permiten una venta anticipada. Busca “unless sold prior” (salvo venta previa) y pregunta directamente al agente. Registra tu interés y pide que te avisen de una oferta anticipada o un cambio de hora de cierre. No supongas que el plazo anunciado te garantiza tiempo para terminar tus comprobaciones.",
+            "source": "Settled · ventas con fecha límite",
+            "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-deadline/"
+          },
+          {
+            "question": "¿Qué debo revisar antes de presentar un tender?",
+            "answer": "Pide a tu abogado que revise los documentos del tender, las condiciones, la vigencia de la oferta y las reglas para retirarla. Normalmente se presenta una señal junto con el tender; confirma el importe, el plazo y cómo se custodiará. Pregunta si es posible una venta anticipada. El vendedor no tiene que aceptar la oferta más alta ni ninguna otra.",
+            "source": "Settled · ofertas cerradas (tender)",
+            "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-tender/"
+          },
+          {
+            "question": "¿Qué ocurre si la subasta queda sin adjudicar o llega una oferta antes?",
+            "answer": "“Passing in” significa que el inmueble no se vendió por el proceso de subasta en ese momento; después puede haber negociaciones. Pregunta qué proceso y contrato se aplicarán ahora. Las reglas de la subasta pueden seguir vigentes, por lo que una oferta posterior aún podría tener que ser incondicional. Una oferta anticipada puede cambiar el calendario de la subasta. No supongas que puedes añadir condiciones tras una puja ganadora; consulta a tu abogado antes de hacer una oferta previa a la subasta o asumir después un compromiso negociado.",
+            "source": "Settled · comprar en subasta",
+            "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-auction/"
+          },
+          {
+            "question": "¿Qué es un proceso de ofertas múltiples? ¿Puedo mejorar mi oferta después?",
+            "answer": "Un proceso de ofertas múltiples requiere más de una oferta escrita vigente. Pregunta al agente cómo funciona el proceso de esa agencia y cuándo caduca tu oferta. Puede que no tengas ocasión de mejorarla. El vendedor puede valorar condiciones y plazos además del precio, rechazar todas las ofertas o seguir negociando. Respeta tu límite y mantén las protecciones legales que necesitas.",
+            "source": "Settled · varias ofertas",
+            "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-a-multi-offer-process/"
+          },
+          {
+            "question": "¿Cómo compro directamente a un propietario particular?",
+            "answer": "Confirma la identidad y la autoridad del vendedor y pide a tu abogado que prepare o revise el contrato de compraventa. Organiza las mismas comprobaciones del inmueble, financiación y seguro. Pide al abogado o conveyancer (profesional de tramitación de compraventas) que organice la custodia segura de la señal en una trust account (cuenta de fondos de clientes); no supongas que una transferencia directa al vendedor sea adecuada. Los vendedores particulares deben comunicar los problemas conocidos, pero el proceso de REA contra agentes no cubre a un vendedor particular sin licencia. Las protecciones legales dependen de las circunstancias.",
+            "source": "Settled · agentes y compra directa al propietario",
+            "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+          },
+          {
+            "question": "¿Qué riesgos adicionales tiene una mortgagee sale?",
+            "answer": "En una mortgagee sale, el prestamista ejerce su facultad de vender el inmueble hipotecado. Las protecciones y garantías del contrato pueden ser distintas, y el acceso, la entrega desocupada, los elementos incluidos o el seguro pueden ser inciertos. Busca asesoramiento legal especializado sobre los términos exactos y el riesgo antes de pujar o firmar. Confirma qué puedes inspeccionar, cuándo asumes la responsabilidad y si tu prestamista y aseguradora aceptan el acuerdo. La venta puede retirarse si el propietario paga la hipoteca antes del settlement (finalización de la compraventa). Un precio aparentemente bajo no demuestra que sea una buena compra.",
+            "source": "Settled · opciones de vivienda",
+            "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/considering-your-property-options/"
+          },
+          {
+            "question": "¿Qué cambia si el vendedor es una herencia o un trust?",
+            "answer": "Pide a tu abogado que confirme quién tiene autoridad para firmar y si algún trámite de la herencia o del trust (estructura de gestión de bienes) afecta a los plazos. Revisa las garantías, los elementos incluidos y los términos de settlement (finalización de la compraventa), sin dar por hecha una venta estándar. Estos términos describen las circunstancias del vendedor, no un proceso de puja aparte: la vivienda puede venderse por negociación, tender o subasta.",
+            "source": "Settled · herencias y trusts",
+            "url": "https://www.settled.govt.nz/selling-a-home/thinking-of-selling/planning-to-sell/"
+          }
+        ]
+      }
+    ],
+    "resources": [
+      {
+        "category": "AGENTES Y MÉTODOS DE VENTA",
+        "title": "¿Quién te representa?",
+        "description": "Agentes del vendedor y del comprador, propietarios particulares y comprobaciones antes de firmar.",
+        "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+      },
+      {
+        "category": "AGENTES Y MÉTODOS DE VENTA",
+        "title": "Comprueba la licencia de un agente",
+        "description": "Registro público de REA de profesionales inmobiliarios con licencia.",
+        "url": "https://publicregister.rea.govt.nz/"
+      },
+      {
+        "category": "AGENTES Y MÉTODOS DE VENTA",
+        "title": "Conducta e información de los agentes",
+        "description": "Requisitos de conducta profesional, atención al cliente e información obligatoria, incluidos defectos conocidos y riesgos probables de defectos ocultos.",
+        "url": "https://www.settled.govt.nz/assets/Uploads/Resources/Guides/Code-of-conduct.pdf"
+      },
+      {
+        "category": "AGENTES Y MÉTODOS DE VENTA",
+        "title": "Reglas del tender y señales",
+        "description": "Ofertas confidenciales, condiciones, acuerdos sobre la señal y posibles ventas anticipadas.",
+        "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-tender/"
+      },
+      {
+        "category": "AGENTES Y MÉTODOS DE VENTA",
+        "title": "Ventas con fecha límite y ofertas anticipadas",
+        "description": "Entiende los plazos de cierre y qué puede significar “unless sold prior” (salvo venta previa).",
+        "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-deadline/"
+      },
+      {
+        "category": "AGENTES Y MÉTODOS DE VENTA",
+        "title": "Ofertas escritas competidoras",
+        "description": "Cómo funciona un proceso de ofertas múltiples y por qué no se garantiza otra oportunidad.",
+        "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-a-multi-offer-process/"
+      }
+    ],
+    "sourceLabels": {
+      "Settled · agents and private sales": "Settled · agentes y compra directa al propietario",
+      "REA · buyer’s agents": "REA · agentes del comprador",
+      "REA · check an agent’s licence": "REA · comprobar la licencia de un agente",
+      "REA · conduct and client care rules": "REA · normas de conducta y atención al cliente",
+      "Settled · negotiation and price guides": "Settled · negociación y referencias de precio",
+      "Settled · deadline sales": "Settled · ventas con fecha límite",
+      "Settled · tenders": "Settled · ofertas cerradas (tender)",
+      "Settled · buying at auction": "Settled · comprar en subasta",
+      "Settled · multiple offers": "Settled · varias ofertas",
+      "Settled · property options": "Settled · opciones de vivienda",
+      "Settled · estates and trusts": "Settled · herencias y trusts"
+    }
+  },
+  "zh-Hans": {
+    "topics": {
+      "agents": {
+        "label": "房地产中介",
+        "headline": "谁在为\n谁办事？",
+        "intro": "热心帮助很有用，弄清谁代表你更重要。",
+        "bridge": "对一套房感兴趣时，先了解这次出售的具体规则。",
+        "cards": {
+          "roles": {
+            "label": "他们代表谁",
+            "title": "问清他们代表哪一方。",
+            "body": "卖方中介代表卖家。买方中介通过单独的代理协议代表你。你的律师负责审查法律事项。",
+            "checks": [
+              "问清中介代表谁",
+              "自行选择律师",
+              "阅读任何代理协议"
+            ],
+            "gotcha": "带你看房，并不自动意味着对方就是你的买方中介。"
+          },
+          "disclosures": {
+            "label": "问题与证据",
+            "title": "先问，再索取记录。",
+            "body": "询问缺陷、维修、建筑许可、风险及包含的物品。中介必须公平待人并披露相关问题；你仍需自行安排核查。",
+            "checks": [
+              "要求书面披露",
+              "独立核实文件",
+              "把重要承诺写进合同"
+            ],
+            "gotcha": "回答再肯定，也不能替代房屋检查报告或法律审查。"
+          },
+          "your-agent": {
+            "label": "你自己的中介",
+            "title": "弄清你聘请的服务。",
+            "body": "聘请买方中介前，核查执照、服务、费用、利益冲突以及协商或竞拍权限。请律师审查协议。",
+            "checks": [
+              "查询 REA 公开名册",
+              "书面约定费用与服务",
+              "设定批准权限及竞拍上限"
+            ],
+            "gotcha": "向你推荐另一家中介挂牌房源的人，仍可能在为卖家工作。"
+          }
+        }
+      },
+      "sales": {
+        "label": "买房方式",
+        "headline": "同一套房。\n购买规则各不同。",
+        "intro": "先核实谁在出售，再查看流程、日期和条件。",
+        "bridge": "接下来，请律师用合适的协议写明你的报价与保护条款。",
+        "cards": {
+          "process": {
+            "label": "出售流程",
+            "title": "这次采用哪种流程？",
+            "body": "协商、限期报价、密封投标和拍卖，会影响你何时报价、事先必须核查什么。索取这套房的具体规则。",
+            "checks": [
+              "确认出售方式与日期",
+              "询问是否可能提前售出",
+              "向律师咨询附加条件"
+            ],
+            "gotcha": "参加拍卖前，完成核查并确认贷款和保险。"
+          },
+          "competition": {
+            "label": "价格与竞争",
+            "title": "价格参考不等于承诺。",
+            "body": "挂牌价、BEO 或“offers over”（高于某金额的报价）只是参考，不代表卖家会接受你的报价。多份书面报价可能触发多报价流程。",
+            "checks": [
+              "结合房产资料与自身预算",
+              "询问竞争报价如何处理",
+              "确认报价有效期"
+            ],
+            "gotcha": "你可能没有再次提高报价的机会。保留所需的保护条款。"
+          },
+          "special": {
+            "label": "业主直售与特殊出售",
+            "title": "卖家不同，问题更多。",
+            "body": "向业主直接购买、向行使抵押权出售的贷款机构购买，或购买遗产房，都可能改变核查事项和合同条款。尽早让律师参与。",
+            "checks": [
+              "确认谁有权出售",
+              "核查交房占用情况、包含物品与保证",
+              "请人核查合同预付款安排"
+            ],
+            "gotcha": "没有中介，也仍需要合同。抵押权人出售的房产不一定便宜划算。"
+          }
+        }
+      }
+    },
+    "chapters": [
+      {
+        "id": "agents",
+        "checklist": [
+          "问清中介代表谁。",
+          "要求书面披露及重要问题的书面答复。",
+          "核查执照，并自行选择顾问。",
+          "签署前审查任何买方代理协议。"
+        ],
+        "mistake": "把热心的卖方中介当成你的独立顾问。",
+        "shortcut": "第一次交谈时就直接问：在这次出售中，你代表谁？",
+        "details": [
+          {
+            "question": "房地产中介为谁工作？",
+            "answer": "挂牌中介代表卖家，佣金通常由卖家支付。他们仍必须公平、诚实地对待买家。你通过单独的书面协议聘请自己的买方中介，并支付其费用。让律师持续参与：这些角色都不能替代独立的法律或建筑专业意见。",
+            "source": "Settled · 中介与业主直接出售",
+            "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+          },
+          {
+            "question": "带我看房的中介就是我的买方中介吗？",
+            "answer": "不一定。帮你找房源，或与另一家中介合作完成出售，本身不代表他们代理你。问清他们的客户是谁。真正的买方代理协议应说明服务、费用与权限。核查执照，并在签署前请律师审查。同一家中介机构不得在同一交易中同时代理买卖双方。",
+            "source": "REA · 买方中介",
+            "url": "https://www.rea.govt.nz/real-estate-professionals/industry-guidance-and-information/buyers-agent-information/"
+          },
+          {
+            "question": "中介必须披露什么？我还要核查什么？",
+            "answer": "中介不得误导买家，也不得隐瞒必须提供的信息。他们必须披露已知缺陷，并提醒买家注意可能存在的隐蔽缺陷风险。要求提供有关维修、建筑许可、风险、包含物品以及与卖家任何关系的书面信息。与律师、验房师及 council（地方政府）核实重要事项；已作披露并不保证所有缺陷都已被发现。",
+            "source": "REA · 行为及客户服务规则",
+            "url": "https://www.settled.govt.nz/assets/Uploads/Resources/Guides/Code-of-conduct.pdf"
+          },
+          {
+            "question": "我该告诉卖方中介自己的最高预算吗？",
+            "answer": "你可以说明愿意出多少钱，而不必主动透露绝对上限。不要以为卖方中介是在向你提供保密的购房建议。询问信息将如何使用，如实说明自身情况，并把自己的预算上限与销售压力分开考虑。",
+            "source": "Settled · 中介与业主直接出售",
+            "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+          },
+          {
+            "question": "如何核查中介执照或反映问题？",
+            "answer": "通过 REA 公开名册核查此人当前的执照及可查的纪律处分信息。如有疑虑，保存消息和文件。向中介机构或监督经理反映，并在适当情况下参考 REA 的投诉指引。不持中介执照的私人卖家不属于 REA 的中介投诉程序范围；请向律师咨询相应途径。",
+            "source": "Settled · 中介与业主直接出售",
+            "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+          }
+        ]
+      },
+      {
+        "id": "sales",
+        "checklist": [
+          "确认出售方式、截止日期及提前出售规则。",
+          "弄清何时可能承担有约束力的义务。",
+          "安排房产核查及合适的附加条件。",
+          "核查卖家权限及任何特殊条款。"
+        ],
+        "mistake": "以为出售方式的名称或广告价格就是全部规则。",
+        "shortcut": "支付核查费用前，先把出售文件及时间表交给律师。",
+        "details": [
+          {
+            "question": "协商、限期报价、密封投标和拍卖有何区别？",
+            "answer": "协商允许报价与还价。限期报价出售（deadline sale）邀请买家在指定日期前报价，也可能允许提前售出。密封投标（tender）按投标规则接收保密的书面报价。拍卖采用公开竞价；拍卖成交的购买是无条件的。每套房都应请律师确认实际文件、日期、条件及合同预付款安排。",
+            "source": "Settled · 协商与价格参考",
+            "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-negotiation/"
+          },
+          {
+            "question": "挂牌价、BEO、BBO 或“offers over”保证报价会被接受吗？",
+            "answer": "不保证。这些是表达价格预期的方式，不是接受你报价的承诺。BEO 是 buyer enquiry over，表示欢迎高于标示金额的买家询价；BBO 是 buyer budget over，表示买家预算需高于标示金额。POA 是 price on application，即价格需询问。了解卖家预期，比较相关资料与自身预算，并通过经过妥善审查的协议协商价格与条款。",
+            "source": "Settled · 协商与价格参考",
+            "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-negotiation/"
+          },
+          {
+            "question": "限期报价或密封投标的房产能在截止前售出吗？",
+            "answer": "如果流程和条款允许，就有可能。留意“unless sold prior”（除非提前售出），并直接询问中介。登记你的购买意向，要求在出现提前报价或截止时间变更时通知你。不要以为广告上的截止日期就保证你有足够时间完成核查。",
+            "source": "Settled · 限期报价出售",
+            "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-deadline/"
+          },
+          {
+            "question": "提交密封投标前应核查什么？",
+            "answer": "请律师审查投标文件、任何附加条件、报价有效期及撤回规则。通常需随投标提交合同预付款；确认金额、时间及款项如何保管。询问是否可能提前出售。卖家不必接受最高报价，也可以不接受任何报价。",
+            "source": "Settled · 密封投标",
+            "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-tender/"
+          },
+          {
+            "question": "拍卖流拍，或拍卖日前收到报价，会怎样？",
+            "answer": "“Passing in”表示房产在当时的拍卖流程中未售出，之后可能进行协商。询问接下来适用什么流程和合同。拍卖规则可能继续适用，因此后续报价也可能仍须是无条件的。提前报价可能改变拍卖时间安排。不要以为竞拍成功后还能添加条件；提交拍卖前报价或之后通过协商作出承诺前，先咨询律师。",
+            "source": "Settled · 拍卖买房",
+            "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-auction/"
+          },
+          {
+            "question": "什么是多报价流程？以后还能提高报价吗？",
+            "answer": "多报价流程需要同时存在不止一份有效书面报价。向中介询问该机构的具体流程，以及你的报价何时失效。你可能没有机会提高报价。卖家可以同时考虑价格、条件与时间，拒绝所有报价，或继续协商。守住自己的上限，保留所需的法律保护。",
+            "source": "Settled · 多份报价",
+            "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-a-multi-offer-process/"
+          },
+          {
+            "question": "如何直接向私人业主买房？",
+            "answer": "确认卖家身份及出售权限，请律师起草或审查买卖协议。同样要安排房产、贷款和保险核查。请律师或 conveyancer（房产过户专业人士）通过 trust account（客户资金专用账户）安全处理合同预付款；不要以为直接转账给卖家就合适。私人卖家必须披露已知问题，但 REA 的中介投诉程序不适用于不持中介执照的私人卖家。法律保护取决于具体情况。",
+            "source": "Settled · 中介与业主直接出售",
+            "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+          },
+          {
+            "question": "抵押权人出售有哪些额外风险？",
+            "answer": "在 mortgagee sale（抵押权人出售）中，贷款机构行使其出售权。合同保护及保证可能不同，能否进入房屋、能否空置交付、包含哪些物品及保险安排都可能不确定。竞拍或签署前，就具体条款和风险寻求专业法律意见。确认你能检查什么、何时开始承担责任，以及你的贷款机构和保险公司是否接受该安排。如果业主在 settlement（交割）前还清抵押贷款，出售可能被撤回。看似低价并不证明物有所值。",
+            "source": "Settled · 房产选择",
+            "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/considering-your-property-options/"
+          },
+          {
+            "question": "卖家是遗产管理方或信托时，有什么不同？",
+            "answer": "请律师确认谁有权签署，以及遗产或 trust（信托）的相关手续是否影响时间安排。核查实际保证、包含物品和 settlement（交割）条款，不要假设与普通出售相同。这些词描述的是卖家的情况，并非独立的竞价流程：房产仍可能通过协商、密封投标或拍卖出售。",
+            "source": "Settled · 遗产与信托",
+            "url": "https://www.settled.govt.nz/selling-a-home/thinking-of-selling/planning-to-sell/"
+          }
+        ]
+      }
+    ],
+    "resources": [
+      {
+        "category": "中介与出售方式",
+        "title": "谁代表你？",
+        "description": "卖方中介、买方中介、私人业主，以及签署前应做的核查。",
+        "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+      },
+      {
+        "category": "中介与出售方式",
+        "title": "核查中介执照",
+        "description": "REA 持牌房地产专业人士公开名册。",
+        "url": "https://publicregister.rea.govt.nz/"
+      },
+      {
+        "category": "中介与出售方式",
+        "title": "中介行为与信息披露",
+        "description": "专业行为、客户服务及信息披露要求，包括已知缺陷及可能存在的隐蔽缺陷风险。",
+        "url": "https://www.settled.govt.nz/assets/Uploads/Resources/Guides/Code-of-conduct.pdf"
+      },
+      {
+        "category": "中介与出售方式",
+        "title": "密封投标规则与合同预付款",
+        "description": "保密报价、附加条件、合同预付款安排及可能的提前出售。",
+        "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-tender/"
+      },
+      {
+        "category": "中介与出售方式",
+        "title": "限期报价出售与提前报价",
+        "description": "了解截止日期，以及“unless sold prior”（除非提前售出）可能意味着什么。",
+        "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-deadline/"
+      },
+      {
+        "category": "中介与出售方式",
+        "title": "相互竞争的书面报价",
+        "description": "多报价流程如何运作，以及为何不保证还有下一次机会。",
+        "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-a-multi-offer-process/"
+      }
+    ],
+    "sourceLabels": {
+      "Settled · agents and private sales": "Settled · 中介与业主直接出售",
+      "REA · buyer’s agents": "REA · 买方中介",
+      "REA · check an agent’s licence": "REA · 核查中介执照",
+      "REA · conduct and client care rules": "REA · 行为及客户服务规则",
+      "Settled · negotiation and price guides": "Settled · 协商与价格参考",
+      "Settled · deadline sales": "Settled · 限期报价出售",
+      "Settled · tenders": "Settled · 密封投标",
+      "Settled · buying at auction": "Settled · 拍卖买房",
+      "Settled · multiple offers": "Settled · 多份报价",
+      "Settled · property options": "Settled · 房产选择",
+      "Settled · estates and trusts": "Settled · 遗产与信托"
+    }
+  }
+}

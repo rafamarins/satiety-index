@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-26",
+  "styleReference": "assets/home-truths/answer-preapproval-specific.webp",
+  "assets": [
+    {
+      "key": "answer-agent-roles",
+      "prompt": "Use case: illustration-story. Create a photographic cut-paper educational collage sprite sheet for a first-home buyer site. Match ONLY the torn white edges, real people photography, cobalt blue paper and warm lighting of the reference. Landscape 3:2 transparent canvas with exactly 2 columns and 2 rows. TOP LEFT: a real estate agent in office attire stands beside the HOMEOWNER SELLER, both looking together at a large property photo and discussing an offer; agent and seller clearly form one team, buyer is a separate person opposite the desk. TOP RIGHT: a different BUYER has hired their own agent, the two sit side by side reviewing a neighbourhood map and shortlist of several home photos, buyer points to a preferred option. Make side-by-side partnership visible. Each top scene fully contained within its own quadrant, generous clear margin, independent torn white paper edges and cobalt backing. Bottom two quadrants empty transparent. No arrows, no labels, no text, no numbers, no logos. No full generic house, no meaningless piles of papers. Realistic hands and faces. Roles cannot be assumed from clothes; make grouping and shared attention explain the difference. High-quality editorial cutouts on genuine alpha transparency.",
+      "tool": "Built-in image_gen",
+      "sourcePath": "/Users/rms/.codex/generated_images/01a17269-4490-7ae3-a66b-a990466fa0be/exec-8cc41e9e-356e-4804-94b7-eed0b0492017.png",
+      "assetPath": "assets/home-truths/answer-agent-roles.webp",
+      "layout": {
+        "columns": 2,
+        "rows": 2
+      }
+    },
+    {
+      "key": "answer-sale-processes",
+      "prompt": "Use case: illustration-story. Photographic cut-paper collage sprite sheet, style ONLY from reference: realistic editorial photos, torn white borders, cobalt blue paper accents, warm natural light. Landscape 3:2 canvas, genuinely transparent background, exactly 2 columns x 2 rows, four independent scenes wholly inside their own quadrant, generous margins no elements crossing centre lines. TOP LEFT NEGOTIATION: two adults facing across a table, one offers a price tag and the other gestures a counteroffer; a small property photo sits on the table. TOP RIGHT DEADLINE: a buyer hands an open offer folder toward an agent, with a large calendar and analog clock visibly marking a cutoff; no tender box. BOTTOM LEFT TENDER: a hand deposits a sealed offer envelope into a closed secure tender box with a narrow slot, calendar nearby; no clocks needed. BOTTOM RIGHT AUCTION: an auctioneer with wooden gavel and buyers raising bidding paddles in the foreground. Clearly recognizable at thumbnail size, compelling high quality people and objects. No text on folders/calendar/tag/paddles, no labels, no numbers, no captions, no logos. Distinct actions and objects, not repeated houses or generic paperwork. Avoid caricature and 3D icons. Keep all four scenes separate and correctly framed; pure transparent gutters and genuine alpha.",
+      "tool": "Built-in image_gen",
+      "sourcePath": "/Users/rms/.codex/generated_images/01a17269-4490-7ae3-a66b-a990466fa0be/exec-f015d935-d934-4579-8e89-8a69d911d609.png",
+      "assetPath": "assets/home-truths/answer-sale-processes.webp",
+      "layout": {
+        "columns": 2,
+        "rows": 2
+      }
+    }
+  ]
+}

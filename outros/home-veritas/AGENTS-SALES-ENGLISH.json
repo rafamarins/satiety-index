@@ -1,0 +1,352 @@
+{
+  "agentSaleLinks": {
+    "agents": {
+      "label": "Settled · agents and private sales",
+      "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+    },
+    "buyerAgent": {
+      "label": "REA · buyer’s agents",
+      "url": "https://www.rea.govt.nz/real-estate-professionals/industry-guidance-and-information/buyers-agent-information/"
+    },
+    "register": {
+      "label": "REA · check an agent’s licence",
+      "url": "https://publicregister.rea.govt.nz/"
+    },
+    "conduct": {
+      "label": "REA · conduct and client care rules",
+      "url": "https://www.settled.govt.nz/assets/Uploads/Resources/Guides/Code-of-conduct.pdf"
+    },
+    "negotiation": {
+      "label": "Settled · negotiation and price guides",
+      "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-negotiation/"
+    },
+    "deadline": {
+      "label": "Settled · deadline sales",
+      "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-deadline/"
+    },
+    "tender": {
+      "label": "Settled · tenders",
+      "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-tender/"
+    },
+    "auction": {
+      "label": "Settled · buying at auction",
+      "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-auction/"
+    },
+    "multi": {
+      "label": "Settled · multiple offers",
+      "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-a-multi-offer-process/"
+    },
+    "options": {
+      "label": "Settled · property options",
+      "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/considering-your-property-options/"
+    },
+    "estate": {
+      "label": "Settled · estates and trusts",
+      "url": "https://www.settled.govt.nz/selling-a-home/thinking-of-selling/planning-to-sell/"
+    }
+  },
+  "additionalTopics": [
+    {
+      "id": "agents",
+      "stage": "find",
+      "label": "Real estate agents",
+      "headline": "Who is working\nfor whom?",
+      "intro": "Friendly help is useful. Knowing who represents you matters more.",
+      "image": "broker",
+      "chapterIds": [
+        "agents"
+      ],
+      "cards": [
+        {
+          "id": "roles",
+          "label": "Who they represent",
+          "title": "Ask whose side they are on.",
+          "body": "The selling agent represents the seller. A buyer’s agent represents you under a separate agreement. Your lawyer checks the legal side.",
+          "checks": [
+            "Ask who the agent represents",
+            "Choose your own lawyer",
+            "Read any agency agreement"
+          ],
+          "gotcha": "Showing you homes does not automatically make someone your buyer’s agent."
+        },
+        {
+          "id": "disclosures",
+          "label": "Questions and evidence",
+          "title": "Ask. Then ask for the records.",
+          "body": "Ask about defects, repairs, consents, hazards and included items. Agents must deal fairly and disclose relevant problems; still arrange your own checks.",
+          "checks": [
+            "Request disclosures in writing",
+            "Check documents independently",
+            "Record important promises in the contract"
+          ],
+          "gotcha": "A confident answer is not a building report or legal clearance."
+        },
+        {
+          "id": "your-agent",
+          "label": "Your own agent",
+          "title": "Know what you are hiring.",
+          "body": "Before hiring a buyer’s agent, check their licence, services, fees, conflicts and authority to negotiate or bid. Have your lawyer review the agreement.",
+          "checks": [
+            "Check the REA public register",
+            "Agree fees and services in writing",
+            "Set approval and bidding limits"
+          ],
+          "gotcha": "An agent introducing you to another agency’s listing may still be working for the seller."
+        }
+      ],
+      "sourceLinks": [
+        {
+          "label": "Settled · agents and private sales",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+        },
+        {
+          "label": "REA · buyer’s agents",
+          "url": "https://www.rea.govt.nz/real-estate-professionals/industry-guidance-and-information/buyers-agent-information/"
+        },
+        {
+          "label": "REA · check an agent’s licence",
+          "url": "https://publicregister.rea.govt.nz/"
+        },
+        {
+          "label": "REA · conduct and client care rules",
+          "url": "https://www.settled.govt.nz/assets/Uploads/Resources/Guides/Code-of-conduct.pdf"
+        }
+      ],
+      "bridge": "When a home interests you, find out how this particular sale works."
+    },
+    {
+      "id": "sales",
+      "stage": "buy",
+      "label": "Ways to buy",
+      "headline": "Same home.\nDifferent rules to buy.",
+      "intro": "First check who is selling. Then check the process, dates and conditions.",
+      "image": "contract",
+      "chapterIds": [
+        "sales"
+      ],
+      "cards": [
+        {
+          "id": "process",
+          "label": "Sale processes",
+          "title": "Which process is this?",
+          "body": "Negotiation, deadline, tender and auction change when you offer and what must be checked first. Get the exact rules for this property.",
+          "checks": [
+            "Confirm the sale method and dates",
+            "Ask whether it can sell earlier",
+            "Ask your lawyer about conditions"
+          ],
+          "gotcha": "At auction, complete your checks and confirm finance and insurance before bidding."
+        },
+        {
+          "id": "competition",
+          "label": "Price and competition",
+          "title": "A price guide is not a promise.",
+          "body": "An asking price, BEO or “offers over” is a guide, not acceptance of your offer. Multiple written offers can create a multi-offer process.",
+          "checks": [
+            "Use property evidence and your budget",
+            "Ask how competing offers are handled",
+            "Confirm your offer’s expiry"
+          ],
+          "gotcha": "You may not get another chance to improve an offer. Keep the protections you need."
+        },
+        {
+          "id": "special",
+          "label": "Private and special sales",
+          "title": "Different seller. Extra questions.",
+          "body": "Buying directly from an owner, a lender selling under a mortgage, or an estate can change the checks and contract terms. Bring your lawyer in early.",
+          "checks": [
+            "Confirm who has authority to sell",
+            "Check possession, inclusions and warranties",
+            "Have deposit arrangements checked"
+          ],
+          "gotcha": "No agent does not mean no contract. A mortgagee sale is not automatically a bargain."
+        }
+      ],
+      "sourceLinks": [
+        {
+          "label": "Settled · negotiation and price guides",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-negotiation/"
+        },
+        {
+          "label": "Settled · deadline sales",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-deadline/"
+        },
+        {
+          "label": "Settled · tenders",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-tender/"
+        },
+        {
+          "label": "Settled · buying at auction",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-auction/"
+        },
+        {
+          "label": "Settled · multiple offers",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-a-multi-offer-process/"
+        },
+        {
+          "label": "Settled · agents and private sales",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+        },
+        {
+          "label": "Settled · property options",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/considering-your-property-options/"
+        },
+        {
+          "label": "Settled · estates and trusts",
+          "url": "https://www.settled.govt.nz/selling-a-home/thinking-of-selling/planning-to-sell/"
+        }
+      ],
+      "bridge": "Now ask your lawyer to turn your offer and protections into the right agreement."
+    }
+  ],
+  "additionalChapters": [
+    {
+      "id": "agents",
+      "checklist": [
+        "Ask who the agent represents.",
+        "Request disclosures and important answers in writing.",
+        "Check a licence and choose your own advisers.",
+        "Review any buyer’s agency agreement before signing."
+      ],
+      "mistake": "Assuming a helpful selling agent is your independent adviser.",
+      "shortcut": "Ask one direct question at the first conversation: who do you represent in this sale?",
+      "details": [
+        {
+          "question": "Who does the real estate agent work for?",
+          "answer": "The listing agent acts for the seller, who normally pays the commission. They must still treat buyers fairly and honestly. You hire and pay your own buyer’s agent under a separate written agreement. Keep your lawyer involved: none of these roles replaces independent legal or building advice.",
+          "source": "Settled · agents and private sales",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+        },
+        {
+          "question": "Is an agent who shows me homes my buyer’s agent?",
+          "answer": "Not necessarily. Helping you find a listing, or sharing a sale with another agency, does not by itself mean they represent you. Ask who their client is. A genuine buyer’s agency agreement should explain services, fees and authority. Check the licence and have your lawyer review it before signing. The same agency must not represent both sides in the same transaction.",
+          "source": "REA · buyer’s agents",
+          "url": "https://www.rea.govt.nz/real-estate-professionals/industry-guidance-and-information/buyers-agent-information/"
+        },
+        {
+          "question": "What must an agent disclose, and what should I still check?",
+          "answer": "Agents cannot mislead buyers or withhold information that must be provided. They must disclose known defects and alert buyers to likely hidden-defect risks. Ask for written information about repairs, consents, hazards, inclusions and any connection to the seller. Verify important points with your lawyer, inspector and council; disclosure is not a guarantee that every defect is known.",
+          "source": "REA · conduct and client care rules",
+          "url": "https://www.settled.govt.nz/assets/Uploads/Resources/Guides/Code-of-conduct.pdf"
+        },
+        {
+          "question": "Should I tell the selling agent my maximum budget?",
+          "answer": "You can state what you are prepared to offer without volunteering your absolute ceiling. Do not assume the seller’s agent is giving you confidential buying advice. Ask how information will be used, be truthful about your position, and keep your own budget limit separate from sales pressure.",
+          "source": "Settled · agents and private sales",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+        },
+        {
+          "question": "How do I check an agent’s licence or raise a concern?",
+          "answer": "Use REA’s public register to check the person’s current licence and available disciplinary information. Keep messages and documents if something concerns you. Raise the issue with the agency or supervising manager, and use REA’s complaints guidance where appropriate. A private unlicensed seller is outside REA’s agent-complaints process; ask your lawyer about that route.",
+          "source": "Settled · agents and private sales",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+        }
+      ]
+    },
+    {
+      "id": "sales",
+      "checklist": [
+        "Confirm the method, deadline and early-sale rules.",
+        "Know when you could become committed.",
+        "Arrange property checks and suitable conditions.",
+        "Check the seller’s authority and any unusual terms."
+      ],
+      "mistake": "Treating a sale label or advertised price as the whole set of rules.",
+      "shortcut": "Before paying for checks, get the sale documents and timetable to your lawyer.",
+      "details": [
+        {
+          "question": "How do negotiation, deadline, tender and auction differ?",
+          "answer": "Negotiation allows offers and counteroffers. A deadline sale invites offers by a date and may allow an earlier sale. A tender invites confidential written offers under its tender terms. An auction uses open bidding; a successful auction purchase is unconditional. For each property, confirm the actual documents, dates, conditions and deposit arrangements with your lawyer.",
+          "source": "Settled · negotiation and price guides",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-negotiation/"
+        },
+        {
+          "question": "Does an asking price, BEO, BBO or “offers over” guarantee acceptance?",
+          "answer": "No. These are ways of indicating price expectations, not a promise to accept your offer. BEO means buyer enquiry over; BBO means buyer budget over. POA means price on application. Ask about the seller’s expectations, compare evidence and your own budget, and negotiate price and terms through a properly reviewed agreement.",
+          "source": "Settled · negotiation and price guides",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-negotiation/"
+        },
+        {
+          "question": "Can a deadline or tender property sell before the closing date?",
+          "answer": "It may, if the process and terms permit an earlier sale. Look for “unless sold prior” and ask the agent directly. Register your interest and request notice of an early offer or changed closing time. Do not assume an advertised deadline guarantees you time to finish your checks.",
+          "source": "Settled · deadline sales",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-deadline/"
+        },
+        {
+          "question": "What should I check before submitting a tender?",
+          "answer": "Have your lawyer review the tender documents, any conditions, offer validity and withdrawal rules. A deposit is usually submitted with the tender; confirm the amount, timing and how it will be held. Ask whether an early sale is possible. The seller need not accept the highest offer, or any offer.",
+          "source": "Settled · tenders",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-tender/"
+        },
+        {
+          "question": "What if an auction passes in, or an offer arrives before auction day?",
+          "answer": "Passing in means the property did not sell under the auction process at that point; negotiations may follow. Ask what process and contract will now apply. Auction rules may continue, so a later offer may still need to be unconditional. An early offer may change the auction timetable. Do not assume you can add conditions after a successful bid; ask your lawyer before making a pre-auction offer or a later negotiated commitment.",
+          "source": "Settled · buying at auction",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-auction/"
+        },
+        {
+          "question": "What is a multi-offer process, and can I improve my offer later?",
+          "answer": "A multi-offer process requires more than one current written offer. Ask the agent how this agency’s process works and when your offer expires. You may not get a chance to improve it. The seller can weigh conditions and timing as well as price, reject all offers or negotiate further. Stay within your limit and keep the legal protections you need.",
+          "source": "Settled · multiple offers",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-a-multi-offer-process/"
+        },
+        {
+          "question": "How do I buy directly from a private owner?",
+          "answer": "Confirm the seller’s identity and authority, and have your lawyer prepare or review the sale and purchase agreement. Arrange the same property, finance and insurance checks. Have your lawyer or conveyancer arrange safe trust-account handling of the deposit; do not assume a direct transfer to the seller is appropriate. Private sellers must disclose known issues, but REA’s agent-complaints process does not cover a private unlicensed seller. Legal protections depend on the circumstances.",
+          "source": "Settled · agents and private sales",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+        },
+        {
+          "question": "What extra risks come with a mortgagee sale?",
+          "answer": "Here the lender is exercising its power to sell. Contract protections and warranties may differ, and access, vacant possession, included items or insurance can be uncertain. Get specialist legal advice on the exact terms and risk before bidding or signing. Confirm what you can inspect, when you become responsible and whether your lender and insurer accept the arrangement. The sale may be removed if the owner repays the mortgage before settlement. A low-looking price is not proof of value.",
+          "source": "Settled · property options",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/considering-your-property-options/"
+        },
+        {
+          "question": "What changes when the seller is a deceased estate or a trust?",
+          "answer": "Ask your lawyer to confirm who has authority to sign and whether any estate or trust steps affect the timing. Check the actual warranties, inclusions and settlement terms rather than assuming a standard sale. These describe the seller’s circumstances, not a separate bidding process: the home may still be sold by negotiation, tender or auction.",
+          "source": "Settled · estates and trusts",
+          "url": "https://www.settled.govt.nz/selling-a-home/thinking-of-selling/planning-to-sell/"
+        }
+      ]
+    }
+  ],
+  "additionalResources": [
+    {
+      "category": "AGENTS & SALE METHODS",
+      "title": "Who represents you?",
+      "description": "Selling agents, buyer’s agents, private owners and the checks to make before signing.",
+      "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+    },
+    {
+      "category": "AGENTS & SALE METHODS",
+      "title": "Check an agent’s licence",
+      "description": "REA’s public register of licensed real estate professionals.",
+      "url": "https://publicregister.rea.govt.nz/"
+    },
+    {
+      "category": "AGENTS & SALE METHODS",
+      "title": "Agent conduct and disclosures",
+      "description": "Professional conduct, client care and disclosure requirements, including known and likely hidden defects.",
+      "url": "https://www.settled.govt.nz/assets/Uploads/Resources/Guides/Code-of-conduct.pdf"
+    },
+    {
+      "category": "AGENTS & SALE METHODS",
+      "title": "Tender rules and deposits",
+      "description": "Confidential offers, conditions, deposit arrangements and possible early sales.",
+      "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-tender/"
+    },
+    {
+      "category": "AGENTS & SALE METHODS",
+      "title": "Deadline sales and early offers",
+      "description": "Understand closing dates and what “unless sold prior” can mean.",
+      "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-deadline/"
+    },
+    {
+      "category": "AGENTS & SALE METHODS",
+      "title": "Competing written offers",
+      "description": "How a multi-offer process works and why another chance is not guaranteed.",
+      "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-a-multi-offer-process/"
+    }
+  ]
+}

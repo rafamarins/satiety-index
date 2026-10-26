@@ -10,6 +10,12 @@ The [Outros directory](https://rafael.co.nz/outros/) is built from `outros/` in 
 To add another project, duplicate the `.project` list item in `outros/index.html`,
 then change its number, link, illustration and copy. No JavaScript changes are needed.
 
+Home Veritas now lives in `outros/home-veritas/`. The root build runs its build and
+includes its public package at `/outros/home-veritas/`; source, sketches and QA
+records stay out of the published package. See its [README](outros/home-veritas/README.md)
+for the standalone preview and content checks. Run `npm run check:home-veritas`
+from this repository to check its content and calculations.
+
 ## Run locally
 
 ```sh
@@ -50,9 +56,12 @@ npm run preview
 ```
 
 Open <http://localhost:8787/outros/satiety-index/> for the production-like preview.
-The output directory includes both pages, three sizes of each of the 38 illustrations,
-local fonts and their licence notices. Small page-specific styles are inlined;
-scripts and images are fingerprinted for long-lived caching. Source vectors,
+The output directory includes Outros, Satiety Index and Home Veritas, three sizes
+of each of the 38 food illustrations, local fonts and their licence notices.
+Satiety's page-specific styles are inlined; its scripts and images are fingerprinted
+for long-lived caching. Home Veritas keeps its own responsive images and lazy-loaded
+language and detail bundles. Its hashed JavaScript has long-lived caching; its
+unversioned files revalidate. Source vectors,
 atlases, older stock artwork, research, QA captures,
 credentials and repository files are not published. Unknown paths return 404;
 food selection uses URL fragments and does not need an SPA fallback.
@@ -65,14 +74,15 @@ npm run deploy
 ```
 
 The Worker is named `satiety-index`. Its routes cover exactly `/favicon.svg`, `/outros`, `/outros/`,
-`/outros/assets/*`, `/outros/satiety-index` and `/outros/satiety-index/*`.
+`/outros/assets/*`, `/outros/satiety-index`, `/outros/satiety-index/*`,
+`/outros/home-veritas` and `/outros/home-veritas/*`.
 There is deliberately no `/outros/*` catch-all: future sibling sites can use their
 own hosting without being intercepted by this Worker.
 The circular Rafael favicon in `outros/favicon.svg` is published at `/favicon.svg`,
 shared by the homepage and the Outros directory. The Satiety Index keeps its own favicon.
 Publishing does not replace the existing website's root, other folders, DNS
-records or email setup. The built assets mirror the `/outros/satiety-index/`
-directory; relative app URLs work without a rewrite Worker. The same path is
+records or email setup. The built assets mirror each project's `/outros/` directory;
+relative app URLs work without a rewrite Worker. Both project paths are also
 available on the Worker's `workers.dev` URL.
 
 The development dependency `undici` is pinned to its patched 7.30.1 release through
