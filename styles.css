@@ -468,15 +468,26 @@ html[data-theme="dark"] .theme-moon {
 .nutrition-details {
   border-top: 1px solid var(--line);
   font-size: var(--text-label);
-  margin-top: 16px;
-  max-width: 370px;
 }
 .nutrition-details summary {
   cursor: pointer;
-  padding-block: 12px;
+  padding-block: 18px;
+}
+.nutrition-details-content {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr);
+  align-items: start;
+  gap: 24px 64px;
+  padding-block: 6px 24px;
 }
 .nutrition-table {
-  margin: 0 0 16px;
+  margin: 0;
+}
+.nutrition-study-notes {
+  max-width: 70ch;
+}
+.nutrition-study-notes > p:first-child {
+  margin-top: 0;
 }
 .nutrition-table > div {
   display: flex;
@@ -1210,6 +1221,12 @@ html[data-theme="dark"] .theme-moon {
     grid-template-columns: 1fr;
     gap: 20px;
     padding: 0 0 30px;
+  }
+  .nutrition-section {
+    order: 3;
+  }
+  .nutrition-details-content {
+    grid-template-columns: minmax(0, 1fr);
   }
   .specimen {
     min-height: 0;

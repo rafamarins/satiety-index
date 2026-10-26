@@ -54,10 +54,38 @@ async function main() {
       for (const width of [320, 390, 768, 1440]) {
         await page.setViewportSize({ width, height: 900 });
         assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true, `${theme} ${width}`);
+        await page.evaluate(() => document.fonts.ready);
+        await page.locator(".food-illustration").evaluate(img => img.decode());
+        const bounds = () => page.evaluate(() => Object.fromEntries(
+          [".specimen-layout", ".food-illustration", ".score-summary"].map(selector => {
+            const rect = document.querySelector(selector).getBoundingClientRect();
+            return [selector, [rect.x + scrollX, rect.y + scrollY, rect.width, rect.height]];
+          }),
+        ));
+        await page.locator(".nutrition-details").evaluate(el => { el.open = false; });
+        const closed = await bounds();
+        await page.locator(".nutrition-details summary").click();
+        const expanded = await bounds();
+        for (const selector of Object.keys(closed)) {
+          closed[selector].forEach((value, i) => assert.ok(
+            Math.abs(value - expanded[selector][i]) < 0.5,
+            `${theme} ${width}: expanding details moved or resized ${selector}`,
+          ));
+        }
+        const beneath = await page.evaluate(() =>
+          document.querySelector(".nutrition-section").getBoundingClientRect().top >=
+          document.querySelector(".specimen-layout").getBoundingClientRect().bottom,
+        );
+        assert.ok(beneath, `${theme} ${width}: details must sit below the comparison`);
+        if (process.env.SATIETY_SCREENSHOT_DIR) {
+          await page.locator(".specimen-layout").evaluate(el => el.scrollIntoView({ block: "start" }));
+          await page.screenshot({ path: `${process.env.SATIETY_SCREENSHOT_DIR}/details-${theme}-${width}.png` });
+        }
+
       }
     }
     assert.deepEqual(errors, []);
-    console.log("PASS: all 38 food portions/macros/details, milk context, unchanged scores, deep link/history, touch/keyboard disclosure, both themes and responsive reflow.");
+    console.log("PASS: all 38 food portions/macros/details, milk context, unchanged scores, deep link/history, touch/keyboard disclosure, both themes, responsive reflow and no image/score movement when expanding details.");
   } finally {
     await browser.close();
   }

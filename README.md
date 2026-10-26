@@ -123,7 +123,8 @@ the fixed 1,000 kJ energy portion and source notes. Milk is included in cereal s
 the separate 220 ml drinking water is not. No food volumes, cup measures or item counts are
 inferred. The illustrations remain representative, not scaled portion diagrams.
 The compact portion and macro summary sits beside the satiety percentage; the full
-nutrition disclosure follows the fullness-response explanation.
+nutrition disclosure occupies its own row below the image and score layout, so expanding
+it does not resize or reposition the illustration.
 The full index also shows each portion weight beside its score, including when filtered
 by category. Readers can sort by satiety score or portion weight in either direction;
 row numbers follow the selected ordering across all foods. These remain the same
