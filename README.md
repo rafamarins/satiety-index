@@ -124,6 +124,8 @@ the separate 220 ml drinking water is not. No food volumes, cup measures or item
 inferred. The illustrations remain representative, not scaled portion diagrams.
 The compact portion and macro summary sits beside the satiety percentage; the full
 nutrition disclosure follows the fullness-response explanation.
+The full index also shows each portion weight beside its score, including when filtered
+by category. These remain the same ≈240-calorie portions, with milk included for cereals.
 
 Transcribed visually from Holt et al., Table 2 (p. 678), with preparation from Table 1
 (pp. 676–677) and the drinking-water protocol on pp. 679–680. The serving-weight

@@ -758,6 +758,9 @@ html[data-theme="dark"] .theme-moon {
 }
 
 .collection {
+  --ranking-columns: minmax(24px, max-content) minmax(0, 1fr) minmax(24px, 0.45fr) minmax(68px, 0.3fr) minmax(56px, 0.3fr);
+  --ranking-gap: 12px;
+  --ranking-column-gap: 56px;
   padding-block: 80px;
 }
 .collection-heading {
@@ -802,19 +805,30 @@ html[data-theme="dark"] .theme-moon {
 .ranking-header {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  column-gap: var(--ranking-column-gap);
   font-size: var(--text-label);
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--muted);
-  padding: 18px 12px 12px;
+  padding-block: 18px 12px;
 }
-.ranking-header span:last-child {
+.ranking-column-header {
+  display: grid;
+  grid-template-columns: var(--ranking-columns);
+  gap: var(--ranking-gap);
+  padding-inline: 8px;
+  overflow-wrap: anywhere;
+}
+.ranking-column-header span:first-child {
+  grid-column: 1 / -3;
+}
+.ranking-column-header span:not(:first-child) {
   text-align: right;
 }
 .food-ranking {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 56px;
+  column-gap: var(--ranking-column-gap);
   list-style: none;
   padding: 0;
   margin: 0;
@@ -825,11 +839,9 @@ html[data-theme="dark"] .theme-moon {
 .ranking-row {
   position: relative;
   display: grid;
-  grid-template-columns:
-    minmax(24px, max-content) minmax(0, 1.3fr) minmax(32px, 0.7fr)
-    minmax(48px, max-content);
+  grid-template-columns: var(--ranking-columns);
   align-items: center;
-  gap: 12px;
+  gap: var(--ranking-gap);
   min-height: 56px;
   border-bottom: 1px solid var(--line);
   padding: 10px 8px;
@@ -857,10 +869,16 @@ html[data-theme="dark"] .theme-moon {
   width: var(--score);
   background: var(--muted);
 }
-.ranking-score {
+.ranking-score,
+.ranking-portion {
   justify-self: end;
   font-size: var(--text-label);
   font-variant-numeric: tabular-nums;
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+.ranking-portion {
+  color: var(--muted);
 }
 .ranking-row[aria-pressed="true"] {
   background: var(--hover);
@@ -1074,15 +1092,10 @@ html[data-theme="dark"] .theme-moon {
   .study {
     gap: 60px;
   }
-  .food-ranking {
-    column-gap: 32px;
-  }
-  .ranking-row {
-    gap: 8px;
-    grid-template-columns: minmax(24px, max-content) minmax(0, 1fr) minmax(
-        48px,
-        max-content
-      );
+  .collection {
+    --ranking-columns: minmax(24px, max-content) minmax(0, 1fr) minmax(68px, 0.3fr) minmax(56px, 0.3fr);
+    --ranking-gap: 8px;
+    --ranking-column-gap: 32px;
   }
   .ranking-bar {
     display: none;
@@ -1348,17 +1361,12 @@ html[data-theme="dark"] .theme-moon {
     gap: 6px 17px;
     margin-top: 23px;
   }
-  .food-ranking {
+  .food-ranking,
+  .ranking-header {
     grid-template-columns: 1fr;
   }
-  .ranking-row {
-    grid-template-columns:
-      minmax(24px, max-content) minmax(0, 1.3fr) minmax(24px, 0.5fr)
-      minmax(48px, max-content);
-    gap: 12px;
-  }
-  .ranking-bar {
-    display: block;
+  .ranking-column-header + .ranking-column-header {
+    display: none;
   }
   .footer-heading {
     align-items: start;
@@ -1419,9 +1427,6 @@ html[data-theme="dark"] .theme-moon {
   }
   .score-caption {
     max-width: none;
-  }
-  .ranking-row {
-    gap: 8px;
   }
   .collection h2 {
     font-size: 35px;

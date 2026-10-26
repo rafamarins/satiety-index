@@ -204,7 +204,7 @@ function renderRanking() {
     button.className = "ranking-row";
     button.dataset.food = item.id;
     button.setAttribute("aria-pressed", String(item.id === food.id));
-    button.innerHTML = `<span class="ranking-number" aria-hidden="true"><span class="ranking-index">${String(RANKED_FOODS.indexOf(item) + 1).padStart(2, "0")}</span><svg class="ui-icon ranking-selected-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19 19 5M5 5h14v14" /></svg></span><span class="ranking-name">${item.name}</span><span class="ranking-bar" style="--score:${(item.score / 350) * 100}%" aria-hidden="true"></span><span class="ranking-score">${item.score}%</span><span class="sr-only">satiety score. White bread scores 100%. Select to compare.</span>`;
+    button.innerHTML = `<span class="ranking-number" aria-hidden="true"><span class="ranking-index">${String(RANKED_FOODS.indexOf(item) + 1).padStart(2, "0")}</span><svg class="ui-icon ranking-selected-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19 19 5M5 5h14v14" /></svg></span><span class="ranking-name">${item.name}</span><span class="ranking-bar" style="--score:${(item.score / 350) * 100}%" aria-hidden="true"></span><span class="ranking-portion"><span class="sr-only">Study portion: </span>${STUDY_NUTRITION[item.id].servingGrams} g</span><span class="ranking-score">${item.score}%</span><span class="sr-only">satiety score. White bread scores 100%. Select to compare.</span>`;
     button.addEventListener("click", () => {
       selectFood(item);
       byId("explorer").scrollIntoView({
