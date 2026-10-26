@@ -779,6 +779,27 @@ html[data-theme="dark"] .theme-moon {
   color: var(--muted);
   margin: 0 0 4px;
 }
+.collection-sort {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  margin-top: 28px;
+}
+.collection-sort label {
+  font-size: var(--text-label);
+  color: var(--muted);
+}
+.collection-sort .select-wrapper {
+  width: min(100%, 310px);
+}
+.collection-sort select {
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 36px 10px 14px;
+  font-size: var(--text-body);
+}
 .category-filters {
   display: flex;
   flex-wrap: wrap;
@@ -1356,6 +1377,14 @@ html[data-theme="dark"] .theme-moon {
   }
   .collection-heading > p {
     margin: 16px 0 0;
+  }
+  .collection-sort {
+    justify-content: flex-start;
+  }
+  .collection-sort .select-wrapper {
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: none;
   }
   .category-filters {
     gap: 6px 17px;

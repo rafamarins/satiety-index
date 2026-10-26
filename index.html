@@ -339,9 +339,21 @@
             <h2 id="collection-title">All <em>38 foods</em></h2>
           </div>
           <p>
-            Original 1995 scores, highest to lowest. White bread = 100%.<br />
+            Original 1995 study scores. White bread = 100%.<br />
             Weights are for ≈240-calorie study portions; cereals include milk.
           </p>
+        </div>
+        <div class="collection-sort">
+          <label for="ranking-sort">Sort by</label>
+          <div class="select-wrapper">
+            <select id="ranking-sort">
+              <option value="score-desc">Satiety score: highest first</option>
+              <option value="score-asc">Satiety score: lowest first</option>
+              <option value="portion-desc">Portion weight: largest first</option>
+              <option value="portion-asc">Portion weight: smallest first</option>
+            </select>
+            <svg class="select-chevron" viewBox="0 0 16 16" aria-hidden="true"><path d="m4 6 4 4 4-4" /></svg>
+          </div>
         </div>
         <div
           id="category-filters"

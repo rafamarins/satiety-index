@@ -36,6 +36,7 @@ const ui = Object.fromEntries(
     "selection-announcement",
     "theme-toggle",
     "food-ranking",
+    "ranking-sort",
     "category-filters",
     "filter-status",
   ].map((id) => [id, byId(id)]),
@@ -194,7 +195,14 @@ function step(direction) {
 }
 
 function renderRanking() {
-  const visible = RANKED_FOODS.filter(
+  const [metric, direction] = ui["ranking-sort"].value.split("-");
+  const value = (item) => metric === "portion"
+    ? STUDY_NUTRITION[item.id].servingGrams
+    : item.score;
+  const ranked = [...RANKED_FOODS].sort((a, b) =>
+    (value(a) - value(b)) * (direction === "asc" ? 1 : -1),
+  );
+  const visible = ranked.filter(
     (item) =>
       activeCategory === "All foods" || item.category === activeCategory,
   );
@@ -204,7 +212,7 @@ function renderRanking() {
     button.className = "ranking-row";
     button.dataset.food = item.id;
     button.setAttribute("aria-pressed", String(item.id === food.id));
-    button.innerHTML = `<span class="ranking-number" aria-hidden="true"><span class="ranking-index">${String(RANKED_FOODS.indexOf(item) + 1).padStart(2, "0")}</span><svg class="ui-icon ranking-selected-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19 19 5M5 5h14v14" /></svg></span><span class="ranking-name">${item.name}</span><span class="ranking-bar" style="--score:${(item.score / 350) * 100}%" aria-hidden="true"></span><span class="ranking-portion"><span class="sr-only">Study portion: </span>${STUDY_NUTRITION[item.id].servingGrams} g</span><span class="ranking-score">${item.score}%</span><span class="sr-only">satiety score. White bread scores 100%. Select to compare.</span>`;
+    button.innerHTML = `<span class="ranking-number" aria-hidden="true"><span class="ranking-index">${String(ranked.indexOf(item) + 1).padStart(2, "0")}</span><svg class="ui-icon ranking-selected-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19 19 5M5 5h14v14" /></svg></span><span class="ranking-name">${item.name}</span><span class="ranking-bar" style="--score:${(item.score / 350) * 100}%" aria-hidden="true"></span><span class="ranking-portion"><span class="sr-only">Study portion: </span>${STUDY_NUTRITION[item.id].servingGrams} g</span><span class="ranking-score">${item.score}%</span><span class="sr-only">satiety score. White bread scores 100%. Select to compare.</span>`;
     button.addEventListener("click", () => {
       selectFood(item);
       byId("explorer").scrollIntoView({
@@ -218,10 +226,13 @@ function renderRanking() {
     return listItem;
   });
   ui["food-ranking"].replaceChildren(...buttons);
-  ui["filter-status"].textContent = `${visible.length} foods shown.`;
+  const sortLabel = ui["ranking-sort"].selectedOptions[0].textContent;
+  ui["food-ranking"].setAttribute("aria-label", `Foods sorted by ${sortLabel.toLowerCase()}`);
+  ui["filter-status"].textContent = `${visible.length} foods shown. ${sortLabel}.`;
 }
 
 function setupControls() {
+  ui["ranking-sort"].addEventListener("change", renderRanking);
   [...new Set(FOODS.map((item) => item.category))].forEach((category) => {
     const group = document.createElement("optgroup");
     group.label = category;

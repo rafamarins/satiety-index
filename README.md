@@ -125,7 +125,9 @@ inferred. The illustrations remain representative, not scaled portion diagrams.
 The compact portion and macro summary sits beside the satiety percentage; the full
 nutrition disclosure follows the fullness-response explanation.
 The full index also shows each portion weight beside its score, including when filtered
-by category. These remain the same ≈240-calorie portions, with milk included for cereals.
+by category. Readers can sort by satiety score or portion weight in either direction;
+row numbers follow the selected ordering across all foods. These remain the same
+≈240-calorie portions, with milk included for cereals.
 
 Transcribed visually from Holt et al., Table 2 (p. 678), with preparation from Table 1
 (pp. 676–677) and the drinking-water protocol on pp. 679–680. The serving-weight
@@ -141,6 +143,8 @@ classification. All satiety scores remain unchanged.
 Run the data checks with `node --test scripts/check-study-nutrition.mjs`. With the browser
 dependencies described below, run `node scripts/check-study-nutrition.cjs` against
 `SATIETY_URL` to check food switching, all nutrient values and the disclosure control.
+Run `node scripts/check-ranking.cjs` with the same dependencies and URL to verify
+both sort metrics and directions, category filters, selection and responsive layouts.
 
 ## Artwork and dependencies
 
