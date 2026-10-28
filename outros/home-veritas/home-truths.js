@@ -5,6 +5,7 @@ import { localizedReference } from './home-truths-reference.js';
 import { monthlyPayment } from './finance.js';
 import { searchScore, faqSearchText, orderTopicFAQs } from './home-truths-search.js';
 import { languages, normalizeLanguage, localizedContent, translate } from './home-truths-i18n.js';
+import { icon } from './home-truths-icons.js';
 
 let language='en', topics=englishTopics, areas=englishAreas, languageRequest=0;
 const tr=(key,values)=>translate(language,key,values);
@@ -12,6 +13,7 @@ const localeLoaders={'pt-BR':()=>import('./locales/pt-BR.json'),es:()=>import('.
 
 const $ = id => document.getElementById(id);
 const escape = value => String(value).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+const actionLabel = key => `${escape(tr(key).replace(/ ↗$/,''))} ${icon('arrow-up-right')}`;
 const keyFor = (topic, card) => `${topic.id}/${card.id}`;
 const routeFor = topicRoute;
 let topic = topics[0], card = topic.cards[0], currentView, modalVersion = 0, renderVersion = 0, toastTimer;
@@ -33,14 +35,14 @@ const artDescriptions = {
 function toast(message) { message=tr(message); clearTimeout(toastTimer); $('toast').textContent = message; $('toast').hidden = false; toastTimer = setTimeout(() => { $('toast').hidden = true; }, 3200); }
 function areaTile(a,index) {
   const href=a.topics.length===1?routeFor(topics.find(t=>t.id===a.topics[0])):areaRoute(a);
-  return `<a class="interest-block tone-${a.tone}" href="${href}"><div class="block-copy"><span class="eyebrow">${escape(a.label)}</span><h2>${escape(a.title)}</h2></div><img src="${artPath(a.image)}" ${artSources(a.image,'(max-width:740px) 40vw, (max-width:1050px) 42vw, 30vw')} width="1200" height="800" alt="" decoding="async" loading="${index<2?'eager':'lazy'}" fetchpriority="${index===0?'high':'auto'}"><div class="block-bottom"><span>${escape(a.description)}</span><span class="block-arrow" aria-hidden="true">↗</span></div></a>`;
+  return `<a class="interest-block tone-${a.tone}" href="${href}"><div class="block-copy"><span class="eyebrow">${escape(a.label)}</span><h2>${escape(a.title)}</h2></div><img src="${artPath(a.image)}" ${artSources(a.image,'(max-width:740px) 40vw, (max-width:1050px) 42vw, 30vw')} width="1200" height="800" alt="" decoding="async" loading="${index<2?'eager':'lazy'}" fetchpriority="${index===0?'high':'auto'}"><div class="block-bottom"><span>${escape(a.description)}</span><span class="block-arrow" aria-hidden="true">${icon('arrow-up-right')}</span></div></a>`;
 }
 function topicTile(t) {
-  return `<a class="topic-block" href="${routeFor(t)}"><img src="${artPath(t.image)}" ${artSources(t.image,'(max-width:740px) 92px, (max-width:1050px) 100px, 260px')} width="1200" height="800" alt="" loading="lazy"><div><h2>${escape(t.label)}</h2><p>${escape(t.intro)}</p><span class="topic-preview">${t.cards.map(c=>escape(c.label)).join(' · ')}</span></div><span class="block-arrow" aria-hidden="true">↗</span></a>`;
+  return `<a class="topic-block" href="${routeFor(t)}"><img src="${artPath(t.image)}" ${artSources(t.image,'(max-width:740px) 92px, (max-width:1050px) 100px, 260px')} width="1200" height="800" alt="" loading="lazy"><div><h2>${escape(t.label)}</h2><p>${escape(t.intro)}</p><span class="topic-preview">${t.cards.map(c=>escape(c.label)).join(' · ')}</span></div><span class="block-arrow" aria-hidden="true">${icon('arrow-up-right')}</span></a>`;
 }
 function questionBlock(t,c,open) {
   const key=keyFor(t,c);
-  return `<details class="question-block" data-question="${escape(key)}" ${open?'open':''}><summary><h2><small>${escape(c.label)}</small>${escape(c.title)}</h2><span class="question-plus" aria-hidden="true">+</span></summary><div class="question-content"><div class="card-explanation" data-explanation="${escape(key)}">${cardExplanation(t,c)||`<p class="question-answer">${escape(c.body)}</p>${learningPoints(c)}`}</div><p class="gotcha"><strong>${escape(tr('Easy to miss'))}</strong>${escape(c.gotcha)}</p><div class="question-actions"><button class="text-button" data-details="${escape(key)}">${escape(tr('Questions & sources ↗'))}</button></div></div></details>`;
+  return `<details class="question-block" data-question="${escape(key)}" ${open?'open':''}><summary><h2><small>${escape(c.label)}</small>${escape(c.title)}</h2><span class="question-plus" aria-hidden="true">${icon('plus')}</span></summary><div class="question-content"><div class="card-explanation" data-explanation="${escape(key)}">${cardExplanation(t,c)||`<p class="question-answer">${escape(c.body)}</p>${learningPoints(c)}`}</div><p class="gotcha"><strong>${escape(tr('Easy to miss'))}</strong>${escape(c.gotcha)}</p><div class="question-actions"><button class="text-button" data-details="${escape(key)}">${actionLabel('Questions & sources ↗')}</button></div></div></details>`;
 }
 async function render(initial=false) {
   const version=++renderVersion;
@@ -65,7 +67,7 @@ async function render(initial=false) {
     document.title=`${a.label} — Home Veritas`;
     crumb+=`<span aria-hidden="true">/</span><span aria-current="page">${escape(a.label)}</span>`;
     $('breadcrumbs').hidden=false;
-    $('main').innerHTML=`<section class="area-heading"><div><span class="eyebrow">${escape(a.label)}</span><h1 id="topic-title" tabindex="-1">${escape(a.title)}</h1><p>${escape(a.description)} ${escape(tr('Choose what you want to unpack.'))}</p></div><img src="${artPath(a.image)}" ${artSources(a.image,'300px')} width="1200" height="800" alt=""></section><section class="topic-block-grid count-${a.topics.length}" aria-label="${escape(a.label)}">${a.topics.map(id=>topicTile(topics.find(t=>t.id===id))).join('')}</section><a class="back-area" href="#/">← ${escape(tr('Explore another area'))}</a>`;
+    $('main').innerHTML=`<section class="area-heading"><div><span class="eyebrow">${escape(a.label)}</span><h1 id="topic-title" tabindex="-1">${escape(a.title)}</h1><p>${escape(a.description)} ${escape(tr('Choose what you want to unpack.'))}</p></div><img src="${artPath(a.image)}" ${artSources(a.image,'300px')} width="1200" height="800" alt=""></section><section class="topic-block-grid count-${a.topics.length}" aria-label="${escape(a.label)}">${a.topics.map(id=>topicTile(topics.find(t=>t.id===id))).join('')}</section><a class="back-area" href="#/">${icon('arrow-left')} ${escape(tr('Explore another area'))}</a>`;
   }else{
     topic=route.topic;card=route.card||topic.cards[0];
     const a=route.area;
@@ -74,7 +76,7 @@ async function render(initial=false) {
     crumb+=`<span aria-hidden="true">/</span><span aria-current="page">${escape(topic.label)}</span>`;
     $('breadcrumbs').hidden=false;
     const siblings=a.topics.filter(id=>id!==topic.id);
-    $('main').innerHTML=`<div class="topic-reading"><section class="topic-visual"><span class="eyebrow">${escape(a.label)}</span><h1 id="topic-title" tabindex="-1">${escape(topic.headline)}</h1><p>${escape(topic.intro)}</p><a class="jump-questions" href="#questions" data-jump-questions>${escape(tr('See the questions'))} ↓</a><img class="reading-art" src="${artPath(topic.image)}" ${artSources(topic.image,'(max-width:740px) 218px, (max-width:1050px) 45vw, 660px')} fetchpriority="high" width="1200" height="800" alt="${escape(tr(topic.id==='agents'?'A buyer and real estate agent discussing a property.':artDescriptions[topic.image]))}"><a class="back-area" href="${a.topics.length>1?areaRoute(a):'#/'}">← ${a.topics.length>1?escape(a.label):escape(tr('All interest areas'))}</a></section><section id="questions" class="question-stack" tabindex="-1" aria-label="${escape(topic.label)}"><div class="question-stack-heading"><span class="eyebrow">${escape(tr('OPEN WHAT YOU NEED'))}</span><button class="text-button" data-topic-faq>${escape(tr('Questions & answers ↗'))}</button></div>${topic.cards.map(c=>questionBlock(topic,c,c===route.card)).join('')}${['deposit','mortgage','budget'].includes(topic.id)?`<button class="text-button" data-calculator>${escape(tr('Try the numbers ↗'))}</button>`:''}<button class="topic-sources" data-open-links>${escape(tr('Official guidance for this topic ↗'))}</button></section></div>${siblings.length?`<section class="related"><h2>${escape(tr('Also in {area}',{area:a.label}))}</h2><div>${siblings.map(id=>{const t=topics.find(t=>t.id===id);return `<a href="${routeFor(t)}">${escape(t.label)} <span aria-hidden="true">↗</span></a>`;}).join('')}</div></section>`:''}`;
+    $('main').innerHTML=`<div class="topic-reading"><section class="topic-visual"><span class="eyebrow">${escape(a.label)}</span><h1 id="topic-title" tabindex="-1">${escape(topic.headline)}</h1><p>${escape(topic.intro)}</p><a class="jump-questions" href="#questions" data-jump-questions>${escape(tr('See the questions'))} ${icon('arrow-down')}</a><img class="reading-art" src="${artPath(topic.image)}" ${artSources(topic.image,'(max-width:740px) 218px, (max-width:1050px) 45vw, 660px')} fetchpriority="high" width="1200" height="800" alt="${escape(tr(topic.id==='agents'?'A buyer and real estate agent discussing a property.':artDescriptions[topic.image]))}"><a class="back-area" href="${a.topics.length>1?areaRoute(a):'#/'}">${icon('arrow-left')} ${a.topics.length>1?escape(a.label):escape(tr('All interest areas'))}</a></section><section id="questions" class="question-stack" tabindex="-1" aria-label="${escape(topic.label)}"><div class="question-stack-heading"><span class="eyebrow">${escape(tr('OPEN WHAT YOU NEED'))}</span><button class="text-button" data-topic-faq>${actionLabel('Questions & answers ↗')}</button></div>${topic.cards.map(c=>questionBlock(topic,c,c===route.card)).join('')}${['deposit','mortgage','budget'].includes(topic.id)?`<button class="text-button" data-calculator>${actionLabel('Try the numbers ↗')}</button>`:''}<button class="topic-sources" data-open-links>${actionLabel('Official guidance for this topic ↗')}</button></section></div>${siblings.length?`<section class="related"><h2>${escape(tr('Also in {area}',{area:a.label}))}</h2><div>${siblings.map(id=>{const t=topics.find(t=>t.id===id);return `<a href="${routeFor(t)}">${escape(t.label)} ${icon('arrow-up-right')}</a>`;}).join('')}</div></section>`:''}`;
   }
   $('breadcrumbs').innerHTML=crumb;
   delete document.body.dataset.loading;
@@ -108,8 +110,8 @@ async function loadDetails(){
   }
   return referencePromises.get(code);
 }
-function failDrawer(version){if(version===modalVersion)$('drawer-content').innerHTML=`<p class="drawer-intro">${escape(tr("The detailed guide could not load. Close this panel and try again, or open the official guide below."))}</p><a href="https://www.settled.govt.nz/buying-a-home/" target="_blank" rel="noopener noreferrer">${escape(tr("Settled · buying a home ↗"))}</a>`;}
-const sourceLink = (label,url,extra='') => `<a class="source-link" href="${escape(url)}" target="_blank" rel="noopener noreferrer">${escape(label)} ↗</a>${extra}`;
+function failDrawer(version){if(version===modalVersion)$('drawer-content').innerHTML=`<p class="drawer-intro">${escape(tr("The detailed guide could not load. Close this panel and try again, or open the official guide below."))}</p><a href="https://www.settled.govt.nz/buying-a-home/" target="_blank" rel="noopener noreferrer">${actionLabel("Settled · buying a home ↗")}</a>`;}
+const sourceLink = (label,url,extra='') => `<a class="source-link" href="${escape(url)}" target="_blank" rel="noopener noreferrer">${escape(label)} ${icon('arrow-up-right')}</a>${extra}`;
 function textBlocks(text){return `<div class="answer-blocks">${answerBlocks(text,language).map((part,i)=>`<p class="${i===0?'answer-lead':'answer-support'}">${escape(part)}</p>`).join('')}</div>`;}
 function collageFrame(item,step,count){
   const columns=item.columns||1,rows=item.rows||1,panel=item.panel||0;
@@ -129,7 +131,7 @@ function cardExplanation(t,c){
   return visual?`${collageHTML(visual)}<details class="full-explanation card-full"><summary>${escape(tr('Look closer'))}</summary>${textBlocks(c.body)}${learningPoints(c)}</details>`:null;
 }
 const faqHTML = f => {const visual=visualHTML(f);return `<details class="faq"><summary>${escape(f.question)}</summary><div class="faq-answer">${visual?`${visual}<details class="full-explanation"><summary>${escape(tr('Full explanation'))}</summary>${textBlocks(f.answer)}</details>`:textBlocks(f.answer)}<div class="answer-tools">${sourceLink(f.source,f.url)}</div></div></details>`;};
-const linkList = links => `<ul class="source-list">${links.map(l=>`<li><a href="${escape(l.url)}" target="_blank" rel="noopener noreferrer">${escape(l.label||l.title)}${l.description?`<small>${escape(l.description)}</small>`:''}</a></li>`).join('')}</ul>`;
+const linkList = links => `<ul class="source-list">${links.map(l=>`<li><a href="${escape(l.url)}" target="_blank" rel="noopener noreferrer">${escape(l.label||l.title)} ${icon('arrow-up-right')}${l.description?`<small>${escape(l.description)}</small>`:''}</a></li>`).join('')}</ul>`;
 
 async function openDetails(){
   const t=topic,c=card,v=showDrawer(c.title,t.label);
@@ -142,7 +144,7 @@ async function openDetails(){
 }
 async function openTopics(focusSearch=false){
   const v=showDrawer('Find what you need.','SEARCH THE WHOLE GUIDE');
-  $('drawer-content').innerHTML=`<label class="search-label" for="guide-search">${escape(tr('Search topics, questions and useful links'))}</label><input id="guide-search" class="search-input" type="search" placeholder="${escape(tr('Try KiwiSaver, damp, auction, consents…'))}" autocomplete="off"><p class="disclaimer" style="margin-top:10px">${escape(tr('Search across every interest area, including the deeper answers.'))}</p><div class="guide-actions"><button class="text-button" data-open-links>${escape(tr('Useful links ↗'))}</button><button class="text-button" data-about>${escape(tr('About this guide'))}</button></div><div id="search-results" class="search-results"></div>`;
+  $('drawer-content').innerHTML=`<label class="search-label" for="guide-search">${escape(tr('Search topics, questions and useful links'))}</label><input id="guide-search" class="search-input" type="search" placeholder="${escape(tr('Try KiwiSaver, damp, auction, consents…'))}" autocomplete="off"><p class="disclaimer" style="margin-top:10px">${escape(tr('Search across every interest area, including the deeper answers.'))}</p><div class="guide-actions"><button class="text-button" data-open-links>${actionLabel('Useful links ↗')}</button><button class="text-button" data-about>${escape(tr('About this guide'))}</button></div><div id="search-results" class="search-results"></div>`;
   let library={faqs:[],resources:[]};
   function results(){
     const q=$('guide-search').value.trim();
@@ -150,7 +152,7 @@ async function openTopics(focusSearch=false){
     const found=topics.filter(matches);
     const questions=q?library.faqs.filter(f=>searchScore(q,faqSearchText(f))>0).sort((a,b)=>searchScore(q,b.question+' '+b.searchQuestion)-searchScore(q,a.question+' '+a.searchQuestion)):[];
     const links=q?library.resources.filter(matches):[];
-    $('search-results').innerHTML=(questions.length?`<section class="result-group"><h3>${escape(tr('Answers ({count})',{count:questions.length}))}</h3>${questions.map(faqHTML).join('')}</section>`:'')+areas.map(s=>{const list=found.filter(t=>s.topics.includes(t.id));return list.length?`<section class="result-group"><h3>${escape(s.label)}</h3>${list.map(t=>`<a class="topic-result" href="${routeFor(t)}" data-route><span><strong>${escape(t.label)}</strong><small>${escape(t.intro)}</small></span><span aria-hidden="true">→</span></a>`).join('')}</section>`:'';}).join('')+(links.length?`<section class="result-group"><h3>${escape(tr('Useful links'))}</h3>${linkList(links)}</section>`:'')+(!found.length&&!questions.length&&!links.length?`<div class="empty"><h3>${escape(tr('No match yet.'))}</h3><p>${escape(tr('Try a shorter word, like “loan”, “title” or “consent”. Clear the search to see every topic.'))}</p></div>`:'');
+    $('search-results').innerHTML=(questions.length?`<section class="result-group"><h3>${escape(tr('Answers ({count})',{count:questions.length}))}</h3>${questions.map(faqHTML).join('')}</section>`:'')+areas.map(s=>{const list=found.filter(t=>s.topics.includes(t.id));return list.length?`<section class="result-group"><h3>${escape(s.label)}</h3>${list.map(t=>`<a class="topic-result" href="${routeFor(t)}" data-route><span><strong>${escape(t.label)}</strong><small>${escape(t.intro)}</small></span>${icon('arrow-right')}</a>`).join('')}</section>`:'';}).join('')+(links.length?`<section class="result-group"><h3>${escape(tr('Useful links'))}</h3>${linkList(links)}</section>`:'')+(!found.length&&!questions.length&&!links.length?`<div class="empty"><h3>${escape(tr('No match yet.'))}</h3><p>${escape(tr('Try a shorter word, like “loan”, “title” or “consent”. Clear the search to see every topic.'))}</p></div>`:'');
   }
   $('guide-search').addEventListener('input',results);results();
   if(focusSearch)$('guide-search').focus();
@@ -199,14 +201,14 @@ function updateLanguageShell(){
   document.querySelector('.brand span').textContent=tr('A FIRST-HOME GUIDE / NZ');
   document.querySelector('.skip').textContent=tr('Skip to the guide');
   document.querySelector('.site-header nav').setAttribute('aria-label',tr('Guide tools'));
-  $('topics-button').innerHTML=`${escape(tr('Explore'))} <span aria-hidden="true">☷</span>`;
+  $('topics-button').innerHTML=`${escape(tr('Explore'))} ${icon('menu')}`;
 
-  $('search-button').innerHTML=`${escape(tr('Search'))} <span aria-hidden="true">⌕</span>`;
+  $('search-button').innerHTML=`${escape(tr('Search'))} ${icon('search')}`;
   $('search-button').setAttribute('aria-label',tr('Search topics and questions'));
   $('breadcrumbs').setAttribute('aria-label',tr('Breadcrumb'));
   $('close-drawer').setAttribute('aria-label',tr('Close panel'));
-  document.querySelector('.browse-footer>a').textContent=`← ${tr('All interest areas')}`;
-  $('links-button').textContent=tr('Useful links ↗');
+  document.querySelector('.browse-footer>a').innerHTML=`${icon('arrow-left')} ${escape(tr('All interest areas'))}`;
+  $('links-button').innerHTML=actionLabel('Useful links ↗');
   $('about-button').textContent=tr('About this guide');
   $('language-notice').hidden=true;
   $('language-notice').textContent='';

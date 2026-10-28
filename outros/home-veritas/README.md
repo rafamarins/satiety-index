@@ -35,6 +35,7 @@ Sketch galleries remain under `concepts/`. The former workspace location,
 
 - `home-truths.html` is the HTML source; the build copies it to `index.html`.
 - `home-truths.js`, `home-truths.css`: prototype behaviour and responsive layout.
+- `home-truths-icons.js`: decorative inline SVG controls, avoiding iPhone emoji/font substitution.
 - `home-truths-i18n.js`, `locales/`: UI translations and lazy-loaded translations of all 17 topics / 51 short cards and 82 FAQs.
 - `home-truths-answer-layout.js`, `home-truths-answer-visuals.js`: sentence-preserving reading blocks and eleven curated FAQ collages plus a lifestyle comparison in all four languages. Visual copy loads on demand with the detailed guide.
 - `home-truths-reference.js`: localizes deeper references while preserving source URLs and stable search/grouping identity.
@@ -53,6 +54,7 @@ Sketch galleries remain under `concepts/`. The former workspace location,
 - `scripts/check-multilingual-journey.mjs`: full three-language topic, FAQ, search, calculator, source and error-state coverage.
 - `qa/2026-10-26-final-mobile.md`: final four-language mobile regression, accessibility and fresh Lighthouse results.
 - `scripts/check-mobile-lighthouse.mjs`, `scripts/check-mobile-interactions.mjs`: sequential performance and mobile keyboard/motion checks.
+- `scripts/check-mobile-icons.mjs`: Chrome/WebKit icon, layout and accessibility regression checks in all four languages. Uses an external Playwright runtime via `QA_MODULES_ROOT`, with `QA_AXE_PATH` when axe is installed separately.
 - `qa/2026-10-26-multilingual-journey.md`: language review findings, fixes, final evidence and limitations.
 - `scripts/check-language-switching.mjs`: real mouse, touch and keyboard locale-switch regression checks.
 - `qa/2026-10-26-language-switching.md`: language selection failure, correction and verification.
