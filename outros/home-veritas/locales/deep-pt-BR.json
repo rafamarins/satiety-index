@@ -166,7 +166,7 @@
         },
         {
           "question": "O que o banco quer verificar?",
-          "answer": "Espere perguntas e comprovantes sobre renda, gastos, dívidas, compromissos existentes e a origem da entrada. Os documentos exatos dependem do banco e da sua situação. Seja preciso, em vez de tentar deixar suas finanças artificialmente arrumadas. Pergunte que mudanças podem afetar a aprovação enquanto você procura um imóvel.",
+          "answer": "Espere perguntas e comprovantes sobre renda, gastos, dívidas, compromissos existentes e a origem da entrada. Os documentos exatos dependem do banco e da sua situação. Informe sua renda, seus gastos e suas dívidas com precisão. Pergunte que mudanças podem afetar a aprovação enquanto você procura um imóvel.",
           "source": "Settled · confirmando seu financiamento",
           "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/confirming-your-finances/"
         },
@@ -178,7 +178,7 @@
         },
         {
           "question": "E se eu tiver uma reclamação sobre meu assessor, banco ou seguradora?",
-          "answer": "Apresente a reclamação à empresa e use o processo dela. Os documentos de divulgação devem indicar o serviço independente de resolução de disputas, que pode ajudar e oferece uma via gratuita se o problema não for resolvido. Guarde registros. A FMA pode analisar questões regulatórias, mas não obtém reparações individuais para você.",
+          "answer": "Apresente a reclamação à empresa e use o processo dela. Os documentos de divulgação devem indicar o serviço independente de resolução de disputas, que é gratuito se o problema não for resolvido. Guarde registros. A FMA pode analisar questões regulatórias, mas não resolve disputas individuais.",
           "source": "FMA · disputas e proteção ao consumidor",
           "url": "https://www.fma.govt.nz/consumer/everyday-finance/disputes-and-consumer-protection/"
         },
@@ -240,7 +240,7 @@
         },
         {
           "question": "E quanto a fossas sépticas, água de reservatório, drenagem ou muros de contenção?",
-          "answer": "Confira a quem pertence cada sistema, seu estado, manutenção necessária e aprovações pertinentes. Pergunte se as inspeções precisam de especialistas em drenagem, esgoto, qualidade da água ou engenharia. Confirme limites e direitos de acesso com seu advogado. Infraestrutura grande ou compartilhada pode gerar custos que uma visita comum e um relatório geral não esclarecem.",
+          "answer": "Confira a quem pertence cada sistema, seu estado, manutenção necessária e aprovações pertinentes. Pergunte se as inspeções precisam de especialistas em drenagem, esgoto, qualidade da água ou engenharia. Confirme limites e direitos de acesso com seu advogado. Uma inspeção geral pode não cobrir esses sistemas. Pergunte o que precisa de avaliação especializada.",
           "source": "Settled · verificações antes da compra",
           "url": "https://www.settled.govt.nz/buying-a-home/researching-the-property/doing-your-homework/"
         },
@@ -301,7 +301,7 @@
         },
         {
           "question": "Como verificar se a casa será quente e seca?",
-          "answer": "Observe sol, isolamento, aquecimento, ventilação, condensação e cheiro de umidade. Pergunte ao inspetor o que ele consegue avaliar e o que permanece inacessível. Pergunte também sobre vazamentos no telhado e umidade sob o piso. Uma casa aquecida para a visita não é um teste de desempenho no inverno; considere as melhorias necessárias.",
+          "answer": "Observe sol, isolamento, aquecimento, ventilação, condensação e cheiro de umidade. Pergunte ao inspetor o que ele consegue avaliar e o que permanece inacessível. Pergunte também sobre vazamentos no telhado e umidade sob o piso. Pergunte como a casa é aquecida no inverno e quais melhorias podem ser necessárias.",
           "source": "Settled · visitando um imóvel aberto ao público",
           "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/viewing-an-open-home/"
         },
@@ -411,7 +411,7 @@
         },
         {
           "question": "Como funcionam financiamentos offset e revolving credit?",
-          "answer": "O offset usa saldos de contas vinculadas elegíveis para reduzir o valor sobre o qual os juros são calculados. O revolving credit funciona mais como um limite de crédito garantido pelo imóvel, cujo saldo muda com receitas e gastos. Recursos e taxas variam. Antes de escolher, pergunte sobre acesso ao dinheiro, disciplina, redução da dívida e tarifas.",
+          "answer": "O offset usa saldos de contas vinculadas elegíveis para reduzir o valor sobre o qual os juros são calculados. O revolving credit funciona mais como um limite de crédito garantido pelo imóvel, cujo saldo muda com receitas e gastos. Recursos e taxas variam. Antes de escolher, pergunte como funcionam os pagamentos, quais tarifas se aplicam e como manter a dívida diminuindo.",
           "source": "Sorted · tipos de financiamento imobiliário",
           "url": "https://sorted.org.nz/guides/home-buying/mortgage-types/"
         },
@@ -490,7 +490,7 @@
         "Mantenha uma reserva para manutenção e reparos.",
         "Guarde documentos do imóvel, garantias e dados do seguro.",
         "Confira regras de autorização e propriedade antes de reformar.",
-        "Anote as renovações do seguro e a próxima mudança de taxa do financiamento."
+        "Coloque no calendário as renovações do seguro e a próxima mudança de taxa do financiamento."
       ],
       "mistake": "Comprar um imóvel “barato para reformar” sem orçar a obra, conferir autorizações ou reservar margem para surpresas.",
       "shortcut": "Transforme os achados da inspeção em uma lista de manutenção do primeiro ano: urgente, em breve e estética. Orce primeiro o urgente.",
@@ -558,7 +558,7 @@
         },
         {
           "question": "Um corretor que me mostra imóveis é meu corretor do comprador?",
-          "answer": "Não necessariamente. Ajudar a encontrar um anúncio ou dividir uma venda com outra imobiliária não significa, por si só, que ele representa você. Pergunte quem é o cliente dele. Um verdadeiro contrato de representação do comprador deve explicar serviços, honorários e poderes. Confira a licença e peça ao seu advogado que revise o contrato antes de assinar. A mesma imobiliária não pode representar os dois lados na mesma transação.",
+          "answer": "Não necessariamente. Ajudar a encontrar um anúncio ou dividir uma venda com outra imobiliária não significa, por si só, que ele representa você. Pergunte quem é o cliente dele. Um contrato de representação do comprador deve explicar serviços, honorários e poderes. Confira a licença e peça ao seu advogado que revise o contrato antes de assinar. A mesma imobiliária não pode representar os dois lados na mesma transação.",
           "source": "REA · corretores do comprador",
           "url": "https://www.rea.govt.nz/real-estate-professionals/industry-guidance-and-information/buyers-agent-information/"
         },
@@ -576,7 +576,7 @@
         },
         {
           "question": "Como verifico a licença de um corretor ou relato um problema?",
-          "answer": "Use o registro público da REA para conferir a licença atual e as informações disciplinares disponíveis. Guarde mensagens e documentos se algo preocupar você. Leve o problema à imobiliária ou ao gerente responsável e, quando adequado, siga as orientações da REA para reclamações. Um proprietário particular que vende sem licença de corretor fica fora do processo de reclamações da REA contra corretores; pergunte ao seu advogado qual caminho seguir.",
+          "answer": "Use o registro público da REA para conferir a licença atual e as informações disciplinares disponíveis. Guarde mensagens e documentos se algo preocupar você. Leve o problema à imobiliária ou ao gerente responsável e, quando adequado, siga as orientações da REA para reclamações. Um proprietário particular que vende sem licença de corretor fica fora do processo de reclamações da REA contra corretores; pergunte ao seu advogado quais opções você tem.",
           "source": "Settled · corretores e compra direta do proprietário",
           "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
         }
@@ -637,7 +637,7 @@
         },
         {
           "question": "Quais riscos extras existem numa mortgagee sale?",
-          "answer": "Numa mortgagee sale, o credor exerce seu poder de vender o imóvel hipotecado. As proteções e garantias contratuais podem ser diferentes, e acesso, entrega desocupada, itens incluídos ou seguro podem ser incertos. Obtenha orientação jurídica especializada sobre os termos exatos e os riscos antes de dar lances ou assinar. Confirme o que pode inspecionar, quando passa a ser responsável e se seu financiador e sua seguradora aceitam o arranjo. A venda pode ser retirada se o proprietário quitar a hipoteca antes do settlement (conclusão da compra). Um preço aparentemente baixo não prova que seja um bom negócio.",
+          "answer": "Numa mortgagee sale, o credor exerce seu poder de vender o imóvel hipotecado. As proteções e garantias contratuais podem ser diferentes, e acesso, entrega desocupada, itens incluídos ou seguro podem ser incertos. Obtenha orientação jurídica especializada sobre os termos exatos e os riscos antes de dar lances ou assinar. Confirme o que pode inspecionar, quando passa a ser responsável e se seu financiador e sua seguradora aceitam o arranjo. A venda pode ser retirada se o proprietário quitar a hipoteca antes do settlement (conclusão da compra).",
           "source": "Settled · opções de imóveis",
           "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/considering-your-property-options/"
         },
@@ -654,7 +654,7 @@
     {
       "category": "ANTES DE COMEÇAR",
       "title": "Apoio para o primeiro imóvel",
-      "description": "Confira as opções de saque do KiwiSaver e programa de empréstimo para o primeiro imóvel (First Home Loan). Confirme a elegibilidade antes de contar com o dinheiro.",
+      "description": "Confira se você pode usar o KiwiSaver ou o programa de empréstimo para o primeiro imóvel (First Home Loan). Confirme a elegibilidade antes de contar com o dinheiro.",
       "url": "https://www.govt.nz/browse/housing-and-property/buying-or-selling-a-home/buying-your-first-home/"
     },
     {
@@ -666,12 +666,12 @@
     {
       "category": "DINHEIRO E ORIENTAÇÃO",
       "title": "Escolhendo um assessor de financiamento",
-      "description": "Perguntas sobre bancos incluídos, comissões, honorários, conflitos de interesse e orientação.",
+      "description": "Pergunte com quais bancos o assessor trabalha, como ele é remunerado e quais honorários você pode ter de pagar.",
       "url": "https://www.fma.govt.nz/consumer/getting-advice/mortgage-advice/"
     },
     {
       "category": "DOCUMENTOS DO IMÓVEL",
-      "title": "Títulos, plantas e direitos",
+      "title": "Títulos e restrições do imóvel",
       "description": "Encontre registros do título e documentos registrados. Peça ao advogado que interprete servidões, covenants e restrições.",
       "url": "https://lrs.linz.govt.nz/"
     },

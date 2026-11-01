@@ -2,6 +2,8 @@
 
 A working visual prototype for New Zealand first-home buyers. Bold yellow, photographic collage and concise explanations carry the approved concept through the whole journey.
 
+Beginner journey update published on 1 November 2026. See [verification and deployment record](qa/2026-11-01-beginner.md).
+
 ## Preview
 
 This project's source lives in `outros/home-veritas/` in the SatietyIndex repository,
@@ -21,14 +23,18 @@ Sketch galleries remain under `concepts/`. The former workspace location,
 
 ## The experience
 
+- Optional **Start here** route (`#/start`) explains six buying steps, who helps and what to do first. Existing direct topic and card links still work.
+- Homepage question search accepts everyday wording and offers three localized example questions. Topic pages expose three curated common questions, the first answer open, followed by a practical next action and the existing illustrated basics.
+- Relevant source links are visible on topic pages. Detailed answers load independently, so a slow or failed reference request does not block the short guide.
 - Six large interest blocks: Starting out, Money & people, Finding a home, Checking a property, Making it happen, and Life as an owner.
 - Seventeen topics: rent/buy, full costs, deposit/KiwiSaver, bank/broker conversations, mortgage, real estate agents, sale processes, neighbourhood, home/title types, viewings, inspections, property records/consents, hazards/insurance, offers/contracts, settlement, ongoing ownership and renovation.
 - Related topic blocks open three expandable questions: a short explanation, useful things to look into and a specific gotcha. Eleven deeper FAQs have photographic collage comparisons or sequences; eleven short answers show collages directly, including a dedicated lifestyle comparison. All 82 use short reading blocks. Full source wording remains available.
 - Breadcrumbs, related topics, browser Back/Forward and deep links. No required sequence or page-through-card controls.
 - Search covers all topics, 82 deeper questions and the official resource library. The footer exposes sources and About on mobile.
 - Explore and search without accounts, saved answers, personal notes or exports. Questions & sources opens the deeper guidance directly. Language preference is the only app preference currently stored.
+- Optional inline examples explain the deposit/loan split, compare hypothetical repayments and distinguish records from physical inspections. The deposit bar responds to the reader’s selection and respects reduced motion. Rate buttons highlight the selected repayment and announce its amount; records and inspection use the existing photographic collage with their limits side by side. Dropdown arrows have a 16px inset and a reserved text gap.
 - Deposit and principal-and-interest illustrations show the effect of changing inputs. Rates are hypothetical and assumptions are visible; neither is an eligibility assessment or lender quote.
-- English, Brazilian Portuguese, Spanish and Simplified Chinese for the complete short guide, navigation and detail views. Language choice persists locally and is shareable through the URL. All 82 FAQs, deeper explanations, resource descriptions, source labels and About copy are translated too. Official external websites keep their own language options.
+- English, Brazilian Portuguese, Spanish and Simplified Chinese for the complete short guide, navigation and detail views. Language choice persists locally and is shareable through the URL. All 82 FAQs, deeper explanations, resource descriptions, source labels, beginner steps, next actions and About copy are translated too. Official external websites keep their own language options.
 - Native modal focus management, semantic controls, a skip link, reduced-motion support, responsive layouts and native expandable question controls.
 
 ## Files
@@ -40,12 +46,16 @@ Sketch galleries remain under `concepts/`. The former workspace location,
 - `home-truths-answer-layout.js`, `home-truths-answer-visuals.js`: sentence-preserving reading blocks and eleven curated FAQ collages plus a lifestyle comparison in all four languages. Visual copy loads on demand with the detailed guide.
 - `home-truths-reference.js`: localizes deeper references while preserving source URLs and stable search/grouping identity.
 - `home-truths-search.js`: word-aware search, familiar word variants and related-FAQ grouping.
-- `home-truths-navigation.js`: six interest areas and validated home/area/topic/question routes.
+- `home-truths-navigation.js`: six interest areas and validated home/start/area/topic/question routes.
+- `home-truths-beginner.js`, `home-truths-featured.js`: four-language buying steps, next actions and curated topic questions.
+- `home-truths-beginner.test.js`, `home-truths-search.test.js`: route/content coverage and natural-question search regressions.
+- `scripts/check-beginner-journey.mjs`: Chrome/WebKit journeys, keyboard focus, all topics, four languages, accessibility, responsive layout and delayed/failed-reference checks. Set `QA_MODULES_ROOT` to an external directory containing Playwright and axe-core; `QA_BASE_URL` defaults to `http://127.0.0.1:4186/`.
 - `agents-sales-content.js`, `agents-sales-reference.js`, `agents-sales-visuals.js`: explicit agent-role and sale-process guidance, source links and visual comparisons.
 - `AGENTS-SALES-ARTWORK.json`: built-in image-generation prompts, originals and local artwork paths.
 - `qa/2026-10-26-agents-sales.md`: source review, new coverage, translations and verification.
 - `home-truths-content.js`: five stages, seventeen topics, fifty-one short cards and primary source links.
 - `guide-content.js`, `resources.js`: preserved detailed content and source library, loaded on demand.
+- `home-truths-examples.js`, `home-truths-examples.css`, `home-truths-examples.test.js`: localized worked examples and arithmetic checks.
 - `finance.js`, `finance.test.js`: repayment calculation and targeted tests.
 - `home-truths-content.test.js`: stage, route, content, visual and source-reference checks.
 - `build-home-truths.js`, `build-responsive-images.js`: bundle the application, create responsive image variants and build the public package.
@@ -78,7 +88,7 @@ Sketch galleries remain under `concepts/`. The former workspace location,
 
 ## Performance
 
-The initial JavaScript and its shared source-link chunk total about 30 KB gzipped. The on-demand visual summaries add about 8 KB gzipped. Eleven answer-specific WebP sheets provide distinct scenes. Responsive 320/480/640/960 px variants avoid downloading the 1200 px original on small screens. A single lazily loaded sheet serves two to four panels. Two earlier 800 px collages now appear only in the rent/buy comparison. A selected non-English short-guide translation adds about 11–12 KB gzipped. Deeper reference translations add about 18–21 KB gzipped only when opened. Detailed content is split into two chunks, about 17 KB gzipped together, and requested only when needed. The seven original WebP collages are approximately 195–352 KB each. The overview requests appropriately sized collages, prioritises the first image and lazily loads later tiles; topic pages can reuse the same cached assets. Fonts are local. There are no third-party runtime requests, WebGL dependencies or continuous animation in this prototype. Accordions open instantly without closing other answers. Optional hover transitions respect reduced motion. Visual answers are prepared before the topic is rendered to avoid a late text-to-image swap.
+The initial JavaScript includes the shared source-link chunk and beginner-route copy. See `qa/home-truths-build.json` for current compressed sizes; the earlier 30 KB measurement predates the beginner route. The on-demand visual summaries add about 8 KB gzipped. Eleven answer-specific WebP sheets provide distinct scenes. Responsive 320/480/640/960 px variants avoid downloading the 1200 px original on small screens. A single lazily loaded sheet serves two to four panels. Two earlier 800 px collages now appear only in the rent/buy comparison. A selected non-English short-guide translation adds about 11–12 KB gzipped. Deeper reference translations add about 18–21 KB gzipped only when opened. Detailed content is split into two chunks, about 17 KB gzipped together, and requested only when needed. The seven original WebP collages are approximately 195–352 KB each. The overview requests appropriately sized collages, prioritises the first image and lazily loads later tiles; topic pages can reuse the same cached assets. Fonts are local. There are no third-party runtime requests, WebGL dependencies or continuous animation in this prototype. Accordions open instantly without closing other answers. Optional hover transitions respect reduced motion. Visual answers are prepared before the topic is rendered to avoid a late text-to-image swap.
 
 These are file measurements, not a device performance certification. The local Node preview server compresses text responses and supports ETag revalidation. A public host should also enable compression and appropriate caching. Check the generated build report for exact sizes.
 

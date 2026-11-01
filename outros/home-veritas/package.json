@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "node serve-home-truths.js",
-    "check": "node --check home-truths.js && node --check home-truths-content.js && node --check guide-content.js && node --test finance.test.js home-truths-content.test.js",
+    "check": "node --check home-truths.js && node --check home-truths-content.js && node --check guide-content.js && node --test finance.test.js home-truths-content.test.js home-truths-search.test.js home-truths-beginner.test.js home-truths-examples.test.js",
     "build": "node build-home-truths.js",
     "assets:build": "node optimize-assets.js"
   },

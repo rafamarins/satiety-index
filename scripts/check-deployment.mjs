@@ -19,7 +19,7 @@ const homeOutput = new URL("../outros/home-veritas/dist/", import.meta.url);
 const homeFiles = (await readdir(homeOutput, { recursive: true }))
   .filter(file => !file.endsWith("/"));
 const homeStatic = new Set([
-  "index.html", "home-truths.css", "home-truths.bundle.js", "SOURCES.md",
+  "index.html", "home-truths.css", "home-truths-examples.css", "home-truths.bundle.js", "SOURCES.md",
   "assets/favicon.svg", "assets/fonts/anton.woff2", "assets/fonts/dm-sans.woff2",
   "assets/fonts/Anton-OFL.txt", "assets/fonts/DM-Sans-OFL.txt",
 ]);

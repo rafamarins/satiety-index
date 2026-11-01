@@ -14,6 +14,7 @@ export const areaRoute = area => `#/explore/${area.id}`;
 export function resolveRoute(hash) {
   let parts;
   try { parts=decodeURIComponent(hash).replace(/^#\/?/,'').split('/'); } catch { parts=[]; }
+  if(parts[0]==='start')return {kind:'start',canonical:'#/start'};
   if(parts[0]==='explore'){
     const area=areas.find(a=>a.id===parts[1]);
     if(area)return {kind:'area',area,canonical:areaRoute(area)};

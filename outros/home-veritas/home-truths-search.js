@@ -15,6 +15,8 @@ const groups = [
  ['preapproval','preapproved','preaprovacao','preaprobacion','预批'],
  ['salesdeposit','sinal','senal','订金','定金','预付款'],
  ['mortgage','loan','loans','emprestimo','emprestimos','prestamo','prestamos','贷款'],
+ ['borrow','borrowing','borrowed','financiar'],
+ ['afford','affordable','affordability'],
  ['inspection','inspections','inspecao','inspecoes','inspeccion','inspecciones','验房'],
  ['flood','flooding','inundacao','inundacoes','inundacion','inundaciones','洪水','水灾'],
  ['include','included','includes','incluido','incluida','incluidos','incluidas','incluir','包含'],
@@ -29,7 +31,7 @@ const groups = [
  ['tender','tenders','密封投标','投标'],
  ['property','properties','estate','imovel','imoveis','imobiliario','imobiliarios','inmobiliario','inmobiliarios','房产','房地产','房屋','物业'],
 ];
-export const normalizeSearch = value => String(value).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\bpre[\s\p{Pd}]*approv(?:als?|ed)\b/gu,'preapproval').replace(/\bpre[\s\p{Pd}]*aprovacao\b/gu,'preaprovacao').replace(/\bpre[\s\p{Pd}]*aprobacion\b/gu,'preaprobacion');
+export const normalizeSearch = value => String(value).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\b(?:pegar emprestado|pedir prestado)\b/gu,'borrow').replace(/借(?:多少)?贷款/gu,' borrow ').replace(/\bpre[\s\p{Pd}]*approv(?:als?|ed)\b/gu,'preapproval').replace(/\bpre[\s\p{Pd}]*aprovacao\b/gu,'preaprovacao').replace(/\bpre[\s\p{Pd}]*aprobacion\b/gu,'preaprobacion');
 const synonym=new Map(groups.flatMap(g=>g.map(word=>[normalizeSearch(word),g[0]])));
 const chineseWords=new Intl.Segmenter('zh',{granularity:'word'});
 // Keep domain terms together where the general segmenter splits 首付 / 验房 / 预批.
@@ -37,7 +39,7 @@ const chineseTerms=new RegExp(`(${[...synonym.keys()].filter(word=>/\p{Script=Ha
 const words=value=>(normalizeSearch(value).match(/[\p{Script=Han}]+|[\p{L}\p{N}]+/gu)||[])
   .flatMap(word=>/\p{Script=Han}/u.test(word)?word.split(chineseTerms).filter(Boolean).flatMap(part=>synonym.has(part)?[part]:[...chineseWords.segment(part)].filter(token=>token.isWordLike).map(token=>token.segment)):[word])
   .map(word=>synonym.get(word)||word);
-const stop=new Set(['a','an','the','is','are','do','does','i','my','can','how','what','to','of','for','o','os','as','de','da','como','el','la','los','las','que','mi',
+const stop=new Set(['a','an','the','is','are','do','does','i','my','can','how','what','to','of','for','much','many','need','needs','needed','should','would','could','me','we','our','you','your','please','about','tell','want','know','ainda','quanto','cuanto','cuanta','cuantos','cuantas','多少','es','能','是','o','os','as','de','da','como','el','la','los','las','que','mi',
   'e','ou','com','em','no','na','nos','nas','ao','aos','das','dos','pelo','pela','pelos','pelas','um','uma','quando','onde','qual','quais','posso','preciso','quero','antes','depois','contra',
   'y','o','con','en','al','del','un','una','cuando','donde','cual','cuales','puedo','necesito','quiero','despues','para',
   'comprar','compra','entrega','和','与','及','的','吗','我','如何','怎么','什么','需要','可以']);
@@ -45,18 +47,37 @@ export function searchScore(query,text){
   const q=normalizeSearch(query).trim(),body=normalizeSearch(text);
   if(!q)return 1;
   const queryWords=words(q),meaningful=queryWords.filter(w=>!stop.has(w));
-  const tokens=meaningful.length?meaningful:queryWords,haystack=words(body);
+  const tokens=[...new Set(meaningful)],haystack=words(body);
   if(!tokens.length)return 0;
   if(!tokens.every(w=>haystack.includes(w)||(/[\u3400-\u9fff]/.test(w)&&body.includes(w))))return 0;
   return (body.includes(q)?10:1)+tokens.length;
 }
+// Everyday wording points to existing guidance; it never invents a lending estimate.
+const faqAliases = [
+ ['Where do I start, and what order do I do things in?', ['Where do I start?', 'first steps', 'buying process']],
+ ['Do I need a 20% deposit?', ['How much deposit do I need?', 'minimum deposit', 'deposit size']],
+ ['What does a bank want to see?', ['How much can I borrow?', 'Quanto posso financiar?', 'Quanto posso pegar emprestado?', '¿Cuánto puedo pedir prestado?', '我能借多少贷款？', 'borrowing capacity', 'loan eligibility']],
+ ['How do I know if the repayments will be comfortable?', ['What can I afford?', 'affordability', 'affordable repayments', 'house budget', 'comfortable borrowing limit']],
+ ['What does pre-approval actually approve?', ['mortgage preapproval', 'loan preapproval', 'borrowing approval']],
+ ['Do I need a LIM as well as a building inspection?', ['What is a LIM?', 'LIM meaning']],
+];
+const aliasesFor = faq => faqAliases.find(([question])=>question===(faq.searchQuestion||faq.question))?.[1]||[];
 export function faqSearchText(faq){
   const question=faq.searchQuestion||faq.question;
   const extra=/home has been renovated/i.test(question)?' roof work roof approval building approvals renovation alterations':
     /building consent and resource consent the same/i.test(question)?' renovation alterations':
     /check flood, landslip or earthquake risks/i.test(question)?' insurance seguro 保险':'';
-  return `${faq.question} ${faq.answer} ${faq.searchQuestion||''} ${faq.searchAnswer||''}${extra}`;
+  return `${faq.question} ${faq.answer} ${faq.searchQuestion||''} ${faq.searchAnswer||''} ${aliasesFor(faq).join(' ')}${extra}`;
 }
+export function faqSearchScore(query,faq){
+  const score=searchScore(query,faqSearchText(faq));
+  if(!score)return 0;
+  // A question or a curated equivalent should beat an incidental mention in an answer.
+  const titleScore=Math.max(searchScore(query,faq.question),searchScore(query,faq.searchQuestion||faq.question));
+  const aliasScore=Math.max(0,...aliasesFor(faq).map(alias=>searchScore(query,alias)));
+  return score+titleScore*2+aliasScore*3;
+}
+
 const priorities={
   records:/LIM|paperwork|renovat|consent|compliance|cross.lease|easement|covenant/i,
   team:/broker|advis|agent|lawyer|paid|commission|lender/i,

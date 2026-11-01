@@ -46,30 +46,30 @@ const visuals = [
     question: 'Where do I start, and what order do I do things in?',
     kind: 'sequence', sprite: 'answer-journey-specific',
     copy: {
-      en: {title:'From plans to keys',items:[['Set your limits','Needs, budget, lender or adviser, lawyer.'],['Shortlist homes','Choose properties and plan their checks.'],['Review before signing','Your lawyer reviews the offer and conditions.'],['Before unconditional','Confirm checks, finance and insurance; then prepare settlement.']],note:'At auction, complete checks before bidding. Revisit earlier steps when needed.'},
-      'pt-BR': {title:'Dos planos às chaves',items:[['Defina seus limites','Necessidades, orçamento, banco ou assessor e advogado.'],['Selecione imóveis','Escolha opções e planeje as verificações.'],['Revise antes de assinar','Seu advogado revisa a proposta e as condições.'],['Antes de a compra se tornar incondicional','Confirme verificações, crédito e seguro; depois, prepare a conclusão.']],note:'Em leilões, conclua as verificações antes dos lances. Volte a etapas anteriores quando precisar.'},
-      es: {title:'De los planes a las llaves',items:[['Define tus límites','Necesidades, presupuesto, banco o asesor y abogado.'],['Selecciona viviendas','Elige opciones y planifica las comprobaciones.'],['Revisa antes de firmar','Tu abogado revisa la oferta y las condiciones.'],['Antes del compromiso incondicional','Confirma revisiones, financiación y seguro; después, prepara el cierre.']],note:'En subasta, completa las comprobaciones antes de pujar. Vuelve a pasos anteriores cuando lo necesites.'},
-      'zh-Hans': {title:'从规划到拿钥匙',items:[['定好需求和预算','需求、预算、贷款机构或顾问，以及律师。'],['筛选房源','选出房产，安排检查。'],['签字前审阅','请律师审查报价和附带条件。'],['无条件购买之前','确认检查、贷款和保险，再准备交割。']],note:'参加拍卖，要在出价前完成检查。需要时回头调整前面的步骤。'},
+      en: {title:'From plans to keys',items:[['Set your limits','Needs, budget, lender or adviser, lawyer.'],['Shortlist homes','Choose properties and plan their checks.'],['Review before signing','Your lawyer reviews the offer and conditions.'],['Before the offer becomes unconditional','Complete your checks and confirm finance and insurance before committing.']],note:'At auction, complete checks before bidding. Revisit earlier steps when needed.'},
+      'pt-BR': {title:'Dos planos às chaves',items:[['Defina seus limites','Necessidades, orçamento, banco ou assessor e advogado.'],['Selecione imóveis','Escolha opções e planeje as verificações.'],['Revise antes de assinar','Seu advogado revisa a proposta e as condições.'],['Antes de a compra se tornar incondicional','Conclua as verificações e confirme crédito e seguro antes de assumir o compromisso.']],note:'Em leilões, conclua as verificações antes dos lances. Volte a etapas anteriores quando precisar.'},
+      es: {title:'De los planes a las llaves',items:[['Define tus límites','Necesidades, presupuesto, banco o asesor y abogado.'],['Selecciona viviendas','Elige opciones y planifica las comprobaciones.'],['Revisa antes de firmar','Tu abogado revisa la oferta y las condiciones.'],['Antes del compromiso incondicional','Completa las comprobaciones y confirma financiación y seguro antes de comprometerte.']],note:'En subasta, completa las comprobaciones antes de pujar. Vuelve a pasos anteriores cuando lo necesites.'},
+      'zh-Hans': {title:'从规划到拿钥匙',items:[['定好需求和预算','需求、预算、贷款机构或顾问，以及律师。'],['筛选房源','选出房产，安排检查。'],['签字前审阅','请律师审查报价和附带条件。'],['无条件购买之前','作出承诺前，完成检查并确认贷款和保险。']],note:'参加拍卖，要在出价前完成检查。需要时回头调整前面的步骤。'},
     },
   },
   {
     question: 'Do I need a LIM as well as a building inspection?',
     kind: 'compare', sprite: 'answer-records-specific',
     copy: {
-      en: {title:'Condition versus records',items:[['Building inspection','Condition, scope and areas not checked.'],['LIM, title + property file','Council information, ownership, plans and consents.']],note:'None guarantees a defect-free home. Ask your lawyer and inspector what is needed.'},
-      'pt-BR': {title:'Estado do imóvel e registros',items:[['Inspeção do imóvel','Estado, escopo e áreas não verificadas.'],['LIM, título e arquivo do imóvel','Informações municipais, propriedade, plantas e autorizações.']],note:'Nenhum garante uma casa sem defeitos. Pergunte ao advogado e ao inspetor o que é necessário.'},
-      es: {title:'Estado de la casa y registros',items:[['Inspección del edificio','Estado, alcance y zonas no revisadas.'],['LIM, título y expediente','Información municipal, propiedad, planos y permisos.']],note:'Ninguno garantiza una casa sin defectos. Pregunta a tu abogado e inspector qué necesitas.'},
-      'zh-Hans': {title:'房屋状况与相关记录',items:[['验房','房屋状况、检查范围及未检查区域。'],['LIM、产权记录和房产档案','地方政府信息、所有权、图纸及审批记录。']],note:'任何一项都不能保证房屋没有缺陷。请律师和验房师判断需要什么。'},
+      en: {title:'What each check tells you',items:[['Building inspection','Condition, scope and areas not checked.'],['LIM, title + property file','Council information, ownership, plans and consents.']],note:'None guarantees a defect-free home. Ask your lawyer and inspector what is needed.'},
+      'pt-BR': {title:'O que cada verificação esclarece',items:[['Inspeção do imóvel','Estado, escopo e áreas não verificadas.'],['LIM, título e arquivo do imóvel','Informações municipais, propriedade, plantas e autorizações.']],note:'Nenhum garante uma casa sem defeitos. Pergunte ao advogado e ao inspetor o que é necessário.'},
+      es: {title:'Qué te dice cada comprobación',items:[['Inspección del edificio','Estado, alcance y zonas no revisadas.'],['LIM, título y expediente','Información municipal, propiedad, planos y permisos.']],note:'Ninguno garantiza una casa sin defectos. Pregunta a tu abogado e inspector qué necesitas.'},
+      'zh-Hans': {title:'每项检查能告诉你什么',items:[['验房','房屋状况、检查范围及未检查区域。'],['LIM、产权记录和房产档案','地方政府信息、所有权、图纸及审批记录。']],note:'任何一项都不能保证房屋没有缺陷。请律师和验房师判断需要什么。'},
     },
   },
   {
     question: 'Can I rely on the seller’s building report?',
     kind: 'compare', sprite: 'answer-reliance-specific',
     copy: {
-      en: {title:'Whose report? Which limits?',items:[['Seller’s report','Check who ordered it, its date and exclusions.'],['Your own inspection','Ask your own questions about the property.']],note:'Ask your lawyer about legal reliance. Any inspection may exclude inaccessible areas or specialist systems.'},
-      'pt-BR': {title:'Relatório de quem? Com quais limites?',items:[['Relatório do vendedor','Confira quem contratou, a data e as exclusões.'],['Sua própria inspeção','Faça suas próprias perguntas sobre o imóvel.']],note:'Pergunte ao advogado se pode se apoiar juridicamente no relatório. Qualquer inspeção pode excluir áreas inacessíveis ou sistemas especializados.'},
-      es: {title:'¿Informe de quién? ¿Con qué límites?',items:[['Informe del vendedor','Revisa quién lo encargó, la fecha y las exclusiones.'],['Tu propia inspección','Haz tus propias preguntas sobre la vivienda.']],note:'Consulta al abogado si puedes apoyarte legalmente en el informe. Cualquier inspección puede excluir zonas inaccesibles o sistemas especializados.'},
-      'zh-Hans': {title:'谁委托的报告？有哪些限制？',items:[['卖方的报告','查清委托人、日期和排除项目。'],['自己委托验房','针对这套房产提出自己的问题。']],note:'请律师确认法律上能否依赖该报告。任何验房都可能不包括无法进入的区域或专业系统。'},
+      en: {title:'Using the seller’s building report',items:[['Seller’s report','Check who ordered it, its date and exclusions.'],['Your own inspection','Ask your own questions about the property.']],note:'Ask your lawyer whether you can rely on the report. Any inspection may exclude inaccessible areas or specialist systems.'},
+      'pt-BR': {title:'Usar o relatório do vendedor',items:[['Relatório do vendedor','Confira quem contratou, a data e as exclusões.'],['Sua própria inspeção','Faça suas próprias perguntas sobre o imóvel.']],note:'Pergunte ao advogado se pode se apoiar juridicamente no relatório. Qualquer inspeção pode excluir áreas inacessíveis ou sistemas especializados.'},
+      es: {title:'Usar el informe del vendedor',items:[['Informe del vendedor','Revisa quién lo encargó, la fecha y las exclusiones.'],['Tu propia inspección','Haz tus propias preguntas sobre la vivienda.']],note:'Consulta al abogado si puedes apoyarte legalmente en el informe. Cualquier inspección puede excluir zonas inaccesibles o sistemas especializados.'},
+      'zh-Hans': {title:'使用卖方的验房报告',items:[['卖方的报告','查清委托人、日期和排除项目。'],['自己委托验房','针对这套房产提出自己的问题。']],note:'请律师确认法律上能否依赖该报告。任何验房都可能不包括无法进入的区域或专业系统。'},
     },
   },
   {
@@ -97,9 +97,9 @@ const visuals = [
 const lifeVisual = {
   kind: 'compare', sprite: 'answer-life-specific',
   copy: {
-    en: {title:'Fit the home around your life',items:[['Your everyday','Work and daily travel need to fit.'],['Your people','Think about family and the space you need.'],['Your next move','Could work or family plans change?']],note:'Write three must-haves.'},
+    en: {title:'Fit the home around your life',items:[['Daily life','Work and daily travel need to fit.'],['Who will live here','Think about family and the space you need.'],['Your next move','Could work or family plans change?']],note:'Write three must-haves.'},
     'pt-BR': {title:'O imóvel precisa caber na sua vida',items:[['Seu dia a dia','O trabalho e o trajeto precisam funcionar.'],['Quem vai morar com você','Pense na família e no espaço necessário.'],['Sua próxima mudança','Seus planos de trabalho ou família podem mudar?']],note:'Anote três necessidades essenciais.'},
-    es: {title:'La vivienda debe encajar con tu vida',items:[['Tu día a día','El trabajo y los trayectos deben funcionar.'],['Tu gente','Piensa en la familia y el espacio necesario.'],['Tu próxima mudanza','¿Pueden cambiar tus planes laborales o familiares?']],note:'Anota tres necesidades esenciales.'},
+    es: {title:'La vivienda debe encajar con tu vida',items:[['Tu día a día','El trabajo y los trayectos deben funcionar.'],['Quién vivirá aquí','Piensa en la familia y el espacio necesario.'],['Tu próxima mudanza','¿Pueden cambiar tus planes laborales o familiares?']],note:'Anota tres necesidades esenciales.'},
     'zh-Hans': {title:'让房子适合你的生活',items:[['日常安排','工作和每天的通勤要合适。'],['一起生活的人','想想家人和所需的空间。'],['下一次搬家','工作或家庭计划会不会改变？']],note:'写下三项必备条件。'},
   },
 };

@@ -10,7 +10,7 @@ Option 1 from the October 2026 concept exploration: lemon yellow, cobalt blue, o
 
 ## Experience
 
-Six broad interest areas lead to seventeen topics. The home screen presents large visual blocks; an area opens related topic blocks; a topic opens three expandable questions. Answers stay in place rather than requiring sequential card navigation. Always allow free navigation, searching and direct access to deeper guidance and official sources. A topic should explain why it matters and make the next step clear; exploration is never an eligibility quiz or readiness score.
+An optional Start here route introduces six buying steps without requiring a fixed sequence or saved progress. Homepage search accepts everyday questions. Six broad interest areas lead to seventeen topics. The home screen presents large visual blocks; an area opens related topic blocks; a topic presents three relevant common questions with the first answer open, a useful next action, and three expandable illustrated basics. Answers stay in place rather than requiring sequential card navigation. Always allow free navigation, searching and direct access to deeper guidance and official sources. A topic should explain why it matters and make the next step clear; exploration is never an eligibility quiz or readiness score.
 
 ## Principles
 

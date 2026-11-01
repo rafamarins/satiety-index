@@ -21,7 +21,7 @@ const routePreloads=`<script>(()=>{const locales=${JSON.stringify(localeChunks)}
 await writeFile('index.html',(await readFile('home-truths.html','utf8')).replace('</head>',`${preloadImports}${routePreloads}</head>`));
 await rm('dist',{recursive:true,force:true});
 await mkdir('dist',{recursive:true});
-for(const p of ['index.html','home-truths.css','home-truths.bundle.js','SOURCES.md']) await copyFile(p,`dist/${p}`);
+for(const p of ['index.html','home-truths.css','home-truths-examples.css','home-truths.bundle.js','SOURCES.md']) await copyFile(p,`dist/${p}`);
 for(const dir of ['fonts','home-truths','js']) await mkdir(`dist/assets/${dir}`,{recursive:true});
 for(const p of ['anton.woff2','Anton-OFL.txt','dm-sans.woff2','DM-Sans-OFL.txt']) await copyFile(`assets/fonts/${p}`,`dist/assets/fonts/${p}`);
 const images=[];

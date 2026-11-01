@@ -34,24 +34,24 @@
   "topics": {
     "decide": {
       "label": "Alugar ou comprar?",
-      "headline": "Seu primeiro lar.\nNo seu ritmo.",
-      "intro": "Comece pela vida que você quer. Comprar é uma escolha, não uma corrida.",
-      "bridge": "Agora, conheça os custos além do preço anunciado.",
+      "headline": "Comprar faz sentido\npara você?",
+      "intro": "Compare aluguel e compra com seu orçamento, seus planos e quanto tempo pretende ficar no imóvel.",
+      "bridge": "Inclua advogado, inspeções e mudança no orçamento.",
       "cards": {
         "life": {
           "label": "Sua vida",
-          "title": "O que precisa se encaixar?",
-          "body": "Pense além das chaves. Seus planos de trabalho, família e mudança importam tanto quanto a casa.",
+          "title": "Comprar combina com seus planos?",
+          "body": "Pense no trabalho, na família e na possibilidade de se mudar. Esses planos influenciam onde comprar e por quanto tempo o imóvel vai atender você.",
           "checks": [
             "Anote três pontos indispensáveis",
             "Pense em possíveis mudanças",
             "Defina quem vai comprar"
           ],
-          "gotcha": "O prazo dos outros não é o seu."
+          "gotcha": "Se você pode se mudar em breve, inclua o custo de vender na decisão."
         },
         "compare": {
           "label": "Alugar ou comprar",
-          "title": "Compare o quadro completo.",
+          "title": "Compare aluguel e compra.",
           "body": "Alugar traz flexibilidade. Ter um imóvel traz autonomia, responsabilidades e custos. Compare as opções com seus planos em mente, não só com a parcela deste mês.",
           "checks": [
             "Compare todos os custos mensais",
@@ -75,7 +75,7 @@
     },
     "budget": {
       "label": "O custo total",
-      "headline": "O preço não conta\na história toda.",
+      "headline": "Quanto custa\ncomprar um imóvel?",
       "intro": "Reserve espaço para os custos da compra, as contas do dia a dia e o que pode quebrar.",
       "bridge": "Agora, separe a entrada do dinheiro que você precisa guardar.",
       "cards": {
@@ -103,7 +103,7 @@
         },
         "buffer": {
           "label": "Sua reserva",
-          "title": "Deixe uma folga.",
+          "title": "Reserve dinheiro para imprevistos e reparos.",
           "body": "Defina um limite confortável para você. Simule parcelas maiores e renda menor, e considere os reparos apontados na inspeção.",
           "checks": [
             "Simule um mês mais apertado",
@@ -116,7 +116,7 @@
     },
     "deposit": {
       "label": "Entrada e KiwiSaver",
-      "headline": "Sua parte.\nA parte do banco.",
+      "headline": "Quanto você precisa\nde entrada?",
       "intro": "A entrada e o financiamento cobrem o preço. A reserva para os custos da compra fica separada.",
       "bridge": "Leve seus números e dúvidas a um banco ou assessor.",
       "cards": {
@@ -144,7 +144,7 @@
         },
         "support": {
           "label": "Outros apoios",
-          "title": "Confira as opções atuais.",
+          "title": "Confira os programas para a primeira compra.",
           "body": "Compradores elegíveis podem usar o programa de empréstimo para o primeiro imóvel (First Home Loan) com uma entrada menor. Confira os critérios atuais com a Kāinga Ora e uma instituição financeira participante.",
           "checks": [
             "Confira as formas de apoio disponíveis",
@@ -185,7 +185,7 @@
         },
         "prepare": {
           "label": "O que levar",
-          "title": "Facilite a próxima conversa.",
+          "title": "Reúna seus documentos financeiros.",
           "body": "Reúna comprovantes de renda, gastos, dívidas e entrada. Escolha seu próprio advogado imobiliário cedo e pergunte ao banco sobre as condições da pré-aprovação.",
           "checks": [
             "Reúna os comprovantes solicitados",
@@ -198,13 +198,13 @@
     },
     "mortgage": {
       "label": "Entenda o financiamento",
-      "headline": "Pegue o empréstimo.\nEntenda o acordo.",
+      "headline": "Como funciona\no financiamento?",
       "intro": "A parcela é só um número. A estrutura, as tarifas e a flexibilidade também importam.",
-      "bridge": "Com um orçamento confortável, experimente a vida ao redor da casa.",
+      "bridge": "Visite o bairro e teste os trajetos que faria no dia a dia.",
       "cards": {
         "repayments": {
           "label": "Parcelas",
-          "title": "Simule outro cenário.",
+          "title": "Compare parcelas, juros e prazos.",
           "body": "Uma parcela com amortização e juros paga os juros e reduz a dívida. Altere o valor, a taxa e o prazo do exemplo para entender a relação.",
           "checks": [
             "Simule juros mais altos",
@@ -240,7 +240,7 @@
     "neighbourhood": {
       "label": "O bairro",
       "headline": "Gostou da casa?\nExperimente o bairro.",
-      "intro": "Você também está escolhendo o trajeto diário, os vizinhos e o entorno.",
+      "intro": "Confira o trajeto, os serviços próximos e como é a rua em diferentes horários.",
       "bridge": "Agora, veja se o imóvel e o tipo de propriedade atendem às suas necessidades.",
       "cards": {
         "travel": {
@@ -280,7 +280,7 @@
     },
     "homes": {
       "label": "Tipos de imóvel e propriedade",
-      "headline": "Portas parecidas.\nCompromissos diferentes.",
+      "headline": "O que você\nestá comprando?",
       "intro": "Casa, casa geminada (townhouse) ou apartamento descreve a forma do imóvel, mas não todos os seus direitos e deveres.",
       "bridge": "Leve sua lista de itens indispensáveis à visita.",
       "cards": {
@@ -321,7 +321,7 @@
     },
     "viewing": {
       "label": "Na visita ao imóvel",
-      "headline": "Veja a casa.\nFaça as perguntas difíceis.",
+      "headline": "O que observar\nna visita?",
       "intro": "Uma visita aberta é um primeiro contato. Transforme o que observar em perguntas para investigar.",
       "bridge": "Se o imóvel entrar na sua seleção, organize as verificações mais detalhadas.",
       "cards": {
@@ -334,7 +334,7 @@
             "Pergunte sobre aquecimento e ventilação",
             "Anote o que precisa de explicação"
           ],
-          "gotcha": "Tinta nova pode esconder uma dúvida; não pode respondê-la."
+          "gotcha": "A pintura nova pode esconder danos. Pergunte sobre reparos e providencie uma inspeção independente."
         },
         "questions": {
           "label": "Pergunte ao corretor",
@@ -362,9 +362,9 @@
     },
     "inspection": {
       "label": "A inspeção",
-      "headline": "Olhe além\nda tinta nova.",
+      "headline": "O que a inspeção\npode mostrar?",
       "intro": "Conte com um inspetor qualificado para entender o estado do imóvel, os limites da inspeção e o que ainda precisa ser verificado.",
-      "bridge": "O imóvel e seus documentos precisam contar a mesma história.",
+      "bridge": "Compare o resultado da inspeção com os documentos e as aprovações municipais.",
       "cards": {
         "scope": {
           "label": "O que está incluído",
@@ -379,7 +379,7 @@
         },
         "water": {
           "label": "Umidade e conforto",
-          "title": "Busque a causa, não só a mancha.",
+          "title": "Pergunte o que causou a umidade.",
           "body": "Pergunte sobre telhado, drenagem, umidade, isolamento e ventilação. Um sinal sem explicação pede investigação, não só um orçamento estético.",
           "checks": [
             "Pergunte sobre entrada de água",
@@ -390,7 +390,7 @@
         },
         "repairs": {
           "label": "Os próximos passos",
-          "title": "Transforme os achados em decisões.",
+          "title": "Estime os reparos antes de se comprometer.",
           "body": "Converse sobre os problemas com o inspetor e seu advogado. Peça avaliação e orçamento de obras importantes antes de assumir compromissos além das proteções acordadas.",
           "checks": [
             "Separe o urgente do estético",
@@ -526,9 +526,9 @@
     },
     "settlement": {
       "label": "Recebendo as chaves",
-      "headline": "Uma última conferida.\nDepois, sua porta.",
+      "headline": "Como funciona\na entrega do imóvel?",
       "intro": "Organize inspeção, documentos, dinheiro e seguro antes do dia da mudança.",
-      "bridge": "As chaves são um marco. Agora, planeje os cuidados com o imóvel.",
+      "bridge": "Depois da mudança, use o relatório de inspeção para planejar reparos e manutenção.",
       "cards": {
         "inspection": {
           "label": "Inspeção final",
@@ -567,7 +567,7 @@
     },
     "living": {
       "label": "A vida na casa própria",
-      "headline": "Seu lar.\nCuidar faz diferença.",
+      "headline": "O que cuidar\ndepois da mudança?",
       "intro": "Mantenha em dia os reparos, as contas e os ajustes conforme sua vida muda.",
       "bridge": "Vai fazer mudanças? Confira as regras antes de pegar as ferramentas.",
       "cards": {
@@ -610,11 +610,11 @@
       "label": "Reforme com cuidado",
       "headline": "Deixe com a sua cara.\nConfira antes de mudar.",
       "intro": "Comece pelo escopo, pelas autorizações e por um orçamento realista. Depois, escolha os profissionais certos.",
-      "bridge": "Mantenha suas verificações salvas por perto e volte quando seus planos mudarem.",
+      "bridge": "Guarde as aprovações e os documentos da obra com os documentos do imóvel.",
       "cards": {
         "permissions": {
           "label": "Autorizações",
-          "title": "Confira mais de uma regra.",
+          "title": "Confira autorizações e restrições da propriedade.",
           "body": "Consulte a prefeitura sobre a licença de construção (building consent) e a autorização urbanística (resource consent). Confira restrições no título e aprovações de outros proprietários antes de iniciar a obra.",
           "checks": [
             "Confirme as autorizações necessárias",
@@ -636,7 +636,7 @@
         },
         "finish": {
           "label": "Segurança e conclusão",
-          "title": "Guarde as provas do trabalho bem-feito.",
+          "title": "Guarde aprovações e documentos da obra.",
           "body": "Verifique materiais possivelmente perigosos antes de mexer neles. Use especialistas adequados e guarde as aprovações, inspeções, garantias e registros de conclusão exigidos.",
           "checks": [
             "Verifique antes de mexer em materiais antigos",
@@ -650,7 +650,7 @@
     "agents": {
       "label": "Corretores imobiliários",
       "headline": "Quem trabalha\npara quem?",
-      "intro": "Ter ajuda é bom. Saber quem representa você é ainda mais importante.",
+      "intro": "Entenda quem o corretor representa, o que ele deve informar e quando buscar orientação própria.",
       "bridge": "Quando um imóvel interessar, descubra como funciona aquela venda.",
       "cards": {
         "roles": {
@@ -666,14 +666,14 @@
         },
         "disclosures": {
           "label": "Perguntas e provas",
-          "title": "Pergunte. Depois peça os registros.",
+          "title": "Peça informações e documentos.",
           "body": "Pergunte sobre defeitos, reparos, autorizações, riscos e itens incluídos. Corretores devem agir de forma justa e informar problemas relevantes; mesmo assim, providencie suas próprias verificações.",
           "checks": [
             "Peça as informações por escrito",
             "Verifique os documentos de forma independente",
             "Registre promessas importantes no contrato"
           ],
-          "gotcha": "Uma resposta confiante não substitui um laudo de inspeção nem uma análise jurídica."
+          "gotcha": "Confira as respostas do corretor com seu próprio inspetor e advogado."
         },
         "your-agent": {
           "label": "Seu próprio corretor",
@@ -690,7 +690,7 @@
     },
     "sales": {
       "label": "Formas de comprar",
-      "headline": "O mesmo imóvel.\nRegras de compra diferentes.",
+      "headline": "Como este imóvel\nestá sendo vendido?",
       "intro": "Primeiro, confira quem está vendendo. Depois, o processo, as datas e as condições.",
       "bridge": "Agora peça ao seu advogado que coloque sua proposta e suas proteções no contrato adequado.",
       "cards": {
@@ -718,7 +718,7 @@
         },
         "special": {
           "label": "Compra direta e vendas especiais",
-          "title": "Outro vendedor. Mais perguntas.",
+          "title": "Confira quem tem autoridade para vender.",
           "body": "Comprar diretamente do proprietário, de um credor que vende pela hipoteca ou de um espólio pode mudar as verificações e os termos do contrato. Envolva seu advogado desde cedo.",
           "checks": [
             "Confirme quem tem autoridade para vender",
