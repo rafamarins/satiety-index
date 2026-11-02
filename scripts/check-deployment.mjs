@@ -20,7 +20,7 @@ const homeFiles = (await readdir(homeOutput, { recursive: true }))
   .filter(file => !file.endsWith("/"));
 const homeStatic = new Set([
   "index.html", "home-truths.css", "home-truths-examples.css", "home-truths.bundle.js", "SOURCES.md",
-  "assets/favicon.svg", "assets/fonts/anton.woff2", "assets/fonts/dm-sans.woff2",
+  "assets/social/home-veritas-v1.jpg", "assets/favicon.svg", "assets/fonts/anton.woff2", "assets/fonts/dm-sans.woff2",
   "assets/fonts/Anton-OFL.txt", "assets/fonts/DM-Sans-OFL.txt",
 ]);
 for (const file of homeFiles) {

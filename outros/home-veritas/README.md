@@ -37,6 +37,12 @@ Sketch galleries remain under `concepts/`. The former workspace location,
 - English, Brazilian Portuguese, Spanish and Simplified Chinese for the complete short guide, navigation and detail views. Language choice persists locally and is shareable through the URL. All 82 FAQs, deeper explanations, resource descriptions, source labels, beginner steps, next actions and About copy are translated too. Official external websites keep their own language options.
 - Native modal focus management, semantic controls, a skip link, reduced-motion support, responsive layouts and native expandable question controls.
 
+## Sharing previews
+
+The initial HTML includes the canonical URL, indexable robots directive, Open Graph and Twitter large-image tags. Metadata is deliberately available without JavaScript; hash-based topics share the guide's main card.
+
+`assets/social/home-veritas-v1.jpg` is the committed 1200 × 630 sharing image, composed from the existing collage and typefaces. Production builds copy this JPEG directly. To regenerate it, install Playwright in an external QA folder and run `QA_MODULES_ROOT=/path/to/node_modules node scripts/render-social-card.mjs`. The editable layout is `concepts/social-card.html`, which stays out of production. The metadata tests verify URLs, uniqueness, image dimensions and crawler-visible markup.
+
 ## Files
 
 - `home-truths.html` is the HTML source; the build copies it to `index.html`.
