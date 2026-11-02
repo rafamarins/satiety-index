@@ -13,5 +13,5 @@ try{
   await page.evaluate(()=>document.fonts.ready);
   await page.waitForFunction(()=>[...document.images].every(image=>image.complete&&image.naturalWidth>0));
   const png=await page.screenshot();
-  await sharp(png).jpeg({quality:90,mozjpeg:true}).toFile(fileURLToPath(new URL('../assets/social/home-veritas-v1.jpg',import.meta.url)));
+  await sharp(png).jpeg({quality:90,mozjpeg:true}).toFile(fileURLToPath(new URL('../assets/social/home-veritas-v2.jpg',import.meta.url)));
 }finally{await browser.close();}

@@ -41,7 +41,7 @@ Sketch galleries remain under `concepts/`. The former workspace location,
 
 The initial HTML includes the canonical URL, indexable robots directive, Open Graph and Twitter large-image tags. Metadata is deliberately available without JavaScript; hash-based topics share the guide's main card.
 
-`assets/social/home-veritas-v1.jpg` is the committed 1200 × 630 sharing image, composed from the existing collage and typefaces. Production builds copy this JPEG directly. To regenerate it, install Playwright in an external QA folder and run `QA_MODULES_ROOT=/path/to/node_modules node scripts/render-social-card.mjs`. The editable layout is `concepts/social-card.html`, which stays out of production. The metadata tests verify URLs, uniqueness, image dimensions and crawler-visible markup.
+`assets/social/home-veritas-v2.jpg` is the committed 1200 × 630 sharing image, composed from the existing collage and typefaces. Production builds copy this JPEG directly and retain v1 for previously shared links. To regenerate it, install Playwright in an external QA folder and run `QA_MODULES_ROOT=/path/to/node_modules node scripts/render-social-card.mjs`. The editable layout is `concepts/social-card.html`, which stays out of production. The metadata tests verify URLs, uniqueness, image dimensions and crawler-visible markup.
 
 ## Files
 

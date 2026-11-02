@@ -82,7 +82,7 @@ async function render(initial=false) {
   document.body.dataset.view=route.kind;
   let crumb=`<a href="#/">${escape(tr('All topics'))}</a>`;
   if(route.kind==='home'){
-    document.title=`Home Veritas — ${tr('What’s on your mind?')}`;
+    document.title=`Home Veritas — ${tr('Your helper guide to buying a home')}`;
     $('breadcrumbs').hidden=true;
     $('main').innerHTML=`<section class="browse-heading"><div><span class="eyebrow">${escape(tr('BUYING A HOME IN NEW ZEALAND'))}</span><h1 id="topic-title" tabindex="-1">${escape(tr('What’s on your mind?'))}</h1></div></section>${beginnerHome(beginner)}<h2 id="browse-topics" tabindex="-1" class="browse-section-title">${escape(beginner.browseLabel)}</h2><section class="interest-grid" aria-label="${escape(tr('Choose an interest area'))}">${areas.map(areaTile).join('')}</section>`;
   }else if(route.kind==='start'){
@@ -263,7 +263,7 @@ function referenceNotice(){return language==='en'?'':`<p class="reference-notice
 function updateLanguageShell(){
   document.documentElement.lang=languages.find(l=>l.code===language).html;
   updateLanguagePicker();
-  document.querySelector('.brand span').textContent=tr('A FIRST-HOME GUIDE / NZ');
+  document.querySelector('.brand span').textContent=tr('A HOME BUYING GUIDE');
   document.querySelector('.skip').textContent=tr('Skip to the guide');
   document.querySelector('.site-header nav').setAttribute('aria-label',tr('Guide tools'));
   $('start-link').textContent=beginnerContent(language).startLabel;

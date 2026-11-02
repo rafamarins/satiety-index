@@ -28,7 +28,7 @@ const images=[];
 for(const file of await readdir('assets/home-truths')){await copyFile(`assets/home-truths/${file}`,`dist/assets/home-truths/${file}`);images.push({file,bytes:(await stat(`assets/home-truths/${file}`)).size});}
 for(const p of Object.keys(result.metafile.outputs))if(p.startsWith('assets/js/'))await copyFile(p,`dist/${p}`);
 await copyFile('assets/favicon.svg','dist/assets/favicon.svg');
-await copyFile('assets/social/home-veritas-v1.jpg','dist/assets/social/home-veritas-v1.jpg');
+for(const version of ['v1','v2'])await copyFile(`assets/social/home-veritas-${version}.jpg`,`dist/assets/social/home-veritas-${version}.jpg`);
 const outputs=[];for(const p of Object.keys(result.metafile.outputs)){const bytes=await readFile(p);outputs.push({file:p,bytes:bytes.length,gzip:gzipSync(bytes).length});}
 const report={interestAreas:areas.length,stages:stages.length,topics:topics.length,cards:topics.reduce((n,t)=>n+t.cards.length,0),deepChapters:chapters.length,faqs:faqs.length,images,outputs};
 await mkdir('qa',{recursive:true});await writeFile('qa/home-truths-build.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));
