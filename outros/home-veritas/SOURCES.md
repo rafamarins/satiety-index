@@ -122,6 +122,12 @@ Existing detailed guidance was reviewed on 25 October 2026, with subsequent addi
 - What extra risks come with a mortgagee sale? — [Settled · property options](https://www.settled.govt.nz/buying-a-home/finding-a-property/considering-your-property-options/)
 - What changes when the seller is a deceased estate or a trust? — [Settled · estates and trusts](https://www.settled.govt.nz/selling-a-home/thinking-of-selling/planning-to-sell/)
 
+## Private sales, agency roles and Auckland flood checks
+
+- The private-sale card and owner questions use [Settled’s private-sale buyer guidance](https://www.settled.govt.nz/blog/buying-from-a-private-seller/). For the agreement, trust-account deposit and the limits of the REA complaints process, see [buying with an agent or privately](https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/).
+- The distinction between conjunctional agents and a buyer’s own agent follows the [REA glossary](https://www.rea.govt.nz/glossary/) and [REA buyer’s-agent guidance](https://www.rea.govt.nz/real-estate-professionals/industry-guidance-and-information/buyers-agent-information/).
+- The [Auckland Council Flood Viewer](https://experience.arcgis.com/experience/cbde7f2134404f4d90adce5396a0a630) is an address lookup. [The council’s flood-map guidance](https://ourauckland.aucklandcouncil.govt.nz/news/2026/03/understanding-auckland-s-regional-flood-maps/) explains why the absence of a mapped hazard does not rule out flooding.
+
 ## Official resource library
 
 - [First-home support](https://www.govt.nz/browse/housing-and-property/buying-or-selling-a-home/buying-your-first-home/) — Check KiwiSaver withdrawal and First Home Loan routes. Confirm eligibility before counting on the money.

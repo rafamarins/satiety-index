@@ -451,13 +451,13 @@
         "hazards": {
           "label": "El terreno",
           "title": "¿Qué podría afectar a este lugar?",
-          "body": "Investiga riesgos de inundación, deslizamientos, fenómenos costeros y terremotos. Usa registros municipales y asesoramiento especializado adecuado a la ubicación.",
+          "body": "Investiga inundaciones, deslizamientos, riesgos costeros y terremotos. En Auckland, empieza por buscar la dirección en el Flood Viewer del ayuntamiento. En otras zonas, consulta los mapas de riesgos y registros de tu ayuntamiento.",
           "checks": [
             "Lee la información sobre riesgos naturales",
             "Pregunta por daños anteriores",
             "Busca asesoramiento especializado si hace falta"
           ],
-          "gotcha": "Un mapa de riesgos no responde a todas las preguntas de una propiedad concreta."
+          "gotcha": "Que el mapa no indique inundaciones para una dirección no significa que allí no pueda inundarse. Consulta el LIM y pregunta por inundaciones anteriores."
         },
         "cover": {
           "label": "La póliza",
@@ -656,13 +656,13 @@
         "roles": {
           "label": "A quién representan",
           "title": "Pregunta a quién representan.",
-          "body": "El agente de la venta representa al vendedor. Un agente del comprador te representa mediante un contrato aparte. Tu abogado revisa la parte legal.",
+          "body": "El agente que publica el anuncio representa al vendedor. Si contratas a tu propio agente del comprador, te representa mediante un acuerdo escrito aparte. Pregunta a quién representa el agente y quién le paga.",
           "checks": [
             "Pregunta a quién representa el agente",
-            "Elige tu propio abogado",
-            "Lee cualquier contrato de representación"
+            "Pregunta quién paga al agente",
+            "Revisa el acuerdo antes de firmar"
           ],
-          "gotcha": "Enseñarte viviendas no convierte a alguien automáticamente en tu agente del comprador."
+          "gotcha": "En una venta en colaboración (conjunctional sale), dos agencias pueden repartirse la comisión del vendedor. El agente que te presenta la vivienda puede seguir trabajando para el vendedor."
         },
         "disclosures": {
           "label": "Preguntas y pruebas",
@@ -716,16 +716,28 @@
           ],
           "gotcha": "Puede que no tengas otra oportunidad de mejorar tu oferta. Mantén las protecciones que necesitas."
         },
+        "private": {
+          "label": "Venta privada",
+          "title": "Comprar directamente al propietario",
+          "body": "Si encuentras una vivienda en un grupo de Facebook, en un cartel o por recomendación, puedes concertar una visita y hablar del precio con el propietario. Compara ventas recientes de viviendas similares y consulta a tu abogado antes de hacer una oferta.",
+          "checks": [
+            "Pregunta qué precio espera el propietario, qué se incluye, qué problemas conoce y si puede compartir el LIM, el título o algún informe.",
+            "Pide a tu abogado que confirme quién puede vender y revise el título y los registros municipales. Organiza una inspección independiente y comprueba la financiación y el seguro para esa dirección.",
+            "Pide a tu abogado que prepare o revise la oferta por escrito, las condiciones y los plazos. Pregúntale cómo y cuándo pagar el depósito en una cuenta fiduciaria."
+          ],
+          "gotcha": "El proceso de reclamaciones de la REA sobre agentes no cubre a un vendedor particular sin licencia.",
+          "message": "Hola, me interesa la vivienda. ¿Podríamos concertar una visita? ¿Qué precio tienes en mente y qué está incluido? Si tienes el LIM, el título o un informe de inspección, ¿me los podrías enviar? ¿Hay algún problema conocido, inundación anterior o reparación que deba conocer? ¡Gracias!"
+        },
         "special": {
-          "label": "Compra directa y ventas especiales",
+          "label": "Ventas hipotecarias y de herencias",
           "title": "Confirma quién tiene autoridad para vender.",
-          "body": "Comprar directamente al propietario, a un prestamista que vende por una hipoteca o a una herencia puede cambiar las comprobaciones y los términos del contrato. Involucra a tu abogado desde el principio.",
+          "body": "Si vende un prestamista que ejecuta una hipoteca, o alguien en nombre de una herencia o un fideicomiso, pueden cambiar las comprobaciones y condiciones del contrato. Consulta a tu abogado desde el principio.",
           "checks": [
             "Confirma quién tiene autoridad para vender",
             "Revisa posesión, elementos incluidos y garantías",
             "Pide que revisen los acuerdos sobre la señal"
           ],
-          "gotcha": "Que no haya agente no significa que no haya contrato. Una venta por el acreedor hipotecario no es automáticamente una ganga."
+          "gotcha": "Una venta por ejecución hipotecaria no es necesariamente una ganga."
         }
       }
     }
@@ -765,6 +777,9 @@
     "Settled · deadline sales": "Settled · ventas con fecha límite",
     "Settled · tenders": "Settled · ofertas cerradas (tender)",
     "Settled · multiple offers": "Settled · varias ofertas",
-    "Settled · estates and trusts": "Settled · herencias y trusts"
+    "Settled · estates and trusts": "Settled · herencias y trusts",
+    "REA · conjunctional agreements": "REA · acuerdos entre agencias",
+    "Settled · buying from a private seller": "Settled · comprar directamente al propietario",
+    "Auckland Council · Flood Viewer": "Ayuntamiento de Auckland · mapa de inundaciones"
   }
 }

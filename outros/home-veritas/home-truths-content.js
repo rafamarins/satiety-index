@@ -26,6 +26,7 @@ const links = {
   council: { label: 'MBIE · council records', url: 'https://www.building.govt.nz/getting-started/your-rights-and-obligations/homeowner-rights-and-obligations/buying-a-house/what-can-the-council-tell-you-about-the-house' },
   titles: { label: 'LINZ · land records', url: 'https://lrs.linz.govt.nz/' },
   unit: { label: 'Unit Titles Services · buying a unit', url: 'https://www.unittitles.govt.nz/buying-or-selling-a-unit-title/buying-or-selling-a-unit-title/buying-a-unit-title/' },
+  aucklandFlood: { id: 'auckland-flood', label: 'Auckland Council · Flood Viewer', url: 'https://experience.arcgis.com/experience/cbde7f2134404f4d90adce5396a0a630' },
   hazards: { label: 'Settled · natural hazards', url: 'https://www.settled.govt.nz/buying-a-home/researching-the-property/understanding-the-impact-of-natural-hazards/' },
   claims: { label: 'NHC · previous claims', url: 'https://www.naturalhazards.govt.nz/insurance-and-claims/claims/buying-or-selling-a-home-with-previous-claims/' },
   contract: { label: 'Settled · the purchase agreement', url: 'https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-the-sale-and-purchase-agreement-when-buying/' },
@@ -136,10 +137,10 @@ export const topics = [
     id: 'insurance', stage: 'find', label: 'Hazards & insurance', headline: 'Check the risk.\nConfirm the cover.',
     intro: 'Ask about the specific address before you commit, not after you have bought it.', image: 'inspection', chapterIds: ['inspect', 'search'],
     cards: [
-      card('hazards', 'The land', 'What could affect this site?', 'Look into flooding, slips, coastal and earthquake hazards. Use council records and specialist advice appropriate to the location.', ['Read hazard information', 'Ask about past damage', 'Seek specialist advice where needed'], 'A hazard map does not answer every property-specific question.'),
+      card('hazards', 'The land', 'What could affect this site?', 'Look into flooding, slips, coastal and earthquake hazards. In Auckland, start by entering the address in the council’s Flood Viewer. Elsewhere, check your local council’s hazard maps and records.', ['Read hazard information', 'Ask about past damage', 'Seek specialist advice where needed'], 'An address with no mapped flooding can still flood. Check the LIM and ask about past flooding.'),
       card('cover', 'The policy', 'Can you insure this home?', 'Ask an insurer about cover, exclusions, excesses and rebuild estimates. Confirm any lender requirements before committing unconditionally or bidding.', ['Request an address-specific quote', 'Check exclusions and excesses', 'Confirm lender requirements'], 'The seller’s insurance is not proof that you can get the same cover.'),
       card('claims', 'Previous claims', 'Follow the claim and the repair.', 'Ask about previous NHC/EQC claims and repairs. Have your lawyer review unresolved matters and any transfer of claims.', ['Request claim information', 'Check repair evidence', 'Ask your lawyer about transfer'], 'A settled claim does not prove all repairs were completed.'),
-    ], sourceLinks: [links.hazards, links.claims, links.approval], bridge: 'With checks underway, understand how this particular sale works.',
+    ], sourceLinks: [links.aucklandFlood, links.hazards, links.claims, links.approval], bridge: 'With checks underway, understand how this particular sale works.',
   },
   {
     id: 'offer', stage: 'buy', label: 'Offers & contracts', headline: 'Before you sign.\nBefore you bid.',

@@ -101,7 +101,14 @@ body[data-loading] .browse-footer{visibility:hidden}
 .journey-steps li{display:flex;gap:24px;border-top:1px solid #10111066;padding:24px 0 30px}
 .step-number{font-family:Anton,Impact,sans-serif;font-size:30px;color:var(--blue);width:36px;flex-shrink:0}
 .journey-steps h2{font-size:28px;line-height:1.25;margin:0 0 12px;text-wrap:balance}
+.card-links{display:flex;flex-wrap:wrap;gap:4px 16px;margin-top:14px}
+.card-links .source-link{display:inline-flex;align-items:center;gap:4px;margin:0;min-height:44px}
+.owner-message button{min-height:44px}
+.owner-message{margin-top:18px;padding:16px 0 0;border-top:1px solid var(--line)}
+.owner-message h3{font-size:14px;margin:0 0 8px}
+.owner-message p{margin:0;max-width:60ch;font-size:14px;line-height:1.65;user-select:text}
 .journey-steps p{font-size:15px;line-height:1.65;max-width:56ch}
+.journey-actions{display:flex;flex-wrap:wrap;column-gap:24px}
 .journey-steps a{display:inline-flex;align-items:center;gap:12px;min-height:44px;font-size:14px;font-weight:750;margin-top:12px;text-underline-offset:5px}
 .topic-reading{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr)}
 .topic-visual h1{font-size:clamp(36px,4.2vw,64px);line-height:1.15;text-wrap:balance}

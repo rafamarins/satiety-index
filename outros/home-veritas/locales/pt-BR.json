@@ -451,13 +451,13 @@
         "hazards": {
           "label": "O terreno",
           "title": "O que pode afetar este local?",
-          "body": "Investigue riscos de inundação, deslizamentos, eventos costeiros e terremotos. Use registros municipais e orientação especializada adequada ao local.",
+          "body": "Verifique riscos de alagamento, deslizamento, inundação costeira e terremoto. Em Auckland, comece consultando o endereço no Flood Viewer da prefeitura. Em outras regiões, consulte os mapas e registros da prefeitura local.",
           "checks": [
             "Leia as informações sobre riscos naturais",
             "Pergunte sobre danos anteriores",
             "Busque orientação especializada se necessário"
           ],
-          "gotcha": "Um mapa de riscos não responde a todas as perguntas sobre um imóvel específico."
+          "gotcha": "Mesmo sem risco de alagamento indicado no mapa, o imóvel pode alagar. Confira o LIM e pergunte sobre alagamentos anteriores."
         },
         "cover": {
           "label": "A apólice",
@@ -656,13 +656,13 @@
         "roles": {
           "label": "Quem representam",
           "title": "Pergunte quem eles representam.",
-          "body": "O corretor da venda representa o vendedor. Um corretor do comprador representa você por meio de um contrato separado. Seu advogado verifica a parte jurídica.",
+          "body": "O corretor responsável pelo anúncio representa o vendedor. Um corretor contratado por você o representa sob um contrato separado, por escrito. Pergunte quem o corretor representa e quem paga a comissão.",
           "checks": [
             "Pergunte quem o corretor representa",
-            "Escolha seu próprio advogado",
-            "Leia qualquer contrato de representação"
+            "Pergunte quem paga o corretor",
+            "Confira o contrato antes de assinar"
           ],
-          "gotcha": "Mostrar imóveis não faz de alguém automaticamente o seu corretor do comprador."
+          "gotcha": "Numa venda em parceria entre imobiliárias (conjunctional sale), duas agências podem dividir a comissão do vendedor. O corretor que apresenta o imóvel ainda pode estar trabalhando para o vendedor."
         },
         "disclosures": {
           "label": "Perguntas e provas",
@@ -716,16 +716,28 @@
           ],
           "gotcha": "Talvez você não tenha outra chance de melhorar a proposta. Mantenha as proteções de que precisa."
         },
+        "private": {
+          "label": "Venda particular",
+          "title": "Comprar direto do proprietário",
+          "body": "Se encontrar um imóvel num grupo do Facebook, numa placa ou por indicação, combine uma visita e converse sobre o preço com o proprietário. Compare vendas recentes de imóveis semelhantes e fale com seu advogado antes de fazer uma proposta.",
+          "checks": [
+            "Pergunte qual é o preço esperado, o que está incluído, quais problemas o proprietário conhece e se ele pode compartilhar o LIM, o título ou outros laudos.",
+            "Peça ao seu advogado que confirme quem pode vender e revise o título e os registros municipais. Contrate uma inspeção independente e confirme o financiamento e o seguro para esse endereço.",
+            "Peça ao seu advogado que prepare ou revise a proposta por escrito, as condições e os prazos. Pergunte como e quando pagar o sinal numa conta fiduciária."
+          ],
+          "gotcha": "O processo de reclamações da REA contra corretores não se aplica a um vendedor particular sem licença.",
+          "message": "Olá! Tenho interesse no imóvel. Podemos marcar uma visita? Qual é o preço que você tem em mente e o que está incluído? Se tiver o LIM, o título ou um laudo de inspeção, poderia me enviar? Há algum problema conhecido, histórico de alagamento ou reparo que eu deva saber? Obrigado!"
+        },
         "special": {
-          "label": "Compra direta e vendas especiais",
+          "label": "Vendas por credor ou espólio",
           "title": "Confira quem tem autoridade para vender.",
-          "body": "Comprar diretamente do proprietário, de um credor que vende pela hipoteca ou de um espólio pode mudar as verificações e os termos do contrato. Envolva seu advogado desde cedo.",
+          "body": "Um credor executando uma hipoteca ou alguém vendendo em nome de um espólio ou trust pode exigir outras verificações e condições contratuais. Envolva seu advogado desde o início.",
           "checks": [
             "Confirme quem tem autoridade para vender",
             "Confira posse, itens incluídos e garantias",
             "Peça que verifiquem os arranjos do sinal"
           ],
-          "gotcha": "Não ter corretor não significa não ter contrato. Uma venda pelo credor hipotecário não é automaticamente uma pechincha."
+          "gotcha": "Uma venda pelo credor não é necessariamente um bom negócio."
         }
       }
     }
@@ -765,6 +777,9 @@
     "Settled · deadline sales": "Settled · vendas com prazo para propostas",
     "Settled · tenders": "Settled · propostas fechadas (tender)",
     "Settled · multiple offers": "Settled · várias propostas",
-    "Settled · estates and trusts": "Settled · espólios e trusts"
+    "Settled · estates and trusts": "Settled · espólios e trusts",
+    "REA · conjunctional agreements": "REA · acordos entre imobiliárias",
+    "Settled · buying from a private seller": "Settled · comprar direto do proprietário",
+    "Auckland Council · Flood Viewer": "Prefeitura de Auckland · mapa de alagamentos"
   }
 }

@@ -14,6 +14,13 @@ export function localizedContent(baseTopics,baseAreas,data){
 }
 // Each row: English, Brazilian Portuguese, Spanish, Simplified Chinese.
 const rows = [
+['Buying directly from the owner','Comprar direto do proprietário','Comprar directamente al propietario','直接向房主买房'],
+['A message you can send the owner','Mensagem para enviar ao proprietário','Un mensaje para enviar al propietario','可以发给房主的消息'],
+['Copy message','Copiar mensagem','Copiar mensaje','复制消息'],
+['Message copied.','Mensagem copiada.','Mensaje copiado.','消息已复制。'],
+['Select and copy the message.','Selecione e copie a mensagem.','Selecciona y copia el mensaje.','请选择并复制消息。'],
+['Check hazards and insurance','Confira riscos e seguro','Comprueba riesgos y seguro','查看自然灾害风险与保险'],
+['Check the agreement and conditions','Confira o contrato e as condições','Revisa el contrato y las condiciones','查看合同与购房条件'],
 ["More about {topic}", "Mais sobre {topic}", "Más sobre {topic}", "进一步了解{topic}"],
 ["Links for other topics", "Links de outros assuntos", "Enlaces de otros temas", "其他主题的链接"],
 

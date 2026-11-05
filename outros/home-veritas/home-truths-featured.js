@@ -12,7 +12,7 @@ const questions = {
   inspection:['Can I rely on the seller’s building report?','Do I need a LIM as well as a building inspection?','When should I pay for reports and inspections?'],
   records:['Do I need a LIM as well as a building inspection?','The home has been renovated. What paperwork matters?','What are easements, covenants and shared driveways?'],
   insurance:['Why check insurance before my offer is unconditional?','How do I check flood, landslip or earthquake risks?','What about septic tanks, tank water, drainage or retaining walls?'],
-  sales:['How do negotiation, deadline, tender and auction differ?','Does an asking price, BEO, BBO or “offers over” guarantee acceptance?','Can a deadline or tender property sell before the closing date?'],
+  sales:['How do negotiation, deadline, tender and auction differ?','Does an asking price, BEO, BBO or “offers over” guarantee acceptance?','How do I buy directly from a private owner?'],
   offer:['What should be written into the agreement?','Can I walk away from a conditional offer?','What is the big auction gotcha?'],
   settlement:['What happens on settlement day?','What do I check at the pre-settlement inspection?','What if something is broken or missing before settlement?'],
   living:['Which costs keep coming after I move in?','What should I do about maintenance and insurance?','What if repayments become difficult?'],
