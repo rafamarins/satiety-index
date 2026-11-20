@@ -13,7 +13,7 @@ then change its number, link, illustration and copy. No JavaScript changes are n
 Home Veritas now lives in `outros/home-veritas/`. The root build runs its build and
 includes its public package at `/outros/home-veritas/`; source, sketches and QA
 records stay out of the published package. See its [README](outros/home-veritas/README.md)
-for the standalone preview and content checks. Run `npm run check:home-veritas`
+for the standalone preview, the two-Worker chat preview and content checks. Run `npm run check:home-veritas`
 from this repository to check its content and calculations.
 
 ## Run locally
@@ -82,7 +82,7 @@ The circular Rafael favicon in `outros/favicon.svg` is published at `/favicon.sv
 shared by the homepage and the Outros directory. The Satiety Index keeps its own favicon.
 Publishing does not replace the existing website's root, other folders, DNS
 records or email setup. The built assets mirror each project's `/outros/` directory;
-relative app URLs work without a rewrite Worker. Both project paths are also
+the site Worker forwards the Ask Veritas mount to the private agent service. Both project paths are also
 available on the Worker's `workers.dev` URL.
 
 The development dependency `undici` is pinned to its patched 7.30.1 release through

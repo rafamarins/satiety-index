@@ -14,6 +14,8 @@ export function localizedContent(baseTopics,baseAreas,data){
 }
 // Each row: English, Brazilian Portuguese, Spanish, Simplified Chinese.
 const rows = [
+['Close chat','Fechar conversa','Cerrar chat','关闭聊天'],
+['Ask Veritas','Pergunte ao Veritas','Pregunta a Veritas','问问 Veritas'],
 ['Buying directly from the owner','Comprar direto do proprietário','Comprar directamente al propietario','直接向房主买房'],
 ['A message you can send the owner','Mensagem para enviar ao proprietário','Un mensaje para enviar al propietario','可以发给房主的消息'],
 ['Copy message','Copiar mensagem','Copiar mensaje','复制消息'],

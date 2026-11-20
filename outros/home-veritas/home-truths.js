@@ -244,6 +244,23 @@ $('close-drawer').addEventListener('click',closeDrawer);
 $('drawer').addEventListener('keydown',event=>{if(event.key==='Escape'){event.preventDefault();closeDrawer();}});$('drawer').addEventListener('close',()=>{if(!$('drawer').open){document.body.style.overflow='';modalVersion++;}});
 $('links-button').addEventListener('click',openLinks);$('about-button').addEventListener('click',openAbout);
 
+const askDialog=$('ask-dialog'), askLauncher=$('ask-launcher'), askFrame=$('ask-frame');
+askLauncher.addEventListener('click',()=>{
+  askLauncher.focus({preventScroll:true});
+  if(!askFrame.hasAttribute('src'))askFrame.src='./ask/?embed=1';
+  askDialog.showModal();
+  askLauncher.setAttribute('aria-expanded','true');
+});
+$('ask-close').addEventListener('click',()=>askDialog.close());
+askDialog.addEventListener('close',()=>{
+  askFrame.contentWindow?.postMessage({type:'veritas:pause'},location.origin);
+  askLauncher.setAttribute('aria-expanded','false');
+  askLauncher.focus({preventScroll:true});
+});
+window.addEventListener('message',event=>{
+  if(event.source===askFrame.contentWindow && event.origin===location.origin && event.data?.type==='veritas:close' && askDialog.open)askDialog.close();
+});
+
 // WebKit does not focus clicked buttons; native dialogs restore the focused opener.
 document.addEventListener('click',e=>{
   const opener=e.target.closest('#search-button,#links-button,#about-button,[data-topic-faq],[data-calculator],[data-details],[data-search-query]');
@@ -281,6 +298,10 @@ function updateLanguageShell(){
   document.querySelector('.skip').textContent=tr('Skip to the guide');
   document.querySelector('.site-header nav').setAttribute('aria-label',tr('Guide tools'));
   $('start-link').textContent=beginnerContent(language).startLabel;
+  $('ask-label').textContent=tr('Ask Veritas');
+  $('ask-title').textContent=tr('Ask Veritas');
+  $('ask-frame').title=tr('Ask Veritas');
+  $('ask-close').setAttribute('aria-label',tr('Close chat'));
   $('topics-button').innerHTML=`${escape(tr('Explore'))} ${icon('menu')}`;
 
   $('search-button').innerHTML=`${escape(tr('Search'))} ${icon('search')}`;
