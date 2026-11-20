@@ -32,7 +32,7 @@ VERITAS_AGENT=/path/to/veritas-agent
 npm --prefix "$VERITAS_AGENT" run voice:prepare
 npm --prefix "$VERITAS_AGENT" run build
 npm run build
-"$VERITAS_AGENT/node_modules/.bin/wrangler" dev -c wrangler.jsonc -c "$VERITAS_AGENT/worker/wrangler.local.jsonc" --ip 127.0.0.1 --port 8787
+"$VERITAS_AGENT/node_modules/.bin/wrangler" dev -c wrangler.jsonc -c "$VERITAS_AGENT/worker/wrangler.local.jsonc" --no-infer-origin-from-routes --ip 127.0.0.1 --port 8787
 ```
 
 Open [the local guide](http://127.0.0.1:8787/outros/home-veritas/). The agent's pinned Wrangler supports both Workers' compatibility dates. For a future release, prepare the speech models and deploy the agent Worker with its assets before deploying the site that binds to it.
