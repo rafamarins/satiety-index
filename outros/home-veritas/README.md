@@ -23,7 +23,7 @@ Sketch galleries remain under `concepts/`. The former workspace location,
 
 ### Preview the guide with Ask Veritas
 
-The **Ask Veritas** link opens the chat in the same tab. **Buying guide** returns to the topic and language you were reading. The site Worker forwards `/outros/home-veritas/ask/` and its child paths to the private `VERITAS` service binding. The agent serves its own page, speech assets and API. The static-only preview on port 4185 covers guide pages only.
+The illustrated **Ask Veritas** button opens chat over the guide. Close it to return to the same place. Reopening it restores the current chat and draft. The standalone chat is also available at `/outros/home-veritas/ask/`. The site Worker forwards `/outros/home-veritas/ask/` and its child paths to the private `VERITAS` service binding. The agent serves its own page, speech assets and API. The static-only preview on port 4185 covers guide pages only.
 
 For the integrated preview, use the [Veritas Agent checkout](https://github.com/rafamarins/veritas-agent) with support for the guide mount. Follow its README to install dependencies and configure a running local Ollama model. From the SatietyIndex repository root, set the path to that checkout and run:
 

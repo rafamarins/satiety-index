@@ -19,6 +19,7 @@ export default {
     if (!url.pathname.startsWith(chatPath + "/")) return env.ASSETS.fetch(request);
 
     const isChatPage = url.pathname === chatPath + "/";
+    const embedded = isChatPage && url.searchParams.get("embed") === "1";
     const guide = isChatPage ? returnToGuide(url) : null;
     // Keep the public origin for the agent's same-origin checks.
     url.pathname = isChatPage ? "/index.html" : url.pathname.slice(chatPath.length);
@@ -27,12 +28,22 @@ export default {
     if (!isChatPage || request.method !== "GET" || response.status !== 200) return response;
 
     // The return link must work before the chat modules load.
-    const page = new HTMLRewriter().on("a.guide-link", {
+    const rewriter = new HTMLRewriter().on("a.guide-link", {
       element(link) {
         link.setAttribute("href", guide);
         link.removeAttribute("target");
       },
-    }).transform(response);
+    });
+    if (embedded) {
+      rewriter.on("body", {
+        element(body) { body.setAttribute("data-embedded", ""); },
+      });
+    }
+    const page = rewriter.transform(response);
+    if (embedded) {
+      const policy = page.headers.get("Content-Security-Policy");
+      page.headers.set("Content-Security-Policy", policy.replace("frame-ancestors 'none'", "frame-ancestors 'self'"));
+    }
     page.headers.set("Cache-Control", "no-store");
     page.headers.delete("ETag");
     return page;

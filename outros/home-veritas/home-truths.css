@@ -145,6 +145,43 @@ body[data-loading] .browse-footer{visibility:hidden}
 
 .topic-actions{display:flex;flex-wrap:wrap;gap:12px 24px;margin-top:18px}
 
-.site-header #ask-link{padding:0 14px;background:var(--yellow);border:1px solid var(--ink);font-weight:750;text-decoration:none}
-.site-header #ask-link:hover{text-decoration:underline}
-@media(max-width:740px){.site-header nav{flex-wrap:wrap;column-gap:clamp(8px,3vw,20px);row-gap:4px}.site-header #ask-link{margin-left:auto;padding:0 8px}}
+/* Ask Veritas stays available while the reader moves between guide topics. */
+#ask-launcher{
+  position:fixed;z-index:20;right:max(24px,env(safe-area-inset-right));bottom:max(22px,env(safe-area-inset-bottom));
+  display:grid;place-items:center;width:62px;height:62px;padding:3px;
+  border:2px solid var(--ink);border-radius:12px;background:var(--yellow);box-shadow:3px 4px 0 var(--ink);
+  font-size:15px;font-weight:800;line-height:1.15;
+}
+.ask-mark{width:48px;height:48px}
+#ask-label{position:absolute;right:calc(100% + 9px);width:max-content;pointer-events:none;opacity:0;padding:8px 12px;background:var(--ink);color:var(--paper);border-radius:4px}
+#ask-launcher:focus-visible #ask-label{opacity:1}
+@media(hover:hover){#ask-launcher:hover #ask-label{opacity:1}}
+#ask-launcher:active{transform:translate(2px,2px);box-shadow:1px 2px 0 var(--ink)}
+@media(hover:hover){#ask-launcher:hover{background:#fff892}}
+.browse-footer{padding-bottom:max(88px,calc(70px + env(safe-area-inset-bottom)))}
+html:has(#ask-dialog[open]){overflow:hidden}
+#ask-dialog{
+  --chat-right:max(24px,env(safe-area-inset-right));--chat-bottom:max(22px,env(safe-area-inset-bottom));
+  position:fixed;inset:auto var(--chat-right) var(--chat-bottom) auto;margin:0;padding:0;
+  width:min(476px,calc(100vw - 48px));max-width:none;height:min(600px,calc(100dvh - var(--chat-bottom) - 18px));
+  max-height:none;overflow:hidden;border:2px solid var(--ink);border-radius:6px;background:var(--paper);
+  box-shadow:4px 5px 0 var(--ink);
+}
+#ask-dialog[open]{display:flex;flex-direction:column}
+#ask-dialog::backdrop{background:#13171242;backdrop-filter:none}
+.ask-header{flex:none;display:flex;align-items:center;gap:9px;padding:6px 8px 6px 13px;background:var(--yellow);border-bottom:2px solid var(--ink)}
+.ask-header-mark{width:32px;height:32px;flex:none}
+#ask-title{flex:1;font-size:25px;line-height:1.1}
+#ask-close{background:var(--paper);border:1px solid var(--ink)}
+#ask-close:hover{background:var(--ink);color:var(--paper)}
+#ask-frame{flex:1;min-height:0;width:100%;border:0;background:var(--paper)}
+@media(max-width:600px){
+  #ask-launcher{right:max(14px,env(safe-area-inset-right));bottom:max(14px,env(safe-area-inset-bottom));width:55px;height:55px;font-size:14px}
+  .ask-mark{width:43px;height:43px}
+  #ask-dialog{
+    --chat-right:max(8px,env(safe-area-inset-right));--chat-bottom:max(10px,env(safe-area-inset-bottom));
+    left:max(8px,env(safe-area-inset-left));width:auto;height:min(660px,calc(100dvh - var(--chat-bottom) - max(10px,env(safe-area-inset-top))));
+    box-shadow:2px 3px 0 var(--ink);
+  }
+}
+@media print{#ask-launcher,#ask-dialog{display:none!important}}
