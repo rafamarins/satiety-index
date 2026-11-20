@@ -21,6 +21,22 @@ prototype is preserved at `world-prototype.html`, with its source files unchange
 Sketch galleries remain under `concepts/`. The former workspace location,
 `rafael.co.nz/first-home-concept`, is a compatibility symlink to this folder.
 
+### Preview the guide with Ask Veritas
+
+The **Ask Veritas** link opens the chat in the same tab. **Buying guide** returns to the topic and language you were reading. The site Worker forwards `/outros/home-veritas/ask/` and its child paths to the private `VERITAS` service binding. The agent serves its own page, speech assets and API. The static-only preview on port 4185 covers guide pages only.
+
+For the integrated preview, use the [Veritas Agent checkout](https://github.com/rafamarins/veritas-agent) with support for the guide mount. Follow its README to install dependencies and configure a running local Ollama model. From the SatietyIndex repository root, set the path to that checkout and run:
+
+```sh
+VERITAS_AGENT=/path/to/veritas-agent
+npm --prefix "$VERITAS_AGENT" run voice:prepare
+npm --prefix "$VERITAS_AGENT" run build
+npm run build
+"$VERITAS_AGENT/node_modules/.bin/wrangler" dev -c wrangler.jsonc -c "$VERITAS_AGENT/worker/wrangler.local.jsonc" --ip 127.0.0.1 --port 8787
+```
+
+Open [the local guide](http://127.0.0.1:8787/outros/home-veritas/). The agent's pinned Wrangler supports both Workers' compatibility dates. For a future release, prepare the speech models and deploy the agent Worker with its assets before deploying the site that binds to it.
+
 ## The experience
 
 - Optional **Start here** route (`#/start`) explains six buying steps, who helps and what to do first. Existing direct topic and card links still work.
@@ -31,7 +47,7 @@ Sketch galleries remain under `concepts/`. The former workspace location,
 - Related topic blocks open three expandable questions: a short explanation, useful things to look into and a specific gotcha. Eleven deeper FAQs have photographic collage comparisons or sequences; eleven short answers show collages directly, including a dedicated lifestyle comparison. All 82 use short reading blocks. Full source wording remains available.
 - Breadcrumbs, related topics, browser Back/Forward and deep links. No required sequence or page-through-card controls.
 - Search covers all topics, 82 deeper questions and the official resource library. The footer exposes sources and About on mobile.
-- Explore and search without accounts, saved answers, personal notes or exports. Questions & sources opens the deeper guidance directly. Language preference is the only app preference currently stored.
+- Explore and search without accounts, saved answers, personal notes or exports. Questions & sources opens the deeper guidance directly. The guide remembers the selected language. Ask Veritas separately keeps chat history and citations in this browser.
 - Optional inline examples explain the deposit/loan split, compare hypothetical repayments and distinguish records from physical inspections. The deposit bar responds to the reader’s selection and respects reduced motion. Rate buttons highlight the selected repayment and announce its amount; records and inspection use the existing photographic collage with their limits side by side. Dropdown arrows have a 16px inset and a reserved text gap.
 - Deposit and principal-and-interest illustrations show the effect of changing inputs. Rates are hypothetical and assumptions are visible; neither is an eligibility assessment or lender quote.
 - English, Brazilian Portuguese, Spanish and Simplified Chinese for the complete short guide, navigation and detail views. Language choice persists locally and is shareable through the URL. All 82 FAQs, deeper explanations, resource descriptions, source labels, beginner steps, next actions and About copy are translated too. Official external websites keep their own language options.

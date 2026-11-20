@@ -39,7 +39,10 @@
       "zone_name": "rafael.co.nz",
     },
   ],
+  "main": "src/site-worker.js",
+  "services": [{ "binding": "VERITAS", "service": "veritas-agent" }],
   "assets": {
+    "binding": "ASSETS",
     "directory": "./dist",
     "not_found_handling": "none",
   },

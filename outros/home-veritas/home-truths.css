@@ -144,3 +144,7 @@ body[data-loading] .browse-footer{visibility:hidden}
 @media(max-width:360px){.start-invitation{padding:18px}.start-invitation img{display:none}.journey-intro h1{font-size:36px}.common-questions{padding:18px}.site-header nav{gap:18px}}
 
 .topic-actions{display:flex;flex-wrap:wrap;gap:12px 24px;margin-top:18px}
+
+.site-header #ask-link{padding:0 14px;background:var(--yellow);border:1px solid var(--ink);font-weight:750;text-decoration:none}
+.site-header #ask-link:hover{text-decoration:underline}
+@media(max-width:740px){.site-header nav{flex-wrap:wrap;column-gap:clamp(8px,3vw,20px);row-gap:4px}.site-header #ask-link{margin-left:auto;padding:0 8px}}

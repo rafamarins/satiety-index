@@ -77,6 +77,8 @@ function topicSources(t,copy){
 async function render(initial=false) {
   const version=++renderVersion;
   const route=resolveRoute(location.hash);
+  const returnPath=location.pathname+(language==='en'?'':'?lang='+encodeURIComponent(language))+route.canonical;
+  $('ask-link').href='./ask/?'+new URLSearchParams({from:returnPath});
   const beginner=beginnerContent(language);
   const referenceRequest=route.kind==='topic'?loadDetails().catch(()=>null):null;
   if(route.kind==='topic'){
@@ -281,6 +283,7 @@ function updateLanguageShell(){
   document.querySelector('.skip').textContent=tr('Skip to the guide');
   document.querySelector('.site-header nav').setAttribute('aria-label',tr('Guide tools'));
   $('start-link').textContent=beginnerContent(language).startLabel;
+  $('ask-link').textContent=tr('Ask Veritas');
   $('topics-button').innerHTML=`${escape(tr('Explore'))} ${icon('menu')}`;
 
   $('search-button').innerHTML=`${escape(tr('Search'))} ${icon('search')}`;
