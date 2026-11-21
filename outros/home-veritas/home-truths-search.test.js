@@ -56,7 +56,7 @@ test('Every displayed search suggestion finds the intended answer in its languag
     'What does a bank want to see?',
     'Do I need a LIM as well as a building inspection?',
   ];
-  for(const language of ['en','pt-BR','es','zh-Hans']){
+  for(const language of ['en','pt-BR','es','zh-Hans','hi','ko']){
     const translation=language==='en'?null:JSON.parse(await readFile(new URL(`./locales/deep-${language}.json`,import.meta.url),'utf8'));
     const localized=localizedReference(guide,links,translation);
     for(const [index,query] of beginnerContent(language).shared.searchExamples.entries()){
@@ -65,4 +65,11 @@ test('Every displayed search suggestion finds the intended answer in its languag
   }
   assert.equal(results('Quanto posso pegar emprestado?')[0],expected[1]);
   assert.equal(results('Where do I start?')[0],'Where do I start, and what order do I do things in?');
+});
+
+test('Search retains Hindi vowel marks and matches Korean terms with particles',()=>{
+  assert(searchScore('मकान','मकान की कीमत')>0);
+  assert.equal(searchScore('दिन','दीन'),0);
+  assert(searchScore('보험은','주택 보험을 확인하세요')>0);
+  assert(searchScore('대출','대출금')>0);
 });

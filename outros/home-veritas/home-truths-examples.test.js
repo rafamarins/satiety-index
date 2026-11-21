@@ -14,10 +14,11 @@ test('rate comparison displays rounded monthly payments with a matching differen
   assert.deepEqual(repaymentExample(),{lower:3357,higher:3726,difference:369});
 });
 test('examples are available only for their relevant topics in every supported language',()=>{
-  for(const language of ['en','pt-BR','es','zh-Hans']){
+  for(const language of ['en','pt-BR','es','zh-Hans','hi','ko']){
     for(const topic of ['deposit','mortgage','records']){
       const html=exampleHTML(topic,language);
       assert.match(html,new RegExp(`data-worked-example="${topic}"`));
+      if(language!=='en')assert.notEqual(html,exampleHTML(topic,'en'));
       assert(!html.includes('undefined'));assert.match(html,/<summary>/);assert.match(html,topic==='records'?/check-limit/:/example-note/);
     }
     assert.equal(exampleHTML('viewing',language),'');

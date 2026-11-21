@@ -4,14 +4,16 @@ import { areas as englishAreas, topicRoute, areaRoute, resolveRoute } from './ho
 import { localizedReference } from './home-truths-reference.js';
 import { monthlyPayment } from './finance.js';
 import { searchScore, faqSearchScore, orderTopicFAQs } from './home-truths-search.js';
-import { languages, normalizeLanguage, localizedContent, translate } from './home-truths-i18n.js';
+import { languages, normalizeLanguage, localizedContent, formatMessage } from './home-truths-ui.js';
 import { icon } from './home-truths-icons.js';
-import { beginnerContent } from './home-truths-beginner.js';
+import { formatBeginnerContent } from './home-truths-journey.js';
 import { featuredQuestions } from './home-truths-featured.js';
 
 let language='en', topics=englishTopics, areas=englishAreas, languageRequest=0;
-const tr=(key,values)=>translate(language,key,values);
-const localeLoaders={'pt-BR':()=>import('./locales/pt-BR.json'),es:()=>import('./locales/es.json'),'zh-Hans':()=>import('./locales/zh-Hans.json')};
+let messages;
+let beginner=formatBeginnerContent('en');
+const tr=(key,values)=>formatMessage(language,key,values,messages);
+const localeLoaders={'pt-BR':()=>import('./locales/pt-BR.json'),es:()=>import('./locales/es.json'),'zh-Hans':()=>import('./locales/zh-Hans.json'),hi:()=>import('./locales/hi.js'),ko:()=>import('./locales/ko.js')};
 
 const $ = id => document.getElementById(id);
 const escape = value => String(value).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
@@ -25,7 +27,7 @@ function loadVisuals(){return visualsPromise ||= import('./home-truths-answer-vi
 let examples,examplesRequest;
 function loadExamples(){return examplesRequest ||= import('./home-truths-examples.js').then(module=>{examples=module;}).catch(()=>{examplesRequest=undefined;});}
 const referencePromises=new Map();
-const referenceLoaders={'pt-BR':()=>import('./locales/deep-pt-BR.json'),es:()=>import('./locales/deep-es.json'),'zh-Hans':()=>import('./locales/deep-zh-Hans.json')};
+const referenceLoaders={'pt-BR':()=>import('./locales/deep-pt-BR.json'),es:()=>import('./locales/deep-es.json'),'zh-Hans':()=>import('./locales/deep-zh-Hans.json'),hi:()=>import('./locales/deep-hi.json'),ko:()=>import('./locales/deep-ko.json')};
 const artDescriptions = {
   decide: 'A couple considering a weatherboard home, with moving boxes, a path and keys.',
   costs: 'A house on a long receipt, alongside keys, a folder, an inspection torch, a gutter and an umbrella.',
@@ -77,7 +79,6 @@ function topicSources(t,copy){
 async function render(initial=false) {
   const version=++renderVersion;
   const route=resolveRoute(location.hash);
-  const beginner=beginnerContent(language);
   const referenceRequest=route.kind==='topic'?loadDetails().catch(()=>null):null;
   if(route.kind==='topic'){
     await Promise.all([
@@ -195,7 +196,7 @@ async function openDetails(){
 }
 async function openTopics(focusSearch=false,query=''){
   const v=showDrawer('Search the guide');
-  $('drawer-content').innerHTML=`<label class="search-label" for="guide-search">${escape(tr('Search topics, questions and useful links'))}</label><input id="guide-search" class="search-input" type="search" placeholder="${escape(tr('Try KiwiSaver, damp, auction, consents…'))}" autocomplete="off">${currentView.kind!=='start'?`<a class="search-start" href="#/start" data-route>${escape(beginnerContent(language).homeTitle)} ${icon('arrow-right')}</a>`:''}<div class="guide-actions"><button class="text-button" data-open-links>${actionLabel('Useful links ↗')}</button></div><div id="search-results" class="search-results"></div>`;
+  $('drawer-content').innerHTML=`<label class="search-label" for="guide-search">${escape(tr('Search topics, questions and useful links'))}</label><input id="guide-search" class="search-input" type="search" placeholder="${escape(tr('Try KiwiSaver, damp, auction, consents…'))}" autocomplete="off">${currentView.kind!=='start'?`<a class="search-start" href="#/start" data-route>${escape(beginner.homeTitle)} ${icon('arrow-right')}</a>`:''}<div class="guide-actions"><button class="text-button" data-open-links>${actionLabel('Useful links ↗')}</button></div><div id="search-results" class="search-results"></div>`;
   $('guide-search').value=query;
   let library={faqs:[],resources:[]},libraryLoading=true;
   function results(){
@@ -297,7 +298,7 @@ function updateLanguageShell(){
   document.querySelector('.brand span').textContent=tr('A HOME BUYING GUIDE');
   document.querySelector('.skip').textContent=tr('Skip to the guide');
   document.querySelector('.site-header nav').setAttribute('aria-label',tr('Guide tools'));
-  $('start-link').textContent=beginnerContent(language).startLabel;
+  $('start-link').textContent=beginner.startLabel;
   $('ask-label').textContent=tr('Ask Veritas');
   $('ask-title').textContent=tr('Ask Veritas');
   $('ask-frame').title=tr('Ask Veritas');
@@ -319,9 +320,12 @@ async function changeLanguage(requested,initial=false){
   $('language-trigger').disabled=true;
   $('main').setAttribute('aria-busy','true');
   try{
-    const data=next==='en'?null:(await localeLoaders[next]()).default;
+    const pack=next==='en'?null:await localeLoaders[next]();
     if(request!==languageRequest)return;
-    ({topics,areas}=localizedContent(englishTopics,englishAreas,data));language=next;
+    ({topics,areas}=localizedContent(englishTopics,englishAreas,pack?.default));
+    language=next;
+    messages=pack?.ui;
+    beginner=formatBeginnerContent(next,pack?.beginner);
     try{localStorage.setItem('home-truths-language',language);}catch{/* The selected language still works for this visit. */}
     const url=new URL(location.href);if(language==='en')url.searchParams.delete('lang');else url.searchParams.set('lang',language);
     history.replaceState(null,'',url);
@@ -342,7 +346,7 @@ function updateLanguagePicker(){
   $('language-trigger').innerHTML=`<strong>${selected.short}</strong><span class="language-flag" aria-hidden="true">${selected.flag}</span><span class="language-chevron" aria-hidden="true"></span>`;
   $('language-trigger').setAttribute('aria-label',`${selected.short} — ${tr('Language')}: ${selected.label}`);
   $('language-menu').setAttribute('aria-label',tr('Language'));
-  $('language-menu').innerHTML=languages.map(l=>`<button type="button" role="option" data-language="${l.code}" aria-selected="${l.code===language}" aria-label="${escape(l.short)} — ${escape(l.label)}" lang="${l.html}" tabindex="-1"><strong>${l.short}</strong><span class="language-flag" aria-hidden="true">${l.flag}</span></button>`).join('');
+  $('language-menu').innerHTML=languages.map(l=>`<button type="button" role="option" data-language="${l.code}" aria-selected="${l.code===language}" aria-label="${escape(l.short===l.label?l.label:l.short+' — '+l.label)}" lang="${l.html}" tabindex="-1"><strong>${l.short}</strong><span class="language-flag" aria-hidden="true">${l.flag}</span></button>`).join('');
 }
 function closeLanguageMenu(focus=false){$('language-menu').hidden=true;$('language-trigger').setAttribute('aria-expanded','false');if(focus)$('language-trigger').focus();}
 function openLanguageMenu(){
