@@ -1,0 +1,821 @@
+{
+  "chapters": [
+    {
+      "id": "decide",
+      "checklist": [
+        "집을 사려는 이유를 적어 보세요.",
+        "임대와 소유에 드는 전체 비용을 비교하세요.",
+        "직장과 가족, 이사 가능성을 생각하세요.",
+        "누가 함께 살지, 누가 법적으로 살 자격이 있는지 확인하세요."
+      ],
+      "mistake": "남들이 사는 것 같아 덩달아 집을 사는 일입니다. 집은 자신의 생활과 예산에 맞아야 합니다.",
+      "shortcut": "필수 조건 세 가지와 무리 없이 부담할 월 예산을 정하세요. 이 기준으로 맞지 않는 집을 일찍 제외할 수 있습니다.",
+      "details": [
+        {
+          "question": "월세는 정말 버리는 돈인가요?",
+          "answer": "임대료를 내면 살 곳과 이사할 자유를 얻습니다. 집을 소유해도 이자, 지방세, 보험료, 유지비처럼 내 지분을 늘려 주지 않는 비용이 듭니다. 예상 거주 기간, 전체 비용, 저축한 돈을 다른 데 활용할 가능성을 함께 비교하세요. 누구에게나 유리한 한 가지 답은 없습니다.",
+          "source": "Settled · 자금과 비용",
+          "url": "https://www.settled.govt.nz/buying-a-home/thinking-of-buying/thinking-about-your-finances-when-buying/"
+        },
+        {
+          "question": "임대료와 대출 상환액만 비교하면 왜 안 되나요?",
+          "answer": "대출 상환액은 소유 비용의 일부입니다. 지방세, 보험료와 유지비, 해당되는 경우 관리단 분담금과 토지 임대료도 더하세요. 살 때와 나중에 팔 때 드는 비용도 반영하세요. 원리금 상환액 중 원금 부분은 빚을 줄이지만 임대료와 이자는 그렇지 않습니다.",
+          "source": "Settled · 자금과 비용",
+          "url": "https://www.settled.govt.nz/buying-a-home/thinking-of-buying/thinking-about-your-finances-when-buying/"
+        },
+        {
+          "question": "함께 사는데 각자 내는 돈이 다르면 어떻게 하나요?",
+          "answer": "사기 전에 합의하세요. 각자의 출자액, 소유 지분, 납부와 의사결정 방법, 한 사람이 나가거나 결별·사망할 때 처리 방법을 변호사를 통해 문서화하세요. 각 차주가 지는 대출 책임은 대출기관에 확인하세요. 당사자끼리 한 약속이 은행 계약을 바꾸지는 않습니다.",
+          "source": "Settled · 자금과 비용",
+          "url": "https://www.settled.govt.nz/buying-a-home/thinking-of-buying/thinking-about-your-finances-when-buying/"
+        },
+        {
+          "question": "거주 비자만 있으면 집을 살 수 있나요?",
+          "answer": "자동으로 자격이 생기지는 않습니다. 시민권, 체류 자격, 통상 거주 여부와 경우에 따라 필요한 승인에 달려 있습니다. 구매를 약속하기 전에 변호사에게 본인 상황을 확인하세요. 주택대출을 받을 수 있는지와 법적으로 집을 살 수 있는지는 별개입니다.",
+          "source": "LINZ · 실거주용 주택 매수 자격",
+          "url": "https://www.linz.govt.nz/guidance/overseas-investment/buying-residential-property-live"
+        },
+        {
+          "question": "과거에 집을 소유했어도 첫 주택 지원을 받을 수 있나요?",
+          "answer": "가능할 수 있습니다. 종전에 집을 소유한 사람 중 일부는 재정 상태 기준을 충족하면 KiwiSaver 첫 주택 인출을 이용할 수 있습니다. 자격과 인출 가능액을 확인할 때까지 자금 계획에 넣지 마세요. Kāinga Ora와 KiwiSaver 운용사에 본인에게 적용되는 절차를 물으세요.",
+          "source": "Kāinga Ora · KiwiSaver 인출",
+          "url": "https://kaingaora.govt.nz/en_NZ/home-ownership/kiwisaver-first-home-withdrawal/"
+        },
+        {
+          "question": "무엇부터 어떤 순서로 진행하나요?",
+          "answer": "필요한 조건과 감당할 예산을 정하세요. 매물을 본격적으로 검토하기 전에 대출기관이나 주택대출 상담사와 상담하고 변호사를 고르세요. 후보를 추리고 점검 일정을 잡은 뒤, 서명 전에 모든 제안과 조건을 변호사에게 검토받으세요. 필요한 점검, 자금 조달과 보험을 확정한 뒤 무조건부 계약으로 전환하고 잔금을 준비합니다. 경매라면 입찰 전에 점검을 모두 마치세요. 이전 단계로 돌아가 다시 확인할 수도 있습니다.",
+          "source": "Settled · 주택 구매 절차",
+          "url": "https://www.settled.govt.nz/buying-a-home/thinking-of-buying/understanding-the-home-buying-journey/"
+        }
+      ]
+    },
+    {
+      "id": "deposit",
+      "checklist": [
+        "저축액과 확정된 지원금을 적으세요.",
+        "KiwiSaver 운용사에 자격과 지급 시점을 문의하세요.",
+        "거래 비용과 비상금을 따로 두세요.",
+        "가족의 증여나 대여는 대출기관 및 변호사와 확인하세요."
+      ],
+      "mistake": "저축을 모두 자기자금에 보태면 변호사 비용, 이사비, 수리비로 쓸 돈이 남지 않습니다.",
+      "shortcut": "매수 제안을 시작하기 전에 운용사에 KiwiSaver 인출 절차를 문의하세요.",
+      "details": [
+        {
+          "question": "자기자금이 집값의 20%여야 하나요?",
+          "answer": "20%는 흔한 목표이지만 모든 경우의 규칙은 아닙니다. 더 적은 자기자금도 심사하는 금융기관이 있으며 별도 기준이나 추가 비용이 적용될 수 있습니다. 자격이 되면 First Home Loan으로 5%부터 가능할 수 있습니다. 자기자금은 심사 요소 중 하나이며, 상환 능력과 주택도 심사받습니다.",
+          "source": "NZ Government · 첫 주택 구매",
+          "url": "https://www.govt.nz/browse/housing-and-property/buying-or-selling-a-home/buying-your-first-home/"
+        },
+        {
+          "question": "KiwiSaver 첫 주택 인출은 어떻게 이용하나요?",
+          "answer": "일반적으로 가입한 지 3년 이상이고 직접 거주할 예정이어야 하며, 계좌에 $1,000를 남겨야 합니다. 운용사에 자격, 인출 가능액, 서류와 처리 기간을 확인하세요. 돈은 매매 절차를 통해 지급되므로 즉시 사용할 수 있다고 생각하지 마세요.",
+          "source": "Kāinga Ora · KiwiSaver 인출",
+          "url": "https://kaingaora.govt.nz/en_NZ/home-ownership/kiwisaver-first-home-withdrawal/"
+        },
+        {
+          "question": "은행이 요구하는 자기자금과 매매계약금은 따로 드는 비용인가요?",
+          "answer": "뜻이 다릅니다. 집값은 매수인이 마련한 돈과 대출로 지불합니다. 매매계약금은 계약에 따라 미리 지급하는 금액으로, 보통 같은 집값의 일부입니다. 자기자금 위에 별도로 더 내는 돈이 아닙니다. 금액, 기한, 어디서 마련할지를 변호사에게 확인하세요.",
+          "source": "Settled · 부동산 매매계약",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-the-sale-and-purchase-agreement-when-buying/"
+        },
+        {
+          "question": "First Home Grant는 아직 신청할 수 있나요?",
+          "answer": "아니요. First Home Grant는 2024년 5월 종료됐습니다. KiwiSaver 첫 주택 인출과 First Home Loan은 각각 별도 자격 요건이 있는 다른 지원입니다. 오래된 기사나 영상, 다른 사람의 구매 경험에는 이미 종료된 지원이 나올 수 있습니다.",
+          "source": "NZ Government · 첫 주택 구매",
+          "url": "https://www.govt.nz/browse/housing-and-property/buying-or-selling-a-home/buying-your-first-home/"
+        },
+        {
+          "question": "가족이 자기자금을 보태 줘도 되나요?",
+          "answer": "가능할 수 있지만 증여, 대여, 보증, 공동 구매는 서로 다릅니다. 대출기관과 변호사에게 어떤 방식인지 정확히 알리세요. 갚아야 하는 돈인지 등 조건을 문서로 남기세요. 보증인이나 공동 차주는 큰 책임을 질 수 있으므로 먼저 독립적인 자문을 받으세요.",
+          "source": "Settled · 자금과 비용",
+          "url": "https://www.settled.govt.nz/buying-a-home/thinking-of-buying/thinking-about-your-finances-when-buying/"
+        }
+      ]
+    },
+    {
+      "id": "budget",
+      "checklist": [
+        "집값과 별도로 거래 비용을 계산하세요.",
+        "상환액에 지방세, 보험료, 유지비를 더하세요.",
+        "수리와 생활 변화에 대비하세요.",
+        "은행의 최대 한도를 듣기 전에 나의 한도를 정하세요."
+      ],
+      "mistake": "은행의 최대 대출액을 구매 목표로 삼는 일입니다. 승인을 받아도 상환이 편안하다는 뜻은 아닙니다.",
+      "shortcut": "월 주거 예산표 하나를 만들어 모든 집에 같은 기준을 적용하세요. 후보 매물의 실제 지방세와 보험료를 확인하세요.",
+      "details": [
+        {
+          "question": "열쇠를 받기 전부터 어떤 비용이 드나요?",
+          "answer": "법률 업무, 부동산 자료, 건물 및 전문 점검, 필요한 감정평가, 보험과 이사 비용을 고려하세요. 일부 비용은 제안이 받아들여지기 전에 발생하고 다른 집에서 다시 들 수 있습니다. 견적과 포함 항목을 확인하고 집값에 보탤 자기자금과 따로 두세요.",
+          "source": "Settled · 자금과 비용",
+          "url": "https://www.settled.govt.nz/buying-a-home/thinking-of-buying/thinking-about-your-finances-when-buying/"
+        },
+        {
+          "question": "Council rates란 무엇인가요? 대출 금리인가요?",
+          "answer": "서로 다릅니다. Council rates는 지역 공공 서비스를 위해 부동산에 부과하는 지방세입니다. 대출 이자는 금융기관에서 돈을 빌리는 비용입니다. 예산에 둘 다 넣으세요. 해당 주택의 현재 지방세와 수도료, 광역 지방세, 기타 요금이 별도 청구되는지도 확인하세요.",
+          "source": "Settled · 자금과 비용",
+          "url": "https://www.settled.govt.nz/buying-a-home/thinking-of-buying/thinking-about-your-finances-when-buying/"
+        },
+        {
+          "question": "입주 후에도 계속 나가는 비용은 무엇인가요?",
+          "answer": "상환액, 지방세, 보험료, 유지비가 계속 듭니다. 집에 따라 관리단 분담금, 토지 임대료, 수도료, 공용 서비스 비용도 더하세요. 공과금과 교통비도 바뀔 수 있습니다. 해당 집의 금액을 구하고 향후 인상 가능성도 반영하세요.",
+          "source": "Settled · 자금과 비용",
+          "url": "https://www.settled.govt.nz/buying-a-home/thinking-of-buying/thinking-about-your-finances-when-buying/"
+        },
+        {
+          "question": "수리비와 비상금은 얼마나 남겨야 하나요?",
+          "answer": "모두에게 맞는 금액은 없습니다. 건축 연도, 상태, 점검 결과에 맞춰 수리비를 잡고 다른 돌발 상황에 쓸 비상금도 두세요. 교체가 임박한 지붕과 최근 수리한 지붕의 예산은 다릅니다. 큰 공사는 구매를 확정하기 전에 전문 견적을 받으세요.",
+          "source": "Settled · 매수 전 조사",
+          "url": "https://www.settled.govt.nz/buying-a-home/researching-the-property/doing-your-homework/"
+        },
+        {
+          "question": "지방의회 평가액이 집의 시세인가요?",
+          "answer": "지방의회 평가액은 지방세 산정용입니다. 현재 시세 평가, 은행의 담보 평가, 보험용 재건축 견적은 목적과 기준일이 다릅니다. 비슷한 매물의 최근 거래와 적절한 전문 자문을 참고하세요. CV 또는 RV보다 싸다는 이유만으로 제안하지 마세요.",
+          "source": "Auckland Council · 지방세 산정 평가액의 뜻",
+          "url": "https://ourauckland.aucklandcouncil.govt.nz/news/2025/06/rating-valuation/"
+        },
+        {
+          "question": "상환액을 무리 없이 감당할지 어떻게 판단하나요?",
+          "answer": "실수령액과 현실적인 지출, 부채와 이미 약속한 부담부터 계산하세요. 소유 비용을 모두 더하고 상환액이 늘거나 소득이 줄 때도 계산하세요. 평소 생활과 예상 밖 지출을 위한 여유를 남기세요. 대출기관은 자체 심사를 하며 내가 감당할 한도는 제시액보다 낮을 수 있습니다.",
+          "source": "Settled · 자금과 비용",
+          "url": "https://www.settled.govt.nz/buying-a-home/thinking-of-buying/thinking-about-your-finances-when-buying/"
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "checklist": [
+        "부동산 변호사를 일찍 고르세요.",
+        "금융기관 직접 거래와 대출 상담 이용을 비교하세요.",
+        "소득, 지출, 부채, 자기자금 증빙을 준비하세요.",
+        "사전 승인 조건과 만료일을 서면으로 받으세요."
+      ],
+      "mistake": "사전 승인이 어떤 집에나 돈을 빌려준다는 약속이라고 여기는 일입니다. 해당 주택과 최종 대출도 승인받아야 합니다.",
+      "shortcut": "요청받은 서류를 다시 쓸 수 있게 모아 두고, 각 금융기관이나 상담사에게 물을 내용을 적어 두세요.",
+      "details": [
+        {
+          "question": "은행으로 바로 갈까요, 대출 중개인을 이용할까요?",
+          "answer": "두 가지 모두 가능합니다. 대출 상담사는 선택지를 설명하고 거래하는 금융기관에 신청할 수 있습니다. 어느 기관을 포함하고 제외하는지, 보수를 어떻게 받고 나는 얼마를 내는지 물으세요. 은행 직접 제안과도 비교할 수 있습니다. 중개인이 시장 전체를 조사한다고 단정하지 마세요.",
+          "source": "FMA · 주택대출 상담",
+          "url": "https://www.fma.govt.nz/consumer/getting-advice/mortgage-advice/"
+        },
+        {
+          "question": "중개 서비스는 무료인가요? 어떤 비용을 물어봐야 하나요?",
+          "answer": "모든 서비스가 무료라고 생각하지 마세요. 수수료, 커미션, 이해 충돌, 조기 종료나 커미션 환수에 따른 청구액을 서면으로 요청하세요. 포함된 상담과 사후 지원을 물으세요. 대환하거나 조기 상환할 때 어떤 경우 비용을 내는지도 확인하세요.",
+          "source": "FMA · 주택대출 상담",
+          "url": "https://www.fma.govt.nz/consumer/getting-advice/mortgage-advice/"
+        },
+        {
+          "question": "은행은 무엇을 확인하나요?",
+          "answer": "소득, 지출, 부채, 기존 재정 의무와 자기자금의 출처를 묻고 증빙을 요청합니다. 정확한 서류는 금융기관과 본인 상황에 따라 다릅니다. 소득, 지출과 채무를 정확히 알리세요. 집을 찾는 동안 어떤 변화가 승인에 영향을 줄지 물어보세요.",
+          "source": "Settled · 자금 조달 확정",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/confirming-your-finances/"
+        },
+        {
+          "question": "사전 승인으로 무엇이 승인되나요?",
+          "answer": "조건과 만료일이 있는 대출 승인입니다. 은행은 해당 주택과 최종 대출을 승인해야 하고 추가 서류나 감정평가를 요구할 수 있습니다. 남은 요건을 물으세요. 경매 입찰 등 무조건부 약속을 하기 전에 자금 조달을 확정하세요.",
+          "source": "Settled · 자금 조달 확정",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/confirming-your-finances/"
+        },
+        {
+          "question": "대출 중개인, 은행 또는 보험사에 불만이 있으면 어떻게 하나요?",
+          "answer": "우선 해당 업체의 민원 절차로 문제를 제기하고 기록을 보관하세요. 공시 서류에 독립 분쟁조정기관이 명시돼 있어야 하며 자체 해결이 안 되면 무료로 이용할 수 있습니다. FMA는 규제 문제를 검토할 수 있으나 개인 분쟁을 해결해 주지는 않습니다.",
+          "source": "FMA · 분쟁과 소비자 보호",
+          "url": "https://www.fma.govt.nz/consumer/everyday-finance/disputes-and-consumer-protection/"
+        },
+        {
+          "question": "중개인, 대출 상담사, 변호사 중 누가 나를 위해 일하나요?",
+          "answer": "매도인 측 중개인은 매도인을 대리합니다. 매수인의 변호사는 법적 위험과 계약을 검토하고, 대출 상담사는 업무 범위 안에서 자금 조달을 조언합니다. 점검 전문가는 합의한 범위에서 건물을 조사합니다. 각자의 전문 분야에 맞춰 의뢰하고, 매도인 측에만 기대지 말고 본인의 전문가를 선택하세요.",
+          "source": "Settled · 매수 전 조사",
+          "url": "https://www.settled.govt.nz/buying-a-home/researching-the-property/doing-your-homework/"
+        }
+      ]
+    },
+    {
+      "id": "search",
+      "checklist": [
+        "시간을 달리해 동네를 방문하세요.",
+        "통근길과 생활 시설을 직접 확인하세요.",
+        "등기를 읽고 소유 형태를 이해하세요.",
+        "호가와 함께 소유에 드는 전체 비용을 비교하세요.",
+        "세입자가 있는지와 실제 입주 가능일을 확인하세요."
+      ],
+      "mistake": "등기, 교통, 일조량, 소음, 공동 비용도 확인하기 전에 주방에 반해 결정하는 일입니다.",
+      "shortcut": "모든 집에 같은 점검표를 쓰세요. 허락을 받고 세부 사항을 사진으로 남긴 뒤 방문 직후 메모하세요.",
+      "details": [
+        {
+          "question": "입지를 살필 때 무엇을 확인하나요?",
+          "answer": "지도 예상 시간에만 의존하지 말고 직접 출퇴근해 보세요. 시간대를 달리해 교통량, 소음, 주차, 일조량을 살피세요. 상점, 대중교통, 필요한 서비스에 접근하기 편한지도 확인하세요. 지방의회 계획과 자연재해 위험도 조사하세요. 조용한 일요일 오픈홈은 평일 모습과 다를 수 있습니다.",
+          "source": "Settled · 오픈홈 방문",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/viewing-an-open-home/"
+        },
+        {
+          "question": "Freehold, leasehold, cross lease, unit title은 어떻게 다른가요?",
+          "answer": "Freehold는 제한 사항의 적용을 받으며 보통 땅과 건물을 함께 소유합니다. Leasehold는 일정 임대 기간 동안 권리를 갖고 흔히 토지 임대료를 냅니다. Cross lease는 토지 공동 소유와 임차권을 결합합니다. Unit title은 개별 전유 부분과 공용 재산의 지분을 포함합니다. 무엇을 소유하고 부담하며 어디를 바꿀 때 동의가 필요한지 변호사에게 물으세요.",
+          "source": "Settled · 소유권 유형",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/understanding-types-of-ownership/"
+        },
+        {
+          "question": "아파트에서 예상 밖 비용이 생기는 이유는 무엇인가요?",
+          "answer": "관리단 비용에는 광고된 분담금 외의 지출도 있습니다. 고지 서류, 회의록, 회계 자료, 보험, 장기 유지보수 계획과 적립금, 예정 공사 자료를 요청하세요. 큰 수리에는 특별 분담금이 생길 수 있습니다. 건물 하자, 분쟁, 제한 사항을 확인하고 구매를 확정하기 전에 변호사에게 서류 설명을 들으세요.",
+          "source": "Unit Titles Services · 구분 소유 주택 구매",
+          "url": "https://www.unittitles.govt.nz/buying-or-selling-a-unit-title/buying-or-selling-a-unit-title/buying-a-unit-title/"
+        },
+        {
+          "question": "신축이나 완공 전 분양이면 더 간단한가요?",
+          "answer": "확인할 것이 줄기보다는 위험의 종류가 달라질 수 있습니다. 시행사, 도면, 시방서, 완공일, 계약금 보호, 보증, 계약 조건을 변호사와 검토하세요. 완공 지연, 비용 변경, 대출 승인 만료 시 처리 방식을 물으세요. 견본주택에 있는 것이 모두 계약에 포함된다고 단정할 수 없습니다.",
+          "source": "Settled · 주택 선택지",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/considering-your-property-options/"
+        },
+        {
+          "question": "지역권, 약정, 공동 진입로는 어떤 의미인가요?",
+          "answer": "토지 이용에 영향을 주는 권리나 제한입니다. 공동 진입로에는 통행·관리 의무가 따를 수 있고 약정은 건축이나 다른 용도를 제한할 수 있습니다. 변호사에게 등기와 관련 문서를 쉽게 설명해 달라고 하세요. 경계와 내 계획에 영향을 주는 사항도 포함하세요.",
+          "source": "Settled · 소유권 유형",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/understanding-types-of-ownership/"
+        },
+        {
+          "question": "관리단에 유지보수 계획이 있으면 수리비는 이미 마련된 건가요?",
+          "answer": "아닙니다. 계획과 실제 자금은 다릅니다. 어느 항목까지 자금이 확보됐는지, 어떤 작업이 예정됐는지, 소유자들이 기금을 조성하지 않기로 했는지, 추가 분담금 가능성이 있는지를 물으세요. 회의록과 회계 자료를 읽고 알려진 하자와 분쟁을 확인하세요.",
+          "source": "Unit Titles Services · 유지보수 계획과 기금",
+          "url": "https://www.unittitles.govt.nz/body-corporate-money-and-maintenance/unit-title-maintenance/"
+        },
+        {
+          "question": "정화조, 물탱크, 배수 시설, 옹벽은 어떻게 확인하나요?",
+          "answer": "각 시설의 소유자, 상태, 유지보수 필요성과 관련 승인을 확인하세요. 배수·폐수·수질·토목 전문가가 필요한지 물으세요. 경계와 접근 권리는 변호사를 통해 확인하세요. 일반 건물 점검에서 빠질 수 있으므로 별도 점검이 필요한 항목을 물으세요.",
+          "source": "Settled · 매수 전 조사",
+          "url": "https://www.settled.govt.nz/buying-a-home/researching-the-property/doing-your-homework/"
+        },
+        {
+          "question": "집에 이미 세입자가 있으면 어떻게 하나요?",
+          "answer": "서명 전 변호사에게 임대차와 빈집 인도(vacant possession) 조건을 확인해 달라고 하세요. 잔금일과 입주일이 다를 수 있습니다. 빈집 인도가 필요하면 매도인은 세입자의 권리를 존중하고 적법한 임대차 절차를 밟아야 합니다. 집이 팔렸다고 임대차가 자동 종료되는 것은 아닙니다.",
+          "source": "Settled · 부동산 매매계약",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-the-sale-and-purchase-agreement-when-buying/"
+        },
+        {
+          "question": "오픈홈에서 무엇을 살펴봐야 하나요?",
+          "answer": "연출된 모습 너머로 곰팡내나 습기 냄새, 물 얼룩, 창문, 환기, 일조, 수납, 배수와 눈에 보이는 손상을 살피세요. 남겨 두는 물품을 물으세요. 자재를 건드리지 말고 안전하게 접근할 수 있는 부분만 확인하세요. 방문은 무엇을 더 조사할지 정하는 데 도움이 되며 전문 점검을 대신하지 않습니다.",
+          "source": "Settled · 오픈홈 방문",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/viewing-an-open-home/"
+        }
+      ]
+    },
+    {
+      "id": "inspect",
+      "checklist": [
+        "등기와 지방의회 자료를 변호사에게 검토받으세요.",
+        "독립적인 건물 점검을 의뢰하세요.",
+        "재해 위험, 과거 보상 청구와 개조 이력을 조사하세요.",
+        "무조건부 확정 전에 받아들일 만한 조건으로 보험 가입이 가능한지 확인하세요."
+      ],
+      "mistake": "LIM, 건물 보고서, 매도인의 기존 보험만 보고 이상이 전혀 없다고 생각하는 일입니다. 각각 확인하는 대상이 다릅니다.",
+      "shortcut": "매물 자료를 일찍 요청하세요. 변호사, 점검 전문가, 대출기관과 보험사에 같은 주소와 우려 사항을 알리세요.",
+      "details": [
+        {
+          "question": "건물 점검을 받아도 LIM이 필요한가요?",
+          "answer": "역할이 다릅니다. LIM에는 지방의회가 보유한 정보가 담기고, 건물 점검은 계약한 범위에서 상태를 조사합니다. 등기에는 소유권과 관련 권리가 기록되며 부동산 파일에는 도면과 인허가 기록이 있을 수 있습니다. 어느 하나도 무결점을 보증하지 않습니다. 해당 주택에 필요한 보고서와 전문 점검은 변호사와 점검 전문가에게 문의하세요.",
+          "source": "Settled · 매수 전 조사",
+          "url": "https://www.settled.govt.nz/buying-a-home/researching-the-property/doing-your-homework/"
+        },
+        {
+          "question": "매도인의 건물 점검 보고서를 믿고 사도 되나요?",
+          "answer": "의뢰인, 범위, 작성일, 제외 항목과 매수인이 법적으로 해당 보고서에 의존할 수 있는지를 확인하세요. 독립 점검을 받으면 직접 질문할 수 있습니다. 접근 불가 구역이나 전문 설비는 누락될 수 있습니다. 습기, 지붕, 배수, 기초, 전기 배선과 추가 점검이 필요한 징후를 물으세요.",
+          "source": "Settled · 매수 전 조사",
+          "url": "https://www.settled.govt.nz/buying-a-home/researching-the-property/doing-your-homework/"
+        },
+        {
+          "question": "침수, 산사태, 지진 위험은 어떻게 알아보나요?",
+          "answer": "지방의회 재해 자료, LIM, 공개된 위험 지도를 보고 필요하면 전문 자문을 받으세요. 과거 자연재해 청구와 수리 이력도 조사하세요. 피해 부위, 지급된 보상, 실제 완료한 작업을 물으세요. 청구 기록이 없어도 위험은 있을 수 있습니다. 관련 청구 권리 이전을 변호사에게 확인하세요.",
+          "source": "Natural Hazards Commission · 과거 보상 청구",
+          "url": "https://www.naturalhazards.govt.nz/insurance-and-claims/claims/buying-or-selling-a-home-with-previous-claims/"
+        },
+        {
+          "question": "무조건부 매수를 확정하기 전에 왜 보험을 확인하나요?",
+          "answer": "대출기관은 보통 적절한 보험을 요구합니다. 견적을 받아 보면 면책 사항, 높은 자기부담금이나 가입 문제가 드러날 수 있습니다. 알려진 위험·결함·공사 계획을 보험사에 알리세요. 무조건부로 확정하기 전에 적합한 보장과 개시일을 확인하세요. 매도인이 보험에 들어 있어도 같은 보장을 받는다는 보장은 없습니다.",
+          "source": "Settled · 자연재해 위험",
+          "url": "https://www.settled.govt.nz/buying-a-home/researching-the-property/understanding-the-impact-of-natural-hazards/"
+        },
+        {
+          "question": "누수가 의심되는 집은 어떻게 조사하나요?",
+          "answer": "새 페인트나 비가 안 오는 날의 모습으로 방수 성능을 판단하지 마세요. 외장재, 지붕, 발코니, 습기나 수리 이력의 우려를 점검 전문가에게 말하고 전문 조사가 필요한지 물으세요. 접근하지 못한 구역과 보고서의 한계를 확인하세요. 필요한 보수 견적을 받고 대출기관, 보험사, 변호사에게 그 영향을 문의하세요.",
+          "source": "Settled · 매수 전 조사",
+          "url": "https://www.settled.govt.nz/buying-a-home/researching-the-property/doing-your-homework/"
+        },
+        {
+          "question": "따뜻하고 건조한 집인지 어떻게 확인하나요?",
+          "answer": "일조, 단열, 난방, 환기, 결로와 습기 냄새를 살피세요. 점검 가능한 곳과 접근 불가 구역을 물으세요. 지붕 누수와 바닥 아래 습기도 확인하세요. 겨울철 난방 방식과 필요한 개선점도 물어보세요.",
+          "source": "Settled · 오픈홈 방문",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/viewing-an-open-home/"
+        },
+        {
+          "question": "개보수한 집은 어떤 서류를 확인해야 하나요?",
+          "answer": "실제 공사를 지방의회 기록, 필요한 건축 허가와 법규 준수 증명서(CCC)에 대조하세요. 기록이나 cross lease 도면에 없는 개조를 물으세요. 사후 인정 증명서(certificate of acceptance)는 인정 범위가 제한되며 소급 건축 허가와 다릅니다. 미해결 공사는 구매 전에 변호사, 점검 전문가와 지방의회에 확인하세요.",
+          "source": "Building Performance · 사후 인정 증명서",
+          "url": "https://www.building.govt.nz/projects-and-consents/sign-off-and-maintenance/completing-your-project/certificate-of-acceptance"
+        },
+        {
+          "question": "보고서와 점검 비용은 언제 지불하나요?",
+          "answer": "필요한 점검과 시점을 변호사에게 확인하세요. 경매나 무조건부 제안이면 약속하기 전에 실사를 마쳐야 합니다. 조건부 제안은 적절한 계약상 보호와 충분한 기한이 있을 때 일부 보고서를 조건 이행 기간에 받을 수 있습니다. 서명 전에 문구를 확인하고 전문가를 일찍 예약하세요. 최종적으로 사지 않아도 보고서 비용은 들 수 있습니다.",
+          "source": "Settled · 부동산 매매계약",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-the-sale-and-purchase-agreement-when-buying/"
+        }
+      ]
+    },
+    {
+      "id": "offer",
+      "checklist": [
+        "협상 전에 최대 금액을 정하세요.",
+        "다른 제안과 기간이 겹치는 경우를 포함해 서명 전 법률 자문을 받으세요.",
+        "조건, 날짜, 계약금, 포함 물품을 확인하세요.",
+        "경매 입찰 전 자금 조달과 점검을 마치세요."
+      ],
+      "mistake": "조건부 계약을 자유로운 시험 기간으로 착각하는 일입니다. 서명하고 상대방이 수락하면 계약 조건에 따라 구속력을 갖습니다.",
+      "shortcut": "기한에 쫓기기 전에 필요한 조건을 변호사와 미리 준비하세요.",
+      "details": [
+        {
+          "question": "협상 매매, 서면 입찰, 기한부 매각은 어떻게 다른가요?",
+          "answer": "협상 매매에서는 제안과 역제안이 오갑니다. 서면 입찰(tender)은 보통 지정 시각까지 비공개 서면 제안을 받습니다. 기한부 매각(deadline sale)은 특정 날짜까지 제안을 받지만 공지 조건이 허용하면 더 일찍 매각할 수 있습니다. 해당 매물의 절차와 허용 조건을 물으세요. 최고가가 자동으로 수락되지는 않습니다.",
+          "source": "Consumer Protection · 매수 제안 준비",
+          "url": "https://www.consumerprotection.govt.nz/help-product-service/buying-or-renting-a-house/prepare-make-an-offer"
+        },
+        {
+          "question": "경매에서 특히 주의할 점은 무엇인가요?",
+          "answer": "낙찰되면 무조건부 매수가 성립합니다. 입찰 전에 법률 검토, 건물 점검, 해당 주택에 대한 대출 및 보험 확인을 마치고 계약금 지급 방법도 알아두세요. 확실한 입찰 한도를 미리 정하세요. 낙찰 후 자금 조달이나 점검 조건을 추가할 수 있다고 생각하지 마세요.",
+          "source": "Consumer Protection · 매수 제안 준비",
+          "url": "https://www.consumerprotection.govt.nz/help-product-service/buying-or-renting-a-house/prepare-make-an-offer"
+        },
+        {
+          "question": "조건부 제안이면 언제든 그만둘 수 있나요?",
+          "answer": "단순한 변심으로 물러날 수 없습니다. 서명하고 수락된 조건부 계약은 구속력이 있으며 정확한 조건과 이행 절차, 기한이 중요합니다. 각 조건의 작동 방식과 미충족 시 결과를 변호사에게 물으세요. 관련 점검과 자문을 마칠 때까지 조건을 해제하지 마세요.",
+          "source": "Settled · 부동산 매매계약",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-the-sale-and-purchase-agreement-when-buying/"
+        },
+        {
+          "question": "계약서에는 무엇을 적어야 하나요?",
+          "answer": "변호사가 가격, 계약금, 잔금일, 조건, 등기 내용, 포함 동산, 합의한 작업과 약속을 확인해야 합니다. 가전, 수리 등 중요한 사항은 구두 약속에만 기대지 말고 서명 전 서면 계약에 반영됐는지 확인하세요.",
+          "source": "Settled · 부동산 매매계약",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-the-sale-and-purchase-agreement-when-buying/"
+        },
+        {
+          "question": "두 집에 동시에 제안해도 되나요?",
+          "answer": "두 제안이 모두 수락되면 두 집 모두 사야 할 수 있습니다. 다음 제안에 서명하기 전에 첫 제안의 현재 상태, 만료나 철회 방법을 변호사에게 확인하세요. 답변을 기다리는 제안에도 효력이 생길 수 있고, 조건이 있다고 자유롭게 취소할 수 있는 것도 아닙니다.",
+          "source": "Settled · 부동산 매매계약",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-the-sale-and-purchase-agreement-when-buying/"
+        },
+        {
+          "question": "협상 분위기에 휩쓸리지 않으려면 어떻게 하나요?",
+          "answer": "예산과 매물 근거 자료를 토대로 한도를 정하세요. 가격, 조건, 잔금 시점을 함께 놓고 변호사나 상담사와 논의하세요. 복수 제안 상황에서는 절차를 파악하고 감당할 수 있는 제안을 하세요. 압박이나 놓칠 것 같은 불안 때문에 점검을 건너뛰지 마세요.",
+          "source": "Consumer Protection · 매수 제안 준비",
+          "url": "https://www.consumerprotection.govt.nz/help-product-service/buying-or-renting-a-house/prepare-make-an-offer"
+        },
+        {
+          "question": "커튼, 가전 등 어떤 물품이 집에 남나요?",
+          "answer": "방문 때 본 물건이 모두 포함된다고 생각하지 마세요. 커튼, 블라인드, 가전 등 남는 물건을 묻고 서명 전 변호사에게 계약서의 동산 목록을 확인받으세요. 중요한 제품은 제조사, 모델과 합의한 상태를 적으세요. 잔금 전 최종 점검에서 대조하고 없거나 달라진 물품은 즉시 변호사에게 알리세요.",
+          "source": "Settled · 부동산 매매계약",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-the-sale-and-purchase-agreement-when-buying/"
+        }
+      ]
+    },
+    {
+      "id": "mortgage",
+      "checklist": [
+        "대출 제안 전체와 수수료를 비교하세요.",
+        "고정금리 기간과 전체 상환 기간을 구분하세요.",
+        "더 높은 금리로 상환액을 계산해 보세요.",
+        "추가 상환, 중도상환 비용, 캐시백 조건을 물으세요."
+      ],
+      "mistake": "광고된 최저 금리만 보고 수수료, 상환 유연성과 조건을 읽지 않는 일입니다.",
+      "shortcut": "각 금융기관에 동일한 대출액, 기간, 상환 방식으로 견적을 받아 비교하세요.",
+      "details": [
+        {
+          "question": "원금과 이자는 무엇인가요?",
+          "answer": "원금은 갚아야 할 빚이고 이자는 돈을 빌리는 비용입니다. 원리금 상환은 이자를 내면서 원금도 줄입니다. 장기 대출 초기에는 상환액에서 이자 비중이 클 수 있습니다. 이자만 내는 기간에는 일반적으로 원금이 줄지 않습니다.",
+          "source": "Sorted · 주택대출 유형",
+          "url": "https://sorted.org.nz/guides/home-buying/mortgage-types/"
+        },
+        {
+          "question": "2년 고정금리면 대출을 2년 안에 다 갚아야 하나요?",
+          "answer": "아닙니다. 2년은 그 금리가 적용되는 기간입니다. 전체 상환 기간은 훨씬 길 수 있습니다. 고정 기간이 끝나면 새 금리 조건을 정해야 합니다. 자동 적용되는 조건을 물어보고 다음 금리에서 상환액이 달라질 수 있다는 점을 고려하세요.",
+          "source": "Sorted · 주택대출 유형",
+          "url": "https://sorted.org.nz/guides/home-buying/mortgage-types/"
+        },
+        {
+          "question": "고정, 변동, 분할 중 어느 방식이 좋은가요?",
+          "answer": "고정금리는 일정 기간 금리가 정해져 있지만 조기 상환에는 제한과 비용이 있을 수 있습니다. 변동금리는 바뀔 수 있고 보통 상환 방식이 더 유연합니다. 분할 대출은 두 방식 등을 조합합니다. 적합한 조합은 소득, 저축과 계획에 달렸으니 상담사에게 구체적인 장단점을 물으세요.",
+          "source": "Sorted · 주택대출 유형",
+          "url": "https://sorted.org.nz/guides/home-buying/mortgage-types/"
+        },
+        {
+          "question": "은행과 대출 조건을 협상할 수 있나요?",
+          "answer": "가능한 금리와 수수료 조건을 묻고 같은 기준의 서면 제안을 비교하세요. 상환 유연성, 낮은 자기자금에 대한 비용, 캐시백 조건, 중도 종료나 상환 비용을 논의하세요. 낮은 금리나 현금 혜택에는 조건이 따를 수 있습니다. 총비용과 의무를 확인하세요.",
+          "source": "FMA · 주택대출 상담",
+          "url": "https://www.fma.govt.nz/consumer/getting-advice/mortgage-advice/"
+        },
+        {
+          "question": "예금 상계 대출과 회전 신용 대출은 어떻게 작동하나요?",
+          "answer": "상계 대출(offset)은 연결된 적격 예금 잔액을 반영해 이자를 계산할 대출 금액을 줄입니다. 회전 신용 대출(revolving credit)은 집을 담보로 한 한도대출처럼 수입과 지출에 따라 잔액이 바뀝니다. 기능과 금리는 상품마다 다릅니다. 상환 방법, 수수료와 빚을 꾸준히 줄일 방법을 선택 전에 확인하세요.",
+          "source": "Sorted · 주택대출 유형",
+          "url": "https://sorted.org.nz/guides/home-buying/mortgage-types/"
+        },
+        {
+          "question": "부동산 중개인의 가격 평가만으로 은행 심사가 가능한가요?",
+          "answer": "그렇지 않을 수 있습니다. 은행이 자체 요건에 맞는 감정평가를 요구할 수 있습니다. 평가사, 의뢰 지침, 절차를 은행이 승인해야 할 수 있으므로 먼저 물으세요. 호가, 지방세 평가액, 중개인 평가는 은행이 인정하는 감정평가를 대신하지 않습니다.",
+          "source": "Settled · 자금 조달 확정",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/confirming-your-finances/"
+        },
+        {
+          "question": "조기 상환하거나 대환하면 어떻게 되나요?",
+          "answer": "고정 대출에는 조기 상환 또는 약정 해지 비용이 생길 수 있습니다. 캐시백이나 상담 계약에도 일정 기간 안에 떠나면 돈을 반환하는 조항이 있을 수 있습니다. 결정 전에 대출기관과 상담사에게 서면 금액을 받으세요. 소액 추가 상환은 수수료 없이 가능한지도 확인하세요.",
+          "source": "Banking Ombudsman · 캐시백 반환 사례",
+          "url": "https://www.bankomb.org.nz/guides-and-cases/case-notes/84963"
+        }
+      ]
+    },
+    {
+      "id": "settlement",
+      "checklist": [
+        "대출·법률 서류를 제때 작성하세요.",
+        "필요한 시점부터 보험이 적용되는지 확인하세요.",
+        "잔금 전 최종 점검을 예약하세요.",
+        "자금, 정산 조정액과 열쇠 수령을 변호사와 확인하세요."
+      ],
+      "mistake": "아침 일찍 열쇠를 받을 것을 전제로 모든 일정을 예약하는 일입니다. 정산에는 시간이 걸릴 수 있습니다.",
+      "shortcut": "변호사, 대출기관, 이사업체와 주요 날짜를 한 목록으로 정리하고 정산 지연에 대비한 계획도 세우세요.",
+      "details": [
+        {
+          "question": "잔금일에는 어떤 일이 있나요?",
+          "answer": "매수인의 변호사가 매도인 측 변호사와 대출기관을 상대로 법적 절차와 자금 처리를 진행합니다. 정산이 끝났다는 확인 후 약속한 방식으로 열쇠를 받을 수 있습니다. 정확한 시각은 달라질 수 있으니 연락을 유지하고 아침부터 출입할 수 있다는 전제로 이사 일정을 짜지 마세요.",
+          "source": "Settled · 잔금일 준비",
+          "url": "https://www.settled.govt.nz/buying-a-home/settling-and-moving-in/planning-for-settlement-day-when-buying/"
+        },
+        {
+          "question": "잔금 전 최종 점검에서 무엇을 보나요?",
+          "answer": "합의한 주택 상태, 포함 동산, 매도인이 완료하기로 한 공사를 확인하세요. 계약과 대조하고 문제는 신속히 변호사에게 알리세요. 이 방문은 앞선 건물 점검을 대신하지 않습니다. 잔금 전에 문제를 처리할 시간이 있도록 예약하세요.",
+          "source": "Settled · 잔금일 준비",
+          "url": "https://www.settled.govt.nz/buying-a-home/settling-and-moving-in/planning-for-settlement-day-when-buying/"
+        },
+        {
+          "question": "잔금 전에 무언가 망가졌거나 사라졌다면요?",
+          "answer": "즉시 변호사에게 알리고 명확한 증거를 남기세요. 변호사는 계약상 권리를 검토하고 매도인 측 변호사와 해결책을 논의할 수 있습니다. 스스로 정산을 미루거나 금액을 보류하거나 계약을 취소할 수 있다고 단정하지 마세요. 선택지는 계약과 상황에 따라 다릅니다.",
+          "source": "Settled · 잔금일 준비",
+          "url": "https://www.settled.govt.nz/buying-a-home/settling-and-moving-in/planning-for-settlement-day-when-buying/"
+        },
+        {
+          "question": "KiwiSaver 인출금은 언제까지 준비해야 하나요?",
+          "answer": "운용사와 변호사가 인출 서류를 처리하고 송금하는 데 시간이 필요합니다. 지급에 그 돈이 필요한 날짜보다 충분히 앞서 각각의 기한을 확인하세요. 매매계약금에 쓰려면 필요한 절차를 일찍 문의하세요. 일상 계좌로 바로 인출되는 방식이 아닙니다.",
+          "source": "Kāinga Ora · KiwiSaver 인출",
+          "url": "https://kaingaora.govt.nz/en_NZ/home-ownership/kiwisaver-first-home-withdrawal/"
+        },
+        {
+          "question": "계약금 송금 사기를 어떻게 피하나요?",
+          "answer": "이체 전 변호사나 실제 수취인에게 계좌 정보를 직접 확인하세요. 갑자기 온 송금 이메일 속 전화번호 대신 별도로 검증한 신뢰할 수 있는 번호로 전화하세요. 계좌가 바뀌었거나 재촉하면 멈추고 확인하세요. 익숙해 보이는 이메일도 사기일 수 있습니다.",
+          "source": "New Zealand Law Society · 이메일 송금 사기",
+          "url": "https://www.lawsociety.org.nz/news/newsroom/email-fraud-targets-lawyers/"
+        },
+        {
+          "question": "최종 정산액이 남은 집값과 다른 이유는 무엇인가요?",
+          "answer": "정산서에는 집값 잔액과 기타 합의 금액 외에 매도인이 미리 낸 지방세 등의 조정액이 들어갈 수 있습니다. 변호사 보수와 대납 실비도 지불해야 합니다. 변호사에게 정산서를 설명해 달라고 하고 언제까지 얼마의 사용 가능한 자금이 필요한지 확인하세요.",
+          "source": "Settled · 잔금일 준비",
+          "url": "https://www.settled.govt.nz/buying-a-home/settling-and-moving-in/planning-for-settlement-day-when-buying/"
+        },
+        {
+          "question": "정산이 늦어져 열쇠를 받지 못하면 어떻게 하나요?",
+          "answer": "자금, 서류 또는 매도인 때문에 지연되면 즉시 변호사에게 연락하세요. 양측 변호사가 지연 사유, 계약상 내 지위, 합의 사항을 확인하게 하세요. 곧바로 입주하거나 취소하거나 특정 보상을 받을 수 있다고 단정하지 마세요. 이사, 보관, 임시 숙소 일정에 여유를 두고 보험 영향도 확인하세요. 정산 완료 연락을 받은 뒤 약속한 대로 열쇠를 받으세요.",
+          "source": "Settled · 잔금일",
+          "url": "https://www.settled.govt.nz/buying-a-home/settling-and-moving-in/settling-on-settlement-day-when-buying/"
+        }
+      ]
+    },
+    {
+      "id": "living",
+      "checklist": [
+        "관리·수리비를 따로 모으세요.",
+        "부동산 기록, 보증서, 보험 정보를 보관하세요.",
+        "개보수 전에 인허가와 소유권 규정을 확인하세요.",
+        "보험 갱신일과 다음 대출 금리 변경일을 달력에 기록하세요."
+      ],
+      "mistake": "공사 견적이나 허가를 확인하지 않고 예상 밖 비용에 대비하지 않은 채 ‘싸게 나온 수리할 집’을 사는 일입니다.",
+      "shortcut": "점검 결과로 첫해 정비 목록을 만드세요. 당장 필요한 일, 곧 할 일, 외관 개선으로 나누고 시급한 것부터 견적을 받으세요.",
+      "details": [
+        {
+          "question": "내 집이 되면 바로 개보수해도 되나요?",
+          "answer": "먼저 확인하세요. 일부 공사에는 건축 허가가 필요하고 다른 승인이나 소유권 제한도 적용될 수 있습니다. 허가 면제 공사도 관련 요건을 충족해야 합니다. Cross lease, unit title, leasehold에서는 별도 동의가 필요할 수 있습니다. 공식 인허가 확인 도구로 시작한 뒤 지방의회와 해당 전문가에게 계획을 확인하세요.",
+          "source": "MBIE · 건축 허가 자가 확인",
+          "url": "https://www.canibuildit.govt.nz/"
+        },
+        {
+          "question": "건축 허가와 자원 이용 허가는 같은 것인가요?",
+          "answer": "아닙니다. 건축 허가(building consent)는 공사가 건축 기준(Building Code)을 준수하는지에 관한 것이고, 자원 이용 허가(resource consent)는 도시계획 규정과 환경 영향에 관한 것입니다. 공사와 부지에 따라 하나, 둘 다 또는 어느 것도 필요하지 않을 수 있습니다. 건축 허가가 면제돼도 다른 요건은 남습니다. 관할 지방의회에 구체적인 공사 내용을 확인하세요.",
+          "source": "MBIE · 건축 허가 자가 확인",
+          "url": "https://www.canibuildit.govt.nz/"
+        },
+        {
+          "question": "CCC란 무엇이며 사후 인정 증명서와 같은가요?",
+          "answer": "법규 준수 증명서(code compliance certificate, CCC)는 공사가 해당 건축 허가에 맞게 진행됐음을 확인합니다. 사후 인정 증명서(certificate of acceptance)는 다른 상황에서 발급되며 지방의회가 평가할 수 있는 부분만 다룰 수 있습니다. 소급 건축 허가나 집 전체에 대한 보증이 아닙니다. 해당 증명서가 어디까지 다루는지 변호사와 지방의회에 확인하세요.",
+          "source": "Building Performance · 사후 인정 증명서",
+          "url": "https://www.building.govt.nz/projects-and-consents/sign-off-and-maintenance/completing-your-project/certificate-of-acceptance"
+        },
+        {
+          "question": "개보수 예산은 어떻게 잡나요?",
+          "answer": "범위와 견적을 명확히 하고 승인을 확인하며 숨은 문제와 변경에 대비하세요. 기존 건물은 공사를 시작해야 문제가 나타나기도 합니다. 전문가 비용, 허가 비용, 보험에 미치는 영향과 필요시 임시 숙소도 포함하세요. 간단한 외관 보수 견적을 구조나 방수 수리 비용으로 간주하지 마세요.",
+          "source": "Building Performance · 기존 주택 개보수",
+          "url": "https://www.building.govt.nz/getting-started/stages-of-the-building-process/renovations-differ-to-new-builds"
+        },
+        {
+          "question": "석면이나 위험해 보이는 자재를 발견하면 어떻게 하나요?",
+          "answer": "확인하겠다며 의심 자재에 구멍을 뚫거나 연마하거나 부수거나 제거하지 마세요. 자격 있는 전문가에게 적절한 평가와 조언을 받으세요. 석면을 건드리면 유해 섬유가 공기 중에 퍼져 전문 처리가 필요할 수 있습니다. 오래된 수리 대상 주택을 사기 전에는 예상 공사가 이런 자재를 건드릴지 알아보고 범위와 예산에 반영하세요.",
+          "source": "Health New Zealand · 석면 대처 방법",
+          "url": "https://www.healthnz.govt.nz/health-topics/keeping-healthy/healthy-homes-environments/hazardous-substances/asbestos/dealing-with-asbestos"
+        },
+        {
+          "question": "유지보수와 보험은 어떻게 관리하나요?",
+          "answer": "건물 보고서를 바탕으로 수리와 예방 정비의 우선순위를 정하세요. 기록을 남기고 보장에 영향을 줄 변경이나 예정 공사를 보험사에 알리세요. 갱신 때 보장, 자기부담금, 재건축 비용의 전제를 다시 보세요. 가입 후에도 집을 관리하고 약관의 면책 사항을 이해해야 합니다.",
+          "source": "Settled · 자연재해 위험",
+          "url": "https://www.settled.govt.nz/buying-a-home/researching-the-property/understanding-the-impact-of-natural-hazards/"
+        },
+        {
+          "question": "대출 상환이 어려워지면 어떻게 하나요?",
+          "answer": "연체할 때까지 기다리지 말고 일찍 대출기관이나 상담사에게 연락하세요. 달라진 사정을 설명하고 가능한 선택과 장기 비용을 물으세요. 고정금리가 끝나기 전 다음 금리와 예산을 검토하세요. 기간을 늘리면 회당 상환액은 낮아질 수 있지만 총이자가 늘 수 있습니다.",
+          "source": "FMA · 주택대출 상담",
+          "url": "https://www.fma.govt.nz/consumer/getting-advice/mortgage-advice/"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "checklist": [
+        "누구를 대리하는지 중개인에게 물으세요.",
+        "고지 사항과 중요한 답을 서면으로 받으세요.",
+        "면허를 확인하고 본인 전문가를 선택하세요.",
+        "매수 대리 계약은 서명 전에 검토하세요."
+      ],
+      "mistake": "친절하게 도와주는 매도인 측 중개인을 독립적인 내 자문인으로 착각하는 일입니다.",
+      "shortcut": "첫 대화에서 바로 물어보세요. “이번 매매에서 누구를 대리하시나요?”",
+      "details": [
+        {
+          "question": "부동산 중개인은 누구를 위해 일하나요?",
+          "answer": "매물을 맡은 중개인은 보통 수수료를 내는 매도인을 대리하며, 매수인에게도 공정하고 정직해야 합니다. 본인의 매수 대리인은 별도 서면 계약으로 고용하고 보수를 지급합니다. 어느 쪽도 독립적인 법률·건물 자문을 대신하지 않으므로 변호사와 계속 상의하세요.",
+          "source": "Settled · 중개인과 직거래",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+        },
+        {
+          "question": "집을 보여 주는 중개인이 내 매수 대리인인가요?",
+          "answer": "반드시 그렇지는 않습니다. 매물을 찾는 일을 돕거나 다른 중개업체와 거래를 공동 진행한다는 것만으로 나를 대리하지는 않습니다. 의뢰인이 누구인지 물으세요. 매수 대리 계약에는 서비스, 수수료, 권한이 명시돼야 합니다. 면허를 확인하고 서명 전 변호사 검토를 받으세요. 동일 업체가 한 거래에서 양측을 모두 대리해서는 안 됩니다.",
+          "source": "REA · 매수 대리인",
+          "url": "https://www.rea.govt.nz/real-estate-professionals/industry-guidance-and-information/buyers-agent-information/"
+        },
+        {
+          "question": "중개인은 무엇을 알려야 하고 나는 무엇을 확인해야 하나요?",
+          "answer": "중개인은 매수인을 오도하거나 제공해야 할 정보를 숨겨서는 안 됩니다. 아는 하자를 알리고 숨은 하자가 있을 가능성을 뒷받침하는 위험도 알려야 합니다. 수리, 인허가, 재해 위험, 포함 물품, 매도인과의 관계를 서면으로 요청하세요. 고지가 모든 결함이 발견됐다는 보장은 아니므로 중요한 점은 본인 변호사, 점검 전문가, 지방의회에 확인하세요.",
+          "source": "REA · 직업 윤리와 고객 보호 규정",
+          "url": "https://www.settled.govt.nz/assets/Uploads/Resources/Guides/Code-of-conduct.pdf"
+        },
+        {
+          "question": "매도인 측 중개인에게 최대 예산을 말해야 하나요?",
+          "answer": "제안할 의향이 있는 금액을 밝히되 절대 한도까지 먼저 말할 필요는 없습니다. 매도인 측 중개인이 매수인에게 비밀이 보장되는 조언을 한다고 생각하지 마세요. 정보가 어떻게 쓰이는지 묻고 상황을 정직하게 설명하되 한도는 판매 압박과 별개로 정하세요.",
+          "source": "Settled · 중개인과 직거래",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+        },
+        {
+          "question": "중개인 면허를 확인하거나 문제를 제기하려면 어떻게 하나요?",
+          "answer": "REA 공개 등록부에서 현재 면허와 공개된 징계 정보를 확인하세요. 문제가 있으면 메시지와 서류를 보관하세요. 업체나 감독 책임자에게 제기하고 필요하면 REA 민원 안내를 이용하세요. 무면허 개인 매도인은 REA의 중개인 민원 절차 대상이 아니므로 가능한 조치를 변호사에게 물으세요.",
+          "source": "Settled · 중개인과 직거래",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+        }
+      ]
+    },
+    {
+      "id": "sales",
+      "checklist": [
+        "방식, 마감일, 조기 매각 규칙을 확인하세요.",
+        "어느 시점부터 매수 의무가 생기는지 알아보세요.",
+        "부동산 점검과 적절한 조건을 준비하세요.",
+        "매도인의 권한과 특이 조건을 확인하세요."
+      ],
+      "mistake": "매각 방식의 이름이나 광고 가격만으로 모든 규칙을 파악했다고 생각하는 일입니다.",
+      "shortcut": "점검 비용을 내기 전 매각 서류와 일정을 받아 변호사에게 전달하세요.",
+      "details": [
+        {
+          "question": "협상, 기한부 매각, 서면 입찰, 경매는 어떻게 다른가요?",
+          "answer": "협상에서는 제안과 역제안이 오갑니다. 기한부 매각은 일정 날짜까지 제안을 받으며 일찍 팔 수도 있습니다. 서면 입찰은 입찰 규칙에 따라 비공개 서면 제안을 받습니다. 경매는 공개 입찰이며 낙찰되면 무조건부로 매수합니다. 각 매물의 실제 서류, 날짜, 조건, 계약금 처리 방식을 변호사와 확인하세요.",
+          "source": "Settled · 협상 매매와 안내 가격",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-negotiation/"
+        },
+        {
+          "question": "호가, BEO, BBO 또는 ‘offers over’ 이상이면 무조건 수락되나요?",
+          "answer": "아닙니다. 희망 가격을 알리는 표현이지 수락 약속이 아닙니다. BEO는 buyer enquiry over, BBO는 buyer budget over로 표시액을 넘는 문의나 예산을 뜻하며, POA(price on application)는 가격 별도 문의입니다. 매도인의 기대를 묻고 거래 근거와 본인 예산을 비교하세요. 검토를 거친 계약으로 가격과 조건을 협상하세요.",
+          "source": "Settled · 협상 매매와 안내 가격",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-negotiation/"
+        },
+        {
+          "question": "기한부 매각이나 서면 입찰 매물이 마감 전에 팔릴 수 있나요?",
+          "answer": "절차와 조건이 조기 매각을 허용하면 가능합니다. ‘unless sold prior’(그 전에 매각되지 않는 한) 문구를 찾아보고 중개인에게 직접 물으세요. 관심을 등록하고 조기 제안이나 마감 변경 시 연락을 요청하세요. 공지한 마감일까지 점검 시간이 보장되지는 않습니다.",
+          "source": "Settled · 기한부 매각",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-deadline/"
+        },
+        {
+          "question": "서면 입찰서를 내기 전에 무엇을 확인하나요?",
+          "answer": "변호사에게 입찰 서류, 조건, 제안 유효 기간, 철회 규정을 검토받으세요. 보통 입찰 때 계약금도 제출하므로 금액, 시점, 보관 방식을 확인하세요. 조기 매각 가능성도 물으세요. 매도인은 최고가를 택할 의무가 없고 아무 제안도 수락하지 않을 수 있습니다.",
+          "source": "Settled · 서면 입찰",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-tender/"
+        },
+        {
+          "question": "경매가 유찰되거나 경매 전에 제안이 들어오면 어떻게 되나요?",
+          "answer": "유찰(passed in)은 그 시점에 경매로 팔리지 않았다는 뜻으로 이후 협상할 수 있습니다. 이후 절차와 계약을 물으세요. 경매 규칙이 계속 적용돼 이후 제안도 무조건부여야 할 수 있습니다. 조기 제안으로 경매 일정이 바뀔 수도 있습니다. 낙찰 후 조건을 붙일 수 있다고 생각하지 말고 경매 전 제안이나 이후 협상 약속 전에 변호사에게 문의하세요.",
+          "source": "Settled · 경매 구매",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-auction/"
+        },
+        {
+          "question": "복수 제안이란 무엇이며 나중에 제안을 높일 수 있나요?",
+          "answer": "유효한 서면 매수 제안이 두 건 이상이면 복수 제안(multi-offer) 절차를 진행할 수 있습니다. 해당 업체의 절차와 제안 만료 시간을 물으세요. 제안을 개선할 기회가 없을 수 있습니다. 매도인은 가격뿐 아니라 조건과 시기를 고려하고 모두 거절하거나 추가 협상할 수 있습니다. 본인 한도와 필요한 법적 보호를 지키세요.",
+          "source": "Settled · 복수 매수 제안",
+          "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-a-multi-offer-process/"
+        },
+        {
+          "question": "개인 집주인에게 직접 사려면 어떻게 하나요?",
+          "answer": "매도인의 신원과 권한을 확인하고 변호사에게 매매계약서 작성이나 검토를 맡기세요. 매물, 자금, 보험은 중개 거래와 똑같이 점검하세요. 변호사나 부동산 양도 실무 전문가(conveyancer)를 통해 계약금이 신탁계좌에서 안전하게 처리되도록 하세요. 매도인에게 직접 보내도 된다고 단정하지 마세요. 개인 매도인은 아는 문제를 고지해야 하지만 무면허 개인 매도인에게는 REA 중개인 민원 절차가 적용되지 않습니다. 법적 보호는 상황에 따라 다릅니다.",
+          "source": "Settled · 중개인과 직거래",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+        },
+        {
+          "question": "담보권 실행 매각에는 어떤 추가 위험이 있나요?",
+          "answer": "대출기관이 매각 권한을 행사하는 경우입니다. 계약상 보호와 보증이 다를 수 있고 출입, 빈집 인도, 포함 물품이나 보험이 불확실할 수 있습니다. 입찰이나 서명 전에 정확한 조건과 위험을 전문 변호사에게 검토받으세요. 어디까지 점검할 수 있는지, 언제부터 책임을 지는지, 내 대출기관과 보험사가 받아들이는지 확인하세요. 잔금 전에 소유자가 빚을 갚으면 매각이 철회될 수 있습니다.",
+          "source": "Settled · 주택 선택지",
+          "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/considering-your-property-options/"
+        },
+        {
+          "question": "상속재산이나 신탁 소유 주택을 살 때 달라지는 점은 무엇인가요?",
+          "answer": "서명 권한자와 상속·신탁 절차가 일정에 미치는 영향을 변호사에게 확인하세요. 통상 조건일 것으로 짐작하지 말고 실제 보증, 포함 물품, 잔금 조건을 읽으세요. 이는 매도인의 사정을 가리키며 별도 입찰 방식은 아닙니다. 협상, 서면 입찰이나 경매로 팔릴 수 있습니다.",
+          "source": "Settled · 상속재산과 신탁",
+          "url": "https://www.settled.govt.nz/selling-a-home/thinking-of-selling/planning-to-sell/"
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "category": "시작하기 전에",
+      "title": "첫 주택 구매 지원",
+      "description": "KiwiSaver나 First Home Loan을 이용할 수 있는지 알아보세요. 자금 계획에 포함하기 전에 자격을 확인하세요.",
+      "url": "https://www.govt.nz/browse/housing-and-property/buying-or-selling-a-home/buying-your-first-home/"
+    },
+    {
+      "category": "시작하기 전에",
+      "title": "법적으로 집을 살 수 있나요?",
+      "description": "시민권, 거주 자격, 해외 투자 승인이 필요할 수 있는 경우에 관한 LINZ 안내입니다.",
+      "url": "https://www.linz.govt.nz/guidance/overseas-investment/buying-residential-property-live"
+    },
+    {
+      "category": "자금과 상담",
+      "title": "주택대출 상담사 고르기",
+      "description": "상담사가 거래하는 금융기관, 보수를 받는 방식, 내가 부담할 수 있는 비용을 물어보세요.",
+      "url": "https://www.fma.govt.nz/consumer/getting-advice/mortgage-advice/"
+    },
+    {
+      "category": "부동산 기록",
+      "title": "등기와 이용 제한",
+      "description": "등기 기록과 등록 문서를 찾아보세요. 지역권, 약정, 제한 사항의 의미는 변호사에게 문의하세요.",
+      "url": "https://lrs.linz.govt.nz/"
+    },
+    {
+      "category": "부동산 기록",
+      "title": "지방의회에 무엇을 요청할까요?",
+      "description": "LIM, 부동산 파일, 도면, 인허가와 완료 기록을 확인하세요. LIM과 현장 건물 점검은 서로 다른 정보를 제공합니다.",
+      "url": "https://www.building.govt.nz/getting-started/your-rights-and-obligations/homeowner-rights-and-obligations/buying-a-house/what-can-the-council-tell-you-about-the-house"
+    },
+    {
+      "category": "재해 위험과 보험",
+      "title": "자연재해 위험",
+      "description": "침수, 해안 재해, 지진 등 위험을 살펴보세요. 구매를 확정하기 전에 해당 주소의 보험 가입 가능 여부를 확인하세요.",
+      "url": "https://www.settled.govt.nz/buying-a-home/researching-the-property/understanding-the-impact-of-natural-hazards/"
+    },
+    {
+      "category": "재해 위험과 보험",
+      "title": "과거 피해와 보상 청구",
+      "description": "수리 이력과 NHC/EQC 청구 권리 이전을 확인하세요. 보험금이 지급됐어도 실제 수리가 끝났는지는 따로 확인해야 합니다.",
+      "url": "https://www.naturalhazards.govt.nz/insurance-and-claims/claims/buying-or-selling-a-home-with-previous-claims/"
+    },
+    {
+      "category": "개보수와 인허가",
+      "title": "허가가 필요한가요?",
+      "description": "MBIE 도구로 시작해 관할 지방의회에 구체적인 공사 계획을 확인하세요. 허가 면제 공사에도 지켜야 할 요건이 있습니다.",
+      "url": "https://www.canibuildit.govt.nz/"
+    },
+    {
+      "category": "개보수와 인허가",
+      "title": "건축·도시계획 관련 승인",
+      "description": "건축 허가, 자원 이용 허가와 그 밖의 동의가 필요한지 확인하세요. 하나의 승인이 다른 승인을 대신하지 않습니다.",
+      "url": "https://www.building.govt.nz/projects-and-consents/planning-a-successful-build/scope-and-design/check-if-you-need-consents"
+    },
+    {
+      "category": "개보수와 인허가",
+      "title": "완료 확인이 누락된 공사",
+      "description": "필요한 건축 허가 없이 진행된 공사에 대한 사후 인정 증명서의 의미와 한계를 알아보세요.",
+      "url": "https://www.building.govt.nz/projects-and-consents/sign-off-and-maintenance/completing-your-project/certificate-of-acceptance"
+    },
+    {
+      "category": "공동 건물",
+      "title": "구분 소유 주택 사기",
+      "description": "고지서, 소유자 관리단 자료, 유지보수 기금과 공동 책임을 확인하세요.",
+      "url": "https://www.unittitles.govt.nz/buying-or-selling-a-unit-title/buying-or-selling-a-unit-title/buying-a-unit-title/"
+    },
+    {
+      "category": "관련 법령",
+      "title": "2004년 건축법(Building Act 2004)",
+      "description": "건축 공사, 허가, 법규 준수에 관한 법률입니다. 현행 법령을 확인하고 전문가의 조언을 받으세요.",
+      "url": "https://www.legislation.govt.nz/act/public/2004/72/en/latest/"
+    },
+    {
+      "category": "관련 법령",
+      "title": "2010년 구분소유법(Unit Titles Act 2010)",
+      "description": "구분 소유권, 소유자 관리단, 재정 관리와 고지 의무를 정하는 법률입니다.",
+      "url": "https://www.legislation.govt.nz/act/public/2010/0022/latest/DLM1160440.html"
+    },
+    {
+      "category": "서명하기 전에",
+      "title": "계약 이해하기",
+      "description": "매매계약, 계약 조건과 서명으로 지게 되는 의무를 알아보세요.",
+      "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-the-sale-and-purchase-agreement-when-buying/"
+    },
+    {
+      "category": "개보수와 안전",
+      "title": "석면이 의심되면 손대기 전에 확인하세요",
+      "description": "석면 의심 자재와 전문적인 평가 또는 제거에 관한 Health New Zealand 안내입니다.",
+      "url": "https://www.healthnz.govt.nz/health-topics/keeping-healthy/healthy-homes-environments/hazardous-substances/asbestos/dealing-with-asbestos"
+    },
+    {
+      "category": "중개인과 매각 방식",
+      "title": "누가 나를 대리하나요?",
+      "description": "매도인 측 중개인, 매수 대리인, 직거래 매도인의 역할과 서명 전에 확인할 사항입니다.",
+      "url": "https://www.settled.govt.nz/buying-a-home/finding-a-property/buying-with-an-agent-or-privately/"
+    },
+    {
+      "category": "중개인과 매각 방식",
+      "title": "중개인 면허 조회",
+      "description": "REA가 운영하는 면허 보유 부동산 전문가 공개 등록부입니다.",
+      "url": "https://publicregister.rea.govt.nz/"
+    },
+    {
+      "category": "중개인과 매각 방식",
+      "title": "중개인 행동 규정과 고지",
+      "description": "알려진 하자와 의심할 근거가 있는 숨은 하자 등 전문직 행동 규정, 고객 보호 및 고지 요건을 확인하세요.",
+      "url": "https://www.settled.govt.nz/assets/Uploads/Resources/Guides/Code-of-conduct.pdf"
+    },
+    {
+      "category": "중개인과 매각 방식",
+      "title": "서면 입찰 규칙과 계약금",
+      "description": "비공개 매수 제안, 조건, 계약금 처리 방식과 조기 매각 가능성을 알아보세요.",
+      "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-tender/"
+    },
+    {
+      "category": "중개인과 매각 방식",
+      "title": "기한부 매각과 조기 제안",
+      "description": "마감일과 ‘unless sold prior’(그 전에 매각되지 않는 한)라는 문구가 어떤 의미인지 확인하세요.",
+      "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/buying-by-deadline/"
+    },
+    {
+      "category": "중개인과 매각 방식",
+      "title": "여러 건의 서면 매수 제안",
+      "description": "복수 제안 절차와 제안을 다시 낼 기회가 보장되지 않는 이유를 알아보세요.",
+      "url": "https://www.settled.govt.nz/buying-a-home/making-an-offer/understanding-a-multi-offer-process/"
+    }
+  ],
+  "sourceLabels": {
+    "Settled · finances and costs": "Settled · 자금과 비용",
+    "LINZ · who can buy": "LINZ · 매수 자격",
+    "Settled · property homework": "Settled · 매수 전 조사",
+    "NZ Government · first-home help": "NZ Government · 첫 주택 구매 지원",
+    "Inland Revenue · KiwiSaver withdrawal": "Inland Revenue · KiwiSaver 인출",
+    "Settled · the purchase agreement": "Settled · 부동산 매매계약",
+    "FMA · mortgage advice": "FMA · 주택대출 상담",
+    "Settled · confirming finance": "Settled · 자금 조달 확정",
+    "Sorted · mortgage types": "Sorted · 주택대출 유형",
+    "Settled · neighbourhood checks": "Settled · 동네 확인 사항",
+    "Settled · natural hazards": "Settled · 자연재해 위험",
+    "Settled · property options": "Settled · 주택 선택지",
+    "Settled · types of ownership": "Settled · 소유권 유형",
+    "Unit Titles Services · buying a unit": "Unit Titles Services · 구분 소유 주택 구매",
+    "Settled · agents and private sales": "Settled · 중개인과 직거래",
+    "REA · conjunctional agreements": "REA · 공동중개 계약",
+    "REA · buyer’s agents": "REA · 매수 대리인",
+    "REA · check an agent’s licence": "REA · 중개인 면허 조회",
+    "REA · conduct and client care rules": "REA · 직업 윤리와 고객 보호 규정",
+    "Settled · viewing a home": "Settled · 집 보러 가기",
+    "MBIE · council records": "MBIE · 지방의회 기록",
+    "LINZ · land records": "LINZ · 토지 등기 기록",
+    "MBIE · check consent requirements": "MBIE · 인허가 요건 확인",
+    "Building Act · current legislation": "Building Act · 현행 건축법",
+    "Auckland Council · Flood Viewer": "Auckland Council · 홍수 지도 Flood Viewer",
+    "NHC · previous claims": "NHC · 과거 보상 청구",
+    "Settled · negotiation and price guides": "Settled · 협상 매매와 안내 가격",
+    "Settled · deadline sales": "Settled · 기한부 매각",
+    "Settled · tenders": "Settled · 서면 입찰",
+    "Settled · buying at auction": "Settled · 경매 구매",
+    "Settled · multiple offers": "Settled · 복수 매수 제안",
+    "Settled · buying from a private seller": "Settled · 개인 매도인과 직접 거래하기",
+    "Settled · estates and trusts": "Settled · 상속재산과 신탁",
+    "Consumer Protection · preparing an offer": "Consumer Protection · 매수 제안 준비",
+    "Settled · settlement day": "Settled · 잔금일",
+    "Law Society · payment fraud": "Law Society · 송금 사기",
+    "MBIE · renovating a home": "MBIE · 주택 개보수",
+    "Health NZ · asbestos": "Health NZ · 석면"
+  }
+}

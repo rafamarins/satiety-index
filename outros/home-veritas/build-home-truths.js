@@ -3,6 +3,7 @@ import { build } from 'esbuild';
 import { mkdir, copyFile, readdir, writeFile, rm, readFile, stat } from 'node:fs/promises';
 import { gzipSync } from 'node:zlib';
 import { stages, topics } from './home-truths-content.js';
+import { languages } from './home-truths-ui.js';
 import { areas } from './home-truths-navigation.js';
 import { chapters, faqs } from './guide-content.js';
 await buildResponsiveImages();
@@ -13,7 +14,7 @@ const preloadImports=result.metafile.outputs['home-truths.bundle.js'].imports
   .filter(entry=>entry.kind==='import-statement'&&!entry.external)
   .map(entry=>`<link rel="modulepreload" href="${entry.path}">`).join('');
 const outputNames=Object.keys(result.metafile.outputs);
-const localeChunks=Object.fromEntries(['pt-BR','es','zh-Hans'].map(code=>[code,outputNames.find(name=>name.startsWith(`assets/js/home-truths-${code}-`))]));
+const localeChunks=Object.fromEntries(languages.filter(l=>l.code!=='en').map(({code})=>[code,outputNames.find(name=>name.startsWith(`assets/js/home-truths-${code}-`))]));
 const visualChunk=outputNames.find(name=>name.includes('home-truths-home-truths-answer-visuals-'));
 // Only fetch the selected short-guide locale and topic artwork definitions early.
 // This avoids serial entry → locale → visuals requests on direct topic links.

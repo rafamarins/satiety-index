@@ -11,7 +11,7 @@ test('The beginner route is directly addressable without changing existing links
 });
 test('Every supported language has a complete journey and a working next step for every topic',()=>{
   const english=beginnerContent('en');
-  for(const code of ['en','pt-BR','es','zh-Hans']){
+  for(const code of ['en','pt-BR','es','zh-Hans','hi','ko']){
     const content=beginnerContent(code);
     assert.equal(content.steps.length,6);
     assert.deepEqual(Object.keys(content.nextSteps).sort(),topics.map(t=>t.id).sort());
@@ -32,7 +32,7 @@ import {resources} from './resources.js';
 import {localizedReference} from './home-truths-reference.js';
 import {readFile} from 'node:fs/promises';
 test('Every topic opens three relevant sourced questions in every language',async()=>{
-  for(const code of ['en','pt-BR','es','zh-Hans']){
+  for(const code of ['en','pt-BR','es','zh-Hans','hi','ko']){
     const translation=code==='en'?null:JSON.parse(await readFile(`locales/deep-${code}.json`,'utf8'));
     const reference=localizedReference({chapters,faqs},{resources},translation);
     for(const topic of topics){

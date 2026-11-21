@@ -185,3 +185,14 @@ html:has(#ask-dialog[open]){overflow:hidden}
   }
 }
 @media print{#ask-launcher,#ask-dialog{display:none!important}}
+
+:root:lang(hi) { --reading-font: "Noto Sans Devanagari", "Kohinoor Devanagari", "Nirmala UI", sans-serif; }
+:root:lang(ko) { --reading-font: "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif; word-break: keep-all; overflow-wrap: anywhere; }
+:root:is(:lang(hi), :lang(ko)) { font-family: DM, var(--reading-font); }
+:root:is(:lang(hi), :lang(ko)) :is(h1, h2, h3, .question-block > summary h2, .collage-answer figcaption) {
+  font-family: var(--reading-font);
+  font-weight: 750;
+  line-height: 1.32;
+  letter-spacing: normal;
+}
+:root:lang(hi) :is(.eyebrow, .brand span, .question-block small) { letter-spacing: normal; }

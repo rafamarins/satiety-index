@@ -31,13 +31,14 @@ const groups = [
  ['tender','tenders','密封投标','投标'],
  ['property','properties','estate','imovel','imoveis','imobiliario','imobiliarios','inmobiliario','inmobiliarios','房产','房地产','房屋','物业'],
 ];
-export const normalizeSearch = value => String(value).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\b(?:pegar emprestado|pedir prestado)\b/gu,'borrow').replace(/借(?:多少)?贷款/gu,' borrow ').replace(/\bpre[\s\p{Pd}]*approv(?:als?|ed)\b/gu,'preapproval').replace(/\bpre[\s\p{Pd}]*aprovacao\b/gu,'preaprovacao').replace(/\bpre[\s\p{Pd}]*aprobacion\b/gu,'preaprobacion');
+export const normalizeSearch = value => String(value).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').normalize('NFC').replace(/\b(?:pegar emprestado|pedir prestado)\b/gu,'borrow').replace(/借(?:多少)?贷款/gu,' borrow ').replace(/\bpre[\s\p{Pd}]*approv(?:als?|ed)\b/gu,'preapproval').replace(/\bpre[\s\p{Pd}]*aprovacao\b/gu,'preaprovacao').replace(/\bpre[\s\p{Pd}]*aprobacion\b/gu,'preaprobacion');
 const synonym=new Map(groups.flatMap(g=>g.map(word=>[normalizeSearch(word),g[0]])));
 const chineseWords=new Intl.Segmenter('zh',{granularity:'word'});
 // Keep domain terms together where the general segmenter splits 首付 / 验房 / 预批.
 const chineseTerms=new RegExp(`(${[...synonym.keys()].filter(word=>/\p{Script=Han}/u.test(word)).sort((a,b)=>b.length-a.length).join('|')})`,'gu');
-const words=value=>(normalizeSearch(value).match(/[\p{Script=Han}]+|[\p{L}\p{N}]+/gu)||[])
+const words=value=>(normalizeSearch(value).match(/[\p{Script=Han}]+|[\p{L}\p{M}\p{N}]+/gu)||[])
   .flatMap(word=>/\p{Script=Han}/u.test(word)?word.split(chineseTerms).filter(Boolean).flatMap(part=>synonym.has(part)?[part]:[...chineseWords.segment(part)].filter(token=>token.isWordLike).map(token=>token.segment)):[word])
+  .map(word=>word.replace(/^([가-힣]{2,}?)(?:에서|으로|은|는|이|가|을|를|에|의)$/u,'$1'))
   .map(word=>synonym.get(word)||word);
 const stop=new Set(['a','an','the','is','are','do','does','i','my','can','how','what','to','of','for','much','many','need','needs','needed','should','would','could','me','we','our','you','your','please','about','tell','want','know','ainda','quanto','cuanto','cuanta','cuantos','cuantas','多少','es','能','是','o','os','as','de','da','como','el','la','los','las','que','mi',
   'e','ou','com','em','no','na','nos','nas','ao','aos','das','dos','pelo','pela','pelos','pelas','um','uma','quando','onde','qual','quais','posso','preciso','quero','antes','depois','contra',
@@ -49,17 +50,17 @@ export function searchScore(query,text){
   const queryWords=words(q),meaningful=queryWords.filter(w=>!stop.has(w));
   const tokens=[...new Set(meaningful)],haystack=words(body);
   if(!tokens.length)return 0;
-  if(!tokens.every(w=>haystack.includes(w)||(/[\u3400-\u9fff]/.test(w)&&body.includes(w))))return 0;
+  if(!tokens.every(w=>haystack.includes(w)||(/^[가-힣]{2,}$/u.test(w)&&body.includes(w))||(/[\u3400-\u9fff]/.test(w)&&body.includes(w))))return 0;
   return (body.includes(q)?10:1)+tokens.length;
 }
 // Everyday wording points to existing guidance; it never invents a lending estimate.
 const faqAliases = [
  ['Where do I start, and what order do I do things in?', ['Where do I start?', 'first steps', 'buying process']],
- ['Do I need a 20% deposit?', ['How much deposit do I need?', 'minimum deposit', 'deposit size']],
- ['What does a bank want to see?', ['How much can I borrow?', 'Quanto posso financiar?', 'Quanto posso pegar emprestado?', '¿Cuánto puedo pedir prestado?', '我能借多少贷款？', 'borrowing capacity', 'loan eligibility']],
+ ['Do I need a 20% deposit?', ['How much deposit do I need?', 'minimum deposit', 'deposit size', 'मुझे कितना डाउन पेमेंट चाहिए?', '자기자금은 얼마나 필요한가요?']],
+ ['What does a bank want to see?', ['How much can I borrow?', 'Quanto posso financiar?', 'Quanto posso pegar emprestado?', '¿Cuánto puedo pedir prestado?', '我能借多少贷款？', 'borrowing capacity', 'loan eligibility', 'मुझे कितना लोन मिल सकता है?', '얼마까지 대출받을 수 있나요?']],
  ['How do I know if the repayments will be comfortable?', ['What can I afford?', 'affordability', 'affordable repayments', 'house budget', 'comfortable borrowing limit']],
  ['What does pre-approval actually approve?', ['mortgage preapproval', 'loan preapproval', 'borrowing approval']],
- ['Do I need a LIM as well as a building inspection?', ['What is a LIM?', 'LIM meaning']],
+ ['Do I need a LIM as well as a building inspection?', ['What is a LIM?', 'LIM meaning', 'LIM क्या है?', 'LIM이란 무엇인가요?']],
 ];
 const aliasesFor = faq => faqAliases.find(([question])=>question===(faq.searchQuestion||faq.question))?.[1]||[];
 export function faqSearchText(faq){

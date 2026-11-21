@@ -50,7 +50,7 @@ Open [the local guide](http://127.0.0.1:8787/outros/home-veritas/). The agent's 
 - Explore and search without accounts, saved answers, personal notes or exports. Questions & sources opens the deeper guidance directly. The guide remembers the selected language. Ask Veritas separately keeps chat history and citations in this browser.
 - Optional inline examples explain the deposit/loan split, compare hypothetical repayments and distinguish records from physical inspections. The deposit bar responds to the reader’s selection and respects reduced motion. Rate buttons highlight the selected repayment and announce its amount; records and inspection use the existing photographic collage with their limits side by side. Dropdown arrows have a 16px inset and a reserved text gap.
 - Deposit and principal-and-interest illustrations show the effect of changing inputs. Rates are hypothetical and assumptions are visible; neither is an eligibility assessment or lender quote.
-- English, Brazilian Portuguese, Spanish and Simplified Chinese for the complete short guide, navigation and detail views. Language choice persists locally and is shareable through the URL. All 82 FAQs, deeper explanations, resource descriptions, source labels, beginner steps, next actions and About copy are translated too. Official external websites keep their own language options.
+- English, Brazilian Portuguese, Spanish, Simplified Chinese, Hindi and Korean for the complete short guide, navigation and detail views. Language choice persists locally and is shareable through the URL. All 82 FAQs, deeper explanations, resource descriptions, source labels, beginner steps, next actions and About copy are translated too. Official external websites keep their own language options.
 - Native modal focus management, semantic controls, a skip link, reduced-motion support, responsive layouts and native expandable question controls.
 
 ## Sharing previews
@@ -64,18 +64,18 @@ The initial HTML includes the canonical URL, indexable robots directive, Open Gr
 - `home-truths.html` is the HTML source; the build copies it to `index.html`.
 - `home-truths.js`, `home-truths.css`: prototype behaviour and responsive layout.
 - `home-truths-icons.js`: decorative inline SVG controls, avoiding iPhone emoji/font substitution.
-- `home-truths-i18n.js`, `locales/`: UI translations and lazy-loaded translations of all 17 topics / 51 short cards and 82 FAQs.
-- `home-truths-answer-layout.js`, `home-truths-answer-visuals.js`: sentence-preserving reading blocks and eleven curated FAQ collages plus a lifestyle comparison in all four languages. Visual copy loads on demand with the detailed guide.
+- `home-truths-ui.js`, `home-truths-i18n.js`, `locales/`: UI translations and lazy-loaded translations of all 17 topics / 52 short cards and 82 FAQs.
+- `home-truths-answer-layout.js`, `home-truths-answer-visuals.js`: sentence-preserving reading blocks and eleven curated FAQ collages plus a lifestyle comparison in all six languages. Visual copy loads on demand with the detailed guide.
 - `home-truths-reference.js`: localizes deeper references while preserving source URLs and stable search/grouping identity.
 - `home-truths-search.js`: word-aware search, familiar word variants and related-FAQ grouping.
 - `home-truths-navigation.js`: six interest areas and validated home/start/area/topic/question routes.
-- `home-truths-beginner.js`, `home-truths-featured.js`: four-language buying steps, next actions and curated topic questions.
+- `home-truths-journey.js`, `home-truths-beginner.js`, `home-truths-featured.js`: six-language buying steps, next actions and curated topic questions.
 - `home-truths-beginner.test.js`, `home-truths-search.test.js`: route/content coverage and natural-question search regressions.
 - `scripts/check-beginner-journey.mjs`: Chrome/WebKit journeys, keyboard focus, all topics, four languages, accessibility, responsive layout and delayed/failed-reference checks. Set `QA_MODULES_ROOT` to an external directory containing Playwright and axe-core; `QA_BASE_URL` defaults to `http://127.0.0.1:4186/`.
 - `agents-sales-content.js`, `agents-sales-reference.js`, `agents-sales-visuals.js`: explicit agent-role and sale-process guidance, source links and visual comparisons.
 - `AGENTS-SALES-ARTWORK.json`: built-in image-generation prompts, originals and local artwork paths.
 - `qa/2026-10-26-agents-sales.md`: source review, new coverage, translations and verification.
-- `home-truths-content.js`: five stages, seventeen topics, fifty-one short cards and primary source links.
+- `home-truths-content.js`: five stages, seventeen topics, fifty-two short cards and primary source links.
 - `guide-content.js`, `resources.js`: preserved detailed content and source library, loaded on demand.
 - `home-truths-examples.js`, `home-truths-examples.css`, `home-truths-examples.test.js`: localized worked examples and arithmetic checks.
 - `finance.js`, `finance.test.js`: repayment calculation and targeted tests.

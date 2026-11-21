@@ -29,7 +29,7 @@ import {localizedContent,normalizeLanguage,translate} from './home-truths-i18n.j
 import {searchScore,faqSearchText,orderTopicFAQs} from './home-truths-search.js';
 import {faqs} from './guide-content.js';
 test('Every locale preserves complete topic/check coverage and stable IDs',async()=>{
-  for(const code of ['pt-BR','es','zh-Hans']){
+  for(const code of ['pt-BR','es','zh-Hans','hi','ko']){
     const data=JSON.parse(await readFile(`locales/${code}.json`,'utf8'));
     assert.deepEqual(Object.keys(data.topics).sort(),topics.map(t=>t.id).sort());
     assert.deepEqual(Object.keys(data.areas).sort(),areas.map(a=>a.id).sort());
@@ -39,6 +39,9 @@ test('Every locale preserves complete topic/check coverage and stable IDs',async
       assert.deepEqual(Object.keys(local.cards).sort(),t.cards.map(c=>c.id).sort());
       for(const c of t.cards){const translated=local.cards[c.id];for(const key of ['label','title','body','gotcha'])assert(translated[key]?.trim(),`${code}/${t.id}/${c.id}/${key}`);assert.equal(translated.checks.length,c.checks.length);assert(translated.checks.every(s=>typeof s==='string'&&s.trim()));}
     }
+    const sourceMessage=topics.find(t=>t.id==='sales').cards.find(c=>c.id==='private').message;
+    assert(data.topics.sales.cards.private.message?.trim());
+    assert.notEqual(data.topics.sales.cards.private.message,sourceMessage);
     const result=localizedContent(topics,areas,data);
     assert.deepEqual(result.topics.flatMap(t=>t.cards.map(c=>`${t.id}/${c.id}`)),topics.flatMap(t=>t.cards.map(c=>`${t.id}/${c.id}`)));
     assert.deepEqual(result.topics[0].sourceLinks.map(l=>l.url),topics[0].sourceLinks.map(l=>l.url));
@@ -71,7 +74,7 @@ import {resources} from './resources.js';
 import {localizedReference} from './home-truths-reference.js';
 test('Deep translations cover every answer and source without changing evidence URLs',async()=>{
   const labels=[...new Set(topics.flatMap(t=>t.sourceLinks.map(l=>l.label)))].sort();
-  for(const code of ['pt-BR','es','zh-Hans']){
+  for(const code of ['pt-BR','es','zh-Hans','hi','ko']){
     const data=JSON.parse(await readFile(`locales/deep-${code}.json`,'utf8'));
     assert.deepEqual(data.chapters.map(c=>c.id),chapters.map(c=>c.id));
     assert.deepEqual(Object.keys(data.sourceLabels).sort(),labels);
@@ -110,7 +113,7 @@ import {answerVisual,cardVisual} from './home-truths-answer-visuals.js';
 test('Visual answers retain every source sentence and stable answer identity across languages',async()=>{
   const base=localizedReference({chapters},{resources},null);
   assert.equal(new Set(base.faqs.map(f=>f.key)).size,faqs.length);
-  for(const language of ['en','pt-BR','es','zh-Hans']){
+  for(const language of ['en','pt-BR','es','zh-Hans','hi','ko']){
     const data=language==='en'?null:JSON.parse(await readFile(`locales/deep-${language}.json`,'utf8'));
     const guide=localizedReference({chapters},{resources},data);
     assert.deepEqual(guide.faqs.map(f=>f.key),base.faqs.map(f=>f.key));
